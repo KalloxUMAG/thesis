@@ -1,0 +1,42 @@
+[2023-01-01T20:30:48.328-0300] {processor.py:153} INFO - Started process (PID=3813) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:30:48.328-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-01-01T20:30:48.329-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:48.329-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:30:48.349-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:30:48.380-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:48.380-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:30:48.417-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:48.417-0300] {dag.py:3427} INFO - Setting next_dagrun for example_sla_dag to 2023-01-01T23:28:00+00:00, run_after=2023-01-01T23:30:00+00:00
+[2023-01-01T20:30:48.439-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py took 0.114 seconds
+[2023-01-01T20:31:19.486-0300] {processor.py:153} INFO - Started process (PID=5086) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:31:19.486-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-01-01T20:31:19.487-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:19.487-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:31:19.504-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:31:19.533-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:19.533-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:31:19.558-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:19.558-0300] {dag.py:3427} INFO - Setting next_dagrun for example_sla_dag to 2023-01-01T23:28:00+00:00, run_after=2023-01-01T23:30:00+00:00
+[2023-01-01T20:31:19.574-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py took 0.090 seconds
+[2023-01-01T20:31:50.236-0300] {processor.py:153} INFO - Started process (PID=5448) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:31:50.236-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-01-01T20:31:50.237-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:50.237-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:31:50.254-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:31:50.282-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:50.282-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:31:50.310-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:50.309-0300] {dag.py:3427} INFO - Setting next_dagrun for example_sla_dag to 2023-01-01T23:28:00+00:00, run_after=2023-01-01T23:30:00+00:00
+[2023-01-01T20:31:50.326-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py took 0.092 seconds
+[2023-01-01T20:32:20.666-0300] {processor.py:153} INFO - Started process (PID=5810) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:32:20.666-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-01-01T20:32:20.667-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:20.667-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:32:20.685-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:32:20.712-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:20.712-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:32:20.738-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:20.738-0300] {dag.py:3427} INFO - Setting next_dagrun for example_sla_dag to 2023-01-01T23:30:00+00:00, run_after=2023-01-01T23:32:00+00:00
+[2023-01-01T20:32:20.756-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py took 0.092 seconds
+[2023-01-01T20:32:52.462-0300] {processor.py:153} INFO - Started process (PID=6128) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:32:52.463-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-01-01T20:32:52.463-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:52.463-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:32:52.483-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:32:52.511-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:52.510-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:32:52.536-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:52.536-0300] {dag.py:3427} INFO - Setting next_dagrun for example_sla_dag to 2023-01-01T23:30:00+00:00, run_after=2023-01-01T23:32:00+00:00
+[2023-01-01T20:32:52.554-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py took 0.094 seconds
+[2023-01-01T20:33:23.366-0300] {processor.py:153} INFO - Started process (PID=6426) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:33:23.367-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-01-01T20:33:23.367-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:23.367-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:33:23.384-0300] {processor.py:753} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-01-01T20:33:23.413-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:23.413-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:33:23.438-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:23.438-0300] {dag.py:3427} INFO - Setting next_dagrun for example_sla_dag to 2023-01-01T23:30:00+00:00, run_after=2023-01-01T23:32:00+00:00
+[2023-01-01T20:33:23.454-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py took 0.090 seconds

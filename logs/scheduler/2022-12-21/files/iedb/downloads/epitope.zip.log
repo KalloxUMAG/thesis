@@ -1,0 +1,515 @@
+[2022-12-20T22:43:36.060-0300] {processor.py:153} INFO - Started process (PID=42059) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:43:36.061-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:43:36.062-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:36.062-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:43:36.064-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:43:36.087-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T22:44:06.925-0300] {processor.py:153} INFO - Started process (PID=42411) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:44:06.928-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:44:06.929-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:06.929-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:44:06.930-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:44:06.949-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T22:44:37.232-0300] {processor.py:153} INFO - Started process (PID=42716) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:44:37.232-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:44:37.233-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:37.233-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:44:37.233-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:44:37.257-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T22:45:07.993-0300] {processor.py:153} INFO - Started process (PID=43048) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:45:07.994-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:45:07.995-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:07.995-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:45:07.995-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:45:08.013-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.021 seconds
+[2022-12-20T22:45:38.227-0300] {processor.py:153} INFO - Started process (PID=43350) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:45:38.235-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:45:38.236-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:38.236-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:45:38.237-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:45:38.253-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T22:46:08.938-0300] {processor.py:153} INFO - Started process (PID=43652) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:46:08.946-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:46:08.947-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:08.947-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:46:08.947-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:46:08.964-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T22:46:39.522-0300] {processor.py:153} INFO - Started process (PID=43969) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:46:39.523-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:46:39.524-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:39.524-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:46:39.524-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:46:39.541-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.021 seconds
+[2022-12-20T22:47:10.260-0300] {processor.py:153} INFO - Started process (PID=44276) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:47:10.268-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:47:10.268-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:10.268-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:47:10.269-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:47:10.286-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.030 seconds
+[2022-12-20T22:47:41.112-0300] {processor.py:153} INFO - Started process (PID=44581) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:47:41.120-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:47:41.121-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:41.121-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:47:41.121-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:47:41.138-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T22:48:11.770-0300] {processor.py:153} INFO - Started process (PID=44883) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:48:11.771-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:48:11.771-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:11.771-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:48:11.772-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:48:11.790-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.022 seconds
+[2022-12-20T22:48:42.223-0300] {processor.py:153} INFO - Started process (PID=45186) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:48:42.231-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:48:42.232-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:42.232-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:48:42.233-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:48:42.251-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.030 seconds
+[2022-12-20T22:49:13.116-0300] {processor.py:153} INFO - Started process (PID=45508) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:49:13.125-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:49:13.126-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:13.125-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:49:13.127-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:49:13.158-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.047 seconds
+[2022-12-20T22:49:44.007-0300] {processor.py:153} INFO - Started process (PID=45813) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:49:44.015-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:49:44.016-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:44.016-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:49:44.016-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:49:44.030-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T22:50:14.776-0300] {processor.py:153} INFO - Started process (PID=46124) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:50:14.784-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:50:14.785-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:14.785-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:50:14.785-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:50:14.801-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T22:50:45.205-0300] {processor.py:153} INFO - Started process (PID=46438) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:50:45.214-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:50:45.214-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:45.214-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:50:45.215-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:50:45.234-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T22:51:15.378-0300] {processor.py:153} INFO - Started process (PID=46739) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:51:15.386-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:51:15.387-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:15.386-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:51:15.387-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:51:15.404-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T22:51:46.186-0300] {processor.py:153} INFO - Started process (PID=47061) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:51:46.194-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:51:46.195-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:46.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:51:46.196-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:51:46.217-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.034 seconds
+[2022-12-20T22:52:17.229-0300] {processor.py:153} INFO - Started process (PID=47363) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:52:17.237-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:52:17.238-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:17.238-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:52:17.238-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:52:17.254-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T22:52:47.988-0300] {processor.py:153} INFO - Started process (PID=47665) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:52:47.996-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:52:47.997-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:47.997-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:52:47.998-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:52:48.013-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T22:53:18.778-0300] {processor.py:153} INFO - Started process (PID=47979) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:53:18.786-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:53:18.787-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:18.787-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:53:18.788-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:53:18.806-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.030 seconds
+[2022-12-20T22:53:49.610-0300] {processor.py:153} INFO - Started process (PID=48288) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:53:49.611-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:53:49.612-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:49.611-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:53:49.612-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:53:49.628-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.020 seconds
+[2022-12-20T22:54:19.717-0300] {processor.py:153} INFO - Started process (PID=48597) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:54:19.725-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:54:19.726-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:19.726-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:54:19.726-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:54:19.742-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T22:54:50.704-0300] {processor.py:153} INFO - Started process (PID=48900) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:54:50.712-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:54:50.713-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:50.713-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:54:50.714-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:54:50.729-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T22:55:21.366-0300] {processor.py:153} INFO - Started process (PID=49222) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:55:21.367-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:55:21.367-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:21.367-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:55:21.368-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:55:21.385-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.021 seconds
+[2022-12-20T22:55:51.454-0300] {processor.py:153} INFO - Started process (PID=49525) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:55:51.463-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:55:51.463-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:51.463-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:55:51.464-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:55:51.482-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.030 seconds
+[2022-12-20T22:56:22.411-0300] {processor.py:153} INFO - Started process (PID=49837) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:56:22.420-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:56:22.421-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:22.420-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:56:22.422-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:56:22.455-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.048 seconds
+[2022-12-20T22:56:52.904-0300] {processor.py:153} INFO - Started process (PID=50206) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:56:52.913-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:56:52.914-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:52.914-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:56:52.914-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:56:52.936-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.035 seconds
+[2022-12-20T22:57:06.441-0300] {processor.py:153} INFO - Started process (PID=50427) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:57:06.445-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:57:06.446-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:06.445-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:57:06.446-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:57:06.464-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T22:57:37.216-0300] {processor.py:153} INFO - Started process (PID=50731) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:57:37.216-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:57:37.217-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:37.217-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:57:37.217-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:57:37.233-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.019 seconds
+[2022-12-20T22:58:08.038-0300] {processor.py:153} INFO - Started process (PID=51037) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:58:08.042-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:58:08.042-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:08.042-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:58:08.043-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:58:08.066-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.030 seconds
+[2022-12-20T22:58:38.998-0300] {processor.py:153} INFO - Started process (PID=51354) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:58:38.999-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:58:39.000-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:38.999-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:58:39.000-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:58:39.022-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T22:59:09.680-0300] {processor.py:153} INFO - Started process (PID=51657) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:59:09.683-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:59:09.684-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:09.684-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:59:09.684-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:59:09.707-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T22:59:40.345-0300] {processor.py:153} INFO - Started process (PID=51972) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:59:40.345-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T22:59:40.346-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:40.346-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:59:40.347-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T22:59:40.367-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:00:11.091-0300] {processor.py:153} INFO - Started process (PID=52277) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:00:11.093-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:00:11.093-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:11.093-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:00:11.094-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:00:11.117-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T23:00:41.952-0300] {processor.py:153} INFO - Started process (PID=52582) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:00:41.955-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:00:41.955-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:41.955-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:00:41.956-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:00:41.975-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T23:01:12.777-0300] {processor.py:153} INFO - Started process (PID=52886) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:01:12.780-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:01:12.780-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:12.780-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:01:12.781-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:01:12.800-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:01:43.386-0300] {processor.py:153} INFO - Started process (PID=53192) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:01:43.387-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:01:43.387-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:43.387-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:01:43.388-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:01:43.407-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.024 seconds
+[2022-12-20T23:02:13.481-0300] {processor.py:153} INFO - Started process (PID=53497) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:02:13.489-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:02:13.490-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:13.490-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:02:13.490-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:02:13.509-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T23:02:44.139-0300] {processor.py:153} INFO - Started process (PID=53800) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:02:44.140-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:02:44.141-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:44.140-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:02:44.141-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:02:44.162-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:03:14.869-0300] {processor.py:153} INFO - Started process (PID=54102) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:03:14.877-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:03:14.878-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:14.878-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:03:14.879-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:03:14.898-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T23:03:45.395-0300] {processor.py:153} INFO - Started process (PID=54407) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:03:45.403-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:03:45.404-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:45.404-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:03:45.405-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:03:45.425-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:04:15.903-0300] {processor.py:153} INFO - Started process (PID=54711) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:04:15.912-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:04:15.912-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:15.912-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:04:15.913-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:04:15.933-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:04:46.575-0300] {processor.py:153} INFO - Started process (PID=55013) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:04:46.576-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:04:46.577-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:46.576-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:04:46.577-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:04:46.598-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:05:17.147-0300] {processor.py:153} INFO - Started process (PID=55318) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:05:17.148-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:05:17.149-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:17.149-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:05:17.150-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:05:17.171-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.026 seconds
+[2022-12-20T23:05:47.791-0300] {processor.py:153} INFO - Started process (PID=55623) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:05:47.792-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:05:47.792-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:47.792-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:05:47.793-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:05:47.813-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:06:18.280-0300] {processor.py:153} INFO - Started process (PID=55927) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:06:18.282-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:06:18.283-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:18.283-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:06:18.283-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:06:18.305-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T23:06:48.809-0300] {processor.py:153} INFO - Started process (PID=56237) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:06:48.818-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:06:48.819-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:48.819-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:06:48.819-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:06:48.839-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:07:19.680-0300] {processor.py:153} INFO - Started process (PID=56539) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:07:19.689-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:07:19.689-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:19.689-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:07:19.691-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:07:19.712-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.035 seconds
+[2022-12-20T23:07:50.063-0300] {processor.py:153} INFO - Started process (PID=56841) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:07:50.072-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:07:50.072-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:50.072-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:07:50.073-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:07:50.092-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:08:20.567-0300] {processor.py:153} INFO - Started process (PID=57143) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:08:20.576-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:08:20.576-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:20.576-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:08:20.577-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:08:20.597-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:08:51.102-0300] {processor.py:153} INFO - Started process (PID=57447) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:08:51.111-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:08:51.112-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:51.112-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:08:51.112-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:08:51.134-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.035 seconds
+[2022-12-20T23:09:21.490-0300] {processor.py:153} INFO - Started process (PID=57750) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:09:21.499-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:09:21.500-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:21.499-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:09:21.500-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:09:21.521-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.034 seconds
+[2022-12-20T23:09:51.961-0300] {processor.py:153} INFO - Started process (PID=58054) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:09:51.969-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:09:51.970-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:51.970-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:09:51.971-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:09:51.992-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.034 seconds
+[2022-12-20T23:10:22.461-0300] {processor.py:153} INFO - Started process (PID=58357) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:10:22.469-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:10:22.470-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:22.470-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:10:22.471-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:10:22.490-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:10:53.020-0300] {processor.py:153} INFO - Started process (PID=58659) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:10:53.029-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:10:53.030-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:53.030-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:10:53.031-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:10:53.051-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:11:23.513-0300] {processor.py:153} INFO - Started process (PID=58969) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:11:23.522-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:11:23.523-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:23.522-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:11:23.524-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:11:23.545-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.035 seconds
+[2022-12-20T23:11:54.165-0300] {processor.py:153} INFO - Started process (PID=59274) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:11:54.169-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:11:54.170-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:54.169-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:11:54.170-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:11:54.192-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T23:12:24.415-0300] {processor.py:153} INFO - Started process (PID=59579) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:12:24.424-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:12:24.425-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:24.425-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:12:24.425-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:12:24.446-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:12:55.079-0300] {processor.py:153} INFO - Started process (PID=59889) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:12:55.087-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:12:55.089-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:55.089-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:12:55.090-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:12:55.109-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:13:26.038-0300] {processor.py:153} INFO - Started process (PID=60193) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:13:26.046-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:13:26.047-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:26.047-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:13:26.048-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:13:26.068-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.034 seconds
+[2022-12-20T23:13:56.779-0300] {processor.py:153} INFO - Started process (PID=60494) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:13:56.787-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:13:56.788-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:56.788-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:13:56.789-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:13:56.807-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:14:27.451-0300] {processor.py:153} INFO - Started process (PID=60797) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:14:27.460-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:14:27.460-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:27.460-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:14:27.461-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:14:27.482-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.034 seconds
+[2022-12-20T23:14:58.199-0300] {processor.py:153} INFO - Started process (PID=61099) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:14:58.200-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:14:58.200-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:58.200-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:14:58.201-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:14:58.222-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.026 seconds
+[2022-12-20T23:15:29.049-0300] {processor.py:153} INFO - Started process (PID=61403) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:15:29.057-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:15:29.058-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:29.058-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:15:29.058-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:15:29.078-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:15:59.654-0300] {processor.py:153} INFO - Started process (PID=61708) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:15:59.655-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:15:59.655-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:59.655-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:15:59.656-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:15:59.677-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.026 seconds
+[2022-12-20T23:16:30.131-0300] {processor.py:153} INFO - Started process (PID=62014) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:16:30.139-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:16:30.140-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:30.140-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:16:30.141-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:16:30.161-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.034 seconds
+[2022-12-20T23:17:00.878-0300] {processor.py:153} INFO - Started process (PID=62321) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:17:00.886-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:17:00.887-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:00.887-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:17:00.888-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:17:00.906-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T23:17:31.708-0300] {processor.py:153} INFO - Started process (PID=62669) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:17:31.709-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:17:31.710-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:31.710-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:17:31.711-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:17:31.735-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:18:02.429-0300] {processor.py:153} INFO - Started process (PID=62992) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:18:02.429-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:18:02.430-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:02.430-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:18:02.430-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:18:02.451-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:18:33.095-0300] {processor.py:153} INFO - Started process (PID=63294) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:18:33.104-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:18:33.104-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:33.104-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:18:33.105-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:18:33.124-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T23:19:03.421-0300] {processor.py:153} INFO - Started process (PID=63598) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:19:03.422-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:19:03.422-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:03.422-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:19:03.423-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:19:03.443-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:19:33.704-0300] {processor.py:153} INFO - Started process (PID=63901) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:19:33.713-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:19:33.714-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:33.714-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:19:33.715-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:19:33.734-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:20:04.490-0300] {processor.py:153} INFO - Started process (PID=64203) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:20:04.498-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:20:04.499-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:04.499-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:20:04.499-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:20:04.517-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T23:20:35.085-0300] {processor.py:153} INFO - Started process (PID=64504) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:20:35.093-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:20:35.094-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:35.094-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:20:35.095-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:20:35.114-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:21:05.636-0300] {processor.py:153} INFO - Started process (PID=64806) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:21:05.644-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:21:05.645-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:05.645-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:21:05.645-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:21:05.666-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:21:35.964-0300] {processor.py:153} INFO - Started process (PID=65112) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:21:35.972-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:21:35.973-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:35.973-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:21:35.973-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:21:35.993-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:22:09.076-0300] {processor.py:153} INFO - Started process (PID=65417) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:22:09.084-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:22:09.085-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:09.085-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:22:09.086-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:22:09.105-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:22:39.180-0300] {processor.py:153} INFO - Started process (PID=65719) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:22:39.188-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:22:39.189-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:39.189-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:22:39.189-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:22:39.208-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.032 seconds
+[2022-12-20T23:23:09.628-0300] {processor.py:153} INFO - Started process (PID=66026) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:23:09.629-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:23:09.629-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:09.629-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:23:09.630-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:23:09.649-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.023 seconds
+[2022-12-20T23:23:40.077-0300] {processor.py:153} INFO - Started process (PID=66327) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:23:40.085-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:23:40.086-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:40.086-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:23:40.087-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:23:40.107-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:24:10.760-0300] {processor.py:153} INFO - Started process (PID=66629) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:24:10.761-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:24:10.762-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:10.762-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:24:10.763-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:24:10.783-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T23:24:41.161-0300] {processor.py:153} INFO - Started process (PID=66930) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:24:41.170-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:24:41.171-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:41.171-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:24:41.172-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:24:41.191-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:25:11.512-0300] {processor.py:153} INFO - Started process (PID=67236) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:25:11.521-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:25:11.521-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:11.521-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:25:11.522-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:25:11.540-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.030 seconds
+[2022-12-20T23:25:42.105-0300] {processor.py:153} INFO - Started process (PID=67539) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:25:42.113-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:25:42.114-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:42.114-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:25:42.114-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:25:42.135-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:26:12.646-0300] {processor.py:153} INFO - Started process (PID=67840) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:26:12.654-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:26:12.655-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:12.655-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:26:12.656-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:26:12.674-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T23:26:43.087-0300] {processor.py:153} INFO - Started process (PID=68164) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:26:43.096-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:26:43.096-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:43.096-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:26:43.097-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:26:43.120-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.035 seconds
+[2022-12-20T23:27:13.153-0300] {processor.py:153} INFO - Started process (PID=68485) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:27:13.154-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:27:13.155-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:13.155-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:27:13.155-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:27:13.175-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:27:43.954-0300] {processor.py:153} INFO - Started process (PID=68803) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:27:43.962-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:27:43.962-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:43.962-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:27:43.963-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:27:43.981-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T23:28:14.314-0300] {processor.py:153} INFO - Started process (PID=69114) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:28:14.322-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:28:14.322-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:14.322-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:28:14.323-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:28:14.338-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.026 seconds
+[2022-12-20T23:28:45.041-0300] {processor.py:153} INFO - Started process (PID=69421) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:28:45.049-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:28:45.050-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:45.050-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:28:45.050-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:28:45.070-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.031 seconds
+[2022-12-20T23:29:15.703-0300] {processor.py:153} INFO - Started process (PID=69724) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:29:15.712-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:29:15.712-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:15.712-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:29:15.713-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:29:15.728-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T23:29:46.316-0300] {processor.py:153} INFO - Started process (PID=70025) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:29:46.324-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:29:46.324-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:46.324-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:29:46.325-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:29:46.341-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T23:30:16.987-0300] {processor.py:153} INFO - Started process (PID=70330) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:30:16.988-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:30:16.988-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:16.988-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:30:16.989-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:30:17.004-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.019 seconds
+[2022-12-20T23:30:48.006-0300] {processor.py:153} INFO - Started process (PID=70661) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:30:48.008-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:30:48.008-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:48.008-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:30:48.009-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:30:48.030-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.027 seconds
+[2022-12-20T23:31:18.440-0300] {processor.py:153} INFO - Started process (PID=70971) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:31:18.443-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:31:18.444-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:18.443-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:31:18.444-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:31:18.462-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.025 seconds
+[2022-12-20T23:31:49.124-0300] {processor.py:153} INFO - Started process (PID=71301) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:31:49.132-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:31:49.133-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:49.133-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:31:49.133-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:31:49.151-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T23:32:19.261-0300] {processor.py:153} INFO - Started process (PID=71618) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:32:19.269-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:32:19.270-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:19.270-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:32:19.270-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:32:19.287-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds
+[2022-12-20T23:32:49.935-0300] {processor.py:153} INFO - Started process (PID=71925) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:32:49.944-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:32:49.944-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:49.944-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:32:49.945-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:32:49.962-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T23:33:20.350-0300] {processor.py:153} INFO - Started process (PID=72241) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:33:20.358-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:33:20.359-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:20.359-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:33:20.360-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:33:20.384-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.040 seconds
+[2022-12-20T23:33:51.336-0300] {processor.py:153} INFO - Started process (PID=72543) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:33:51.337-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:33:51.337-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:51.337-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:33:51.338-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:33:51.357-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.026 seconds
+[2022-12-20T23:34:22.139-0300] {processor.py:153} INFO - Started process (PID=72845) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:34:22.147-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:34:22.148-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:22.148-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:34:22.149-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:34:22.169-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.033 seconds
+[2022-12-20T23:34:52.339-0300] {processor.py:153} INFO - Started process (PID=73157) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:34:52.348-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:34:52.348-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:52.348-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:34:52.349-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:34:52.365-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.029 seconds
+[2022-12-20T23:35:23.370-0300] {processor.py:153} INFO - Started process (PID=73473) to work on /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:35:23.378-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip for tasks to queue
+[2022-12-20T23:35:23.379-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:23.379-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:35:23.379-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip
+[2022-12-20T23:35:23.395-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/epitope.zip took 0.028 seconds

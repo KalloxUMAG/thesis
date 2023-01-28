@@ -1,0 +1,1155 @@
+[2022-12-20T22:11:30.594-0300] {processor.py:153} INFO - Started process (PID=22055) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:11:30.595-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:11:30.595-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:11:30.595-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:11:30.765-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:11:30.891-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:11:30.890-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:11:30.913-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:11:30.913-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:11:30.938-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.350 seconds
+[2022-12-20T22:12:01.023-0300] {processor.py:153} INFO - Started process (PID=23225) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:12:01.024-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:12:01.024-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:01.024-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:12:01.264-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:12:01.293-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:01.292-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:12:01.318-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:01.318-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:12:01.343-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.322 seconds
+[2022-12-20T22:12:31.384-0300] {processor.py:153} INFO - Started process (PID=23515) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:12:31.385-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:12:31.386-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:31.385-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:12:31.535-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:12:31.562-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:31.562-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:12:31.676-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:31.676-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:12:31.696-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.313 seconds
+[2022-12-20T22:13:01.784-0300] {processor.py:153} INFO - Started process (PID=23813) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:13:01.785-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:13:01.785-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:01.785-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:13:01.929-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:13:02.047-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:02.047-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:13:02.070-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:02.070-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:13:02.097-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.315 seconds
+[2022-12-20T22:13:32.415-0300] {processor.py:153} INFO - Started process (PID=24107) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:13:32.416-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:13:32.416-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:32.416-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:13:32.549-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:13:32.670-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:32.670-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:13:32.691-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:32.691-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:13:32.716-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.303 seconds
+[2022-12-20T22:14:03.054-0300] {processor.py:153} INFO - Started process (PID=24398) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:14:03.055-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:14:03.055-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:03.055-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:14:03.300-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:14:03.326-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:03.326-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:14:03.351-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:03.351-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:14:03.369-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.318 seconds
+[2022-12-20T22:14:33.702-0300] {processor.py:153} INFO - Started process (PID=24676) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:14:33.703-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:14:33.703-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:33.703-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:14:33.858-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:14:33.885-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:33.885-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:14:33.997-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:33.997-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:14:34.013-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.314 seconds
+[2022-12-20T22:15:04.063-0300] {processor.py:153} INFO - Started process (PID=24980) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:15:04.063-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:15:04.064-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:04.064-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:15:04.197-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:15:04.321-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:04.321-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:15:04.341-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:04.341-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:15:04.358-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.297 seconds
+[2022-12-20T22:15:34.518-0300] {processor.py:153} INFO - Started process (PID=25271) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:15:34.519-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:15:34.519-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:34.519-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:15:34.753-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:15:34.778-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:34.778-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:15:34.799-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:34.799-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:15:34.818-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.302 seconds
+[2022-12-20T22:16:05.000-0300] {processor.py:153} INFO - Started process (PID=25560) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:16:05.001-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:16:05.002-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:05.002-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:16:05.247-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:16:05.275-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:05.275-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:16:05.298-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:05.298-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:16:05.313-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.315 seconds
+[2022-12-20T22:16:35.643-0300] {processor.py:153} INFO - Started process (PID=25850) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:16:35.643-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:16:35.644-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:35.644-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:16:35.780-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:16:35.896-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:35.895-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:16:35.917-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:35.917-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:16:35.935-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.295 seconds
+[2022-12-20T22:17:06.119-0300] {processor.py:153} INFO - Started process (PID=26147) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:17:06.120-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:17:06.120-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:06.120-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:17:06.271-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:17:06.397-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:06.396-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:17:06.420-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:06.420-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:17:06.436-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.320 seconds
+[2022-12-20T22:17:36.529-0300] {processor.py:153} INFO - Started process (PID=26431) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:17:36.530-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:17:36.530-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:36.530-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:17:36.766-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:17:36.792-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:36.792-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:17:36.814-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:36.814-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:17:36.832-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.305 seconds
+[2022-12-20T22:18:08.103-0300] {processor.py:153} INFO - Started process (PID=26717) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:18:08.104-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:18:08.104-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:08.104-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:18:08.264-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:18:08.295-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:08.294-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:18:08.412-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:08.412-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:18:08.436-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.336 seconds
+[2022-12-20T22:18:38.527-0300] {processor.py:153} INFO - Started process (PID=27007) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:18:38.528-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:18:38.529-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:38.529-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:18:38.681-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:18:38.802-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:38.802-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:18:38.825-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:38.824-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:18:38.848-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.323 seconds
+[2022-12-20T22:19:08.939-0300] {processor.py:153} INFO - Started process (PID=27297) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:19:08.940-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:19:08.940-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:08.940-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:19:09.183-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:19:09.207-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:09.207-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:19:09.227-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:09.227-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:19:09.243-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.307 seconds
+[2022-12-20T22:19:39.592-0300] {processor.py:153} INFO - Started process (PID=27605) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:19:39.592-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:19:39.593-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:39.593-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:19:39.834-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:19:39.859-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:39.859-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:19:39.881-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:39.881-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:19:39.904-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.315 seconds
+[2022-12-20T22:20:10.110-0300] {processor.py:153} INFO - Started process (PID=27896) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:20:10.110-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:20:10.111-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:10.111-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:20:10.255-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:20:10.286-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:10.286-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:20:10.406-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:10.406-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:20:10.433-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.325 seconds
+[2022-12-20T22:20:40.483-0300] {processor.py:153} INFO - Started process (PID=28186) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:20:40.484-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:20:40.485-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:40.484-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:20:40.623-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:20:40.745-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:40.745-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:20:40.767-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:40.767-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:20:40.790-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.309 seconds
+[2022-12-20T22:21:11.263-0300] {processor.py:153} INFO - Started process (PID=28487) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:21:11.264-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:21:11.264-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:11.264-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:21:11.500-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:21:11.526-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:11.525-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:21:11.546-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:11.546-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:21:11.571-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.310 seconds
+[2022-12-20T22:21:42.111-0300] {processor.py:153} INFO - Started process (PID=28776) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:21:42.112-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:21:42.112-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:42.112-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:21:42.251-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:21:42.280-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:42.280-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:21:42.405-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:42.405-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:21:42.430-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.322 seconds
+[2022-12-20T22:22:12.509-0300] {processor.py:153} INFO - Started process (PID=29067) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:22:12.509-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:22:12.510-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:12.510-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:22:12.647-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:22:12.771-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:12.770-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:22:12.792-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:12.792-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:22:12.810-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.303 seconds
+[2022-12-20T22:22:42.855-0300] {processor.py:153} INFO - Started process (PID=29356) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:22:42.855-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:22:42.856-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:42.856-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:22:43.085-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:22:43.109-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:43.109-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:22:43.130-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:43.129-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:22:43.148-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.295 seconds
+[2022-12-20T22:23:13.457-0300] {processor.py:153} INFO - Started process (PID=29656) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:23:13.458-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:23:13.459-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:13.459-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:23:13.692-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:23:13.716-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:13.716-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:23:13.738-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:13.738-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:23:13.763-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.307 seconds
+[2022-12-20T22:23:43.875-0300] {processor.py:153} INFO - Started process (PID=29927) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:23:43.875-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:23:43.876-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:43.876-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:23:44.018-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:23:44.138-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:44.138-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:23:44.161-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:44.161-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:23:44.177-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.305 seconds
+[2022-12-20T22:24:15.094-0300] {processor.py:153} INFO - Started process (PID=30211) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:24:15.095-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:24:15.095-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:15.095-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:24:15.232-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:24:15.352-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:15.352-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:24:15.382-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:15.381-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:24:15.406-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.315 seconds
+[2022-12-20T22:24:45.873-0300] {processor.py:153} INFO - Started process (PID=30503) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:24:45.874-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:24:45.875-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:45.875-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:24:46.104-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:24:46.129-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:46.129-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:24:46.150-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:46.150-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:24:46.175-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.304 seconds
+[2022-12-20T22:25:16.335-0300] {processor.py:153} INFO - Started process (PID=30805) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:25:16.336-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:25:16.337-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:16.337-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:25:16.584-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:25:16.609-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:16.609-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:25:16.633-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:16.633-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:25:16.649-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.317 seconds
+[2022-12-20T22:25:47.450-0300] {processor.py:153} INFO - Started process (PID=31111) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:25:47.451-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:25:47.451-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:47.451-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:25:47.598-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:25:47.720-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:47.719-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:25:47.743-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:47.743-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:25:47.769-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.321 seconds
+[2022-12-20T22:26:17.897-0300] {processor.py:153} INFO - Started process (PID=31395) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:26:17.897-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:26:17.898-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:17.898-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:26:18.125-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:26:18.151-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:18.151-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:26:18.173-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:18.173-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:26:18.200-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.305 seconds
+[2022-12-20T22:26:48.927-0300] {processor.py:153} INFO - Started process (PID=31669) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:26:48.928-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:26:48.929-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:48.929-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:26:49.161-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:26:49.186-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:49.186-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:26:49.208-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:49.208-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:26:49.225-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.300 seconds
+[2022-12-20T22:27:19.492-0300] {processor.py:153} INFO - Started process (PID=31969) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:27:19.492-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:27:19.493-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:19.493-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:27:19.726-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:27:19.751-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:19.751-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:27:19.771-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:19.771-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:27:19.795-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.305 seconds
+[2022-12-20T22:27:49.839-0300] {processor.py:153} INFO - Started process (PID=32257) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:27:49.840-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:27:49.840-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:49.840-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:27:50.066-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:27:50.091-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:50.091-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:27:50.112-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:50.112-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:27:50.132-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.295 seconds
+[2022-12-20T22:28:20.995-0300] {processor.py:153} INFO - Started process (PID=32535) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:28:20.996-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:28:20.997-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:20.996-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:28:21.227-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:28:21.253-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:21.252-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:28:21.275-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:21.275-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:28:21.300-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.307 seconds
+[2022-12-20T22:28:51.365-0300] {processor.py:153} INFO - Started process (PID=32824) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:28:51.365-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:28:51.366-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:51.365-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:28:51.612-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:28:51.639-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:51.639-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:28:51.660-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:51.660-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:28:51.677-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.314 seconds
+[2022-12-20T22:29:21.845-0300] {processor.py:153} INFO - Started process (PID=33115) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:29:21.845-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:29:21.846-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:21.846-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:29:22.075-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:29:22.102-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:22.102-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:29:22.122-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:22.122-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:29:22.148-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.305 seconds
+[2022-12-20T22:29:52.524-0300] {processor.py:153} INFO - Started process (PID=33401) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:29:52.525-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:29:52.525-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:52.525-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:29:52.765-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:29:52.790-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:52.790-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:29:52.811-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:52.810-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:29:52.835-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.314 seconds
+[2022-12-20T22:30:23.483-0300] {processor.py:153} INFO - Started process (PID=33700) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:30:23.484-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:30:23.484-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:23.484-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:30:23.714-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:30:23.739-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:23.739-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:30:23.761-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:23.761-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:30:23.777-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.296 seconds
+[2022-12-20T22:30:53.858-0300] {processor.py:153} INFO - Started process (PID=33989) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:30:53.859-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:30:53.859-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:53.859-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:30:54.085-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:30:54.111-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:54.111-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:30:54.132-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:54.132-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:30:54.148-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.292 seconds
+[2022-12-20T22:31:24.449-0300] {processor.py:153} INFO - Started process (PID=34289) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:31:24.449-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:31:24.450-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:24.450-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:31:24.686-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:31:24.711-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:24.711-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:31:24.732-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:24.732-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:31:24.748-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.302 seconds
+[2022-12-20T22:31:55.248-0300] {processor.py:153} INFO - Started process (PID=34586) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:31:55.248-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:31:55.249-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:55.249-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:31:55.482-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:31:55.507-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:55.507-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:31:55.530-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:55.530-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:31:55.549-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.303 seconds
+[2022-12-20T22:32:25.634-0300] {processor.py:153} INFO - Started process (PID=34878) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:32:25.635-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:32:25.635-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:25.635-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:32:25.869-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:32:25.895-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:25.895-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:32:25.916-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:25.916-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:32:25.948-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.316 seconds
+[2022-12-20T22:32:56.564-0300] {processor.py:153} INFO - Started process (PID=35165) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:32:56.565-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:32:56.566-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:56.566-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:32:56.810-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:32:56.836-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:56.836-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:32:56.857-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:56.857-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:32:56.873-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.311 seconds
+[2022-12-20T22:33:26.902-0300] {processor.py:153} INFO - Started process (PID=35457) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:33:26.902-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:33:26.903-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:26.903-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:33:27.124-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:33:27.149-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:27.149-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:33:27.171-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:27.171-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:33:27.189-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.290 seconds
+[2022-12-20T22:33:57.426-0300] {processor.py:153} INFO - Started process (PID=35747) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:33:57.427-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:33:57.427-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:57.427-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:33:57.676-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:33:57.702-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:57.702-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:33:57.725-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:57.725-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:33:57.743-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.319 seconds
+[2022-12-20T22:34:28.036-0300] {processor.py:153} INFO - Started process (PID=36038) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:34:28.037-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:34:28.037-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:28.037-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:34:28.268-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:34:28.293-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:28.293-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:34:28.314-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:28.314-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:34:28.329-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.296 seconds
+[2022-12-20T22:34:58.444-0300] {processor.py:153} INFO - Started process (PID=36324) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:34:58.445-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:34:58.446-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:58.446-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:34:58.697-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:34:58.722-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:58.722-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:34:58.744-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:58.744-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:34:58.761-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.319 seconds
+[2022-12-20T22:35:29.126-0300] {processor.py:153} INFO - Started process (PID=36636) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:35:29.127-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:35:29.127-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:29.127-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:35:29.359-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:35:29.385-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:29.385-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:35:29.408-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:29.408-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:35:29.425-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.301 seconds
+[2022-12-20T22:35:59.619-0300] {processor.py:153} INFO - Started process (PID=36936) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:35:59.620-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:35:59.620-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:59.620-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:35:59.860-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:35:59.887-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:59.887-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:35:59.908-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:59.908-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:35:59.925-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.308 seconds
+[2022-12-20T22:36:30.560-0300] {processor.py:153} INFO - Started process (PID=37564) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:36:30.560-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:36:30.561-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:30.561-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:36:30.800-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:36:30.831-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:30.831-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:36:30.855-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:30.854-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:36:30.880-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.323 seconds
+[2022-12-20T22:37:01.297-0300] {processor.py:153} INFO - Started process (PID=37872) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:37:01.298-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:37:01.298-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:01.298-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:37:01.530-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:37:01.554-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:01.554-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:37:01.576-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:01.575-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:37:01.598-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.303 seconds
+[2022-12-20T22:37:31.863-0300] {processor.py:153} INFO - Started process (PID=38160) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:37:31.863-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:37:31.864-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:31.864-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:37:32.103-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:37:32.133-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:32.133-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:37:32.156-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:32.156-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:37:32.176-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.315 seconds
+[2022-12-20T22:38:03.227-0300] {processor.py:153} INFO - Started process (PID=38435) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:38:03.227-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:38:03.228-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:03.227-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:38:03.451-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:38:03.476-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:03.476-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:38:03.497-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:03.497-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:38:03.522-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.297 seconds
+[2022-12-20T22:38:33.581-0300] {processor.py:153} INFO - Started process (PID=38726) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:38:33.582-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:38:33.582-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:33.582-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:38:33.806-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:38:33.831-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:33.831-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:38:33.851-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:33.851-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:38:33.877-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.297 seconds
+[2022-12-20T22:39:04.011-0300] {processor.py:153} INFO - Started process (PID=39034) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:39:04.012-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:39:04.012-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:04.012-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:39:04.220-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:39:04.240-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:04.240-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:39:04.260-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:04.259-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:39:04.281-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.271 seconds
+[2022-12-20T22:39:34.344-0300] {processor.py:153} INFO - Started process (PID=39337) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:39:34.345-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:39:34.345-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:34.345-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:39:34.576-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:39:34.604-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:34.604-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:39:34.626-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:34.626-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:39:34.643-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.301 seconds
+[2022-12-20T22:40:04.825-0300] {processor.py:153} INFO - Started process (PID=39627) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:40:04.826-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:40:04.826-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:04.826-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:40:05.062-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:40:05.088-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:05.087-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:40:05.108-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:05.108-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:40:05.140-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.317 seconds
+[2022-12-20T22:40:35.667-0300] {processor.py:153} INFO - Started process (PID=39933) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:40:35.668-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:40:35.668-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:35.668-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:40:36.053-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:40:36.099-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:36.098-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:40:36.143-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:36.143-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:40:36.182-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.519 seconds
+[2022-12-20T22:41:06.782-0300] {processor.py:153} INFO - Started process (PID=40250) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:41:06.783-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:41:06.784-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:06.784-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:41:07.127-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:41:07.154-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:07.154-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:41:07.178-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:07.178-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:41:07.205-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.427 seconds
+[2022-12-20T22:41:38.261-0300] {processor.py:153} INFO - Started process (PID=40592) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:41:38.262-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:41:38.262-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:38.262-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:41:38.608-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:41:38.642-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:38.642-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:41:38.671-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:38.671-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:41:38.698-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.440 seconds
+[2022-12-20T22:42:08.883-0300] {processor.py:153} INFO - Started process (PID=40886) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:42:08.884-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:42:08.885-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:08.885-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:42:09.215-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:42:09.249-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:09.249-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:42:09.286-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:09.285-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:42:09.306-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.425 seconds
+[2022-12-20T22:42:39.673-0300] {processor.py:153} INFO - Started process (PID=41206) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:42:39.675-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:42:39.675-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:39.675-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:42:40.072-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:42:40.113-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:40.112-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:42:40.150-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:40.150-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:42:40.182-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.512 seconds
+[2022-12-20T22:43:10.646-0300] {processor.py:153} INFO - Started process (PID=41527) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:43:10.647-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:43:10.648-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:10.648-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:43:10.991-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:43:11.029-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:11.029-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:43:11.059-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:11.058-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:43:11.083-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.441 seconds
+[2022-12-20T22:43:37.243-0300] {processor.py:153} INFO - Started process (PID=42093) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:43:37.245-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:43:37.245-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:37.245-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:43:37.446-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:43:37.604-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:37.604-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:43:37.639-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:37.638-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:43:37.670-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.431 seconds
+[2022-12-20T22:44:07.908-0300] {processor.py:153} INFO - Started process (PID=42444) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:44:07.909-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:44:07.910-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:07.910-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:44:08.205-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:44:08.236-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:08.236-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:44:08.262-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:08.262-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:44:08.290-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.385 seconds
+[2022-12-20T22:44:38.825-0300] {processor.py:153} INFO - Started process (PID=42749) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:44:38.826-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:44:38.827-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:38.827-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:44:39.028-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:44:39.070-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:39.070-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:44:39.237-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:39.237-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:44:39.259-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.437 seconds
+[2022-12-20T22:45:09.446-0300] {processor.py:153} INFO - Started process (PID=43081) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:45:09.447-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:45:09.448-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:09.447-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:45:09.598-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:45:09.725-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:09.725-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:45:09.747-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:09.747-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:45:09.771-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.327 seconds
+[2022-12-20T22:45:40.957-0300] {processor.py:153} INFO - Started process (PID=43386) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:45:40.958-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:45:40.959-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:40.959-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:45:41.109-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:45:41.233-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:41.233-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:45:41.256-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:41.256-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:45:41.281-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.326 seconds
+[2022-12-20T22:46:11.674-0300] {processor.py:153} INFO - Started process (PID=43688) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:46:11.675-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:46:11.675-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:11.675-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:46:11.920-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:46:11.946-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:11.946-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:46:11.970-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:11.970-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:46:11.997-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.325 seconds
+[2022-12-20T22:46:42.306-0300] {processor.py:153} INFO - Started process (PID=44015) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:46:42.307-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:46:42.307-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:42.307-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:46:42.456-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:46:42.484-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:42.484-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:46:42.610-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:42.610-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:46:42.629-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.325 seconds
+[2022-12-20T22:47:13.032-0300] {processor.py:153} INFO - Started process (PID=44319) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:47:13.033-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:47:13.034-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:13.034-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:47:13.189-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:47:13.321-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:13.321-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:47:13.355-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:13.355-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:47:13.384-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.353 seconds
+[2022-12-20T22:47:43.892-0300] {processor.py:153} INFO - Started process (PID=44627) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:47:43.893-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:47:43.893-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:43.893-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:47:44.147-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:47:44.173-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:44.173-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:47:44.195-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:44.195-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:47:44.214-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.324 seconds
+[2022-12-20T22:48:14.515-0300] {processor.py:153} INFO - Started process (PID=44919) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:48:14.520-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:48:14.520-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:14.520-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:48:14.781-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:48:14.808-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:14.807-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:48:14.833-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:14.833-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:48:14.858-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.346 seconds
+[2022-12-20T22:48:45.042-0300] {processor.py:153} INFO - Started process (PID=45228) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:48:45.043-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:48:45.044-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:45.044-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:48:45.200-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:48:45.331-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:45.331-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:48:45.356-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:45.356-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:48:45.382-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.342 seconds
+[2022-12-20T22:49:15.926-0300] {processor.py:153} INFO - Started process (PID=45554) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:49:15.927-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:49:15.927-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:15.927-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:49:16.091-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:49:16.243-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:16.243-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:49:16.266-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:16.266-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:49:16.283-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.360 seconds
+[2022-12-20T22:49:46.640-0300] {processor.py:153} INFO - Started process (PID=45859) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:49:46.641-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:49:46.641-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:46.641-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:49:46.916-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:49:46.943-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:46.943-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:49:46.968-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:46.967-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:49:46.993-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.355 seconds
+[2022-12-20T22:50:17.376-0300] {processor.py:153} INFO - Started process (PID=46169) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:50:17.377-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:50:17.377-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:17.377-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:50:17.528-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:50:17.556-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:17.556-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:50:17.678-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:17.678-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:50:17.702-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.328 seconds
+[2022-12-20T22:50:47.808-0300] {processor.py:153} INFO - Started process (PID=46483) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:50:47.809-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:50:47.810-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:47.809-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:50:47.951-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:50:48.075-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:48.075-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:50:48.097-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:48.097-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:50:48.122-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.315 seconds
+[2022-12-20T22:51:19.108-0300] {processor.py:153} INFO - Started process (PID=46776) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:51:19.109-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:51:19.109-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:19.109-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:51:19.357-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:51:19.384-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:19.384-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:51:19.409-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:19.408-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:51:19.427-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.322 seconds
+[2022-12-20T22:51:50.267-0300] {processor.py:153} INFO - Started process (PID=47104) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:51:50.268-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:51:50.268-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:50.268-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:51:50.522-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:51:50.550-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:50.549-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:51:50.573-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:50.572-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:51:50.597-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.332 seconds
+[2022-12-20T22:52:21.099-0300] {processor.py:153} INFO - Started process (PID=47406) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:52:21.099-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:52:21.100-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:21.100-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:52:21.250-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:52:21.387-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:21.387-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:52:21.413-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:21.413-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:52:21.439-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.343 seconds
+[2022-12-20T22:52:51.726-0300] {processor.py:153} INFO - Started process (PID=47701) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:52:51.726-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:52:51.727-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:51.727-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:52:51.885-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:52:52.009-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:52.009-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:52:52.033-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:52.033-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:52:52.053-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.330 seconds
+[2022-12-20T22:53:22.723-0300] {processor.py:153} INFO - Started process (PID=48028) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:53:22.723-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:53:22.724-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:22.724-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:53:22.978-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:53:23.006-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:23.006-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:53:23.030-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:23.030-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:53:23.057-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.337 seconds
+[2022-12-20T22:53:53.369-0300] {processor.py:153} INFO - Started process (PID=48324) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:53:53.369-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:53:53.370-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:53.370-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:53:53.522-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:53:53.552-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:53.552-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:53:53.694-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:53.694-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:53:53.725-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.358 seconds
+[2022-12-20T22:54:24.489-0300] {processor.py:153} INFO - Started process (PID=48633) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:54:24.490-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:54:24.490-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:24.490-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:54:24.648-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:54:24.775-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:24.775-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:54:24.799-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:24.799-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:54:24.825-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.339 seconds
+[2022-12-20T22:54:55.515-0300] {processor.py:153} INFO - Started process (PID=48946) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:54:55.516-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:54:55.516-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:55.516-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:54:55.773-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:54:55.800-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:55.800-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:54:55.822-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:55.821-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:54:55.839-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.327 seconds
+[2022-12-20T22:55:26.147-0300] {processor.py:153} INFO - Started process (PID=49258) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:55:26.149-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:55:26.150-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:26.150-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:55:26.466-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:55:26.491-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:26.490-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:55:26.518-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:26.518-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:55:26.557-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.413 seconds
+[2022-12-20T22:55:57.311-0300] {processor.py:153} INFO - Started process (PID=49571) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:55:57.312-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:55:57.313-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:57.313-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:55:57.477-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:55:57.618-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:57.618-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:55:57.641-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:57.641-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:55:57.673-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.364 seconds
+[2022-12-20T22:56:28.096-0300] {processor.py:153} INFO - Started process (PID=49888) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:56:28.097-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:56:28.097-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:28.097-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:56:28.251-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:56:28.386-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:28.386-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:56:28.413-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:28.412-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:56:28.432-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.337 seconds
+[2022-12-20T22:57:06.915-0300] {processor.py:153} INFO - Started process (PID=50463) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:57:06.916-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:57:06.916-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:06.916-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:57:07.077-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:57:07.204-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:07.204-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:57:07.228-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:07.228-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:57:07.245-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.332 seconds
+[2022-12-20T22:57:37.669-0300] {processor.py:153} INFO - Started process (PID=50767) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:57:37.670-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:57:37.670-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:37.670-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:57:37.910-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:57:37.936-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:37.936-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:57:37.958-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:37.958-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:57:37.977-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.310 seconds
+[2022-12-20T22:58:08.579-0300] {processor.py:153} INFO - Started process (PID=51073) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:58:08.580-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:58:08.580-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:08.580-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:58:08.745-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:58:08.773-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:08.773-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:58:08.898-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:08.898-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:58:08.916-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.340 seconds
+[2022-12-20T22:58:40.047-0300] {processor.py:153} INFO - Started process (PID=51393) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:58:40.048-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:58:40.049-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:40.049-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:58:40.232-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:58:40.399-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:40.399-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:58:40.427-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:40.426-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:58:40.448-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.405 seconds
+[2022-12-20T22:59:10.688-0300] {processor.py:153} INFO - Started process (PID=51710) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:59:10.689-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:59:10.690-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:10.690-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:59:11.046-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:59:11.079-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:11.078-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:59:11.107-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:11.107-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:59:11.130-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.445 seconds
+[2022-12-20T22:59:41.375-0300] {processor.py:153} INFO - Started process (PID=52015) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:59:41.376-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T22:59:41.377-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:41.377-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:59:41.739-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T22:59:41.776-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:41.776-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:59:41.805-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:41.805-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:59:41.829-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.458 seconds
+[2022-12-20T23:00:12.219-0300] {processor.py:153} INFO - Started process (PID=52332) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:00:12.220-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:00:12.221-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:12.220-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:00:12.416-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:00:12.453-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:12.452-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:00:12.621-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:12.621-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:00:12.643-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.427 seconds
+[2022-12-20T23:00:43.159-0300] {processor.py:153} INFO - Started process (PID=52651) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:00:43.160-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:00:43.160-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:43.160-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:00:43.333-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:00:43.489-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:43.489-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:00:43.514-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:43.514-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:00:43.543-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.386 seconds
+[2022-12-20T23:01:14.086-0300] {processor.py:153} INFO - Started process (PID=52952) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:01:14.087-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:01:14.087-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:14.087-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:01:14.403-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:01:14.443-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:14.443-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:01:14.473-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:14.473-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:01:14.509-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.426 seconds
+[2022-12-20T23:01:44.718-0300] {processor.py:153} INFO - Started process (PID=53264) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:01:44.719-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:01:44.720-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:44.719-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:01:45.051-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:01:45.089-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:45.089-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:01:45.119-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:45.119-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:01:45.140-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.425 seconds
+[2022-12-20T23:02:15.512-0300] {processor.py:153} INFO - Started process (PID=53566) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:02:15.514-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:02:15.514-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:15.514-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:02:15.717-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:02:15.879-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:15.878-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:02:15.905-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:15.905-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:02:15.925-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.416 seconds
+[2022-12-20T23:02:46.175-0300] {processor.py:153} INFO - Started process (PID=53869) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:02:46.177-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:02:46.178-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:46.177-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:02:46.520-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:02:46.554-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:46.553-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:02:46.582-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:46.581-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:02:46.602-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.430 seconds
+[2022-12-20T23:03:17.102-0300] {processor.py:153} INFO - Started process (PID=54174) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:03:17.103-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:03:17.104-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:17.104-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:03:17.441-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:03:17.477-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:17.476-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:03:17.510-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:17.509-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:03:17.539-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.439 seconds
+[2022-12-20T23:03:47.583-0300] {processor.py:153} INFO - Started process (PID=54471) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:03:47.584-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:03:47.585-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:47.585-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:03:47.797-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:03:47.831-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:47.831-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:03:48.000-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:48.000-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:03:48.021-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.440 seconds
+[2022-12-20T23:04:18.081-0300] {processor.py:153} INFO - Started process (PID=54771) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:04:18.081-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:04:18.082-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:18.082-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:04:18.260-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:04:18.416-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:18.415-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:04:18.441-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:18.440-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:04:18.468-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.390 seconds
+[2022-12-20T23:04:48.740-0300] {processor.py:153} INFO - Started process (PID=55072) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:04:48.741-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:04:48.742-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:48.741-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:04:49.076-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:04:49.108-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:49.108-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:04:49.136-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:49.136-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:04:49.157-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.420 seconds
+[2022-12-20T23:05:19.313-0300] {processor.py:153} INFO - Started process (PID=55390) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:05:19.314-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:05:19.314-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:19.314-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:05:19.643-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:05:19.676-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:19.676-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:05:19.706-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:19.706-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:05:19.729-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.419 seconds
+[2022-12-20T23:05:49.803-0300] {processor.py:153} INFO - Started process (PID=55692) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:05:49.804-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:05:49.804-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:49.804-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:05:50.004-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:05:50.042-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:50.041-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:05:50.200-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:50.200-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:05:50.229-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.430 seconds
+[2022-12-20T23:06:20.328-0300] {processor.py:153} INFO - Started process (PID=56001) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:06:20.329-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:06:20.330-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:20.330-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:06:20.527-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:06:20.698-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:20.698-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:06:20.728-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:20.728-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:06:20.750-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.425 seconds
+[2022-12-20T23:06:50.814-0300] {processor.py:153} INFO - Started process (PID=56306) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:06:50.815-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:06:50.816-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:50.815-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:06:51.152-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:06:51.183-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:51.182-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:06:51.209-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:51.209-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:06:51.238-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.427 seconds
+[2022-12-20T23:07:21.810-0300] {processor.py:153} INFO - Started process (PID=56603) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:07:21.810-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:07:21.811-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:21.811-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:07:22.151-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:07:22.186-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:22.186-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:07:22.215-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:22.215-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:07:22.237-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.430 seconds
+[2022-12-20T23:07:53.294-0300] {processor.py:153} INFO - Started process (PID=56916) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:07:53.295-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:07:53.296-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:53.296-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:07:53.509-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:07:53.691-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:53.691-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:07:53.718-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:53.718-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:07:53.749-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.459 seconds
+[2022-12-20T23:08:23.859-0300] {processor.py:153} INFO - Started process (PID=57223) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:08:23.860-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:08:23.860-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:23.860-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:08:24.187-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:08:24.220-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:24.219-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:08:24.248-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:24.248-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:08:24.282-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.425 seconds
+[2022-12-20T23:08:54.347-0300] {processor.py:153} INFO - Started process (PID=57522) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:08:54.348-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:08:54.348-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:54.348-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:08:54.704-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:08:54.737-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:54.737-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:08:54.770-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:54.770-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:08:54.795-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.450 seconds
+[2022-12-20T23:09:25.695-0300] {processor.py:153} INFO - Started process (PID=57827) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:09:25.695-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:09:25.696-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:25.696-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:09:26.018-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:09:26.054-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:26.054-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:09:26.083-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:26.083-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:09:26.116-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.424 seconds
+[2022-12-20T23:09:56.214-0300] {processor.py:153} INFO - Started process (PID=58129) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:09:56.214-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:09:56.215-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:56.215-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:09:56.540-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:09:56.573-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:56.573-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:09:56.603-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:56.602-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:09:56.627-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.417 seconds
+[2022-12-20T23:10:26.666-0300] {processor.py:153} INFO - Started process (PID=58432) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:10:26.666-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:10:26.667-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:26.667-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:10:26.960-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:10:26.989-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:26.989-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:10:27.016-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:27.016-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:10:27.037-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.375 seconds
+[2022-12-20T23:10:57.420-0300] {processor.py:153} INFO - Started process (PID=58737) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:10:57.421-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:10:57.422-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:57.422-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:10:57.750-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:10:57.782-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:57.782-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:10:57.813-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:57.812-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:10:57.834-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.418 seconds
+[2022-12-20T23:11:27.907-0300] {processor.py:153} INFO - Started process (PID=59045) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:11:27.908-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:11:27.908-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:27.908-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:11:28.260-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:11:28.292-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:28.291-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:11:28.320-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:28.319-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:11:28.344-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.441 seconds
+[2022-12-20T23:11:58.556-0300] {processor.py:153} INFO - Started process (PID=59366) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:11:58.557-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:11:58.558-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:58.558-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:11:58.924-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:11:58.957-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:58.956-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:11:58.982-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:58.982-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:11:59.011-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.458 seconds
+[2022-12-20T23:12:29.720-0300] {processor.py:153} INFO - Started process (PID=59655) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:12:29.721-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:12:29.721-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:29.721-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:12:30.060-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:12:30.093-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:30.092-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:12:30.121-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:30.121-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:12:30.146-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.429 seconds
+[2022-12-20T23:13:00.407-0300] {processor.py:153} INFO - Started process (PID=59960) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:13:00.408-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:13:00.409-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:00.409-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:13:00.755-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:13:00.789-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:00.789-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:13:00.815-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:00.815-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:13:00.842-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.439 seconds
+[2022-12-20T23:13:30.984-0300] {processor.py:153} INFO - Started process (PID=60233) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:13:30.985-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:13:30.985-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:30.985-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:13:31.322-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:13:31.359-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:31.359-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:13:31.388-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:31.387-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:13:31.409-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.428 seconds
+[2022-12-20T23:14:01.772-0300] {processor.py:153} INFO - Started process (PID=60536) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:14:01.773-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:14:01.774-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:01.774-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:14:02.089-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:14:02.121-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:02.121-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:14:02.149-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:02.149-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:14:02.179-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.411 seconds
+[2022-12-20T23:14:32.389-0300] {processor.py:153} INFO - Started process (PID=60837) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:14:32.390-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:14:32.391-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:32.391-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:14:32.728-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:14:32.759-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:32.759-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:14:32.788-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:32.788-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:14:32.819-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.433 seconds
+[2022-12-20T23:15:03.123-0300] {processor.py:153} INFO - Started process (PID=61142) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:15:03.124-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:15:03.125-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:03.125-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:15:03.457-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:15:03.492-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:03.491-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:15:03.520-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:03.520-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:15:03.541-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.421 seconds
+[2022-12-20T23:15:34.053-0300] {processor.py:153} INFO - Started process (PID=61446) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:15:34.054-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:15:34.055-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:34.054-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:15:34.346-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:15:34.372-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:34.372-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:15:34.396-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:34.396-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:15:34.423-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.373 seconds
+[2022-12-20T23:16:04.682-0300] {processor.py:153} INFO - Started process (PID=61750) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:16:04.682-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:16:04.683-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:04.683-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:16:05.010-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:16:05.041-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:05.041-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:16:05.070-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:05.070-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:16:05.090-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.411 seconds
+[2022-12-20T23:16:35.153-0300] {processor.py:153} INFO - Started process (PID=62056) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:16:35.154-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:16:35.154-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:35.154-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:16:35.467-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:16:35.494-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:35.494-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:16:35.518-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:35.518-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:16:35.543-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.392 seconds
+[2022-12-20T23:17:09.175-0300] {processor.py:153} INFO - Started process (PID=62364) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:17:09.175-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:17:09.176-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:09.176-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:17:09.506-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:17:09.538-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:09.538-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:17:09.565-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:09.565-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:17:09.603-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.432 seconds
+[2022-12-20T23:17:39.802-0300] {processor.py:153} INFO - Started process (PID=62725) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:17:39.803-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:17:39.804-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:39.804-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:17:40.156-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:17:40.189-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:40.189-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:17:40.218-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:40.217-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:17:40.239-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.440 seconds
+[2022-12-20T23:18:10.521-0300] {processor.py:153} INFO - Started process (PID=63043) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:18:10.521-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:18:10.522-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:10.522-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:18:10.843-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:18:10.878-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:10.878-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:18:10.906-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:10.905-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:18:10.936-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.418 seconds
+[2022-12-20T23:18:42.062-0300] {processor.py:153} INFO - Started process (PID=63337) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:18:42.063-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:18:42.063-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:42.063-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:18:42.402-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:18:42.434-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:42.434-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:18:42.461-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:42.460-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:18:42.481-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.422 seconds
+[2022-12-20T23:19:13.388-0300] {processor.py:153} INFO - Started process (PID=63640) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:19:13.389-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:19:13.390-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:13.390-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:19:13.731-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:19:13.765-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:13.765-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:19:13.795-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:13.795-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:19:13.817-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.433 seconds
+[2022-12-20T23:19:44.105-0300] {processor.py:153} INFO - Started process (PID=63953) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:19:44.106-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:19:44.107-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:44.107-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:19:44.434-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:19:44.467-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:44.466-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:19:44.496-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:44.496-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:19:44.518-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.414 seconds
+[2022-12-20T23:20:14.744-0300] {processor.py:153} INFO - Started process (PID=64272) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:20:14.745-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:20:14.745-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:14.745-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:20:15.081-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:20:15.116-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:15.116-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:20:15.144-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:15.144-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:20:15.166-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.427 seconds
+[2022-12-20T23:20:45.337-0300] {processor.py:153} INFO - Started process (PID=64587) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:20:45.338-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:20:45.339-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:45.338-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:20:45.682-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:20:45.711-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:45.711-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:20:45.737-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:45.737-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:20:45.768-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.434 seconds
+[2022-12-20T23:21:16.009-0300] {processor.py:153} INFO - Started process (PID=64890) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:21:16.010-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:21:16.011-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:16.010-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:21:16.354-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:21:16.390-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:16.389-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:21:16.421-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:16.420-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:21:16.443-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.437 seconds
+[2022-12-20T23:21:46.507-0300] {processor.py:153} INFO - Started process (PID=65206) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:21:46.508-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:21:46.508-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:46.508-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:21:46.820-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:21:46.851-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:46.851-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:21:46.875-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:46.875-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:21:46.903-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.399 seconds
+[2022-12-20T23:22:17.217-0300] {processor.py:153} INFO - Started process (PID=65501) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:22:17.217-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:22:17.218-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:17.218-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:22:17.541-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:22:17.576-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:17.576-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:22:17.607-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:17.607-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:22:17.634-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.420 seconds
+[2022-12-20T23:22:48.672-0300] {processor.py:153} INFO - Started process (PID=65811) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:22:48.673-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:22:48.674-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:48.674-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:22:49.011-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:22:49.040-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:49.040-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:22:49.068-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:49.068-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:22:49.096-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.427 seconds
+[2022-12-20T23:23:20.110-0300] {processor.py:153} INFO - Started process (PID=66114) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:23:20.111-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:23:20.112-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:20.112-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:23:20.436-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:23:20.469-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:20.469-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:23:20.495-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:20.495-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:23:20.523-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.416 seconds
+[2022-12-20T23:23:50.629-0300] {processor.py:153} INFO - Started process (PID=66415) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:23:50.630-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:23:50.631-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:50.631-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:23:50.970-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:23:51.004-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:51.004-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:23:51.031-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:51.031-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:23:51.061-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.434 seconds
+[2022-12-20T23:24:21.216-0300] {processor.py:153} INFO - Started process (PID=66717) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:24:21.218-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:24:21.218-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:21.218-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:24:21.547-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:24:21.578-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:21.578-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:24:21.607-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:21.606-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:24:21.635-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.421 seconds
+[2022-12-20T23:24:52.637-0300] {processor.py:153} INFO - Started process (PID=67018) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:24:52.638-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:24:52.638-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:52.638-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:24:52.950-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:24:52.988-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:52.988-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:24:53.025-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:53.025-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:24:53.055-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.422 seconds
+[2022-12-20T23:25:23.093-0300] {processor.py:153} INFO - Started process (PID=67324) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:25:23.094-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:25:23.094-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:23.094-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:25:23.378-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:25:23.408-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:23.407-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:25:23.433-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:23.433-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:25:23.461-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.371 seconds
+[2022-12-20T23:25:53.680-0300] {processor.py:153} INFO - Started process (PID=67627) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:25:53.681-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:25:53.682-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:53.682-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:25:54.018-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:25:54.052-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:54.051-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:25:54.080-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:54.079-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:25:54.105-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.428 seconds
+[2022-12-20T23:26:24.330-0300] {processor.py:153} INFO - Started process (PID=67956) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:26:24.330-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:26:24.331-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:24.331-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:26:24.655-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:26:24.690-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:24.690-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:26:24.719-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:24.719-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:26:24.741-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.414 seconds
+[2022-12-20T23:26:54.783-0300] {processor.py:153} INFO - Started process (PID=68249) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:26:54.784-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:26:54.785-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:54.784-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:26:55.108-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:26:55.139-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:55.139-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:26:55.166-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:55.166-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:26:55.187-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.407 seconds
+[2022-12-20T23:27:25.387-0300] {processor.py:153} INFO - Started process (PID=68572) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:27:25.388-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:27:25.389-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:25.389-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:27:25.715-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:27:25.750-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:25.750-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:27:25.780-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:25.780-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:27:25.806-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.422 seconds
+[2022-12-20T23:27:56.470-0300] {processor.py:153} INFO - Started process (PID=68906) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:27:56.471-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:27:56.472-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:56.472-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:27:56.856-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:27:56.893-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:56.893-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:27:56.924-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:56.924-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:27:56.953-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.487 seconds
+[2022-12-20T23:28:27.316-0300] {processor.py:153} INFO - Started process (PID=69197) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:28:27.317-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:28:27.317-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:27.317-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:28:27.601-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:28:27.628-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:27.628-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:28:27.653-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:27.653-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:28:27.669-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.355 seconds
+[2022-12-20T23:28:57.867-0300] {processor.py:153} INFO - Started process (PID=69504) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:28:57.868-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:28:57.869-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:57.869-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:28:58.117-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:28:58.145-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:58.145-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:28:58.170-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:58.170-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:28:58.186-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.321 seconds
+[2022-12-20T23:29:28.463-0300] {processor.py:153} INFO - Started process (PID=69805) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:29:28.464-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:29:28.465-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:28.464-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:29:28.718-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:29:28.743-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:28.743-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:29:28.764-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:28.764-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:29:28.789-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.329 seconds
+[2022-12-20T23:29:59.080-0300] {processor.py:153} INFO - Started process (PID=70106) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:29:59.082-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:29:59.083-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:59.083-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:29:59.448-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:29:59.479-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:59.479-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:29:59.509-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:59.508-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:29:59.542-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.465 seconds
+[2022-12-20T23:30:29.980-0300] {processor.py:153} INFO - Started process (PID=70419) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:30:29.983-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:30:29.984-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:29.984-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:30:30.495-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:30:30.525-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:30.525-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:30:30.547-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:30.547-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:30:30.572-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.597 seconds
+[2022-12-20T23:31:00.778-0300] {processor.py:153} INFO - Started process (PID=70752) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:31:00.781-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:31:00.782-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:00.782-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:31:01.025-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:31:01.051-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:01.051-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:31:01.073-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:01.072-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:31:01.098-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.321 seconds
+[2022-12-20T23:31:31.235-0300] {processor.py:153} INFO - Started process (PID=71074) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:31:31.239-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:31:31.239-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:31.239-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:31:31.511-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:31:31.539-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:31.539-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:31:31.566-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:31.566-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:31:31.594-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.361 seconds
+[2022-12-20T23:32:01.906-0300] {processor.py:153} INFO - Started process (PID=71399) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:32:01.908-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:32:01.908-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:01.908-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:32:02.160-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:32:02.188-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:02.188-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:32:02.209-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:02.209-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:32:02.234-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.331 seconds
+[2022-12-20T23:32:32.329-0300] {processor.py:153} INFO - Started process (PID=71706) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:32:32.330-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:32:32.330-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:32.330-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:32:32.574-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:32:32.606-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:32.605-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:32:32.632-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:32.632-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:32:32.657-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.330 seconds
+[2022-12-20T23:33:02.942-0300] {processor.py:153} INFO - Started process (PID=72021) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:33:02.944-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:33:02.945-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:02.945-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:33:03.281-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:33:03.314-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:03.314-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:33:03.344-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:03.344-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:33:03.373-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.433 seconds
+[2022-12-20T23:33:33.721-0300] {processor.py:153} INFO - Started process (PID=72324) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:33:33.724-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:33:33.725-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:33.724-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:33:34.057-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:33:34.091-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:34.091-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:33:34.120-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:34.120-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:33:34.155-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.436 seconds
+[2022-12-20T23:34:04.320-0300] {processor.py:153} INFO - Started process (PID=72625) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:34:04.321-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:34:04.321-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:04.321-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:34:04.643-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:34:04.679-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:04.679-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:34:04.706-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:04.706-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:34:04.735-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.418 seconds
+[2022-12-20T23:34:35.049-0300] {processor.py:153} INFO - Started process (PID=72927) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:34:35.052-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:34:35.053-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:35.053-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:34:35.411-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:34:35.445-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:35.444-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:34:35.473-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:35.473-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:34:35.506-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.460 seconds
+[2022-12-20T23:35:06.433-0300] {processor.py:153} INFO - Started process (PID=73247) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:35:06.436-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:35:06.437-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:06.437-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:35:06.706-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:35:06.734-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:06.733-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:35:06.760-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:06.759-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:35:06.784-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.354 seconds
+[2022-12-20T23:35:37.352-0300] {processor.py:153} INFO - Started process (PID=73725) to work on /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:35:37.356-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_intact.py for tasks to queue
+[2022-12-20T23:35:37.357-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:37.356-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:35:37.592-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_intact']) retrieved from /home/kallox/airflow/dags/download_intact.py
+[2022-12-20T23:35:37.617-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:37.617-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:35:37.637-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:37.637-0300] {dag.py:3427} INFO - Setting next_dagrun for download_intact to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:35:37.660-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_intact.py took 0.310 seconds

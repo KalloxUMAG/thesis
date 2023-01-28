@@ -1,0 +1,571 @@
+[2022-12-17T23:31:29.007-0300] {processor.py:153} INFO - Started process (PID=63941) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:31:29.008-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:31:29.008-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:31:29.008-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:31:29.016-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:31:29.016-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:31:29.017-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:31:29.037-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.032 seconds
+[2022-12-17T23:31:59.595-0300] {processor.py:153} INFO - Started process (PID=64252) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:31:59.595-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:31:59.596-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:31:59.596-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:31:59.603-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:31:59.602-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:31:59.603-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:31:59.624-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.031 seconds
+[2022-12-17T23:32:30.094-0300] {processor.py:153} INFO - Started process (PID=64545) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:32:30.095-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:32:30.095-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:32:30.095-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:32:30.102-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:32:30.101-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:32:30.102-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:32:30.122-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.031 seconds
+[2022-12-17T23:33:00.726-0300] {processor.py:153} INFO - Started process (PID=64836) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:33:00.735-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:33:00.735-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:33:00.735-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:33:00.742-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:33:00.741-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:33:00.742-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:33:00.763-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.038 seconds
+[2022-12-17T23:33:31.301-0300] {processor.py:153} INFO - Started process (PID=65127) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:33:31.309-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:33:31.309-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:33:31.309-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:33:31.316-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:33:31.315-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:33:31.316-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:33:31.337-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.039 seconds
+[2022-12-17T23:34:02.160-0300] {processor.py:153} INFO - Started process (PID=65421) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:34:02.168-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:34:02.169-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:34:02.169-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:34:02.177-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:34:02.177-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:34:02.178-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:34:02.198-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.040 seconds
+[2022-12-17T23:34:32.987-0300] {processor.py:153} INFO - Started process (PID=65716) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:34:32.995-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:34:32.996-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:34:32.995-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:34:33.003-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:34:33.002-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:34:33.004-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:34:33.026-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.042 seconds
+[2022-12-17T23:35:03.514-0300] {processor.py:153} INFO - Started process (PID=66009) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:35:03.523-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:35:03.523-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:35:03.523-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:35:03.536-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:35:03.534-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:35:03.536-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:35:03.564-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.053 seconds
+[2022-12-17T23:35:34.018-0300] {processor.py:153} INFO - Started process (PID=66306) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:35:34.026-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:35:34.026-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:35:34.026-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:35:34.034-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:35:34.034-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:35:34.035-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:35:34.059-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.044 seconds
+[2022-12-17T23:36:04.278-0300] {processor.py:153} INFO - Started process (PID=66600) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:36:04.279-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:36:04.279-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:36:04.279-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:36:04.286-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:36:04.286-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 30, in <module>
+    subdag_1 = load_taskgroup()
+TypeError: load_taskgroup() missing 3 required positional arguments: 'parent_dag_name', 'child_dag_name', and 'default_args'
+[2022-12-17T23:36:04.287-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:36:04.308-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.032 seconds
+[2022-12-17T23:36:34.782-0300] {processor.py:153} INFO - Started process (PID=66895) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:36:34.783-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:36:34.787-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:36:34.787-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:36:35.014-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:36:35.013-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    subdag_1 = load_taskgroup()
+NameError: name 'load_taskgroup' is not defined
+[2022-12-17T23:36:35.014-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:36:35.032-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.252 seconds
+[2022-12-17T23:37:05.965-0300] {processor.py:153} INFO - Started process (PID=67200) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:37:05.973-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:37:05.974-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:37:05.974-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:37:06.196-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:37:06.195-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    subdag_1 = load_taskgroup()
+NameError: name 'load_taskgroup' is not defined
+[2022-12-17T23:37:06.196-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:37:06.227-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.265 seconds
+[2022-12-17T23:37:36.305-0300] {processor.py:153} INFO - Started process (PID=67493) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:37:36.313-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:37:36.313-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:37:36.313-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:37:36.540-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:37:36.540-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    subdag_1 = load_taskgroup()
+NameError: name 'load_taskgroup' is not defined
+[2022-12-17T23:37:36.540-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:37:36.567-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.264 seconds
+[2022-12-17T23:38:06.747-0300] {processor.py:153} INFO - Started process (PID=67784) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:38:06.762-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:38:06.762-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:38:06.762-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:38:06.989-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:38:06.989-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    subdag_1 = load_taskgroup()
+NameError: name 'load_taskgroup' is not defined
+[2022-12-17T23:38:06.989-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:38:07.016-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.271 seconds
+[2022-12-17T23:38:37.420-0300] {processor.py:153} INFO - Started process (PID=68090) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:38:37.428-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:38:37.429-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:38:37.429-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:38:37.659-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:38:37.659-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    subdag_1 = load_taskgroup()
+NameError: name 'load_taskgroup' is not defined
+[2022-12-17T23:38:37.659-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:38:37.678-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.261 seconds
+[2022-12-17T23:39:07.744-0300] {processor.py:153} INFO - Started process (PID=68380) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:39:07.753-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:39:07.754-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:39:07.754-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:39:08.124-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:39:08.123-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup()
+TypeError: load_intact_taskgroup() missing 1 required positional argument: 'group_id'
+[2022-12-17T23:39:08.124-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:39:08.152-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.412 seconds
+[2022-12-17T23:39:38.348-0300] {processor.py:153} INFO - Started process (PID=68677) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:39:38.357-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:39:38.357-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:39:38.357-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:39:38.582-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:39:38.581-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup()
+TypeError: load_intact_taskgroup() missing 1 required positional argument: 'group_id'
+[2022-12-17T23:39:38.582-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:39:38.600-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.254 seconds
+[2022-12-17T23:40:08.780-0300] {processor.py:153} INFO - Started process (PID=68972) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:40:08.789-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:40:08.789-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:40:08.789-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:40:09.048-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:40:09.047-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup()
+TypeError: load_intact_taskgroup() missing 1 required positional argument: 'group_id'
+[2022-12-17T23:40:09.048-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:40:09.075-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.297 seconds
+[2022-12-17T23:40:39.104-0300] {processor.py:153} INFO - Started process (PID=69264) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:40:39.112-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:40:39.113-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:40:39.113-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:40:39.340-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:40:39.339-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup()
+TypeError: load_intact_taskgroup() missing 1 required positional argument: 'group_id'
+[2022-12-17T23:40:39.340-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:40:39.367-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.266 seconds
+[2022-12-17T23:41:09.892-0300] {processor.py:153} INFO - Started process (PID=69571) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:41:09.900-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:41:09.900-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:41:09.900-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:41:10.136-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:41:10.136-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup()
+TypeError: load_intact_taskgroup() missing 1 required positional argument: 'group_id'
+[2022-12-17T23:41:10.137-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:41:10.166-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.276 seconds
+[2022-12-17T23:41:40.531-0300] {processor.py:153} INFO - Started process (PID=69884) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:41:40.539-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:41:40.540-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:41:40.540-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:41:40.835-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:41:40.834-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup()
+TypeError: load_intact_taskgroup() missing 1 required positional argument: 'group_id'
+[2022-12-17T23:41:40.835-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:41:40.864-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.336 seconds
+[2022-12-17T23:42:11.300-0300] {processor.py:153} INFO - Started process (PID=70184) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:42:11.308-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:42:11.309-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:42:11.309-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:42:11.615-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:42:11.614-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup('intact')
+  File "/home/kallox/airflow/dags/get_interactions.py", line 19, in load_intact_taskgroup
+    start = EmptyOperator(task='start')
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2022-12-17T23:42:11.615-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:42:11.638-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.342 seconds
+[2022-12-17T23:42:41.939-0300] {processor.py:153} INFO - Started process (PID=70473) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:42:41.948-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:42:41.949-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:42:41.949-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:42:42.233-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:42:42.232-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup('intact')
+  File "/home/kallox/airflow/dags/get_interactions.py", line 19, in load_intact_taskgroup
+    start = EmptyOperator(task='start')
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2022-12-17T23:42:42.233-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:42:42.262-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.326 seconds
+[2022-12-17T23:43:12.427-0300] {processor.py:153} INFO - Started process (PID=70769) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:43:12.436-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:43:12.437-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:43:12.436-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:43:12.759-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:43:12.758-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup('intact')
+  File "/home/kallox/airflow/dags/get_interactions.py", line 19, in load_intact_taskgroup
+    start = EmptyOperator(task='start')
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2022-12-17T23:43:12.759-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:43:12.786-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.362 seconds
+[2022-12-17T23:43:42.907-0300] {processor.py:153} INFO - Started process (PID=71068) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:43:42.909-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:43:42.910-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:43:42.909-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:43:43.209-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:43:43.208-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup('intact')
+  File "/home/kallox/airflow/dags/get_interactions.py", line 19, in load_intact_taskgroup
+    start = EmptyOperator(task='start')
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2022-12-17T23:43:43.209-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:43:43.239-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.335 seconds
+[2022-12-17T23:44:13.758-0300] {processor.py:153} INFO - Started process (PID=71367) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:44:13.766-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:44:13.767-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:44:13.766-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:44:14.041-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:44:14.039-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup('intact')
+  File "/home/kallox/airflow/dags/get_interactions.py", line 19, in load_intact_taskgroup
+    start = EmptyOperator(task='start')
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2022-12-17T23:44:14.041-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:44:14.063-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.308 seconds
+[2022-12-17T23:44:44.792-0300] {processor.py:153} INFO - Started process (PID=71665) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:44:44.800-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:44:44.801-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:44:44.800-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:44:45.035-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:44:45.034-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup('intact')
+  File "/home/kallox/airflow/dags/get_interactions.py", line 19, in load_intact_taskgroup
+    start = EmptyOperator(task='start')
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2022-12-17T23:44:45.035-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:44:45.062-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.273 seconds
+[2022-12-17T23:45:15.263-0300] {processor.py:153} INFO - Started process (PID=71968) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:45:15.271-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:45:15.272-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:15.272-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:45:15.551-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:15.551-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/get_interactions.py", line 59, in <module>
+    intact = load_intact_taskgroup('intact')
+  File "/home/kallox/airflow/dags/get_interactions.py", line 19, in load_intact_taskgroup
+    start = EmptyOperator(task='start')
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 411, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+TypeError: __init__() missing 1 required positional argument: 'task_id'
+[2022-12-17T23:45:15.552-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:45:15.588-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.328 seconds
+[2022-12-17T23:45:45.707-0300] {processor.py:153} INFO - Started process (PID=72277) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:45:45.715-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:45:45.716-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:45.716-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:45:45.936-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:45:46.035-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:46.035-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:get_interactions
+[2022-12-17T23:45:46.043-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:46.043-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:get_interactions
+[2022-12-17T23:45:46.048-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:46.048-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:get_interactions
+[2022-12-17T23:45:46.048-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:46.048-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:45:46.058-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:46.058-0300] {dag.py:2697} INFO - Creating ORM DAG for get_interactions
+[2022-12-17T23:45:46.068-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:45:46.068-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:45:46.081-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.377 seconds
+[2022-12-17T23:46:16.215-0300] {processor.py:153} INFO - Started process (PID=72568) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:46:16.223-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:46:16.224-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:46:16.224-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:46:16.435-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:46:16.462-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:46:16.462-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:46:16.482-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:46:16.482-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:46:16.508-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.295 seconds
+[2022-12-17T23:46:46.616-0300] {processor.py:153} INFO - Started process (PID=72865) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:46:46.624-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:46:46.624-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:46:46.624-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:46:46.851-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:46:46.875-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:46:46.874-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:46:46.895-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:46:46.895-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:46:46.919-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.305 seconds
+[2022-12-17T23:47:17.073-0300] {processor.py:153} INFO - Started process (PID=73172) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:47:17.081-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:47:17.082-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:47:17.082-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:47:17.315-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:47:17.342-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:47:17.342-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:47:17.363-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:47:17.362-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:47:17.386-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.315 seconds
+[2022-12-17T23:47:47.591-0300] {processor.py:153} INFO - Started process (PID=73462) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:47:47.599-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:47:47.600-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:47:47.600-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:47:47.827-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:47:47.850-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:47:47.849-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:47:47.870-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:47:47.869-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:47:47.899-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.310 seconds
+[2022-12-17T23:48:18.294-0300] {processor.py:153} INFO - Started process (PID=73754) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:48:18.302-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:48:18.303-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:48:18.303-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:48:18.523-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:48:18.548-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:48:18.547-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:48:18.568-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:48:18.568-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:48:18.582-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.290 seconds
+[2022-12-17T23:48:48.748-0300] {processor.py:153} INFO - Started process (PID=74048) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:48:48.749-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:48:48.750-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:48:48.749-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:48:49.026-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:48:49.058-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:48:49.058-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:48:49.082-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:48:49.082-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:48:49.108-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.363 seconds
+[2022-12-17T23:49:20.114-0300] {processor.py:153} INFO - Started process (PID=74341) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:49:20.122-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:49:20.123-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:49:20.123-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:49:20.399-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:49:20.428-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:49:20.428-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:49:20.452-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:49:20.452-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:49:20.479-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.367 seconds
+[2022-12-17T23:49:50.614-0300] {processor.py:153} INFO - Started process (PID=74632) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:49:50.622-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:49:50.623-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:49:50.622-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:49:50.909-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:49:50.939-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:49:50.939-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:49:50.965-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:49:50.964-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:49:50.996-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.385 seconds
+[2022-12-17T23:50:21.974-0300] {processor.py:153} INFO - Started process (PID=74924) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:50:21.983-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:50:21.984-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:50:21.984-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:50:22.271-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:50:22.301-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:50:22.301-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:50:22.328-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:50:22.328-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:50:22.354-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.383 seconds
+[2022-12-17T23:50:52.394-0300] {processor.py:153} INFO - Started process (PID=75217) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:50:52.402-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:50:52.403-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:50:52.403-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:50:52.677-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:50:52.709-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:50:52.709-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:50:52.735-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:50:52.734-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:50:52.764-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.373 seconds
+[2022-12-17T23:51:22.924-0300] {processor.py:153} INFO - Started process (PID=75509) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:51:22.932-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:51:22.934-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:51:22.933-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:51:23.220-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:51:23.254-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:51:23.254-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:51:23.279-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:51:23.279-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:51:23.297-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.375 seconds
+[2022-12-17T23:51:53.769-0300] {processor.py:153} INFO - Started process (PID=75807) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:51:53.777-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:51:53.778-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:51:53.778-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:51:54.052-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:51:54.084-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:51:54.084-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:51:54.112-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:51:54.112-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:51:54.142-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.377 seconds
+[2022-12-17T23:52:24.315-0300] {processor.py:153} INFO - Started process (PID=76101) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:52:24.324-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:52:24.324-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:52:24.324-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:52:24.608-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:52:24.639-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:52:24.639-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:52:24.663-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:52:24.663-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:52:24.690-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.376 seconds
+[2022-12-17T23:52:55.453-0300] {processor.py:153} INFO - Started process (PID=76393) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:52:55.453-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:52:55.454-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:52:55.454-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:52:55.738-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:52:55.773-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:52:55.772-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:52:55.799-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:52:55.799-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:52:55.820-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.370 seconds
+[2022-12-17T23:53:26.629-0300] {processor.py:153} INFO - Started process (PID=76683) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:53:26.638-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:53:26.639-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:53:26.638-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:53:26.926-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:53:26.960-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:53:26.960-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:53:26.987-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:53:26.987-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:53:27.010-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.383 seconds
+[2022-12-17T23:53:57.071-0300] {processor.py:153} INFO - Started process (PID=76976) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:53:57.079-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:53:57.080-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:53:57.080-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:53:57.373-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:53:57.404-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:53:57.404-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:53:57.431-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:53:57.431-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:53:57.459-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.391 seconds
+[2022-12-17T23:54:27.763-0300] {processor.py:153} INFO - Started process (PID=77268) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:54:27.771-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:54:27.772-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:54:27.771-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:54:28.066-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:54:28.097-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:54:28.097-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:54:28.120-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:54:28.120-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:54:28.140-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.380 seconds
+[2022-12-17T23:54:58.178-0300] {processor.py:153} INFO - Started process (PID=77561) to work on /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:54:58.187-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2022-12-17T23:54:58.187-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:54:58.187-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:54:58.479-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2022-12-17T23:54:58.509-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:54:58.508-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-17T23:54:58.531-0300] {logging_mixin.py:137} INFO - [2022-12-17T23:54:58.531-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-17T23:54:58.557-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.381 seconds

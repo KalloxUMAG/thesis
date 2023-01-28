@@ -1,0 +1,112 @@
+[2023-01-08T19:19:18.481-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_uniprot.extract_files manual__2023-01-08T00:07:11.395065+00:00 [queued]>
+[2023-01-08T19:19:18.495-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_uniprot.extract_files manual__2023-01-08T00:07:11.395065+00:00 [queued]>
+[2023-01-08T19:19:18.495-0300] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-08T19:19:18.495-0300] {taskinstance.py:1284} INFO - Starting attempt 2 of 1
+[2023-01-08T19:19:18.495-0300] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-08T19:19:18.510-0300] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_files> on 2023-01-08 00:07:11.395065+00:00
+[2023-01-08T19:19:18.514-0300] {standard_task_runner.py:55} INFO - Started process 3803 to run task
+[2023-01-08T19:19:18.516-0300] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'download_uniprot', 'extract_files', 'manual__2023-01-08T00:07:11.395065+00:00', '--job-id', '282', '--raw', '--subdir', 'DAGS_FOLDER/download_uniprot.py', '--cfg-path', '/tmp/tmp79jmctdd']
+[2023-01-08T19:19:18.517-0300] {standard_task_runner.py:83} INFO - Job 282: Subtask extract_files
+[2023-01-08T19:19:18.596-0300] {task_command.py:389} INFO - Running <TaskInstance: download_uniprot.extract_files manual__2023-01-08T00:07:11.395065+00:00 [running]> on host kallo-Ubuntu
+[2023-01-08T19:19:18.681-0300] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Kallox
+AIRFLOW_CTX_DAG_ID=download_uniprot
+AIRFLOW_CTX_TASK_ID=extract_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-08T00:07:11.395065+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-08T00:07:11.395065+00:00
+[2023-01-08T19:19:30.014-0300] {logging_mixin.py:137} INFO - 3000
+[2023-01-08T19:19:35.777-0300] {logging_mixin.py:137} INFO - 4000
+[2023-01-08T19:19:38.940-0300] {logging_mixin.py:137} INFO - 5000
+[2023-01-08T19:19:42.719-0300] {logging_mixin.py:137} INFO - 7000
+[2023-01-08T19:19:45.175-0300] {logging_mixin.py:137} INFO - 8000
+[2023-01-08T19:19:50.398-0300] {logging_mixin.py:137} INFO - 11000
+[2023-01-08T19:19:55.188-0300] {logging_mixin.py:137} INFO - 12000
+[2023-01-08T19:20:00.443-0300] {logging_mixin.py:137} INFO - 13000
+[2023-01-08T19:20:06.588-0300] {logging_mixin.py:137} INFO - 14000
+[2023-01-08T19:20:13.172-0300] {logging_mixin.py:137} INFO - 15000
+[2023-01-08T19:20:20.309-0300] {logging_mixin.py:137} INFO - 16000
+[2023-01-08T19:20:28.125-0300] {logging_mixin.py:137} INFO - 17000
+[2023-01-08T19:20:36.180-0300] {logging_mixin.py:137} INFO - 18000
+[2023-01-08T19:20:44.824-0300] {logging_mixin.py:137} INFO - 19000
+[2023-01-08T19:20:53.802-0300] {logging_mixin.py:137} INFO - 20000
+[2023-01-08T19:21:03.656-0300] {logging_mixin.py:137} INFO - 21000
+[2023-01-08T19:21:13.768-0300] {logging_mixin.py:137} INFO - 22000
+[2023-01-08T19:21:24.418-0300] {logging_mixin.py:137} INFO - 23000
+[2023-01-08T19:21:36.008-0300] {logging_mixin.py:137} INFO - 24000
+[2023-01-08T19:21:47.801-0300] {logging_mixin.py:137} INFO - 25000
+[2023-01-08T19:22:00.726-0300] {logging_mixin.py:137} INFO - 26000
+[2023-01-08T19:22:20.205-0300] {logging_mixin.py:137} INFO - 2000
+[2023-01-08T19:22:22.711-0300] {logging_mixin.py:137} INFO - 3000
+[2023-01-08T19:23:11.821-0300] {logging_mixin.py:137} INFO - 1000
+[2023-01-08T19:23:13.526-0300] {logging_mixin.py:137} INFO - 2000
+[2023-01-08T19:23:18.027-0300] {logging_mixin.py:137} INFO - 4000
+[2023-01-08T19:23:20.955-0300] {logging_mixin.py:137} INFO - 5000
+[2023-01-08T19:23:27.692-0300] {logging_mixin.py:137} INFO - 7000
+[2023-01-08T19:23:37.048-0300] {logging_mixin.py:137} INFO - 9000
+[2023-01-08T19:23:42.639-0300] {logging_mixin.py:137} INFO - 10000
+[2023-01-08T19:23:48.161-0300] {logging_mixin.py:137} INFO - 11000
+[2023-01-08T19:23:53.910-0300] {logging_mixin.py:137} INFO - 12000
+[2023-01-08T19:24:07.082-0300] {logging_mixin.py:137} INFO - 14000
+[2023-01-08T19:24:14.147-0300] {logging_mixin.py:137} INFO - 15000
+[2023-01-08T19:24:30.191-0300] {logging_mixin.py:137} INFO - 17000
+[2023-01-08T19:24:39.244-0300] {logging_mixin.py:137} INFO - 18000
+[2023-01-08T19:24:47.799-0300] {logging_mixin.py:137} INFO - 19000
+[2023-01-08T19:25:08.004-0300] {logging_mixin.py:137} INFO - 21000
+[2023-01-08T19:25:18.371-0300] {logging_mixin.py:137} INFO - 22000
+[2023-01-08T19:25:41.665-0300] {logging_mixin.py:137} INFO - 24000
+[2023-01-08T19:25:54.389-0300] {logging_mixin.py:137} INFO - 25000
+[2023-01-08T19:26:08.152-0300] {logging_mixin.py:137} INFO - 26000
+[2023-01-08T19:26:22.379-0300] {logging_mixin.py:137} INFO - 27000
+[2023-01-08T19:26:33.897-0300] {logging_mixin.py:137} INFO - 28000
+[2023-01-08T19:27:11.673-0300] {logging_mixin.py:137} INFO - 31000
+[2023-01-08T19:27:28.631-0300] {logging_mixin.py:137} INFO - 32000
+[2023-01-08T19:27:47.960-0300] {logging_mixin.py:137} INFO - 33000
+[2023-01-08T19:28:08.427-0300] {logging_mixin.py:137} INFO - 34000
+[2023-01-08T19:28:50.879-0300] {logging_mixin.py:137} INFO - 36000
+[2023-01-08T19:29:13.570-0300] {logging_mixin.py:137} INFO - 37000
+[2023-01-08T19:29:37.345-0300] {logging_mixin.py:137} INFO - 38000
+[2023-01-08T19:30:01.116-0300] {logging_mixin.py:137} INFO - 39000
+[2023-01-08T19:30:24.672-0300] {logging_mixin.py:137} INFO - 40000
+[2023-01-08T19:30:50.646-0300] {logging_mixin.py:137} INFO - 41000
+[2023-01-08T19:31:16.540-0300] {logging_mixin.py:137} INFO - 42000
+[2023-01-08T19:31:41.312-0300] {logging_mixin.py:137} INFO - 43000
+[2023-01-08T19:32:35.316-0300] {logging_mixin.py:137} INFO - 45000
+[2023-01-08T19:33:04.162-0300] {logging_mixin.py:137} INFO - 46000
+[2023-01-08T19:33:32.141-0300] {logging_mixin.py:137} INFO - 47000
+[2023-01-08T19:34:31.185-0300] {logging_mixin.py:137} INFO - 49000
+[2023-01-08T19:35:01.738-0300] {logging_mixin.py:137} INFO - 50000
+[2023-01-08T19:35:36.587-0300] {logging_mixin.py:137} INFO - 51000
+[2023-01-08T19:36:11.926-0300] {logging_mixin.py:137} INFO - 52000
+[2023-01-08T19:36:46.603-0300] {logging_mixin.py:137} INFO - 53000
+[2023-01-08T19:37:25.740-0300] {logging_mixin.py:137} INFO - 54000
+[2023-01-08T19:38:04.632-0300] {logging_mixin.py:137} INFO - 55000
+[2023-01-08T19:38:46.467-0300] {logging_mixin.py:137} INFO - 56000
+[2023-01-08T19:39:30.336-0300] {logging_mixin.py:137} INFO - 57000
+[2023-01-08T19:40:14.318-0300] {logging_mixin.py:137} INFO - 58000
+[2023-01-08T19:40:59.023-0300] {logging_mixin.py:137} INFO - 59000
+[2023-01-08T19:41:44.110-0300] {logging_mixin.py:137} INFO - 60000
+[2023-01-08T19:42:30.265-0300] {logging_mixin.py:137} INFO - 61000
+[2023-01-08T19:43:17.118-0300] {logging_mixin.py:137} INFO - 62000
+[2023-01-08T19:44:04.885-0300] {logging_mixin.py:137} INFO - 63000
+[2023-01-08T19:44:53.256-0300] {logging_mixin.py:137} INFO - 64000
+[2023-01-08T19:45:41.920-0300] {logging_mixin.py:137} INFO - 65000
+[2023-01-08T19:46:31.223-0300] {logging_mixin.py:137} INFO - 66000
+[2023-01-08T19:47:21.749-0300] {logging_mixin.py:137} INFO - 67000
+[2023-01-08T19:48:12.712-0300] {logging_mixin.py:137} INFO - 68000
+[2023-01-08T19:49:04.203-0300] {logging_mixin.py:137} INFO - 69000
+[2023-01-08T19:49:56.942-0300] {logging_mixin.py:137} INFO - 70000
+[2023-01-08T19:50:49.988-0300] {logging_mixin.py:137} INFO - 71000
+[2023-01-08T19:51:43.911-0300] {logging_mixin.py:137} INFO - 72000
+[2023-01-08T19:52:38.230-0300] {logging_mixin.py:137} INFO - 73000
+[2023-01-08T19:53:33.575-0300] {logging_mixin.py:137} INFO - 74000
+[2023-01-08T19:54:29.810-0300] {logging_mixin.py:137} INFO - 75000
+[2023-01-08T19:55:26.483-0300] {logging_mixin.py:137} INFO - 76000
+[2023-01-08T19:56:23.625-0300] {logging_mixin.py:137} INFO - 77000
+[2023-01-08T19:57:21.314-0300] {logging_mixin.py:137} INFO - 78000
+[2023-01-08T19:58:20.196-0300] {logging_mixin.py:137} INFO - 79000
+[2023-01-08T19:59:23.428-0300] {logging_mixin.py:137} INFO - 80000
+[2023-01-08T20:00:34.386-0300] {logging_mixin.py:137} INFO - 81000
+[2023-01-08T20:01:48.636-0300] {logging_mixin.py:137} INFO - 82000

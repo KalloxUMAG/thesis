@@ -1,0 +1,392 @@
+[2023-01-01T20:30:45.500-0300] {processor.py:153} INFO - Started process (PID=3551) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:30:45.501-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:30:45.502-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:45.502-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:30:45.652-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:30:45.775-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:45.775-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:30:45.798-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:45.798-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:30:45.817-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.319 seconds
+[2023-01-01T20:31:15.993-0300] {processor.py:153} INFO - Started process (PID=4821) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:31:15.994-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:31:15.994-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:15.994-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:31:16.338-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:31:16.374-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:16.374-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:31:16.404-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:16.404-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:31:16.435-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.445 seconds
+[2023-01-01T20:31:47.077-0300] {processor.py:153} INFO - Started process (PID=5198) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:31:47.085-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:31:47.086-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:47.086-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:31:47.288-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:31:47.336-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:47.336-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:31:47.526-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:47.525-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:31:47.549-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.476 seconds
+[2023-01-01T20:32:17.828-0300] {processor.py:153} INFO - Started process (PID=5566) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:32:17.829-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:32:17.830-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:17.830-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:32:18.017-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:32:18.206-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:18.206-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:32:18.232-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:18.231-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:32:18.252-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.426 seconds
+[2023-01-01T20:32:49.227-0300] {processor.py:153} INFO - Started process (PID=5881) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:32:49.236-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:32:49.237-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:49.236-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:32:49.612-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:32:49.643-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:49.643-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:32:49.667-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:49.667-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:32:49.696-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.472 seconds
+[2023-01-01T20:33:20.074-0300] {processor.py:153} INFO - Started process (PID=6183) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:33:20.083-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:33:20.083-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:20.083-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:33:20.439-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:33:20.470-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:20.470-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:33:20.497-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:20.497-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:33:20.528-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.457 seconds
+[2023-01-01T20:34:48.288-0300] {processor.py:153} INFO - Started process (PID=7017) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:34:48.289-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:34:48.289-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:34:48.289-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:34:48.527-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:34:48.554-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:34:48.554-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:34:48.575-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:34:48.575-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:34:48.598-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.312 seconds
+[2023-01-01T20:35:19.560-0300] {processor.py:153} INFO - Started process (PID=7107) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:35:19.568-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:35:19.569-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:19.569-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:35:19.917-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:35:19.948-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:19.948-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:35:19.973-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:19.973-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:35:19.995-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.438 seconds
+[2023-01-01T20:35:50.153-0300] {processor.py:153} INFO - Started process (PID=7186) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:35:50.154-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:35:50.155-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:50.155-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:35:50.509-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:35:50.541-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:50.540-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:35:50.567-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:50.567-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:35:50.596-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.446 seconds
+[2023-01-01T20:36:20.695-0300] {processor.py:153} INFO - Started process (PID=7261) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:36:20.696-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:36:20.696-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:20.696-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:36:21.048-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:36:21.085-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:21.084-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:36:21.112-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:21.111-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:36:21.147-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.455 seconds
+[2023-01-01T20:36:51.360-0300] {processor.py:153} INFO - Started process (PID=7343) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:36:51.361-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:36:51.361-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:51.361-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:36:51.704-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:36:51.735-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:51.735-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:36:51.759-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:51.759-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:36:51.788-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.431 seconds
+[2023-01-01T20:37:21.987-0300] {processor.py:153} INFO - Started process (PID=7428) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:37:21.996-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:37:21.996-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:21.996-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:37:22.165-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:37:22.379-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:22.378-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:37:22.407-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:22.407-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:37:22.436-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.451 seconds
+[2023-01-01T20:37:52.886-0300] {processor.py:153} INFO - Started process (PID=7503) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:37:52.894-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:37:52.895-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:52.895-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:37:53.252-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:37:53.283-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:53.283-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:37:53.309-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:53.308-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:37:53.338-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.455 seconds
+[2023-01-01T20:38:23.602-0300] {processor.py:153} INFO - Started process (PID=7583) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:38:23.611-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:38:23.612-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:23.611-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:38:23.968-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:38:23.999-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:23.999-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:38:24.023-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:24.023-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:38:24.046-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.448 seconds
+[2023-01-01T20:38:54.222-0300] {processor.py:153} INFO - Started process (PID=7669) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:38:54.231-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:38:54.232-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:54.232-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:38:54.668-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:38:54.705-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:54.705-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:38:54.737-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:54.737-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:38:54.761-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.542 seconds
+[2023-01-01T20:39:24.854-0300] {processor.py:153} INFO - Started process (PID=7746) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:39:24.863-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:39:24.863-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:24.863-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:39:25.203-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:39:25.234-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:25.234-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:39:25.261-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:25.261-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:39:25.283-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.432 seconds
+[2023-01-01T20:39:55.627-0300] {processor.py:153} INFO - Started process (PID=7821) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:39:55.628-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:39:55.629-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:55.629-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:39:55.995-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:39:56.027-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:56.027-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:39:56.052-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:56.051-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:39:56.075-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.450 seconds
+[2023-01-01T20:40:26.282-0300] {processor.py:153} INFO - Started process (PID=7901) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:40:26.291-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:40:26.292-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:26.292-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:40:26.688-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:40:26.721-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:26.721-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:40:26.749-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:26.748-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:40:26.774-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.496 seconds
+[2023-01-01T20:40:56.849-0300] {processor.py:153} INFO - Started process (PID=7982) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:40:56.850-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:40:56.850-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:56.850-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:40:57.202-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:40:57.233-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:57.233-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:40:57.267-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:57.267-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:40:57.299-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.453 seconds
+[2023-01-01T20:41:27.434-0300] {processor.py:153} INFO - Started process (PID=8055) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:41:27.443-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:41:27.443-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:27.443-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:41:27.803-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:41:27.835-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:27.835-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:41:27.861-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:27.861-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:41:27.887-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.456 seconds
+[2023-01-01T20:41:58.086-0300] {processor.py:153} INFO - Started process (PID=8144) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:41:58.094-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:41:58.095-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:58.095-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:41:58.462-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:41:58.493-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:58.493-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:41:58.519-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:58.519-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:41:58.548-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.465 seconds
+[2023-01-01T20:42:28.847-0300] {processor.py:153} INFO - Started process (PID=8250) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:42:28.856-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:42:28.857-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:28.857-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:42:29.106-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:42:29.134-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:29.134-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:42:29.156-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:29.156-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:42:29.172-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.328 seconds
+[2023-01-01T20:42:59.202-0300] {processor.py:153} INFO - Started process (PID=8326) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:42:59.211-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:42:59.212-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:59.211-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:42:59.571-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:42:59.604-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:59.603-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:42:59.629-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:59.629-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:42:59.650-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.451 seconds
+[2023-01-01T20:43:29.837-0300] {processor.py:153} INFO - Started process (PID=8400) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:43:29.846-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:43:29.847-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:29.846-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:43:30.206-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:43:30.238-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:30.238-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:43:30.263-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:30.263-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:43:30.287-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.452 seconds
+[2023-01-01T20:44:00.493-0300] {processor.py:153} INFO - Started process (PID=8486) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:44:00.501-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:44:00.502-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:00.502-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:44:00.867-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:44:00.906-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:00.906-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:44:00.946-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:00.946-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:44:01.006-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.516 seconds
+[2023-01-01T20:44:31.055-0300] {processor.py:153} INFO - Started process (PID=8588) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:44:31.064-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:44:31.064-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:31.064-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:44:31.425-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:44:31.455-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:31.455-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:44:31.481-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:31.481-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:44:31.513-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.461 seconds
+[2023-01-01T20:45:01.956-0300] {processor.py:153} INFO - Started process (PID=8671) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:45:01.957-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:45:01.958-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:01.958-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:45:02.317-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:45:02.348-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:02.348-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:45:02.375-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:02.375-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:45:02.400-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.450 seconds
+[2023-01-01T20:45:33.387-0300] {processor.py:153} INFO - Started process (PID=8763) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:45:33.396-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:45:33.397-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:33.397-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:45:33.758-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:45:33.789-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:33.789-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:45:33.814-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:33.814-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:45:33.833-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.451 seconds
+[2023-01-01T20:46:04.746-0300] {processor.py:153} INFO - Started process (PID=8852) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:46:04.754-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:46:04.755-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:04.755-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:46:05.202-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:46:05.240-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:05.239-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:46:05.271-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:05.271-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:46:05.294-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.552 seconds
+[2023-01-01T20:46:36.239-0300] {processor.py:153} INFO - Started process (PID=8942) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:46:36.247-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:46:36.248-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:36.248-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:46:36.612-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:46:36.642-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:36.642-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:46:36.666-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:36.666-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:46:36.690-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.455 seconds
+[2023-01-01T20:47:06.907-0300] {processor.py:153} INFO - Started process (PID=9023) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:47:06.915-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:47:06.916-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:06.915-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:47:07.191-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:47:07.221-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:07.221-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:47:07.250-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:07.250-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:47:07.270-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.366 seconds
+[2023-01-01T20:47:38.216-0300] {processor.py:153} INFO - Started process (PID=9098) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:47:38.225-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:47:38.225-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:38.225-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:47:38.589-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:47:38.621-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:38.620-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:47:38.645-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:38.645-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:47:38.669-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.457 seconds
+[2023-01-01T20:48:08.806-0300] {processor.py:153} INFO - Started process (PID=9172) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:48:08.807-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:48:08.807-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:08.807-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:48:09.029-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:48:09.051-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:09.051-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:48:09.069-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:09.069-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:48:09.083-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.280 seconds
+[2023-01-01T20:48:39.286-0300] {processor.py:153} INFO - Started process (PID=9260) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:48:39.295-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:48:39.295-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:39.295-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:48:39.648-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:48:39.681-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:39.681-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:48:39.704-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:39.704-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:48:39.728-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.445 seconds
+[2023-01-01T20:49:09.811-0300] {processor.py:153} INFO - Started process (PID=9340) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:49:09.820-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:49:09.820-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:09.820-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:49:10.076-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:49:10.111-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:10.111-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:49:10.138-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:10.138-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:49:10.170-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.361 seconds
+[2023-01-01T20:49:40.199-0300] {processor.py:153} INFO - Started process (PID=9416) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:49:40.207-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:49:40.208-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:40.208-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:49:40.572-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:49:40.602-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:40.602-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:49:40.632-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:40.632-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:49:40.659-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.463 seconds
+[2023-01-01T20:50:11.347-0300] {processor.py:153} INFO - Started process (PID=9496) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:50:11.355-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:50:11.356-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:11.356-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:50:11.715-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:50:11.747-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:11.746-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:50:11.774-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:11.773-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:50:11.805-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.462 seconds
+[2023-01-01T20:50:41.921-0300] {processor.py:153} INFO - Started process (PID=9572) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:50:41.930-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:50:41.930-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:41.930-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:50:42.251-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:50:42.285-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:42.285-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:50:42.313-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:42.313-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:50:42.335-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.417 seconds
+[2023-01-01T20:51:12.540-0300] {processor.py:153} INFO - Started process (PID=9654) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:51:12.548-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:51:12.549-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:12.549-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:51:12.833-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:51:12.860-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:12.860-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:51:12.882-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:12.882-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:51:12.899-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.363 seconds
+[2023-01-01T20:51:42.947-0300] {processor.py:153} INFO - Started process (PID=9745) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:51:42.950-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:51:42.950-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:42.950-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:51:43.409-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:51:43.455-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:43.455-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:51:43.488-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:43.488-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:51:43.520-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.577 seconds
+[2023-01-01T20:52:14.025-0300] {processor.py:153} INFO - Started process (PID=9822) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:52:14.034-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:52:14.035-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:14.035-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:52:14.358-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:52:14.394-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:14.394-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:52:14.422-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:14.422-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-01T20:52:14.450-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.429 seconds
+[2023-01-01T20:52:44.485-0300] {processor.py:153} INFO - Started process (PID=10031) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:52:44.493-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:52:44.494-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:44.494-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:52:44.800-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:52:44.832-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:44.832-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:52:44.858-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:44.858-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:52:44.886-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.404 seconds
+[2023-01-01T20:53:14.961-0300] {processor.py:153} INFO - Started process (PID=10180) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:53:14.969-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:53:14.970-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:14.970-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:53:15.269-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:53:15.300-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:15.300-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:53:15.326-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:15.326-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:53:15.354-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.396 seconds
+[2023-01-01T20:53:46.027-0300] {processor.py:153} INFO - Started process (PID=10345) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:53:46.036-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:53:46.037-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:46.037-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:53:46.405-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:53:46.436-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:46.436-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:53:46.462-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:46.462-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:53:46.489-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.465 seconds
+[2023-01-01T20:54:16.760-0300] {processor.py:153} INFO - Started process (PID=10476) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:54:16.769-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:54:16.769-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:16.769-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:54:17.119-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:54:17.157-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:17.156-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:54:17.182-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:17.182-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:54:17.203-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.445 seconds
+[2023-01-01T20:54:49.486-0300] {processor.py:153} INFO - Started process (PID=10587) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:54:49.487-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:54:49.487-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:49.487-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:54:49.729-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:54:49.757-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:49.757-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:54:49.779-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:49.779-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:54:49.803-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.320 seconds
+[2023-01-01T20:55:20.767-0300] {processor.py:153} INFO - Started process (PID=10713) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:55:20.769-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:55:20.770-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:20.770-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:55:21.123-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:55:21.156-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:21.156-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:55:21.186-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:21.186-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:55:21.218-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.455 seconds
+[2023-01-01T20:55:51.351-0300] {processor.py:153} INFO - Started process (PID=10838) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:55:51.360-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:55:51.361-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:51.360-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:55:51.707-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:55:51.738-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:51.738-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:55:51.765-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:51.765-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:55:51.793-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.444 seconds
+[2023-01-01T20:56:22.801-0300] {processor.py:153} INFO - Started process (PID=10920) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:56:22.811-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:56:22.812-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:22.812-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:56:23.207-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:56:23.242-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:23.241-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:56:23.275-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:23.275-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:56:23.301-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.510 seconds
+[2023-01-01T20:56:53.499-0300] {processor.py:153} INFO - Started process (PID=10994) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:56:53.508-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:56:53.508-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:53.508-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:56:53.853-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:56:53.894-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:53.893-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:56:53.923-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:53.922-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:56:53.952-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.456 seconds
+[2023-01-01T20:57:24.160-0300] {processor.py:153} INFO - Started process (PID=11067) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:57:24.169-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:57:24.169-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:24.169-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:57:24.523-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:57:24.557-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:24.557-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:57:24.584-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:24.583-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:57:24.605-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.449 seconds
+[2023-01-01T20:57:54.769-0300] {processor.py:153} INFO - Started process (PID=11145) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:57:54.770-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:57:54.771-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:54.771-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:57:55.128-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:57:55.160-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:55.160-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:57:55.187-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:55.187-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:57:55.220-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.454 seconds
+[2023-01-01T20:58:25.347-0300] {processor.py:153} INFO - Started process (PID=11218) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:58:25.356-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:58:25.357-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:25.357-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:58:25.715-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:58:25.752-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:25.752-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:58:25.787-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:25.787-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:58:25.810-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.466 seconds
+[2023-01-01T20:58:55.943-0300] {processor.py:153} INFO - Started process (PID=11294) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:58:55.951-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:58:55.952-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:55.952-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:58:56.307-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:58:56.339-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:56.338-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:58:56.365-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:56.365-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:58:56.388-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.448 seconds
+[2023-01-01T20:59:26.683-0300] {processor.py:153} INFO - Started process (PID=11373) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:59:26.684-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:59:26.685-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:26.685-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:59:27.041-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:59:27.073-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:27.073-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:59:27.098-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:27.098-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:59:27.127-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.448 seconds
+[2023-01-01T20:59:57.547-0300] {processor.py:153} INFO - Started process (PID=11458) to work on /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:59:57.548-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/get_interactions.py for tasks to queue
+[2023-01-01T20:59:57.549-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:57.549-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:59:57.891-0300] {processor.py:753} INFO - DAG(s) dict_keys(['get_interactions']) retrieved from /home/kallox/airflow/dags/get_interactions.py
+[2023-01-01T20:59:57.927-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:57.927-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:59:57.954-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:57.953-0300] {dag.py:3427} INFO - Setting next_dagrun for get_interactions to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-01T20:59:57.974-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/get_interactions.py took 0.430 seconds

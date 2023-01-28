@@ -1,0 +1,576 @@
+[2023-01-01T22:18:49.683-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: get_interactions.string.convert_string_ids manual__2023-01-02T01:18:40.037126+00:00 [queued]>
+[2023-01-01T22:18:49.695-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: get_interactions.string.convert_string_ids manual__2023-01-02T01:18:40.037126+00:00 [queued]>
+[2023-01-01T22:18:49.695-0300] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-01T22:18:49.695-0300] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-01T22:18:49.695-0300] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-01T22:18:49.717-0300] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): string.convert_string_ids> on 2023-01-02 01:18:40.037126+00:00
+[2023-01-01T22:18:49.722-0300] {standard_task_runner.py:55} INFO - Started process 26463 to run task
+[2023-01-01T22:18:49.724-0300] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'get_interactions', 'string.convert_string_ids', 'manual__2023-01-02T01:18:40.037126+00:00', '--job-id', '207', '--raw', '--subdir', 'DAGS_FOLDER/get_interactions.py', '--cfg-path', '/tmp/tmp822v9w5u']
+[2023-01-01T22:18:49.725-0300] {standard_task_runner.py:83} INFO - Job 207: Subtask string.convert_string_ids
+[2023-01-01T22:18:49.795-0300] {task_command.py:389} INFO - Running <TaskInstance: get_interactions.string.convert_string_ids manual__2023-01-02T01:18:40.037126+00:00 [running]> on host kallo-Ubuntu
+[2023-01-01T22:18:49.869-0300] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Kallox
+AIRFLOW_CTX_DAG_ID=get_interactions
+AIRFLOW_CTX_TASK_ID=string.convert_string_ids
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-02T01:18:40.037126+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-02T01:18:40.037126+00:00
+[2023-01-01T22:18:49.879-0300] {logging_mixin.py:137} INFO - 99
+[2023-01-01T22:18:56.690-0300] {logging_mixin.py:137} INFO - 23 1504 9606
+[2023-01-01T22:18:56.690-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:02.772-0300] {logging_mixin.py:137} INFO - 1504 3218 9606
+[2023-01-01T22:19:02.772-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:08.213-0300] {logging_mixin.py:137} INFO - 3218 3750 9606
+[2023-01-01T22:19:08.213-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:13.616-0300] {logging_mixin.py:137} INFO - 3750 4081 9606
+[2023-01-01T22:19:13.616-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:18.977-0300] {logging_mixin.py:137} INFO - 4081 4537 9606
+[2023-01-01T22:19:18.977-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:23.996-0300] {logging_mixin.py:137} INFO - 4537 4896 9606
+[2023-01-01T22:19:23.996-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:29.021-0300] {logging_mixin.py:137} INFO - 4896 5507 9606
+[2023-01-01T22:19:29.021-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:34.049-0300] {logging_mixin.py:137} INFO - 5507 6184 9606
+[2023-01-01T22:19:34.049-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:39.148-0300] {logging_mixin.py:137} INFO - 6184 7165 9606
+[2023-01-01T22:19:39.148-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:43.910-0300] {logging_mixin.py:137} INFO - 7165 7245 9606
+[2023-01-01T22:19:43.910-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:49.495-0300] {logging_mixin.py:137} INFO - 7245 8005 9606
+[2023-01-01T22:19:49.495-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:19:55.546-0300] {logging_mixin.py:137} INFO - 8005 8364 9606
+[2023-01-01T22:19:55.546-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:20:01.680-0300] {logging_mixin.py:137} INFO - 8364 9402 9606
+[2023-01-01T22:20:01.681-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:20:07.450-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:07.450-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:07.824-0300] {logging_mixin.py:137} INFO - 1
+[2023-01-01T22:20:07.824-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:07.825-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:07.825-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:08.160-0300] {logging_mixin.py:137} INFO - 2
+[2023-01-01T22:20:08.161-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:08.162-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:08.162-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:08.498-0300] {logging_mixin.py:137} INFO - 3
+[2023-01-01T22:20:08.498-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:08.499-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:08.499-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:08.834-0300] {logging_mixin.py:137} INFO - 4
+[2023-01-01T22:20:08.834-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:08.835-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:08.836-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:09.171-0300] {logging_mixin.py:137} INFO - 5
+[2023-01-01T22:20:09.171-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:09.172-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:09.172-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:09.511-0300] {logging_mixin.py:137} INFO - 6
+[2023-01-01T22:20:09.511-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:09.512-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:09.512-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:09.852-0300] {logging_mixin.py:137} INFO - 7
+[2023-01-01T22:20:09.852-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:09.853-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:09.853-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:10.188-0300] {logging_mixin.py:137} INFO - 8
+[2023-01-01T22:20:10.189-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:10.190-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:10.190-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:10.526-0300] {logging_mixin.py:137} INFO - 9
+[2023-01-01T22:20:10.526-0300] {logging_mixin.py:137} INFO - ['MYO1G_HUMAN', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:10.527-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:10.527-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:10.872-0300] {logging_mixin.py:137} INFO - 10
+[2023-01-01T22:20:10.872-0300] {logging_mixin.py:137} INFO - ['CENPM_HUMAN', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:10.873-0300] {logging_mixin.py:137} INFO - 9402 9606 9606
+[2023-01-01T22:20:10.873-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:11.219-0300] {logging_mixin.py:137} INFO - 11
+[2023-01-01T22:20:11.219-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:11.220-0300] {logging_mixin.py:137} INFO - 9402 9606 10020
+[2023-01-01T22:20:11.220-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:20:16.643-0300] {logging_mixin.py:137} INFO - 9606 9708 10020
+[2023-01-01T22:20:16.643-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:20:22.248-0300] {logging_mixin.py:137} INFO - 9708 9994 10020
+[2023-01-01T22:20:22.249-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:20:28.216-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:28.216-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:28.636-0300] {logging_mixin.py:137} INFO - 12
+[2023-01-01T22:20:28.637-0300] {logging_mixin.py:137} INFO - ['A0A1S3G3Z4_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:28.638-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:28.638-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:28.990-0300] {logging_mixin.py:137} INFO - 13
+[2023-01-01T22:20:28.990-0300] {logging_mixin.py:137} INFO - ['A0A1S3G4P4_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:28.992-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:28.992-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:29.346-0300] {logging_mixin.py:137} INFO - 14
+[2023-01-01T22:20:29.346-0300] {logging_mixin.py:137} INFO - ['A0A1S3GRA2_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:29.347-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:29.347-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:29.730-0300] {logging_mixin.py:137} INFO - 15
+[2023-01-01T22:20:29.730-0300] {logging_mixin.py:137} INFO - ['A0A1S3GCB8_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:29.731-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:29.731-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:30.090-0300] {logging_mixin.py:137} INFO - 16
+[2023-01-01T22:20:30.090-0300] {logging_mixin.py:137} INFO - ['A0A1S3GMQ5_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:30.091-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:30.091-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:30.472-0300] {logging_mixin.py:137} INFO - 17
+[2023-01-01T22:20:30.472-0300] {logging_mixin.py:137} INFO - ['A0A1S3F1N4_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:30.473-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:30.473-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:30.842-0300] {logging_mixin.py:137} INFO - 18
+[2023-01-01T22:20:30.843-0300] {logging_mixin.py:137} INFO - ['A0A1S3GDR6_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:30.844-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:30.844-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:31.227-0300] {logging_mixin.py:137} INFO - 19
+[2023-01-01T22:20:31.227-0300] {logging_mixin.py:137} INFO - ['A0A1S3GRI1_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:31.228-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:31.228-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:31.591-0300] {logging_mixin.py:137} INFO - 20
+[2023-01-01T22:20:31.591-0300] {logging_mixin.py:137} INFO - ['A0A1S3FBM0_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:31.592-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:31.592-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:31.944-0300] {logging_mixin.py:137} INFO - 21
+[2023-01-01T22:20:31.944-0300] {logging_mixin.py:137} INFO - ['A0A1S3EQI2_DIPOR', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:31.945-0300] {logging_mixin.py:137} INFO - 9994 10228 10020
+[2023-01-01T22:20:31.945-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:32.309-0300] {logging_mixin.py:137} INFO - 22
+[2023-01-01T22:20:32.309-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:20:32.310-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:32.310-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:32.668-0300] {logging_mixin.py:137} INFO - 23
+[2023-01-01T22:20:32.668-0300] {logging_mixin.py:137} INFO - ['A0A1U7Q4M9_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:32.669-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:32.669-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:33.027-0300] {logging_mixin.py:137} INFO - 24
+[2023-01-01T22:20:33.027-0300] {logging_mixin.py:137} INFO - ['A0A1U7Q618_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:33.028-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:33.028-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:33.376-0300] {logging_mixin.py:137} INFO - 25
+[2023-01-01T22:20:33.376-0300] {logging_mixin.py:137} INFO - ['A0A1U7RGE1_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:33.385-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:33.385-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:33.749-0300] {logging_mixin.py:137} INFO - 26
+[2023-01-01T22:20:33.749-0300] {logging_mixin.py:137} INFO - ['A0A3Q0CFU4_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:33.750-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:33.750-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:34.100-0300] {logging_mixin.py:137} INFO - 27
+[2023-01-01T22:20:34.100-0300] {logging_mixin.py:137} INFO - ['A0A1U8CNU1_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:34.102-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:34.102-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:34.453-0300] {logging_mixin.py:137} INFO - 28
+[2023-01-01T22:20:34.453-0300] {logging_mixin.py:137} INFO - ['A0A1U7QW51_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:34.454-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:34.454-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:34.802-0300] {logging_mixin.py:137} INFO - 29
+[2023-01-01T22:20:34.802-0300] {logging_mixin.py:137} INFO - ['A0A1U7R695_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:34.803-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:34.803-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:35.150-0300] {logging_mixin.py:137} INFO - 30
+[2023-01-01T22:20:35.151-0300] {logging_mixin.py:137} INFO - ['A0A1U7QJZ2_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:35.152-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:35.152-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:35.496-0300] {logging_mixin.py:137} INFO - 31
+[2023-01-01T22:20:35.496-0300] {logging_mixin.py:137} INFO - ['A0A1U7Q6S1_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:35.497-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:35.498-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:35.910-0300] {logging_mixin.py:137} INFO - 32
+[2023-01-01T22:20:35.910-0300] {logging_mixin.py:137} INFO - ['A0A1U7RDY9_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:35.911-0300] {logging_mixin.py:137} INFO - 9994 10228 10036
+[2023-01-01T22:20:35.911-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:36.277-0300] {logging_mixin.py:137} INFO - 33
+[2023-01-01T22:20:36.277-0300] {logging_mixin.py:137} INFO - ['A0A1U7QBW8_MESAU', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:36.278-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:36.278-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:36.641-0300] {logging_mixin.py:137} INFO - 34
+[2023-01-01T22:20:36.641-0300] {logging_mixin.py:137} INFO - ['AKIR2_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:36.642-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:36.643-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:37.001-0300] {logging_mixin.py:137} INFO - 35
+[2023-01-01T22:20:37.001-0300] {logging_mixin.py:137} INFO - ['CARD9_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:37.002-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:37.002-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:37.363-0300] {logging_mixin.py:137} INFO - 36
+[2023-01-01T22:20:37.364-0300] {logging_mixin.py:137} INFO - ['NFKB2_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:37.365-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:37.365-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:37.715-0300] {logging_mixin.py:137} INFO - 37
+[2023-01-01T22:20:37.715-0300] {logging_mixin.py:137} INFO - ['KSYK_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:37.716-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:37.716-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:38.073-0300] {logging_mixin.py:137} INFO - 38
+[2023-01-01T22:20:38.073-0300] {logging_mixin.py:137} INFO - ['NEMO_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:38.074-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:38.074-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:38.424-0300] {logging_mixin.py:137} INFO - 39
+[2023-01-01T22:20:38.425-0300] {logging_mixin.py:137} INFO - ['IKBZ_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:38.433-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:38.434-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:38.785-0300] {logging_mixin.py:137} INFO - 40
+[2023-01-01T22:20:38.785-0300] {logging_mixin.py:137} INFO - ['FIBA_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:38.787-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:38.787-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:39.166-0300] {logging_mixin.py:137} INFO - 41
+[2023-01-01T22:20:39.166-0300] {logging_mixin.py:137} INFO - ['ANT3_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:39.168-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:39.168-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:39.536-0300] {logging_mixin.py:137} INFO - 42
+[2023-01-01T22:20:39.536-0300] {logging_mixin.py:137} INFO - ['KPCD_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:39.537-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:39.537-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:39.923-0300] {logging_mixin.py:137} INFO - 43
+[2023-01-01T22:20:39.923-0300] {logging_mixin.py:137} INFO - ['MANEL_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:39.924-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:39.924-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:40.290-0300] {logging_mixin.py:137} INFO - 44
+[2023-01-01T22:20:40.290-0300] {logging_mixin.py:137} INFO - ['CLC7A_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:40.291-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:40.291-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:40.692-0300] {logging_mixin.py:137} INFO - 45
+[2023-01-01T22:20:40.692-0300] {logging_mixin.py:137} INFO - ['NOD2_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:40.693-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:40.693-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:41.057-0300] {logging_mixin.py:137} INFO - 46
+[2023-01-01T22:20:41.057-0300] {logging_mixin.py:137} INFO - ['FINC_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:41.058-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:41.058-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:41.455-0300] {logging_mixin.py:137} INFO - 47
+[2023-01-01T22:20:41.455-0300] {logging_mixin.py:137} INFO - ['F13B_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:41.456-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:41.456-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:41.820-0300] {logging_mixin.py:137} INFO - 48
+[2023-01-01T22:20:41.820-0300] {logging_mixin.py:137} INFO - ['CASP8_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:41.821-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:41.821-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:42.206-0300] {logging_mixin.py:137} INFO - 49
+[2023-01-01T22:20:42.206-0300] {logging_mixin.py:137} INFO - ['SMRD1_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:42.207-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:42.207-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:42.567-0300] {logging_mixin.py:137} INFO - 50
+[2023-01-01T22:20:42.567-0300] {logging_mixin.py:137} INFO - ['IPSP_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:42.568-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:42.568-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:42.951-0300] {logging_mixin.py:137} INFO - 51
+[2023-01-01T22:20:42.951-0300] {logging_mixin.py:137} INFO - ['ITB3_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:42.952-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:42.952-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:43.317-0300] {logging_mixin.py:137} INFO - 52
+[2023-01-01T22:20:43.317-0300] {logging_mixin.py:137} INFO - ['1433B_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:43.318-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:43.318-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:43.672-0300] {logging_mixin.py:137} INFO - 53
+[2023-01-01T22:20:43.672-0300] {logging_mixin.py:137} INFO - ['PLMN_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:43.673-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:43.674-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:44.036-0300] {logging_mixin.py:137} INFO - 54
+[2023-01-01T22:20:44.036-0300] {logging_mixin.py:137} INFO - ['IRF3_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:44.037-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:44.037-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:44.390-0300] {logging_mixin.py:137} INFO - 55
+[2023-01-01T22:20:44.391-0300] {logging_mixin.py:137} INFO - ['THRB_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:44.392-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:44.392-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:44.746-0300] {logging_mixin.py:137} INFO - 56
+[2023-01-01T22:20:44.746-0300] {logging_mixin.py:137} INFO - ['SMRD2_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:44.747-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:44.748-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:45.141-0300] {logging_mixin.py:137} INFO - 57
+[2023-01-01T22:20:45.141-0300] {logging_mixin.py:137} INFO - ['BCL10_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:45.142-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:45.143-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:45.503-0300] {logging_mixin.py:137} INFO - 58
+[2023-01-01T22:20:45.503-0300] {logging_mixin.py:137} INFO - ['SMRD3_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:45.504-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:45.504-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:45.862-0300] {logging_mixin.py:137} INFO - 59
+[2023-01-01T22:20:45.863-0300] {logging_mixin.py:137} INFO - ['APOA1_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:45.864-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:45.864-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:46.217-0300] {logging_mixin.py:137} INFO - 60
+[2023-01-01T22:20:46.217-0300] {logging_mixin.py:137} INFO - ['FIBG_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:46.218-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:46.218-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:46.569-0300] {logging_mixin.py:137} INFO - 61
+[2023-01-01T22:20:46.570-0300] {logging_mixin.py:137} INFO - ['ZN292_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:46.571-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:46.571-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:46.927-0300] {logging_mixin.py:137} INFO - 62
+[2023-01-01T22:20:46.927-0300] {logging_mixin.py:137} INFO - ['RIPK2_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:46.928-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:46.928-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:47.281-0300] {logging_mixin.py:137} INFO - 63
+[2023-01-01T22:20:47.281-0300] {logging_mixin.py:137} INFO - ['FIBB_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:47.282-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:47.282-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:47.633-0300] {logging_mixin.py:137} INFO - 64
+[2023-01-01T22:20:47.634-0300] {logging_mixin.py:137} INFO - ['MIS12_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:47.634-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:47.635-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:47.991-0300] {logging_mixin.py:137} INFO - 65
+[2023-01-01T22:20:47.991-0300] {logging_mixin.py:137} INFO - ['NFKB1_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:47.992-0300] {logging_mixin.py:137} INFO - 9994 10228 10090
+[2023-01-01T22:20:47.992-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:20:48.349-0300] {logging_mixin.py:137} INFO - 66
+[2023-01-01T22:20:48.349-0300] {logging_mixin.py:137} INFO - ['MALT1_MOUSE', 'BLAST_UniProt_ID']
+[2023-01-01T22:20:48.350-0300] {logging_mixin.py:137} INFO - 9994 10228 60711
+[2023-01-01T22:20:48.350-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:20:53.860-0300] {logging_mixin.py:137} INFO - 10228 28229 60711
+[2023-01-01T22:20:53.860-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:20:59.402-0300] {logging_mixin.py:137} INFO - 28229 30464 60711
+[2023-01-01T22:20:59.402-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:04.972-0300] {logging_mixin.py:137} INFO - 30464 34508 60711
+[2023-01-01T22:21:04.973-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:10.636-0300] {logging_mixin.py:137} INFO - 34508 38654 60711
+[2023-01-01T22:21:10.636-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:16.396-0300] {logging_mixin.py:137} INFO - 38654 43179 60711
+[2023-01-01T22:21:16.397-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:22.066-0300] {logging_mixin.py:137} INFO - 43179 47716 60711
+[2023-01-01T22:21:22.066-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:28.114-0300] {logging_mixin.py:137} INFO - 47716 53468 60711
+[2023-01-01T22:21:28.114-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:33.787-0300] {logging_mixin.py:137} INFO - 53468 59895 60711
+[2023-01-01T22:21:33.787-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:39.486-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:39.486-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:39.884-0300] {logging_mixin.py:137} INFO - 67
+[2023-01-01T22:21:39.884-0300] {logging_mixin.py:137} INFO - ['A0A0D9S7X2_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:39.885-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:39.886-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:40.306-0300] {logging_mixin.py:137} INFO - 68
+[2023-01-01T22:21:40.306-0300] {logging_mixin.py:137} INFO - ['A0A0D9S9C5_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:40.307-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:40.308-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:40.685-0300] {logging_mixin.py:137} INFO - 69
+[2023-01-01T22:21:40.685-0300] {logging_mixin.py:137} INFO - ['A0A0D9SDJ7_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:40.686-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:40.686-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:41.093-0300] {logging_mixin.py:137} INFO - 70
+[2023-01-01T22:21:41.093-0300] {logging_mixin.py:137} INFO - ['A0A0D9SDK6_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:41.094-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:41.094-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:41.488-0300] {logging_mixin.py:137} INFO - 71
+[2023-01-01T22:21:41.488-0300] {logging_mixin.py:137} INFO - ['A0A0D9SE55_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:41.489-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:41.489-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:41.894-0300] {logging_mixin.py:137} INFO - 72
+[2023-01-01T22:21:41.894-0300] {logging_mixin.py:137} INFO - ['A0A0D9SE14_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:41.895-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:41.896-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:42.305-0300] {logging_mixin.py:137} INFO - 73
+[2023-01-01T22:21:42.306-0300] {logging_mixin.py:137} INFO - ['A0A0D9SE54_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:42.307-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:42.307-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:42.726-0300] {logging_mixin.py:137} INFO - 74
+[2023-01-01T22:21:42.726-0300] {logging_mixin.py:137} INFO - ['A0A0D9SE56_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:42.727-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:42.727-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:43.123-0300] {logging_mixin.py:137} INFO - 75
+[2023-01-01T22:21:43.124-0300] {logging_mixin.py:137} INFO - ['A0A0D9S5R0_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:43.125-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:43.125-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:43.540-0300] {logging_mixin.py:137} INFO - 76
+[2023-01-01T22:21:43.540-0300] {logging_mixin.py:137} INFO - ['A0A0D9SDQ9_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:43.541-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:43.541-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:43.961-0300] {logging_mixin.py:137} INFO - 77
+[2023-01-01T22:21:43.961-0300] {logging_mixin.py:137} INFO - ['A0A0D9S3K6_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:43.970-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:43.970-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:44.380-0300] {logging_mixin.py:137} INFO - 78
+[2023-01-01T22:21:44.380-0300] {logging_mixin.py:137} INFO - ['A0A0D9RRY7_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:44.381-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:44.381-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:44.764-0300] {logging_mixin.py:137} INFO - 79
+[2023-01-01T22:21:44.765-0300] {logging_mixin.py:137} INFO - ['A0A0D9S3K3_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:44.766-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:44.766-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:45.179-0300] {logging_mixin.py:137} INFO - 80
+[2023-01-01T22:21:45.179-0300] {logging_mixin.py:137} INFO - ['A0A0D9RXH6_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:45.180-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:45.180-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:45.639-0300] {logging_mixin.py:137} INFO - 81
+[2023-01-01T22:21:45.639-0300] {logging_mixin.py:137} INFO - ['A0A0D9RUY6_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:45.640-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:45.640-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:45.995-0300] {logging_mixin.py:137} INFO - 82
+[2023-01-01T22:21:45.995-0300] {logging_mixin.py:137} INFO - ['A0A0D9RST7_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:45.996-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:45.996-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:46.393-0300] {logging_mixin.py:137} INFO - 83
+[2023-01-01T22:21:46.394-0300] {logging_mixin.py:137} INFO - ['A0A0D9REV7_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:46.395-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:46.395-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:46.744-0300] {logging_mixin.py:137} INFO - 84
+[2023-01-01T22:21:46.744-0300] {logging_mixin.py:137} INFO - ['A0A0D9RE75_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:46.745-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:46.746-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:47.145-0300] {logging_mixin.py:137} INFO - 85
+[2023-01-01T22:21:47.145-0300] {logging_mixin.py:137} INFO - ['A0A0D9RD08_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:47.146-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:47.146-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:47.593-0300] {logging_mixin.py:137} INFO - 86
+[2023-01-01T22:21:47.594-0300] {logging_mixin.py:137} INFO - ['A0A0D9R740_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:47.595-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:47.595-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:47.944-0300] {logging_mixin.py:137} INFO - 87
+[2023-01-01T22:21:47.944-0300] {logging_mixin.py:137} INFO - ['A0A0D9R4K5_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:47.945-0300] {logging_mixin.py:137} INFO - 59895 66420 60711
+[2023-01-01T22:21:47.945-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:21:48.353-0300] {logging_mixin.py:137} INFO - 88
+[2023-01-01T22:21:48.353-0300] {logging_mixin.py:137} INFO - ['A0A0D9S3K4_CHLSB', 'BLAST_UniProt_ID']
+[2023-01-01T22:21:48.354-0300] {logging_mixin.py:137} INFO - 59895 66420 1868482
+[2023-01-01T22:21:48.354-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:54.187-0300] {logging_mixin.py:137} INFO - 66420 75366 1868482
+[2023-01-01T22:21:54.187-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:21:59.809-0300] {logging_mixin.py:137} INFO - 75366 84022 1868482
+[2023-01-01T22:21:59.809-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:05.198-0300] {logging_mixin.py:137} INFO - 84022 93934 1868482
+[2023-01-01T22:22:05.198-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:10.968-0300] {logging_mixin.py:137} INFO - 93934 106649 1868482
+[2023-01-01T22:22:10.968-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:16.734-0300] {logging_mixin.py:137} INFO - 106649 126957 1868482
+[2023-01-01T22:22:16.734-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:22.347-0300] {logging_mixin.py:137} INFO - 126957 154538 1868482
+[2023-01-01T22:22:22.347-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:28.308-0300] {logging_mixin.py:137} INFO - 154538 176299 1868482
+[2023-01-01T22:22:28.308-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:34.039-0300] {logging_mixin.py:137} INFO - 176299 200378 1868482
+[2023-01-01T22:22:34.040-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:39.588-0300] {logging_mixin.py:137} INFO - 200378 221103 1868482
+[2023-01-01T22:22:39.588-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:45.100-0300] {logging_mixin.py:137} INFO - 221103 243090 1868482
+[2023-01-01T22:22:45.100-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:50.464-0300] {logging_mixin.py:137} INFO - 243090 267377 1868482
+[2023-01-01T22:22:50.464-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:22:56.023-0300] {logging_mixin.py:137} INFO - 267377 290052 1868482
+[2023-01-01T22:22:56.024-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:01.816-0300] {logging_mixin.py:137} INFO - 290052 311410 1868482
+[2023-01-01T22:23:01.816-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:07.164-0300] {logging_mixin.py:137} INFO - 311410 326475 1868482
+[2023-01-01T22:23:07.164-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:12.674-0300] {logging_mixin.py:137} INFO - 326475 351348 1868482
+[2023-01-01T22:23:12.675-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:18.145-0300] {logging_mixin.py:137} INFO - 351348 383407 1868482
+[2023-01-01T22:23:18.145-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:23.485-0300] {logging_mixin.py:137} INFO - 383407 400727 1868482
+[2023-01-01T22:23:23.485-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:29.153-0300] {logging_mixin.py:137} INFO - 400727 426117 1868482
+[2023-01-01T22:23:29.153-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:34.741-0300] {logging_mixin.py:137} INFO - 426117 452652 1868482
+[2023-01-01T22:23:34.741-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:40.067-0300] {logging_mixin.py:137} INFO - 452652 482827 1868482
+[2023-01-01T22:23:40.067-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:45.391-0300] {logging_mixin.py:137} INFO - 482827 521098 1868482
+[2023-01-01T22:23:45.392-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:50.790-0300] {logging_mixin.py:137} INFO - 521098 553510 1868482
+[2023-01-01T22:23:50.791-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:23:56.306-0300] {logging_mixin.py:137} INFO - 553510 579138 1868482
+[2023-01-01T22:23:56.306-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:01.996-0300] {logging_mixin.py:137} INFO - 579138 632245 1868482
+[2023-01-01T22:24:02.004-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:07.391-0300] {logging_mixin.py:137} INFO - 632245 658057 1868482
+[2023-01-01T22:24:07.391-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:12.879-0300] {logging_mixin.py:137} INFO - 658057 688270 1868482
+[2023-01-01T22:24:12.879-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:18.214-0300] {logging_mixin.py:137} INFO - 688270 741155 1868482
+[2023-01-01T22:24:18.214-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:23.616-0300] {logging_mixin.py:137} INFO - 741155 765868 1868482
+[2023-01-01T22:24:23.617-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:29.087-0300] {logging_mixin.py:137} INFO - 765868 877411 1868482
+[2023-01-01T22:24:29.088-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:34.523-0300] {logging_mixin.py:137} INFO - 877411 930090 1868482
+[2023-01-01T22:24:34.523-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:40.030-0300] {logging_mixin.py:137} INFO - 930090 990285 1868482
+[2023-01-01T22:24:40.030-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:45.654-0300] {logging_mixin.py:137} INFO - 990285 1041522 1868482
+[2023-01-01T22:24:45.654-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:51.341-0300] {logging_mixin.py:137} INFO - 1041522 1087448 1868482
+[2023-01-01T22:24:51.341-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:24:57.038-0300] {logging_mixin.py:137} INFO - 1087448 1121116 1868482
+[2023-01-01T22:24:57.038-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:03.152-0300] {logging_mixin.py:137} INFO - 1121116 1123377 1868482
+[2023-01-01T22:25:03.152-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:08.782-0300] {logging_mixin.py:137} INFO - 1123377 1158612 1868482
+[2023-01-01T22:25:08.782-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:14.407-0300] {logging_mixin.py:137} INFO - 1158612 1194695 1868482
+[2023-01-01T22:25:14.407-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:20.048-0300] {logging_mixin.py:137} INFO - 1194695 1218352 1868482
+[2023-01-01T22:25:20.048-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:25.592-0300] {logging_mixin.py:137} INFO - 1218352 1235792 1868482
+[2023-01-01T22:25:25.592-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:31.199-0300] {logging_mixin.py:137} INFO - 1235792 1263082 1868482
+[2023-01-01T22:25:31.199-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:36.799-0300] {logging_mixin.py:137} INFO - 1263082 1298593 1868482
+[2023-01-01T22:25:36.799-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:42.540-0300] {logging_mixin.py:137} INFO - 1298593 1338436 1868482
+[2023-01-01T22:25:42.540-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:48.169-0300] {logging_mixin.py:137} INFO - 1338436 1391654 1868482
+[2023-01-01T22:25:48.169-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:53.920-0300] {logging_mixin.py:137} INFO - 1391654 1428652 1868482
+[2023-01-01T22:25:53.920-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:25:59.656-0300] {logging_mixin.py:137} INFO - 1428652 1463845 1868482
+[2023-01-01T22:25:59.656-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:05.487-0300] {logging_mixin.py:137} INFO - 1463845 1522072 1868482
+[2023-01-01T22:26:05.488-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:11.077-0300] {logging_mixin.py:137} INFO - 1522072 1586708 1868482
+[2023-01-01T22:26:11.077-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:16.742-0300] {logging_mixin.py:137} INFO - 1586708 1642818 1868482
+[2023-01-01T22:26:16.742-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:22.311-0300] {logging_mixin.py:137} INFO - 1642818 1703937 1868482
+[2023-01-01T22:26:22.311-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:27.903-0300] {logging_mixin.py:137} INFO - 1703937 1736427 1868482
+[2023-01-01T22:26:27.904-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:33.703-0300] {logging_mixin.py:137} INFO - 1736427 1761904 1868482
+[2023-01-01T22:26:33.703-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:39.240-0300] {logging_mixin.py:137} INFO - 1761904 1797874 1868482
+[2023-01-01T22:26:39.240-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:44.651-0300] {logging_mixin.py:137} INFO - 1797874 1805279 1868482
+[2023-01-01T22:26:44.651-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:50.240-0300] {logging_mixin.py:137} INFO - 1805279 1848039 1868482
+[2023-01-01T22:26:50.240-0300] {logging_mixin.py:137} INFO - False
+[2023-01-01T22:26:56.233-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:56.233-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:56.600-0300] {logging_mixin.py:137} INFO - 89
+[2023-01-01T22:26:56.601-0300] {logging_mixin.py:137} INFO - ['A0A3Q0DUI2_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:26:56.602-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:56.602-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:56.958-0300] {logging_mixin.py:137} INFO - 90
+[2023-01-01T22:26:56.958-0300] {logging_mixin.py:137} INFO - ['A0A1U7SRH8_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:26:56.959-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:56.959-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:57.314-0300] {logging_mixin.py:137} INFO - 91
+[2023-01-01T22:26:57.314-0300] {logging_mixin.py:137} INFO - ['A0A1U7UNI2_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:26:57.316-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:57.316-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:57.671-0300] {logging_mixin.py:137} INFO - 92
+[2023-01-01T22:26:57.672-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:26:57.673-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:57.673-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:58.026-0300] {logging_mixin.py:137} INFO - 93
+[2023-01-01T22:26:58.027-0300] {logging_mixin.py:137} INFO - ['A0A1U7T2Z1_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:26:58.028-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:58.028-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:58.387-0300] {logging_mixin.py:137} INFO - 94
+[2023-01-01T22:26:58.387-0300] {logging_mixin.py:137} INFO - ['A0A1U7TLN3_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:26:58.388-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:58.388-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:58.741-0300] {logging_mixin.py:137} INFO - 95
+[2023-01-01T22:26:58.741-0300] {logging_mixin.py:137} INFO - ['A0A1U7T8Q5_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:26:58.743-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:58.743-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:59.092-0300] {logging_mixin.py:137} INFO - 96
+[2023-01-01T22:26:59.093-0300] {logging_mixin.py:137} INFO - ['Not Found', 'Not Found']
+[2023-01-01T22:26:59.094-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:59.094-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:59.455-0300] {logging_mixin.py:137} INFO - 97
+[2023-01-01T22:26:59.456-0300] {logging_mixin.py:137} INFO - ['A0A1U7U2W8_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:26:59.457-0300] {logging_mixin.py:137} INFO - 1848039 1882832 1868482
+[2023-01-01T22:26:59.457-0300] {logging_mixin.py:137} INFO - True
+[2023-01-01T22:26:59.804-0300] {logging_mixin.py:137} INFO - 98
+[2023-01-01T22:26:59.805-0300] {logging_mixin.py:137} INFO - ['A0A1U7TUZ7_TARSY', 'BLAST_UniProt_ID']
+[2023-01-01T22:27:12.518-0300] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-01T22:27:12.531-0300] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=get_interactions, task_id=string.convert_string_ids, execution_date=20230102T011840, start_date=20230102T011849, end_date=20230102T012712
+[2023-01-01T22:27:12.588-0300] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-01T22:27:12.615-0300] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

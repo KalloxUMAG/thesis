@@ -1,0 +1,1411 @@
+[2023-01-08T21:00:17.019-0300] {processor.py:153} INFO - Started process (PID=23101) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:00:17.019-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:00:17.020-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:00:17.020-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:00:17.021-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:00:17.021-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:00:17.021-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:00:17.042-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:00:47.560-0300] {processor.py:153} INFO - Started process (PID=23221) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:00:47.561-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:00:47.562-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:00:47.561-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:00:47.563-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:00:47.562-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:00:47.563-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:00:47.582-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:01:18.181-0300] {processor.py:153} INFO - Started process (PID=23328) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:01:18.182-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:01:18.183-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:01:18.183-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:01:18.185-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:01:18.184-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:01:18.185-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:01:18.204-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:01:48.778-0300] {processor.py:153} INFO - Started process (PID=23446) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:01:48.779-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:01:48.779-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:01:48.779-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:01:48.781-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:01:48.780-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:01:48.781-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:01:48.801-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:02:19.379-0300] {processor.py:153} INFO - Started process (PID=23542) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:02:19.379-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:02:19.380-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:02:19.380-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:02:19.381-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:02:19.381-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:02:19.381-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:02:19.398-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:02:49.992-0300] {processor.py:153} INFO - Started process (PID=23634) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:02:49.993-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:02:49.993-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:02:49.993-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:02:49.995-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:02:49.995-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:02:49.996-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:02:50.016-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:03:20.552-0300] {processor.py:153} INFO - Started process (PID=23729) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:03:20.553-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:03:20.553-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:03:20.553-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:03:20.555-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:03:20.554-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:03:20.555-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:03:20.576-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.026 seconds
+[2023-01-08T21:03:51.120-0300] {processor.py:153} INFO - Started process (PID=23822) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:03:51.121-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:03:51.122-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:03:51.122-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:03:51.124-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:03:51.123-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:03:51.125-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:03:51.144-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:04:21.645-0300] {processor.py:153} INFO - Started process (PID=23913) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:04:21.646-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:04:21.647-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:04:21.647-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:04:21.648-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:04:21.648-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:04:21.648-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:04:21.668-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.026 seconds
+[2023-01-08T21:04:52.958-0300] {processor.py:153} INFO - Started process (PID=24014) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:04:52.959-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:04:52.960-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:04:52.960-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:04:52.962-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:04:52.961-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:04:52.963-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:04:52.981-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:05:23.525-0300] {processor.py:153} INFO - Started process (PID=24111) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:05:23.526-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:05:23.526-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:05:23.526-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:05:23.528-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:05:23.527-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:05:23.528-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:05:23.546-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:05:54.136-0300] {processor.py:153} INFO - Started process (PID=24205) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:05:54.137-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:05:54.137-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:05:54.137-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:05:54.139-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:05:54.138-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:05:54.139-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:05:54.160-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.026 seconds
+[2023-01-08T21:06:24.777-0300] {processor.py:153} INFO - Started process (PID=24296) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:06:24.778-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:06:24.779-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:06:24.778-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:06:24.780-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:06:24.779-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:06:24.780-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:06:24.803-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:06:55.359-0300] {processor.py:153} INFO - Started process (PID=24389) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:06:55.359-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:06:55.360-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:06:55.360-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:06:55.361-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:06:55.361-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:06:55.361-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:06:55.379-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:07:25.943-0300] {processor.py:153} INFO - Started process (PID=24479) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:07:25.944-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:07:25.944-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:07:25.944-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:07:25.946-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:07:25.945-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:07:25.947-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:07:25.968-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:07:56.508-0300] {processor.py:153} INFO - Started process (PID=24571) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:07:56.509-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:07:56.509-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:07:56.509-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:07:56.511-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:07:56.510-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:07:56.511-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:07:56.539-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.034 seconds
+[2023-01-08T21:08:27.096-0300] {processor.py:153} INFO - Started process (PID=24663) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:08:27.096-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:08:27.097-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:08:27.097-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:08:27.098-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:08:27.098-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:08:27.098-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:08:27.116-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:08:57.686-0300] {processor.py:153} INFO - Started process (PID=24757) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:08:57.687-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:08:57.687-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:08:57.687-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:08:57.689-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:08:57.688-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:08:57.689-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:08:57.706-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:09:28.924-0300] {processor.py:153} INFO - Started process (PID=24849) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:09:28.925-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:09:28.926-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:09:28.926-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:09:28.927-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:09:28.926-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:09:28.927-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:09:28.944-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:09:59.595-0300] {processor.py:153} INFO - Started process (PID=24946) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:09:59.595-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:09:59.596-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:09:59.596-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:09:59.597-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:09:59.597-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:09:59.598-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:09:59.616-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:10:30.193-0300] {processor.py:153} INFO - Started process (PID=25036) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:10:30.193-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:10:30.194-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:10:30.194-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:10:30.195-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:10:30.195-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:10:30.196-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:10:30.215-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:11:00.772-0300] {processor.py:153} INFO - Started process (PID=25134) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:11:00.772-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:11:00.773-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:11:00.773-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:11:00.775-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:11:00.774-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:11:00.775-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:11:00.793-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:11:31.297-0300] {processor.py:153} INFO - Started process (PID=25225) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:11:31.298-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:11:31.298-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:11:31.298-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:11:31.300-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:11:31.299-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:11:31.300-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:11:31.318-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:12:03.679-0300] {processor.py:153} INFO - Started process (PID=25325) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:12:03.680-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:12:03.681-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:12:03.681-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:12:03.683-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:12:03.682-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:12:03.684-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:12:03.703-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:12:35.142-0300] {processor.py:153} INFO - Started process (PID=25417) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:12:35.143-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:12:35.143-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:12:35.143-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:12:35.146-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:12:35.144-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:12:35.146-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:12:35.167-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:13:06.721-0300] {processor.py:153} INFO - Started process (PID=25510) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:13:06.722-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:13:06.722-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:13:06.722-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:13:06.724-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:13:06.723-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:13:06.724-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:13:06.742-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:13:37.502-0300] {processor.py:153} INFO - Started process (PID=25617) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:13:37.503-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:13:37.503-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:13:37.503-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:13:37.505-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:13:37.504-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:13:37.505-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:13:37.523-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:14:09.735-0300] {processor.py:153} INFO - Started process (PID=25718) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:14:09.738-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:14:09.739-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:14:09.739-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:14:09.742-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:14:09.741-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:14:09.743-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:14:09.771-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.040 seconds
+[2023-01-08T21:14:41.274-0300] {processor.py:153} INFO - Started process (PID=25815) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:14:41.274-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:14:41.275-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:14:41.275-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:14:41.277-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:14:41.276-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:14:41.277-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:14:41.296-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:15:13.182-0300] {processor.py:153} INFO - Started process (PID=25910) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:15:13.183-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:15:13.183-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:15:13.183-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:15:13.185-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:15:13.185-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:15:13.186-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:15:13.204-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:15:48.193-0300] {processor.py:153} INFO - Started process (PID=26002) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:15:48.193-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:15:48.194-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:15:48.194-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:15:48.196-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:15:48.195-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:15:48.196-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:15:48.219-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:16:22.599-0300] {processor.py:153} INFO - Started process (PID=26100) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:16:22.600-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:16:22.600-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:16:22.600-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:16:22.602-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:16:22.601-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:16:22.602-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:16:22.623-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.026 seconds
+[2023-01-08T21:16:54.986-0300] {processor.py:153} INFO - Started process (PID=26200) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:16:54.986-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:16:54.987-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:16:54.987-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:16:54.988-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:16:54.988-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:16:54.989-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:16:55.008-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:17:29.397-0300] {processor.py:153} INFO - Started process (PID=26302) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:17:29.412-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:17:29.412-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:17:29.412-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:17:29.414-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:17:29.413-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:17:29.414-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:17:29.435-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.041 seconds
+[2023-01-08T21:18:04.187-0300] {processor.py:153} INFO - Started process (PID=26397) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:18:04.187-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:18:04.188-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:18:04.188-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:18:04.190-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:18:04.189-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:18:04.190-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:18:04.209-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:18:37.156-0300] {processor.py:153} INFO - Started process (PID=26497) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:18:37.157-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:18:37.158-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:18:37.158-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:18:37.162-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:18:37.160-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:18:37.162-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:18:37.195-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.042 seconds
+[2023-01-08T21:19:10.689-0300] {processor.py:153} INFO - Started process (PID=26598) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:19:10.690-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:19:10.690-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:19:10.690-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:19:10.692-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:19:10.691-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:19:10.692-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:19:10.714-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:20:00.257-0300] {processor.py:153} INFO - Started process (PID=26706) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:20:00.258-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:20:00.259-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:20:00.259-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:20:00.261-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:20:00.260-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:20:00.262-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:20:00.283-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.029 seconds
+[2023-01-08T21:20:32.789-0300] {processor.py:153} INFO - Started process (PID=26803) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:20:32.791-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:20:32.791-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:20:32.791-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:20:32.810-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:20:32.792-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:20:32.811-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:20:32.853-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.066 seconds
+[2023-01-08T21:21:04.771-0300] {processor.py:153} INFO - Started process (PID=26897) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:21:04.788-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:21:04.788-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:21:04.788-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:21:04.816-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:21:04.802-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:21:04.816-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:21:04.855-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.086 seconds
+[2023-01-08T21:21:38.885-0300] {processor.py:153} INFO - Started process (PID=26992) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:21:38.886-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:21:38.886-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:21:38.886-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:21:38.888-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:21:38.887-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:21:38.889-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:21:38.908-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:22:10.210-0300] {processor.py:153} INFO - Started process (PID=27084) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:22:10.218-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:22:10.219-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:22:10.219-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:22:10.220-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:22:10.220-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:22:10.220-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:22:10.250-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.043 seconds
+[2023-01-08T21:22:41.542-0300] {processor.py:153} INFO - Started process (PID=27182) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:22:41.543-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:22:41.544-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:22:41.544-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:22:41.547-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:22:41.546-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:22:41.548-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:22:41.574-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.037 seconds
+[2023-01-08T21:23:15.893-0300] {processor.py:153} INFO - Started process (PID=27282) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:23:15.896-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:23:15.896-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:23:15.896-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:23:15.899-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:23:15.897-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:23:15.900-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:23:15.948-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.057 seconds
+[2023-01-08T21:23:48.182-0300] {processor.py:153} INFO - Started process (PID=27377) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:23:48.182-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:23:48.183-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:23:48.183-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:23:48.185-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:23:48.184-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:23:48.185-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:23:48.204-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:24:19.524-0300] {processor.py:153} INFO - Started process (PID=27476) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:24:19.525-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:24:19.525-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:24:19.525-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:24:19.527-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:24:19.526-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:24:19.527-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:24:19.546-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:24:52.850-0300] {processor.py:153} INFO - Started process (PID=27569) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:24:52.851-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:24:52.851-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:24:52.851-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:24:52.854-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:24:52.852-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:24:52.854-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:24:52.875-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:25:23.162-0300] {processor.py:153} INFO - Started process (PID=27644) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:25:23.163-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:25:23.164-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:25:23.164-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:25:23.167-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:25:23.165-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:25:23.167-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:25:23.186-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.026 seconds
+[2023-01-08T21:25:53.607-0300] {processor.py:153} INFO - Started process (PID=27727) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:25:53.608-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:25:53.608-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:25:53.608-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:25:53.610-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:25:53.609-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:25:53.610-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:25:53.628-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:26:24.063-0300] {processor.py:153} INFO - Started process (PID=27802) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:26:24.064-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:26:24.064-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:26:24.064-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:26:24.066-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:26:24.065-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:26:24.067-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:26:24.088-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:26:54.529-0300] {processor.py:153} INFO - Started process (PID=27879) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:26:54.530-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:26:54.531-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:26:54.531-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:26:54.533-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:26:54.533-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:26:54.534-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:26:54.553-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:27:25.009-0300] {processor.py:153} INFO - Started process (PID=27953) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:27:25.010-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:27:25.010-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:27:25.010-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:27:25.012-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:27:25.011-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:27:25.012-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:27:25.034-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:27:45.262-0300] {processor.py:153} INFO - Started process (PID=28198) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:27:45.262-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:27:45.263-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:27:45.263-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:27:45.264-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:27:45.264-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:27:45.264-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:27:45.288-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:28:15.995-0300] {processor.py:153} INFO - Started process (PID=28277) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:28:15.995-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:28:15.996-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:28:15.996-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:28:15.997-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:28:15.996-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:28:15.997-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:28:16.016-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:28:46.385-0300] {processor.py:153} INFO - Started process (PID=28353) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:28:46.386-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:28:46.386-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:28:46.386-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:28:46.388-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:28:46.387-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:28:46.388-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:28:46.410-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.027 seconds
+[2023-01-08T21:29:16.836-0300] {processor.py:153} INFO - Started process (PID=28435) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:29:16.836-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:29:16.837-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:29:16.837-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:29:16.838-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:29:16.837-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:29:16.838-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:29:16.857-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:29:47.770-0300] {processor.py:153} INFO - Started process (PID=28523) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:29:47.770-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:29:47.771-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:29:47.771-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:29:47.772-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:29:47.772-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:29:47.772-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:29:47.790-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:30:18.477-0300] {processor.py:153} INFO - Started process (PID=28601) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:30:18.477-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:30:18.478-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:30:18.477-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:30:18.479-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:30:18.478-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:30:18.479-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:30:18.497-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:30:49.153-0300] {processor.py:153} INFO - Started process (PID=28678) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:30:49.154-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:30:49.154-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:30:49.154-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:30:49.155-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:30:49.155-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:30:49.155-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:30:49.176-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:31:19.871-0300] {processor.py:153} INFO - Started process (PID=28758) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:31:19.871-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:31:19.872-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:31:19.872-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:31:19.873-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:31:19.872-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:31:19.873-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:31:19.893-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:31:51.123-0300] {processor.py:153} INFO - Started process (PID=28846) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:31:51.124-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:31:51.124-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:31:51.124-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:31:51.125-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:31:51.125-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:31:51.126-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:31:51.146-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:32:21.489-0300] {processor.py:153} INFO - Started process (PID=28920) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:32:21.490-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:32:21.490-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:32:21.490-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:32:21.492-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:32:21.491-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:32:21.492-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:32:21.514-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:32:52.434-0300] {processor.py:153} INFO - Started process (PID=28999) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:32:52.435-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:32:52.435-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:32:52.435-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:32:52.436-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:32:52.436-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:32:52.436-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:32:52.452-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.020 seconds
+[2023-01-08T21:33:23.388-0300] {processor.py:153} INFO - Started process (PID=29086) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:33:23.388-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:33:23.389-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:33:23.389-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:33:23.390-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:33:23.389-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:33:23.390-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:33:23.412-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.026 seconds
+[2023-01-08T21:33:54.082-0300] {processor.py:153} INFO - Started process (PID=29168) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:33:54.083-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:33:54.083-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:33:54.083-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:33:54.085-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:33:54.084-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:33:54.085-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:33:54.103-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:34:24.462-0300] {processor.py:153} INFO - Started process (PID=29247) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:34:24.462-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:34:24.463-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:34:24.463-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:34:24.464-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:34:24.464-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:34:24.465-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:34:24.485-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:34:54.956-0300] {processor.py:153} INFO - Started process (PID=29333) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:34:54.957-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:34:54.957-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:34:54.957-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:34:54.959-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:34:54.958-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:34:54.959-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:34:54.979-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:35:25.425-0300] {processor.py:153} INFO - Started process (PID=29417) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:35:25.425-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:35:25.426-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:35:25.426-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:35:25.427-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:35:25.427-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:35:25.427-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:35:25.443-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.020 seconds
+[2023-01-08T21:35:55.926-0300] {processor.py:153} INFO - Started process (PID=29496) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:35:55.926-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:35:55.927-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:35:55.927-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:35:55.928-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:35:55.927-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:35:55.928-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:35:55.947-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.023 seconds
+[2023-01-08T21:36:26.388-0300] {processor.py:153} INFO - Started process (PID=29575) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:36:26.389-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:36:26.389-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:36:26.389-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:36:26.391-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:36:26.390-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:36:26.391-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:36:26.408-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:36:56.818-0300] {processor.py:153} INFO - Started process (PID=29654) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:36:56.818-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:36:56.818-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:36:56.818-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:36:56.819-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:36:56.819-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:36:56.820-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:36:56.836-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.020 seconds
+[2023-01-08T21:37:27.277-0300] {processor.py:153} INFO - Started process (PID=29735) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:37:27.277-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:37:27.277-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:37:27.277-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:37:27.279-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:37:27.278-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:37:27.279-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:37:27.296-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:37:58.076-0300] {processor.py:153} INFO - Started process (PID=29813) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:37:58.076-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:37:58.077-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:37:58.077-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:37:58.079-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:37:58.078-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:37:58.079-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:37:58.102-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.028 seconds
+[2023-01-08T21:38:29.013-0300] {processor.py:153} INFO - Started process (PID=29902) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:38:29.014-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:38:29.014-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:38:29.014-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:38:29.015-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:38:29.015-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:38:29.016-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:38:29.034-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.022 seconds
+[2023-01-08T21:38:59.695-0300] {processor.py:153} INFO - Started process (PID=29980) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:38:59.696-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:38:59.697-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:38:59.697-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:38:59.698-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:38:59.698-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:38:59.699-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:38:59.719-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.026 seconds
+[2023-01-08T21:39:30.372-0300] {processor.py:153} INFO - Started process (PID=30062) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:39:30.373-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:39:30.373-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:39:30.373-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:39:30.374-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:39:30.374-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:39:30.374-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:39:30.392-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.021 seconds
+[2023-01-08T21:40:01.057-0300] {processor.py:153} INFO - Started process (PID=30144) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:40:01.057-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:40:01.058-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:40:01.058-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:40:01.059-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:40:01.059-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:40:01.059-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:40:01.075-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.020 seconds
+[2023-01-08T21:40:31.448-0300] {processor.py:153} INFO - Started process (PID=30221) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:40:31.448-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:40:31.449-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:40:31.449-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:40:31.450-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:40:31.450-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:40:31.450-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:40:31.467-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.021 seconds
+[2023-01-08T21:41:01.861-0300] {processor.py:153} INFO - Started process (PID=30301) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:41:01.861-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:41:01.862-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:41:01.861-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:41:01.863-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:41:01.862-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:41:01.863-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:41:01.880-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.021 seconds
+[2023-01-08T21:41:32.795-0300] {processor.py:153} INFO - Started process (PID=30382) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:41:32.795-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:41:32.796-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:41:32.796-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:41:32.797-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:41:32.796-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:41:32.797-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:41:32.816-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds
+[2023-01-08T21:42:03.461-0300] {processor.py:153} INFO - Started process (PID=30461) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:42:03.461-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:42:03.462-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:42:03.462-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:42:03.463-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:42:03.462-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:42:03.463-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:42:03.483-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.025 seconds
+[2023-01-08T21:42:34.128-0300] {processor.py:153} INFO - Started process (PID=30546) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:42:34.129-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:42:34.129-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:42:34.129-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:42:34.130-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:42:34.130-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:42:34.131-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:42:34.147-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.020 seconds
+[2023-01-08T21:43:05.240-0300] {processor.py:153} INFO - Started process (PID=30647) to work on /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:43:05.241-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/characterization.py for tasks to queue
+[2023-01-08T21:43:05.241-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:43:05.241-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:43:05.242-0300] {logging_mixin.py:137} INFO - [2023-01-08T21:43:05.242-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/characterization.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/characterization.py", line 25
+    physichochemical_properties = PythonOperator(task_id='physichochemical_properties', python_callable=)
+                                                                                                        ^
+SyntaxError: invalid syntax
+[2023-01-08T21:43:05.243-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/characterization.py
+[2023-01-08T21:43:05.262-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/characterization.py took 0.024 seconds

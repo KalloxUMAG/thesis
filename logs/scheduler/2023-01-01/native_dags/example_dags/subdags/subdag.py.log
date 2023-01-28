@@ -1,0 +1,30 @@
+[2023-01-01T20:30:46.566-0300] {processor.py:153} INFO - Started process (PID=3617) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:30:46.567-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-01T20:30:46.567-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:46.567-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:30:46.569-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:30:46.584-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2023-01-01T20:31:17.649-0300] {processor.py:153} INFO - Started process (PID=4882) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:31:17.650-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-01T20:31:17.651-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:17.651-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:31:17.655-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:31:17.679-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.033 seconds
+[2023-01-01T20:31:48.504-0300] {processor.py:153} INFO - Started process (PID=5261) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:31:48.505-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-01T20:31:48.505-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:48.505-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:31:48.508-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:31:48.522-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2023-01-01T20:32:18.843-0300] {processor.py:153} INFO - Started process (PID=5618) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:32:18.844-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-01T20:32:18.844-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:18.844-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:32:18.846-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:32:18.867-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.026 seconds
+[2023-01-01T20:32:50.457-0300] {processor.py:153} INFO - Started process (PID=5932) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:32:50.457-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-01T20:32:50.458-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:50.458-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:32:50.461-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:32:50.478-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2023-01-01T20:33:21.328-0300] {processor.py:153} INFO - Started process (PID=6234) to work on /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:33:21.329-0300] {processor.py:743} INFO - Processing file /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-01-01T20:33:21.329-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:21.329-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:33:21.331-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-01-01T20:33:21.347-0300] {processor.py:175} INFO - Processing /home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds

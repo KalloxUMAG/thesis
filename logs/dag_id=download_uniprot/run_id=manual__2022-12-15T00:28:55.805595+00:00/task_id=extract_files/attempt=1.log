@@ -1,0 +1,30 @@
+[2022-12-14T21:28:57.637-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_uniprot.extract_files manual__2022-12-15T00:28:55.805595+00:00 [queued]>
+[2022-12-14T21:28:57.650-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_uniprot.extract_files manual__2022-12-15T00:28:55.805595+00:00 [queued]>
+[2022-12-14T21:28:57.651-0300] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T21:28:57.651-0300] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-14T21:28:57.651-0300] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T21:28:57.666-0300] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_files> on 2022-12-15 00:28:55.805595+00:00
+[2022-12-14T21:28:57.671-0300] {standard_task_runner.py:55} INFO - Started process 132126 to run task
+[2022-12-14T21:28:57.673-0300] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'download_uniprot', 'extract_files', 'manual__2022-12-15T00:28:55.805595+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/download_uniprot.py', '--cfg-path', '/tmp/tmpr3yz1neu']
+[2022-12-14T21:28:57.674-0300] {standard_task_runner.py:83} INFO - Job 15: Subtask extract_files
+[2022-12-14T21:28:57.752-0300] {task_command.py:389} INFO - Running <TaskInstance: download_uniprot.extract_files manual__2022-12-15T00:28:55.805595+00:00 [running]> on host kallo-Ubuntu
+[2022-12-14T21:28:57.834-0300] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Kallox
+AIRFLOW_CTX_DAG_ID=download_uniprot
+AIRFLOW_CTX_TASK_ID=extract_files
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-15T00:28:55.805595+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-15T00:28:55.805595+00:00
+[2022-12-14T21:28:57.835-0300] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: extract() missing 1 required positional argument: 'filename'
+[2022-12-14T21:28:57.848-0300] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=download_uniprot, task_id=extract_files, execution_date=20221215T002855, start_date=20221215T002857, end_date=20221215T002857
+[2022-12-14T21:28:57.859-0300] {standard_task_runner.py:105} ERROR - Failed to execute job 15 for task extract_files (extract() missing 1 required positional argument: 'filename'; 132126)
+[2022-12-14T21:28:57.885-0300] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-14T21:28:57.912-0300] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

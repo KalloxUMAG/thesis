@@ -1,0 +1,535 @@
+[2022-12-20T22:41:31.149-0300] {processor.py:153} INFO - Started process (PID=40550) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:41:31.149-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:41:31.150-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:31.150-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:41:31.150-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:41:31.165-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.018 seconds
+[2022-12-20T22:42:01.270-0300] {processor.py:153} INFO - Started process (PID=40858) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:42:01.271-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:42:01.272-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:01.272-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:42:01.273-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:42:01.293-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T22:42:31.890-0300] {processor.py:153} INFO - Started process (PID=41159) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:42:31.891-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:42:31.891-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:31.891-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:42:31.892-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:42:31.908-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2022-12-20T22:43:02.610-0300] {processor.py:153} INFO - Started process (PID=41496) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:43:02.618-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:43:02.618-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:02.618-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:43:02.619-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:43:02.636-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.029 seconds
+[2022-12-20T22:43:36.068-0300] {processor.py:153} INFO - Started process (PID=42062) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:43:36.070-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:43:36.070-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:36.070-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:43:36.071-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:43:36.094-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.029 seconds
+[2022-12-20T22:44:06.920-0300] {processor.py:153} INFO - Started process (PID=42408) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:44:06.928-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:44:06.929-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:06.929-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:44:06.930-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:44:06.949-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.032 seconds
+[2022-12-20T22:44:37.240-0300] {processor.py:153} INFO - Started process (PID=42719) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:44:37.240-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:44:37.241-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:37.241-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:44:37.241-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:44:37.263-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T22:45:08.000-0300] {processor.py:153} INFO - Started process (PID=43051) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:45:08.000-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:45:08.001-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:08.001-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:45:08.001-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:45:08.018-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2022-12-20T22:45:38.231-0300] {processor.py:153} INFO - Started process (PID=43353) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:45:38.235-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:45:38.236-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:38.236-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:45:38.237-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:45:38.253-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T22:46:08.943-0300] {processor.py:153} INFO - Started process (PID=43655) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:46:08.946-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:46:08.947-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:08.947-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:46:08.947-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:46:08.966-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T22:46:39.528-0300] {processor.py:153} INFO - Started process (PID=43972) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:46:39.528-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:46:39.529-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:39.529-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:46:39.530-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:46:39.547-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T22:47:10.262-0300] {processor.py:153} INFO - Started process (PID=44279) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:47:10.268-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:47:10.268-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:10.268-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:47:10.269-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:47:10.284-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2022-12-20T22:47:41.117-0300] {processor.py:153} INFO - Started process (PID=44584) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:47:41.120-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:47:41.121-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:41.121-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:47:41.121-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:47:41.138-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T22:48:11.776-0300] {processor.py:153} INFO - Started process (PID=44886) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:48:11.777-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:48:11.777-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:11.777-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:48:11.778-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:48:11.794-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T22:48:42.228-0300] {processor.py:153} INFO - Started process (PID=45189) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:48:42.231-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:48:42.232-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:42.232-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:48:42.233-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:48:42.249-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2022-12-20T22:49:13.125-0300] {processor.py:153} INFO - Started process (PID=45511) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:49:13.126-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:49:13.127-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:13.127-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:49:13.128-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:49:13.158-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.038 seconds
+[2022-12-20T22:49:44.012-0300] {processor.py:153} INFO - Started process (PID=45816) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:49:44.015-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:49:44.016-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:44.016-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:49:44.016-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:49:44.032-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T22:50:14.782-0300] {processor.py:153} INFO - Started process (PID=46127) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:50:14.784-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:50:14.785-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:14.785-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:50:14.785-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:50:14.801-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2022-12-20T22:50:45.212-0300] {processor.py:153} INFO - Started process (PID=46441) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:50:45.214-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:50:45.215-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:45.214-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:50:45.215-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:50:45.231-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T22:51:15.383-0300] {processor.py:153} INFO - Started process (PID=46742) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:51:15.386-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:51:15.387-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:15.386-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:51:15.387-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:51:15.403-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T22:51:46.193-0300] {processor.py:153} INFO - Started process (PID=47064) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:51:46.194-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:51:46.195-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:46.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:51:46.196-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:51:46.215-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T22:52:17.234-0300] {processor.py:153} INFO - Started process (PID=47366) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:52:17.237-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:52:17.238-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:17.238-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:52:17.238-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:52:17.254-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T22:52:47.993-0300] {processor.py:153} INFO - Started process (PID=47668) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:52:47.996-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:52:47.996-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:47.996-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:52:47.997-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:52:48.013-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2022-12-20T22:53:18.785-0300] {processor.py:153} INFO - Started process (PID=47982) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:53:18.786-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:53:18.787-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:18.787-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:53:18.788-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:53:18.806-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T22:53:49.617-0300] {processor.py:153} INFO - Started process (PID=48291) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:53:49.617-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:53:49.618-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:49.618-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:53:49.618-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:53:49.634-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T22:54:19.724-0300] {processor.py:153} INFO - Started process (PID=48600) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:54:19.725-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:54:19.726-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:19.726-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:54:19.726-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:54:19.742-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T22:54:50.708-0300] {processor.py:153} INFO - Started process (PID=48903) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:54:50.712-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:54:50.713-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:50.713-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:54:50.714-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:54:50.728-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T22:55:21.372-0300] {processor.py:153} INFO - Started process (PID=49225) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:55:21.373-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:55:21.374-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:21.373-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:55:21.374-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:55:21.390-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T22:55:51.460-0300] {processor.py:153} INFO - Started process (PID=49528) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:55:51.463-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:55:51.463-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:51.463-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:55:51.464-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:55:51.484-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T22:56:22.422-0300] {processor.py:153} INFO - Started process (PID=49840) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:56:22.423-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:56:22.424-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:22.424-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:56:22.426-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:56:22.455-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.036 seconds
+[2022-12-20T22:56:52.912-0300] {processor.py:153} INFO - Started process (PID=50207) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:56:52.913-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:56:52.914-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:52.914-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:56:52.915-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:56:52.936-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T22:57:06.486-0300] {processor.py:153} INFO - Started process (PID=50436) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:57:06.487-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:57:06.487-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:06.487-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:57:06.488-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:57:06.503-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T22:57:37.250-0300] {processor.py:153} INFO - Started process (PID=50740) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:57:37.251-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:57:37.252-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:37.251-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:57:37.252-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:57:37.266-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.018 seconds
+[2022-12-20T22:58:08.085-0300] {processor.py:153} INFO - Started process (PID=51046) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:58:08.086-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:58:08.086-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:08.086-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:58:08.087-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:58:08.102-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.019 seconds
+[2022-12-20T22:58:39.052-0300] {processor.py:153} INFO - Started process (PID=51360) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:58:39.053-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:58:39.054-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:39.054-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:58:39.055-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:58:39.075-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.029 seconds
+[2022-12-20T22:59:09.735-0300] {processor.py:153} INFO - Started process (PID=51663) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:59:09.736-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:59:09.737-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:09.737-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:59:09.738-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:59:09.758-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T22:59:40.393-0300] {processor.py:153} INFO - Started process (PID=51978) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:59:40.394-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T22:59:40.395-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:40.395-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:59:40.396-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T22:59:40.418-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:00:11.145-0300] {processor.py:153} INFO - Started process (PID=52283) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:00:11.146-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:00:11.148-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:11.147-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:00:11.149-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:00:11.170-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:00:42.001-0300] {processor.py:153} INFO - Started process (PID=52588) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:00:42.002-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:00:42.002-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:42.002-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:00:42.003-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:00:42.023-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:01:12.824-0300] {processor.py:153} INFO - Started process (PID=52892) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:01:12.825-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:01:12.826-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:12.825-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:01:12.826-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:01:12.846-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:01:43.436-0300] {processor.py:153} INFO - Started process (PID=53198) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:01:43.437-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:01:43.438-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:43.438-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:01:43.439-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:01:43.461-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:02:13.504-0300] {processor.py:153} INFO - Started process (PID=53501) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:02:13.505-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:02:13.506-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:13.506-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:02:13.507-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:02:13.528-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:02:44.148-0300] {processor.py:153} INFO - Started process (PID=53803) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:02:44.149-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:02:44.149-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:44.149-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:02:44.150-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:02:44.171-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:03:14.880-0300] {processor.py:153} INFO - Started process (PID=54105) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:03:14.881-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:03:14.882-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:14.881-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:03:14.882-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:03:14.903-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:03:45.402-0300] {processor.py:153} INFO - Started process (PID=54410) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:03:45.404-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:03:45.404-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:45.404-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:03:45.405-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:03:45.424-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:04:15.908-0300] {processor.py:153} INFO - Started process (PID=54714) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:04:15.912-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:04:15.912-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:15.912-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:04:15.913-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:04:15.932-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:04:46.583-0300] {processor.py:153} INFO - Started process (PID=55016) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:04:46.584-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:04:46.585-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:46.584-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:04:46.585-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:04:46.607-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:05:17.157-0300] {processor.py:153} INFO - Started process (PID=55321) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:05:17.158-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:05:17.158-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:17.158-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:05:17.159-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:05:17.179-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:05:47.802-0300] {processor.py:153} INFO - Started process (PID=55626) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:05:47.803-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:05:47.803-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:47.803-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:05:47.804-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:05:47.825-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:06:18.287-0300] {processor.py:153} INFO - Started process (PID=55930) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:06:18.288-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:06:18.289-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:18.289-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:06:18.290-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:06:18.310-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:06:48.817-0300] {processor.py:153} INFO - Started process (PID=56240) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:06:48.818-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:06:48.819-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:48.819-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:06:48.819-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:06:48.839-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:07:19.687-0300] {processor.py:153} INFO - Started process (PID=56542) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:07:19.689-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:07:19.689-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:19.689-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:07:19.690-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:07:19.713-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:07:50.066-0300] {processor.py:153} INFO - Started process (PID=56844) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:07:50.072-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:07:50.073-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:50.073-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:07:50.074-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:07:50.093-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.029 seconds
+[2022-12-20T23:08:20.576-0300] {processor.py:153} INFO - Started process (PID=57146) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:08:20.577-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:08:20.577-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:20.577-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:08:20.578-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:08:20.596-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:08:51.113-0300] {processor.py:153} INFO - Started process (PID=57450) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:08:51.114-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:08:51.115-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:51.114-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:08:51.116-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:08:51.139-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.030 seconds
+[2022-12-20T23:09:21.499-0300] {processor.py:153} INFO - Started process (PID=57753) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:09:21.500-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:09:21.500-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:21.500-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:09:21.501-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:09:21.520-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:09:51.967-0300] {processor.py:153} INFO - Started process (PID=58057) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:09:51.969-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:09:51.970-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:51.970-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:09:51.971-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:09:51.988-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:10:22.465-0300] {processor.py:153} INFO - Started process (PID=58360) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:10:22.469-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:10:22.470-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:22.470-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:10:22.471-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:10:22.490-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:10:53.026-0300] {processor.py:153} INFO - Started process (PID=58662) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:10:53.029-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:10:53.030-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:53.030-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:10:53.032-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:10:53.053-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.029 seconds
+[2022-12-20T23:11:23.523-0300] {processor.py:153} INFO - Started process (PID=58972) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:11:23.524-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:11:23.525-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:23.525-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:11:23.526-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:11:23.547-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:11:54.173-0300] {processor.py:153} INFO - Started process (PID=59277) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:11:54.176-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:11:54.176-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:54.176-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:11:54.177-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:11:54.198-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:12:24.420-0300] {processor.py:153} INFO - Started process (PID=59582) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:12:24.424-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:12:24.426-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:24.425-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:12:24.426-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:12:24.446-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:12:55.086-0300] {processor.py:153} INFO - Started process (PID=59892) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:12:55.087-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:12:55.088-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:55.088-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:12:55.088-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:12:55.108-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:13:26.041-0300] {processor.py:153} INFO - Started process (PID=60196) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:13:26.046-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:13:26.047-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:26.047-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:13:26.048-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:13:26.068-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.030 seconds
+[2022-12-20T23:13:56.783-0300] {processor.py:153} INFO - Started process (PID=60497) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:13:56.787-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:13:56.788-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:56.788-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:13:56.788-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:13:56.811-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.030 seconds
+[2022-12-20T23:14:27.458-0300] {processor.py:153} INFO - Started process (PID=60800) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:14:27.460-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:14:27.460-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:27.460-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:14:27.461-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:14:27.485-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.029 seconds
+[2022-12-20T23:14:58.203-0300] {processor.py:153} INFO - Started process (PID=61102) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:14:58.204-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:14:58.205-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:58.205-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:14:58.205-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:14:58.225-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:15:29.056-0300] {processor.py:153} INFO - Started process (PID=61406) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:15:29.057-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:15:29.058-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:29.058-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:15:29.058-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:15:29.078-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:15:59.663-0300] {processor.py:153} INFO - Started process (PID=61711) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:15:59.664-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:15:59.664-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:59.664-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:15:59.665-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:15:59.687-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:16:30.135-0300] {processor.py:153} INFO - Started process (PID=62017) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:16:30.139-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:16:30.140-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:30.140-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:16:30.141-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:16:30.159-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:17:00.885-0300] {processor.py:153} INFO - Started process (PID=62324) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:17:00.886-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:17:00.887-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:00.887-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:17:00.888-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:17:00.907-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:17:31.717-0300] {processor.py:153} INFO - Started process (PID=62672) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:17:31.718-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:17:31.719-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:31.719-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:17:31.720-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:17:31.744-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.031 seconds
+[2022-12-20T23:18:02.434-0300] {processor.py:153} INFO - Started process (PID=62995) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:18:02.436-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:18:02.436-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:02.436-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:18:02.437-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:18:02.456-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:18:33.100-0300] {processor.py:153} INFO - Started process (PID=63297) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:18:33.104-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:18:33.104-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:33.104-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:18:33.105-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:18:33.125-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:19:03.428-0300] {processor.py:153} INFO - Started process (PID=63601) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:19:03.429-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:19:03.429-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:03.429-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:19:03.430-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:19:03.451-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:19:33.712-0300] {processor.py:153} INFO - Started process (PID=63904) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:19:33.713-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:19:33.713-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:33.713-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:19:33.714-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:19:33.734-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:20:04.496-0300] {processor.py:153} INFO - Started process (PID=64206) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:20:04.498-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:20:04.499-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:04.499-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:20:04.499-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:20:04.518-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:20:35.094-0300] {processor.py:153} INFO - Started process (PID=64507) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:20:35.095-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:20:35.095-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:35.095-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:20:35.096-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:20:35.114-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T23:21:05.641-0300] {processor.py:153} INFO - Started process (PID=64809) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:21:05.644-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:21:05.645-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:05.645-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:21:05.646-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:21:05.667-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:21:35.970-0300] {processor.py:153} INFO - Started process (PID=65115) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:21:35.972-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:21:35.973-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:35.972-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:21:35.973-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:21:35.992-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:22:09.081-0300] {processor.py:153} INFO - Started process (PID=65420) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:22:09.084-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:22:09.085-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:09.085-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:22:09.086-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:22:09.104-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.025 seconds
+[2022-12-20T23:22:39.185-0300] {processor.py:153} INFO - Started process (PID=65722) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:22:39.188-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:22:39.189-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:39.189-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:22:39.189-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:22:39.209-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:23:09.636-0300] {processor.py:153} INFO - Started process (PID=66029) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:23:09.638-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:23:09.639-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:09.638-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:23:09.640-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:23:09.659-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:23:40.083-0300] {processor.py:153} INFO - Started process (PID=66330) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:23:40.086-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:23:40.087-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:40.086-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:23:40.088-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:23:40.107-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:24:10.766-0300] {processor.py:153} INFO - Started process (PID=66632) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:24:10.767-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:24:10.768-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:10.768-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:24:10.769-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:24:10.791-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.028 seconds
+[2022-12-20T23:24:41.168-0300] {processor.py:153} INFO - Started process (PID=66933) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:24:41.170-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:24:41.170-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:41.170-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:24:41.171-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:24:41.191-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:25:11.520-0300] {processor.py:153} INFO - Started process (PID=67239) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:25:11.521-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:25:11.521-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:11.521-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:25:11.522-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:25:11.540-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2022-12-20T23:25:42.113-0300] {processor.py:153} INFO - Started process (PID=67542) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:25:42.114-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:25:42.115-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:42.115-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:25:42.115-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:25:42.135-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:26:12.653-0300] {processor.py:153} INFO - Started process (PID=67843) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:26:12.654-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:26:12.655-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:12.654-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:26:12.655-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:26:12.676-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:26:43.094-0300] {processor.py:153} INFO - Started process (PID=68167) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:26:43.095-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:26:43.096-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:43.096-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:26:43.097-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:26:43.120-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:27:13.161-0300] {processor.py:153} INFO - Started process (PID=68488) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:27:13.162-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:27:13.162-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:13.162-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:27:13.163-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:27:13.183-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:27:43.960-0300] {processor.py:153} INFO - Started process (PID=68806) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:27:43.962-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:27:43.962-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:43.962-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:27:43.963-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:27:43.979-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T23:28:14.320-0300] {processor.py:153} INFO - Started process (PID=69117) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:28:14.322-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:28:14.322-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:14.322-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:28:14.323-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:28:14.338-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2022-12-20T23:28:45.046-0300] {processor.py:153} INFO - Started process (PID=69424) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:28:45.049-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:28:45.050-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:45.050-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:28:45.050-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:28:45.070-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:29:15.710-0300] {processor.py:153} INFO - Started process (PID=69727) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:29:15.712-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:29:15.712-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:15.712-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:29:15.713-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:29:15.729-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T23:29:46.321-0300] {processor.py:153} INFO - Started process (PID=70028) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:29:46.324-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:29:46.324-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:46.324-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:29:46.325-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:29:46.341-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2022-12-20T23:30:16.994-0300] {processor.py:153} INFO - Started process (PID=70333) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:30:16.995-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:30:16.996-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:16.996-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:30:16.996-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:30:17.012-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2022-12-20T23:30:48.014-0300] {processor.py:153} INFO - Started process (PID=70664) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:30:48.015-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:30:48.015-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:48.015-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:30:48.016-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:30:48.038-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:31:18.447-0300] {processor.py:153} INFO - Started process (PID=70974) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:31:18.448-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:31:18.449-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:18.449-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:31:18.449-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:31:18.466-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T23:31:49.131-0300] {processor.py:153} INFO - Started process (PID=71304) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:31:49.132-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:31:49.133-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:49.133-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:31:49.133-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:31:49.147-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.018 seconds
+[2022-12-20T23:32:19.267-0300] {processor.py:153} INFO - Started process (PID=71621) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:32:19.269-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:32:19.270-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:19.270-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:32:19.270-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:32:19.287-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T23:32:49.943-0300] {processor.py:153} INFO - Started process (PID=71928) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:32:49.944-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:32:49.945-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:49.944-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:32:49.945-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:32:49.964-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2022-12-20T23:33:20.354-0300] {processor.py:153} INFO - Started process (PID=72244) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:33:20.358-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:33:20.359-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:20.359-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:33:20.360-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:33:20.383-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.031 seconds
+[2022-12-20T23:33:51.344-0300] {processor.py:153} INFO - Started process (PID=72546) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:33:51.345-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:33:51.345-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:51.345-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:33:51.346-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:33:51.367-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.027 seconds
+[2022-12-20T23:34:22.147-0300] {processor.py:153} INFO - Started process (PID=72848) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:34:22.148-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:34:22.149-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:22.149-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:34:22.149-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:34:22.171-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2022-12-20T23:34:52.345-0300] {processor.py:153} INFO - Started process (PID=73160) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:34:52.348-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:34:52.348-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:52.348-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:34:52.349-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:34:52.365-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2022-12-20T23:35:23.373-0300] {processor.py:153} INFO - Started process (PID=73476) to work on /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:35:23.378-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2022-12-20T23:35:23.379-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:23.379-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:35:23.379-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip
+[2022-12-20T23:35:23.394-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/files/iedb/downloads/antigen.zip took 0.023 seconds

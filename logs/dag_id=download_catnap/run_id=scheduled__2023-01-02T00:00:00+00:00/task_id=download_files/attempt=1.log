@@ -1,0 +1,43 @@
+[2023-01-02T21:00:01.038-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_catnap.download_files scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2023-01-02T21:00:01.054-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_catnap.download_files scheduled__2023-01-02T00:00:00+00:00 [queued]>
+[2023-01-02T21:00:01.054-0300] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T21:00:01.054-0300] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-02T21:00:01.054-0300] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-02T21:00:01.079-0300] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): download_files> on 2023-01-02 00:00:00+00:00
+[2023-01-02T21:00:01.086-0300] {standard_task_runner.py:55} INFO - Started process 15959 to run task
+[2023-01-02T21:00:01.090-0300] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'download_catnap', 'download_files', 'scheduled__2023-01-02T00:00:00+00:00', '--job-id', '216', '--raw', '--subdir', 'DAGS_FOLDER/download_catnap.py', '--cfg-path', '/tmp/tmpb_ar9mgr']
+[2023-01-02T21:00:01.091-0300] {standard_task_runner.py:83} INFO - Job 216: Subtask download_files
+[2023-01-02T21:00:01.177-0300] {task_command.py:389} INFO - Running <TaskInstance: download_catnap.download_files scheduled__2023-01-02T00:00:00+00:00 [running]> on host kallo-Ubuntu
+[2023-01-02T21:00:01.274-0300] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=admin
+AIRFLOW_CTX_DAG_ID=download_catnap
+AIRFLOW_CTX_TASK_ID=download_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-02T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-02T00:00:00+00:00
+[2023-01-02T21:00:40.151-0300] {logging_mixin.py:137} INFO - Assay downloaded.
+[2023-01-02T21:00:40.170-0300] {logging_mixin.py:137} INFO - Assay.tsv saved.
+[2023-01-02T21:00:42.849-0300] {logging_mixin.py:137} INFO - Antibodies downloaded.
+[2023-01-02T21:00:42.851-0300] {logging_mixin.py:137} INFO - Antibodies.tsv saved.
+[2023-01-02T21:00:44.060-0300] {logging_mixin.py:137} INFO - Antibodies_germlines downloaded.
+[2023-01-02T21:00:44.061-0300] {logging_mixin.py:137} INFO - Antibodies_germlines.tsv saved.
+[2023-01-02T21:00:46.366-0300] {logging_mixin.py:137} INFO - Antibody_heavy_chain_na_sequences downloaded.
+[2023-01-02T21:00:46.369-0300] {logging_mixin.py:137} INFO - Antibody_heavy_chain_na_sequences.fasta saved.
+[2023-01-02T21:00:47.702-0300] {logging_mixin.py:137} INFO - Antibody_heavy_chain_aa_sequences downloaded.
+[2023-01-02T21:00:47.704-0300] {logging_mixin.py:137} INFO - Antibody_heavy_chain_aa_sequences.fasta saved.
+[2023-01-02T21:00:49.345-0300] {logging_mixin.py:137} INFO - Antibody_light_chain_na_sequences downloaded.
+[2023-01-02T21:00:49.346-0300] {logging_mixin.py:137} INFO - Antibody_light_chain_na_sequences.fasta saved.
+[2023-01-02T21:00:50.709-0300] {logging_mixin.py:137} INFO - Antibody_light_chain_aa_sequences downloaded.
+[2023-01-02T21:00:50.712-0300] {logging_mixin.py:137} INFO - Antibody_light_chain_aa_sequences.fasta saved.
+[2023-01-02T21:00:52.950-0300] {logging_mixin.py:137} INFO - Viruses downloaded.
+[2023-01-02T21:00:52.952-0300] {logging_mixin.py:137} INFO - Viruses.tsv saved.
+[2023-01-02T21:01:09.827-0300] {logging_mixin.py:137} INFO - Virus_na_alignment downloaded.
+[2023-01-02T21:01:09.836-0300] {logging_mixin.py:137} INFO - Virus_na_alignment.tsv saved.
+[2023-01-02T21:01:16.592-0300] {logging_mixin.py:137} INFO - Virus_aa_alignment downloaded.
+[2023-01-02T21:01:16.594-0300] {logging_mixin.py:137} INFO - Virus_aa_alignment.tsv saved.
+[2023-01-02T21:01:16.595-0300] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-02T21:01:16.617-0300] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=download_catnap, task_id=download_files, execution_date=20230102T000000, start_date=20230103T000001, end_date=20230103T000116
+[2023-01-02T21:01:16.673-0300] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-02T21:01:16.731-0300] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

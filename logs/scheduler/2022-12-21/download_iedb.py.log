@@ -1,0 +1,1195 @@
+[2022-12-20T22:11:30.746-0300] {processor.py:153} INFO - Started process (PID=22070) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:11:30.747-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:11:30.747-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:11:30.747-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:11:30.894-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:11:31.026-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:11:31.026-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:11:31.050-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:11:31.050-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:11:31.068-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.324 seconds
+[2022-12-20T22:12:01.188-0300] {processor.py:153} INFO - Started process (PID=23231) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:12:01.189-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:12:01.190-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:01.190-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:12:01.426-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:12:01.451-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:01.451-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:12:01.472-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:01.472-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:12:01.490-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.304 seconds
+[2022-12-20T22:12:31.571-0300] {processor.py:153} INFO - Started process (PID=23522) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:12:31.572-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:12:31.572-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:31.572-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:12:31.724-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:12:31.751-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:31.751-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:12:31.868-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:12:31.867-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:12:31.884-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.315 seconds
+[2022-12-20T22:13:01.959-0300] {processor.py:153} INFO - Started process (PID=23826) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:13:01.959-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:13:01.960-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:01.960-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:13:02.097-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:13:02.229-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:02.228-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:13:02.249-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:02.249-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:13:02.267-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.312 seconds
+[2022-12-20T22:13:32.419-0300] {processor.py:153} INFO - Started process (PID=24110) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:13:32.420-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:13:32.420-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:32.420-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:13:32.558-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:13:32.678-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:32.678-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:13:32.700-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:13:32.700-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:13:32.717-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.300 seconds
+[2022-12-20T22:14:03.058-0300] {processor.py:153} INFO - Started process (PID=24401) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:14:03.058-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:14:03.059-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:03.059-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:14:03.295-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:14:03.320-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:03.320-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:14:03.343-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:03.343-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:14:03.370-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.315 seconds
+[2022-12-20T22:14:33.860-0300] {processor.py:153} INFO - Started process (PID=24691) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:14:33.860-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:14:33.861-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:33.861-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:14:33.994-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:14:34.021-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:34.021-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:14:34.140-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:14:34.140-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:14:34.157-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.300 seconds
+[2022-12-20T22:15:04.257-0300] {processor.py:153} INFO - Started process (PID=24987) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:15:04.258-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:15:04.258-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:04.258-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:15:04.405-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:15:04.531-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:04.531-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:15:04.554-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:04.554-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:15:04.573-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.318 seconds
+[2022-12-20T22:15:34.869-0300] {processor.py:153} INFO - Started process (PID=25292) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:15:34.870-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:15:34.870-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:34.870-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:15:35.098-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:15:35.121-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:35.121-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:15:35.142-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:15:35.142-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:15:35.159-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.292 seconds
+[2022-12-20T22:16:05.303-0300] {processor.py:153} INFO - Started process (PID=25585) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:16:05.304-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:16:05.304-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:05.304-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:16:05.546-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:16:05.571-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:05.571-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:16:05.594-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:05.594-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:16:05.610-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.310 seconds
+[2022-12-20T22:16:36.252-0300] {processor.py:153} INFO - Started process (PID=25889) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:16:36.253-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:16:36.254-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:36.253-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:16:36.398-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:16:36.517-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:36.517-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:16:36.539-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:16:36.539-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:16:36.563-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.314 seconds
+[2022-12-20T22:17:06.600-0300] {processor.py:153} INFO - Started process (PID=26184) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:17:06.601-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:17:06.601-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:06.601-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:17:06.741-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:17:06.862-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:06.862-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:17:06.884-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:06.883-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:17:06.910-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.312 seconds
+[2022-12-20T22:17:36.933-0300] {processor.py:153} INFO - Started process (PID=26457) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:17:36.933-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:17:36.934-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:36.934-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:17:37.172-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:17:37.196-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:37.196-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:17:37.218-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:17:37.218-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:17:37.234-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.304 seconds
+[2022-12-20T22:18:08.253-0300] {processor.py:153} INFO - Started process (PID=26732) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:18:08.254-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:18:08.254-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:08.254-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:18:08.407-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:18:08.436-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:08.436-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:18:08.553-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:08.552-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:18:08.569-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.318 seconds
+[2022-12-20T22:18:38.725-0300] {processor.py:153} INFO - Started process (PID=27029) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:18:38.726-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:18:38.726-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:38.726-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:18:38.864-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:18:38.986-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:38.986-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:18:39.006-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:18:39.006-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:18:39.022-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.299 seconds
+[2022-12-20T22:19:09.175-0300] {processor.py:153} INFO - Started process (PID=27324) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:19:09.176-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:19:09.177-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:09.177-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:19:09.421-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:19:09.446-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:09.446-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:19:09.469-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:09.468-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:19:09.486-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.313 seconds
+[2022-12-20T22:19:39.603-0300] {processor.py:153} INFO - Started process (PID=27608) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:19:39.604-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:19:39.604-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:39.604-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:19:39.833-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:19:39.858-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:39.858-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:19:39.880-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:19:39.880-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:19:39.903-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.302 seconds
+[2022-12-20T22:20:10.115-0300] {processor.py:153} INFO - Started process (PID=27899) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:20:10.116-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:20:10.116-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:10.116-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:20:10.265-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:20:10.298-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:10.297-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:20:10.424-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:10.424-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:20:10.441-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.328 seconds
+[2022-12-20T22:20:40.490-0300] {processor.py:153} INFO - Started process (PID=28189) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:20:40.490-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:20:40.491-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:40.491-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:20:40.643-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:20:40.760-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:40.760-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:20:40.781-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:20:40.781-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:20:40.798-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.311 seconds
+[2022-12-20T22:21:11.594-0300] {processor.py:153} INFO - Started process (PID=28493) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:21:11.594-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:21:11.595-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:11.595-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:21:11.829-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:21:11.854-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:11.853-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:21:11.875-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:11.874-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:21:11.892-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.301 seconds
+[2022-12-20T22:21:42.455-0300] {processor.py:153} INFO - Started process (PID=28782) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:21:42.455-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:21:42.456-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:42.456-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:21:42.599-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:21:42.626-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:42.626-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:21:42.742-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:21:42.741-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:21:42.758-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.306 seconds
+[2022-12-20T22:22:12.812-0300] {processor.py:153} INFO - Started process (PID=29092) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:22:12.812-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:22:12.813-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:12.813-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:22:12.946-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:22:13.061-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:13.061-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:22:13.082-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:13.082-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:22:13.099-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.290 seconds
+[2022-12-20T22:22:43.171-0300] {processor.py:153} INFO - Started process (PID=29383) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:22:43.172-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:22:43.172-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:43.172-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:22:43.411-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:22:43.437-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:43.437-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:22:43.458-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:22:43.458-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:22:43.477-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.308 seconds
+[2022-12-20T22:23:13.640-0300] {processor.py:153} INFO - Started process (PID=29674) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:23:13.641-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:23:13.642-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:13.641-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:23:13.871-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:23:13.897-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:13.896-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:23:13.920-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:13.920-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:23:13.936-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.298 seconds
+[2022-12-20T22:23:44.309-0300] {processor.py:153} INFO - Started process (PID=29963) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:23:44.309-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:23:44.310-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:44.310-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:23:44.565-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:23:44.591-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:44.591-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:23:44.612-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:23:44.612-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:23:44.628-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.321 seconds
+[2022-12-20T22:24:15.530-0300] {processor.py:153} INFO - Started process (PID=30229) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:24:15.531-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:24:15.531-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:15.531-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:24:15.668-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:24:15.785-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:15.785-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:24:15.807-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:15.807-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:24:15.823-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.296 seconds
+[2022-12-20T22:24:46.027-0300] {processor.py:153} INFO - Started process (PID=30518) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:24:46.028-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:24:46.028-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:46.028-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:24:46.275-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:24:46.301-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:46.301-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:24:46.324-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:24:46.324-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:24:46.342-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.317 seconds
+[2022-12-20T22:25:16.621-0300] {processor.py:153} INFO - Started process (PID=30830) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:25:16.622-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:25:16.622-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:16.622-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:25:16.847-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:25:16.872-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:16.872-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:25:16.894-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:16.894-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:25:16.910-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.291 seconds
+[2022-12-20T22:25:47.454-0300] {processor.py:153} INFO - Started process (PID=31114) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:25:47.455-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:25:47.455-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:47.455-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:25:47.588-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:25:47.710-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:47.710-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:25:47.733-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:25:47.733-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:25:47.758-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.306 seconds
+[2022-12-20T22:26:18.224-0300] {processor.py:153} INFO - Started process (PID=31401) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:26:18.225-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:26:18.225-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:18.225-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:26:18.464-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:26:18.489-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:18.489-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:26:18.513-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:18.513-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:26:18.541-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.319 seconds
+[2022-12-20T22:26:49.117-0300] {processor.py:153} INFO - Started process (PID=31690) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:26:49.118-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:26:49.118-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:49.118-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:26:49.348-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:26:49.372-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:49.372-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:26:49.395-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:26:49.395-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:26:49.413-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.298 seconds
+[2022-12-20T22:27:19.535-0300] {processor.py:153} INFO - Started process (PID=31974) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:27:19.536-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:27:19.536-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:19.536-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:27:19.763-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:27:19.789-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:19.789-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:27:19.811-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:19.811-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:27:19.827-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.294 seconds
+[2022-12-20T22:27:50.033-0300] {processor.py:153} INFO - Started process (PID=32263) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:27:50.034-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:27:50.035-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:50.034-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:27:50.281-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:27:50.306-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:50.306-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:27:50.328-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:27:50.328-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:27:50.345-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.314 seconds
+[2022-12-20T22:28:21.373-0300] {processor.py:153} INFO - Started process (PID=32554) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:28:21.373-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:28:21.374-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:21.374-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:28:21.618-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:28:21.645-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:21.645-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:28:21.668-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:21.668-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:28:21.687-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.316 seconds
+[2022-12-20T22:28:51.913-0300] {processor.py:153} INFO - Started process (PID=32866) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:28:51.914-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:28:51.915-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:51.915-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:28:52.150-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:28:52.176-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:52.176-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:28:52.197-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:28:52.197-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:28:52.215-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.304 seconds
+[2022-12-20T22:29:22.409-0300] {processor.py:153} INFO - Started process (PID=33164) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:29:22.410-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:29:22.410-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:22.410-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:29:22.646-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:29:22.671-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:22.671-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:29:22.693-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:22.693-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:29:22.709-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.302 seconds
+[2022-12-20T22:29:53.111-0300] {processor.py:153} INFO - Started process (PID=33453) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:29:53.112-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:29:53.113-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:53.113-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:29:53.344-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:29:53.369-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:53.369-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:29:53.391-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:29:53.390-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:29:53.417-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.309 seconds
+[2022-12-20T22:30:23.873-0300] {processor.py:153} INFO - Started process (PID=33746) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:30:23.873-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:30:23.874-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:23.874-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:30:24.111-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:30:24.137-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:24.136-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:30:24.159-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:24.158-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:30:24.183-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.312 seconds
+[2022-12-20T22:30:54.253-0300] {processor.py:153} INFO - Started process (PID=34035) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:30:54.254-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:30:54.254-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:54.254-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:30:54.508-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:30:54.535-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:54.535-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:30:54.557-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:30:54.557-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:30:54.583-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.332 seconds
+[2022-12-20T22:31:24.773-0300] {processor.py:153} INFO - Started process (PID=34324) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:31:24.774-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:31:24.774-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:24.774-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:31:25.003-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:31:25.029-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:25.028-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:31:25.050-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:25.050-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:31:25.075-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.305 seconds
+[2022-12-20T22:31:55.296-0300] {processor.py:153} INFO - Started process (PID=34591) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:31:55.297-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:31:55.297-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:55.297-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:31:55.531-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:31:55.556-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:55.556-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:31:55.579-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:31:55.579-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:31:55.595-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.302 seconds
+[2022-12-20T22:32:25.638-0300] {processor.py:153} INFO - Started process (PID=34881) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:32:25.639-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:32:25.639-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:25.639-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:32:25.870-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:32:25.894-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:25.894-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:32:25.915-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:25.915-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:32:25.943-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.306 seconds
+[2022-12-20T22:32:56.599-0300] {processor.py:153} INFO - Started process (PID=35170) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:32:56.599-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:32:56.600-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:56.600-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:32:56.831-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:32:56.856-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:56.856-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:32:56.878-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:32:56.878-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:32:56.895-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.299 seconds
+[2022-12-20T22:33:27.215-0300] {processor.py:153} INFO - Started process (PID=35463) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:33:27.215-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:33:27.216-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:27.216-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:33:27.442-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:33:27.467-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:27.466-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:33:27.490-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:27.489-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:33:27.506-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.294 seconds
+[2022-12-20T22:33:57.733-0300] {processor.py:153} INFO - Started process (PID=35772) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:33:57.734-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:33:57.734-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:57.734-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:33:57.965-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:33:57.989-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:57.989-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:33:58.012-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:33:58.011-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:33:58.027-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.296 seconds
+[2022-12-20T22:34:28.353-0300] {processor.py:153} INFO - Started process (PID=36074) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:34:28.354-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:34:28.355-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:28.355-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:34:28.589-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:34:28.614-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:28.614-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:34:28.636-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:28.636-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:34:28.654-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.303 seconds
+[2022-12-20T22:34:58.892-0300] {processor.py:153} INFO - Started process (PID=36367) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:34:58.893-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:34:58.894-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:58.894-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:34:59.129-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:34:59.155-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:59.154-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:34:59.175-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:34:59.175-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:34:59.202-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.312 seconds
+[2022-12-20T22:35:29.393-0300] {processor.py:153} INFO - Started process (PID=36658) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:35:29.394-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:35:29.394-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:29.394-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:35:29.623-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:35:29.648-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:29.648-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:35:29.671-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:29.671-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:35:29.690-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.299 seconds
+[2022-12-20T22:35:59.847-0300] {processor.py:153} INFO - Started process (PID=36951) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:35:59.848-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:35:59.848-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:35:59.848-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:36:00.075-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:36:00.099-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:00.099-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:36:00.120-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:00.120-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:36:00.144-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.299 seconds
+[2022-12-20T22:36:30.664-0300] {processor.py:153} INFO - Started process (PID=37570) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:36:30.664-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:36:30.665-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:30.665-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:36:30.902-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:36:30.927-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:30.927-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:36:30.949-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:36:30.949-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:36:30.965-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.304 seconds
+[2022-12-20T22:37:01.306-0300] {processor.py:153} INFO - Started process (PID=37875) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:37:01.306-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:37:01.307-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:01.307-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:37:01.536-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:37:01.559-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:01.559-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:37:01.580-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:01.580-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:37:01.598-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.295 seconds
+[2022-12-20T22:37:31.987-0300] {processor.py:153} INFO - Started process (PID=38166) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:37:31.988-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:37:31.988-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:31.988-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:37:32.221-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:37:32.246-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:32.246-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:37:32.266-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:37:32.266-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:37:32.283-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.298 seconds
+[2022-12-20T22:38:03.380-0300] {processor.py:153} INFO - Started process (PID=38450) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:38:03.380-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:38:03.381-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:03.381-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:38:03.611-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:38:03.637-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:03.636-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:38:03.659-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:03.659-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:38:03.686-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.309 seconds
+[2022-12-20T22:38:33.735-0300] {processor.py:153} INFO - Started process (PID=38741) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:38:33.736-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:38:33.736-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:33.736-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:38:33.966-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:38:33.990-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:33.990-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:38:34.011-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:38:34.011-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:38:34.029-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.296 seconds
+[2022-12-20T22:39:04.301-0300] {processor.py:153} INFO - Started process (PID=39040) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:39:04.301-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:39:04.302-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:04.302-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:39:04.532-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:39:04.556-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:04.556-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:39:04.578-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:04.578-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:39:04.601-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.302 seconds
+[2022-12-20T22:39:34.668-0300] {processor.py:153} INFO - Started process (PID=39346) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:39:34.669-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:39:34.670-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:34.669-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:39:34.866-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:39:34.886-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:34.886-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:39:34.903-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:39:34.903-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:39:34.925-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.260 seconds
+[2022-12-20T22:40:05.153-0300] {processor.py:153} INFO - Started process (PID=39637) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:40:05.154-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:40:05.154-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:05.154-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:40:05.408-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:40:05.432-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:05.432-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:40:05.454-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:05.454-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:40:05.479-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.328 seconds
+[2022-12-20T22:40:35.900-0300] {processor.py:153} INFO - Started process (PID=39948) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:40:35.901-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:40:35.901-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:35.901-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:40:36.289-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:40:36.318-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:36.318-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:40:36.343-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:40:36.343-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:40:36.368-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.472 seconds
+[2022-12-20T22:41:06.882-0300] {processor.py:153} INFO - Started process (PID=40255) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:41:06.883-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:41:06.883-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:06.883-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:41:07.171-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:41:07.201-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:07.201-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:41:07.231-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:07.230-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:41:07.255-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.377 seconds
+[2022-12-20T22:41:38.360-0300] {processor.py:153} INFO - Started process (PID=40597) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:41:38.361-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:41:38.363-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:38.362-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:41:38.674-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:41:38.700-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:38.700-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:41:38.722-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:41:38.722-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:41:38.740-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.385 seconds
+[2022-12-20T22:42:09.339-0300] {processor.py:153} INFO - Started process (PID=40899) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:42:09.340-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:42:09.341-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:09.341-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:42:09.696-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:42:09.730-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:09.730-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:42:09.758-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:09.758-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:42:09.788-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.452 seconds
+[2022-12-20T22:42:40.344-0300] {processor.py:153} INFO - Started process (PID=41233) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:42:40.345-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:42:40.346-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:40.346-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:42:40.741-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:42:40.783-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:40.783-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:42:40.819-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:42:40.818-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:42:40.847-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.506 seconds
+[2022-12-20T22:43:10.915-0300] {processor.py:153} INFO - Started process (PID=41551) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:43:10.918-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:43:10.918-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:10.918-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:43:11.257-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:43:11.287-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:11.287-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:43:11.318-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:11.318-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:43:11.348-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.437 seconds
+[2022-12-20T22:43:37.533-0300] {processor.py:153} INFO - Started process (PID=42110) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:43:37.534-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:43:37.535-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:37.535-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:43:37.725-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:43:37.878-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:37.877-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:43:37.910-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:43:37.909-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:43:37.940-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.410 seconds
+[2022-12-20T22:44:08.398-0300] {processor.py:153} INFO - Started process (PID=42460) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:44:08.398-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:44:08.399-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:08.399-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:44:08.742-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:44:08.779-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:08.778-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:44:08.808-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:08.808-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:44:08.839-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.444 seconds
+[2022-12-20T22:44:39.364-0300] {processor.py:153} INFO - Started process (PID=42768) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:44:39.364-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:44:39.365-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:39.365-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:44:39.575-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:44:39.610-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:39.610-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:44:39.780-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:44:39.780-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:44:39.807-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.447 seconds
+[2022-12-20T22:45:09.942-0300] {processor.py:153} INFO - Started process (PID=43102) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:45:09.943-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:45:09.944-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:09.943-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:45:10.094-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:45:10.220-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:10.220-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:45:10.247-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:10.246-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:45:10.274-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.334 seconds
+[2022-12-20T22:45:41.127-0300] {processor.py:153} INFO - Started process (PID=43401) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:45:41.128-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:45:41.128-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:41.128-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:45:41.272-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:45:41.399-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:41.399-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:45:41.422-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:45:41.422-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:45:41.447-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.322 seconds
+[2022-12-20T22:46:11.837-0300] {processor.py:153} INFO - Started process (PID=43703) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:46:11.837-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:46:11.838-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:11.838-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:46:12.084-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:46:12.110-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:12.110-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:46:12.135-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:12.135-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:46:12.160-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.326 seconds
+[2022-12-20T22:46:42.358-0300] {processor.py:153} INFO - Started process (PID=44020) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:46:42.359-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:46:42.360-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:42.360-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:46:42.504-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:46:42.533-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:42.533-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:46:42.656-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:46:42.656-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:46:42.674-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.318 seconds
+[2022-12-20T22:47:13.146-0300] {processor.py:153} INFO - Started process (PID=44328) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:47:13.147-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:47:13.148-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:13.147-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:47:13.299-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:47:13.430-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:13.430-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:47:13.454-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:13.453-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:47:13.471-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.327 seconds
+[2022-12-20T22:47:43.953-0300] {processor.py:153} INFO - Started process (PID=44632) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:47:43.954-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:47:43.954-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:43.954-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:47:44.206-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:47:44.234-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:44.234-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:47:44.259-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:47:44.259-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:47:44.278-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.329 seconds
+[2022-12-20T22:48:14.676-0300] {processor.py:153} INFO - Started process (PID=44934) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:48:14.677-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:48:14.677-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:14.677-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:48:14.919-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:48:14.945-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:14.945-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:48:14.969-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:14.969-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:48:14.987-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.314 seconds
+[2022-12-20T22:48:45.103-0300] {processor.py:153} INFO - Started process (PID=45237) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:48:45.104-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:48:45.105-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:45.104-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:48:45.250-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:48:45.374-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:45.374-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:48:45.397-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:48:45.397-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:48:45.414-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.314 seconds
+[2022-12-20T22:49:15.974-0300] {processor.py:153} INFO - Started process (PID=45559) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:49:15.975-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:49:15.975-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:15.975-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:49:16.138-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:49:16.271-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:16.271-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:49:16.294-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:16.294-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:49:16.312-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.340 seconds
+[2022-12-20T22:49:46.850-0300] {processor.py:153} INFO - Started process (PID=45865) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:49:46.851-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:49:46.851-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:46.851-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:49:47.113-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:49:47.139-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:47.139-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:49:47.165-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:49:47.165-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:49:47.182-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.334 seconds
+[2022-12-20T22:50:17.726-0300] {processor.py:153} INFO - Started process (PID=46178) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:50:17.726-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:50:17.727-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:17.727-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:50:17.888-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:50:17.916-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:17.915-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:50:18.049-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:18.049-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:50:18.066-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.343 seconds
+[2022-12-20T22:50:48.177-0300] {processor.py:153} INFO - Started process (PID=46496) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:50:48.178-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:50:48.178-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:48.178-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:50:48.333-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:50:48.464-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:48.463-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:50:48.488-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:50:48.488-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:50:48.506-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.331 seconds
+[2022-12-20T22:51:19.453-0300] {processor.py:153} INFO - Started process (PID=46816) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:51:19.454-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:51:19.454-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:19.454-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:51:19.718-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:51:19.743-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:19.743-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:51:19.768-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:19.768-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:51:19.794-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.343 seconds
+[2022-12-20T22:51:50.328-0300] {processor.py:153} INFO - Started process (PID=47113) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:51:50.329-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:51:50.330-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:50.330-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:51:50.580-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:51:50.606-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:50.606-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:51:50.631-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:51:50.631-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:51:50.649-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.323 seconds
+[2022-12-20T22:52:21.161-0300] {processor.py:153} INFO - Started process (PID=47415) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:52:21.162-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:52:21.162-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:21.162-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:52:21.311-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:52:21.443-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:21.442-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:52:21.466-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:21.466-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:52:21.483-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.325 seconds
+[2022-12-20T22:52:51.900-0300] {processor.py:153} INFO - Started process (PID=47716) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:52:51.900-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:52:51.901-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:51.901-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:52:52.049-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:52:52.182-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:52.182-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:52:52.207-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:52:52.207-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:52:52.226-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.329 seconds
+[2022-12-20T22:53:22.782-0300] {processor.py:153} INFO - Started process (PID=48037) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:53:22.782-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:53:22.783-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:22.783-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:53:23.034-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:53:23.062-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:23.062-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:53:23.088-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:23.088-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:53:23.108-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.329 seconds
+[2022-12-20T22:53:53.533-0300] {processor.py:153} INFO - Started process (PID=48339) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:53:53.534-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:53:53.534-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:53.534-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:53:53.687-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:53:53.714-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:53.714-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:53:53.844-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:53:53.844-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:53:53.861-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.330 seconds
+[2022-12-20T22:54:24.666-0300] {processor.py:153} INFO - Started process (PID=48649) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:54:24.667-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:54:24.668-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:24.667-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:54:24.809-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:54:24.944-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:24.943-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:54:24.967-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:24.967-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:54:24.985-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.320 seconds
+[2022-12-20T22:54:55.567-0300] {processor.py:153} INFO - Started process (PID=48951) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:54:55.568-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:54:55.568-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:55.568-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:54:55.810-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:54:55.836-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:55.836-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:54:55.860-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:54:55.859-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:54:55.881-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.317 seconds
+[2022-12-20T22:55:26.360-0300] {processor.py:153} INFO - Started process (PID=49273) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:55:26.361-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:55:26.362-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:26.361-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:55:26.672-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:55:26.710-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:26.709-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:55:26.738-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:26.737-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:55:26.756-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.399 seconds
+[2022-12-20T22:55:57.367-0300] {processor.py:153} INFO - Started process (PID=49576) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:55:57.367-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:55:57.368-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:57.368-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:55:57.535-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:55:57.669-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:57.669-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:55:57.698-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:55:57.698-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:55:57.717-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.353 seconds
+[2022-12-20T22:56:28.049-0300] {processor.py:153} INFO - Started process (PID=49882) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:56:28.050-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:56:28.050-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:28.050-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:56:28.052-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:56:28.051-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/download_iedb.py", line 19
+    drop_columns = PythonOperator(task_id='drop_columns', python_callable=)
+                                                                          ^
+SyntaxError: invalid syntax
+[2022-12-20T22:56:28.052-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:56:28.074-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.027 seconds
+[2022-12-20T22:57:06.436-0300] {processor.py:153} INFO - Started process (PID=50424) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:57:06.445-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:57:06.446-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:06.445-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:57:06.448-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:06.447-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/download_iedb.py", line 19
+    drop_columns = PythonOperator(task_id='drop_columns', python_callable=)
+                                                                          ^
+SyntaxError: invalid syntax
+[2022-12-20T22:57:06.448-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:57:06.473-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.038 seconds
+[2022-12-20T22:57:37.208-0300] {processor.py:153} INFO - Started process (PID=50728) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:57:37.209-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:57:37.210-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:37.210-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:57:37.212-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:57:37.211-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/download_iedb.py", line 19
+    drop_columns = PythonOperator(task_id='drop_columns', python_callable=)
+                                                                          ^
+SyntaxError: invalid syntax
+[2022-12-20T22:57:37.212-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:57:37.236-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.029 seconds
+[2022-12-20T22:58:08.033-0300] {processor.py:153} INFO - Started process (PID=51034) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:58:08.042-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:58:08.042-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:08.042-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:58:08.045-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:08.044-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/airflow/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/airflow/dags/download_iedb.py", line 19
+    drop_columns = PythonOperator(task_id='drop_columns', python_callable=)
+                                                                          ^
+SyntaxError: invalid syntax
+[2022-12-20T22:58:08.045-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:58:08.072-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.041 seconds
+[2022-12-20T22:58:38.994-0300] {processor.py:153} INFO - Started process (PID=51351) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:58:38.995-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:58:38.995-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:38.995-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:58:39.204-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:58:39.419-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:39.419-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:58:39.445-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:58:39.445-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:58:39.480-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.490 seconds
+[2022-12-20T22:59:09.675-0300] {processor.py:153} INFO - Started process (PID=51654) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:59:09.683-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:59:09.684-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:09.684-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:59:10.026-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:59:10.058-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:10.058-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:59:10.085-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:10.084-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:59:10.120-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.448 seconds
+[2022-12-20T22:59:40.339-0300] {processor.py:153} INFO - Started process (PID=51969) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:59:40.340-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T22:59:40.341-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:40.341-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:59:40.674-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T22:59:40.708-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:40.708-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T22:59:40.737-0300] {logging_mixin.py:137} INFO - [2022-12-20T22:59:40.737-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T22:59:40.759-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.422 seconds
+[2022-12-20T23:00:11.084-0300] {processor.py:153} INFO - Started process (PID=52274) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:00:11.093-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:00:11.094-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:11.093-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:00:11.283-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:00:11.316-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:11.316-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:00:11.482-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:11.482-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:00:11.514-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.433 seconds
+[2022-12-20T23:00:41.946-0300] {processor.py:153} INFO - Started process (PID=52579) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:00:41.955-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:00:41.955-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:41.955-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:00:42.151-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:00:42.320-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:42.320-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:00:42.347-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:00:42.347-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:00:42.377-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.433 seconds
+[2022-12-20T23:01:12.771-0300] {processor.py:153} INFO - Started process (PID=52883) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:01:12.780-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:01:12.780-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:12.780-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:01:13.132-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:01:13.166-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:13.166-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:01:13.192-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:13.192-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:01:13.220-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.452 seconds
+[2022-12-20T23:01:43.380-0300] {processor.py:153} INFO - Started process (PID=53189) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:01:43.382-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:01:43.382-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:43.382-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:01:43.713-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:01:43.744-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:43.744-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:01:43.774-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:01:43.774-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:01:43.803-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.425 seconds
+[2022-12-20T23:02:14.538-0300] {processor.py:153} INFO - Started process (PID=53509) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:02:14.546-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:02:14.547-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:14.547-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:02:14.734-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:02:14.915-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:14.915-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:02:14.940-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:14.940-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:02:14.969-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.433 seconds
+[2022-12-20T23:02:45.194-0300] {processor.py:153} INFO - Started process (PID=53812) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:02:45.195-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:02:45.196-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:45.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:02:45.380-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:02:45.556-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:45.556-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:02:45.588-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:02:45.588-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:02:45.621-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.431 seconds
+[2022-12-20T23:03:15.929-0300] {processor.py:153} INFO - Started process (PID=54114) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:03:15.937-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:03:15.938-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:15.938-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:03:16.279-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:03:16.314-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:16.313-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:03:16.344-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:16.344-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:03:16.374-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.447 seconds
+[2022-12-20T23:03:46.433-0300] {processor.py:153} INFO - Started process (PID=54419) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:03:46.441-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:03:46.442-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:46.442-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:03:46.785-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:03:46.816-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:46.816-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:03:46.845-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:03:46.845-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:03:46.874-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.446 seconds
+[2022-12-20T23:04:16.945-0300] {processor.py:153} INFO - Started process (PID=54723) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:04:16.954-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:04:16.954-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:16.954-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:04:17.148-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:04:17.328-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:17.328-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:04:17.356-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:17.356-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:04:17.382-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.441 seconds
+[2022-12-20T23:04:47.630-0300] {processor.py:153} INFO - Started process (PID=55026) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:04:47.638-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:04:47.639-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:47.639-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:04:47.975-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:04:48.006-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:48.006-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:04:48.033-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:04:48.033-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:04:48.065-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.437 seconds
+[2022-12-20T23:05:18.209-0300] {processor.py:153} INFO - Started process (PID=55330) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:05:18.210-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:05:18.211-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:18.210-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:05:18.540-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:05:18.573-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:18.573-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:05:18.605-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:18.604-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:05:18.628-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.423 seconds
+[2022-12-20T23:05:48.849-0300] {processor.py:153} INFO - Started process (PID=55635) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:05:48.850-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:05:48.851-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:48.851-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:05:49.052-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:05:49.093-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:49.093-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:05:49.258-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:05:49.257-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:05:49.288-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.443 seconds
+[2022-12-20T23:06:19.338-0300] {processor.py:153} INFO - Started process (PID=55939) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:06:19.347-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:06:19.347-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:19.347-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:06:19.545-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:06:19.723-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:19.723-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:06:19.751-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:19.751-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:06:19.781-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.445 seconds
+[2022-12-20T23:06:49.846-0300] {processor.py:153} INFO - Started process (PID=56249) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:06:49.854-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:06:49.855-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:49.855-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:06:50.210-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:06:50.246-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:50.246-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:06:50.277-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:06:50.277-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:06:50.299-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.458 seconds
+[2022-12-20T23:07:20.716-0300] {processor.py:153} INFO - Started process (PID=56551) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:07:20.725-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:07:20.725-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:20.725-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:07:21.050-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:07:21.082-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:21.082-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:07:21.112-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:21.111-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:07:21.139-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.425 seconds
+[2022-12-20T23:07:52.091-0300] {processor.py:153} INFO - Started process (PID=56853) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:07:52.092-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:07:52.093-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:52.093-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:07:52.272-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:07:52.454-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:52.454-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:07:52.483-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:07:52.483-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:07:52.514-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.426 seconds
+[2022-12-20T23:08:22.616-0300] {processor.py:153} INFO - Started process (PID=57155) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:08:22.621-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:08:22.622-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:22.622-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:08:22.959-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:08:22.990-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:22.989-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:08:23.019-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:23.019-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:08:23.051-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.437 seconds
+[2022-12-20T23:08:53.171-0300] {processor.py:153} INFO - Started process (PID=57459) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:08:53.179-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:08:53.180-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:53.180-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:08:53.486-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:08:53.520-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:53.520-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:08:53.550-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:08:53.549-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:08:53.578-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.409 seconds
+[2022-12-20T23:09:24.540-0300] {processor.py:153} INFO - Started process (PID=57764) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:09:24.549-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:09:24.550-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:24.550-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:09:24.877-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:09:24.908-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:24.908-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:09:24.935-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:24.934-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:09:24.963-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.426 seconds
+[2022-12-20T23:09:55.030-0300] {processor.py:153} INFO - Started process (PID=58066) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:09:55.038-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:09:55.038-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:55.038-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:09:55.215-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:09:55.379-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:55.379-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:09:55.407-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:09:55.406-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:09:55.437-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.409 seconds
+[2022-12-20T23:10:25.500-0300] {processor.py:153} INFO - Started process (PID=58369) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:10:25.509-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:10:25.510-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:25.509-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:10:25.825-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:10:25.855-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:25.855-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:10:25.884-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:25.884-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:10:25.912-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.415 seconds
+[2022-12-20T23:10:56.059-0300] {processor.py:153} INFO - Started process (PID=58671) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:10:56.067-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:10:56.067-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:56.067-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:10:56.403-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:10:56.433-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:56.432-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:10:56.460-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:10:56.460-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:10:56.484-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.428 seconds
+[2022-12-20T23:11:26.565-0300] {processor.py:153} INFO - Started process (PID=58981) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:11:26.574-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:11:26.575-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:26.575-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:11:26.889-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:11:26.921-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:26.921-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:11:26.947-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:26.947-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:11:26.968-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.405 seconds
+[2022-12-20T23:11:57.230-0300] {processor.py:153} INFO - Started process (PID=59290) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:11:57.235-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:11:57.236-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:57.235-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:11:57.558-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:11:57.587-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:57.587-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:11:57.615-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:11:57.615-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:11:57.646-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.420 seconds
+[2022-12-20T23:12:28.452-0300] {processor.py:153} INFO - Started process (PID=59591) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:12:28.461-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:12:28.462-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:28.461-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:12:28.787-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:12:28.821-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:28.821-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:12:28.855-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:28.855-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:12:28.883-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.433 seconds
+[2022-12-20T23:12:59.137-0300] {processor.py:153} INFO - Started process (PID=59901) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:12:59.138-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:12:59.138-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:59.138-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:12:59.455-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:12:59.488-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:59.488-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:12:59.513-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:12:59.513-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:12:59.542-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.408 seconds
+[2022-12-20T23:13:30.090-0300] {processor.py:153} INFO - Started process (PID=60206) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:13:30.099-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:13:30.100-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:30.100-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:13:30.413-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:13:30.447-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:30.447-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:13:30.476-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:13:30.475-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:13:30.497-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.410 seconds
+[2022-12-20T23:14:00.850-0300] {processor.py:153} INFO - Started process (PID=60509) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:14:00.858-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:14:00.859-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:00.859-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:14:01.185-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:14:01.217-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:01.217-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:14:01.245-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:01.244-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:14:01.276-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.430 seconds
+[2022-12-20T23:14:31.503-0300] {processor.py:153} INFO - Started process (PID=60810) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:14:31.512-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:14:31.512-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:31.512-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:14:31.834-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:14:31.866-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:31.866-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:14:31.896-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:14:31.896-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:14:31.919-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.419 seconds
+[2022-12-20T23:15:02.241-0300] {processor.py:153} INFO - Started process (PID=61115) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:15:02.249-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:15:02.250-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:02.250-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:15:02.586-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:15:02.618-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:02.618-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:15:02.642-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:02.642-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:15:02.670-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.433 seconds
+[2022-12-20T23:15:33.095-0300] {processor.py:153} INFO - Started process (PID=61416) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:15:33.104-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:15:33.104-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:33.104-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:15:33.443-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:15:33.472-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:33.472-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:15:33.498-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:15:33.498-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:15:33.520-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.428 seconds
+[2022-12-20T23:16:03.725-0300] {processor.py:153} INFO - Started process (PID=61720) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:16:03.734-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:16:03.735-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:03.735-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:16:04.062-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:16:04.091-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:04.091-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:16:04.120-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:04.120-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:16:04.140-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.418 seconds
+[2022-12-20T23:16:34.211-0300] {processor.py:153} INFO - Started process (PID=62029) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:16:34.212-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:16:34.213-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:34.212-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:16:34.522-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:16:34.555-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:34.554-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:16:34.582-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:16:34.582-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:16:34.611-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.402 seconds
+[2022-12-20T23:17:04.924-0300] {processor.py:153} INFO - Started process (PID=62336) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:17:04.925-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:17:04.926-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:04.926-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:17:05.247-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:17:05.279-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:05.279-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:17:05.307-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:05.307-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:17:05.334-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.412 seconds
+[2022-12-20T23:17:35.784-0300] {processor.py:153} INFO - Started process (PID=62683) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:17:35.793-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:17:35.793-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:35.793-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:17:36.076-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:17:36.108-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:36.108-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:17:36.135-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:17:36.134-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:17:36.152-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.370 seconds
+[2022-12-20T23:18:06.493-0300] {processor.py:153} INFO - Started process (PID=63004) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:18:06.493-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:18:06.494-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:06.494-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:18:06.760-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:18:06.789-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:06.789-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:18:06.812-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:06.812-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:18:06.840-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.349 seconds
+[2022-12-20T23:18:37.133-0300] {processor.py:153} INFO - Started process (PID=63306) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:18:37.141-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:18:37.142-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:37.142-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:18:37.430-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:18:37.460-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:37.460-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:18:37.485-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:18:37.485-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:18:37.504-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.373 seconds
+[2022-12-20T23:19:08.490-0300] {processor.py:153} INFO - Started process (PID=63610) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:19:08.499-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:19:08.499-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:08.499-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:19:08.784-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:19:08.814-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:08.814-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:19:08.842-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:08.842-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:19:08.873-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.384 seconds
+[2022-12-20T23:19:39.757-0300] {processor.py:153} INFO - Started process (PID=63913) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:19:39.758-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:19:39.759-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:39.759-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:19:40.052-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:19:40.080-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:40.079-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:19:40.105-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:19:40.105-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:19:40.133-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.379 seconds
+[2022-12-20T23:20:10.548-0300] {processor.py:153} INFO - Started process (PID=64215) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:20:10.556-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:20:10.557-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:10.557-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:20:10.858-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:20:10.888-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:10.888-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:20:10.912-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:10.912-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:20:10.930-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.386 seconds
+[2022-12-20T23:20:41.139-0300] {processor.py:153} INFO - Started process (PID=64517) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:20:41.148-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:20:41.149-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:41.149-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:20:41.427-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:20:41.457-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:41.457-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:20:41.481-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:20:41.481-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:20:41.512-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.376 seconds
+[2022-12-20T23:21:11.684-0300] {processor.py:153} INFO - Started process (PID=64818) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:21:11.692-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:21:11.692-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:11.692-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:21:11.970-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:21:12.000-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:12.000-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:21:12.026-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:12.026-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:21:12.046-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.366 seconds
+[2022-12-20T23:21:42.088-0300] {processor.py:153} INFO - Started process (PID=65130) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:21:42.088-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:21:42.089-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:42.089-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:21:42.386-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:21:42.414-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:42.414-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:21:42.439-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:21:42.439-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:21:42.465-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.380 seconds
+[2022-12-20T23:22:13.148-0300] {processor.py:153} INFO - Started process (PID=65435) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:22:13.156-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:22:13.157-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:13.157-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:22:13.441-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:22:13.469-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:13.469-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:22:13.493-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:13.493-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:22:13.524-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.377 seconds
+[2022-12-20T23:22:44.258-0300] {processor.py:153} INFO - Started process (PID=65737) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:22:44.267-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:22:44.268-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:44.268-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:22:44.581-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:22:44.610-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:44.610-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:22:44.636-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:22:44.636-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:22:44.662-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.408 seconds
+[2022-12-20T23:23:14.709-0300] {processor.py:153} INFO - Started process (PID=66044) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:23:14.718-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:23:14.718-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:14.718-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:23:14.999-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:23:15.029-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:15.028-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:23:15.057-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:15.057-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:23:15.087-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.380 seconds
+[2022-12-20T23:23:45.162-0300] {processor.py:153} INFO - Started process (PID=66345) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:23:45.162-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:23:45.163-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:45.163-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:23:45.441-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:23:45.472-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:45.472-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:23:45.498-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:23:45.498-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:23:45.526-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.367 seconds
+[2022-12-20T23:24:15.847-0300] {processor.py:153} INFO - Started process (PID=66647) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:24:15.855-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:24:15.856-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:15.856-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:24:16.131-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:24:16.158-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:16.157-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:24:16.181-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:16.181-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:24:16.201-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.358 seconds
+[2022-12-20T23:24:46.243-0300] {processor.py:153} INFO - Started process (PID=66948) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:24:46.251-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:24:46.252-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:46.251-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:24:46.525-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:24:46.555-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:46.555-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:24:46.580-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:24:46.580-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:24:46.610-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.370 seconds
+[2022-12-20T23:25:17.608-0300] {processor.py:153} INFO - Started process (PID=67254) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:25:17.616-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:25:17.617-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:17.616-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:25:17.931-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:25:17.959-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:17.959-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:25:17.983-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:17.983-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:25:18.010-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.405 seconds
+[2022-12-20T23:25:48.194-0300] {processor.py:153} INFO - Started process (PID=67557) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:25:48.194-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:25:48.195-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:48.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:25:48.508-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:25:48.539-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:48.538-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:25:48.563-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:25:48.563-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:25:48.591-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.400 seconds
+[2022-12-20T23:26:18.736-0300] {processor.py:153} INFO - Started process (PID=67861) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:26:18.745-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:26:18.745-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:18.745-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:26:19.081-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:26:19.110-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:19.109-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:26:19.136-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:19.136-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:26:19.156-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.423 seconds
+[2022-12-20T23:26:49.313-0300] {processor.py:153} INFO - Started process (PID=68205) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:26:49.313-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:26:49.314-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:49.314-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:26:49.616-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:26:49.647-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:49.647-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:26:49.672-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:26:49.672-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:26:49.692-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.382 seconds
+[2022-12-20T23:27:20.395-0300] {processor.py:153} INFO - Started process (PID=68521) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:27:20.403-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:27:20.404-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:20.404-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:27:20.691-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:27:20.720-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:20.719-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:27:20.744-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:20.743-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:27:20.771-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.380 seconds
+[2022-12-20T23:27:51.095-0300] {processor.py:153} INFO - Started process (PID=68839) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:27:51.104-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:27:51.104-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:51.104-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:27:51.342-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:27:51.369-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:51.369-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:27:51.393-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:27:51.393-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:27:51.411-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.318 seconds
+[2022-12-20T23:28:21.467-0300] {processor.py:153} INFO - Started process (PID=69152) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:28:21.475-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:28:21.476-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:21.476-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:28:21.688-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:28:21.711-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:21.711-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:28:21.730-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:21.730-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:28:21.752-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.288 seconds
+[2022-12-20T23:28:52.238-0300] {processor.py:153} INFO - Started process (PID=69458) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:28:52.246-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:28:52.247-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:52.247-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:28:52.459-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:28:52.481-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:52.481-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:28:52.500-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:28:52.500-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:28:52.522-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.287 seconds
+[2022-12-20T23:29:22.901-0300] {processor.py:153} INFO - Started process (PID=69760) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:29:22.909-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:29:22.910-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:22.909-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:29:23.144-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:29:23.168-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:23.168-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:29:23.188-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:23.188-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:29:23.215-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.316 seconds
+[2022-12-20T23:29:53.509-0300] {processor.py:153} INFO - Started process (PID=70061) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:29:53.517-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:29:53.518-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:53.518-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:29:53.764-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:29:53.787-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:53.787-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:29:53.806-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:29:53.806-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:29:53.828-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.322 seconds
+[2022-12-20T23:30:24.201-0300] {processor.py:153} INFO - Started process (PID=70368) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:30:24.209-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:30:24.209-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:24.209-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:30:24.418-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:30:24.441-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:24.441-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:30:24.458-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:24.458-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:30:24.480-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.282 seconds
+[2022-12-20T23:30:55.172-0300] {processor.py:153} INFO - Started process (PID=70706) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:30:55.181-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:30:55.181-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:55.181-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:30:55.454-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:30:55.483-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:55.482-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:30:55.506-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:30:55.506-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:30:55.523-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.352 seconds
+[2022-12-20T23:31:25.613-0300] {processor.py:153} INFO - Started process (PID=71008) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:31:25.614-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:31:25.615-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:25.615-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:31:26.011-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:31:26.057-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:26.057-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:31:26.106-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:26.106-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:31:26.141-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.532 seconds
+[2022-12-20T23:31:56.338-0300] {processor.py:153} INFO - Started process (PID=71353) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:31:56.339-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:31:56.339-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:56.339-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:31:56.583-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:31:56.609-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:56.609-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:31:56.631-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:31:56.630-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:31:56.655-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.320 seconds
+[2022-12-20T23:32:27.467-0300] {processor.py:153} INFO - Started process (PID=71654) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:32:27.476-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:32:27.476-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:27.476-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:32:27.691-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:32:27.713-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:27.712-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:32:27.730-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:27.730-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:32:27.751-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.286 seconds
+[2022-12-20T23:32:58.233-0300] {processor.py:153} INFO - Started process (PID=71974) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:32:58.241-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:32:58.243-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:58.243-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:32:58.544-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:32:58.573-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:58.573-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:32:58.599-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:32:58.599-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:32:58.632-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.401 seconds
+[2022-12-20T23:33:29.606-0300] {processor.py:153} INFO - Started process (PID=72278) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:33:29.614-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:33:29.615-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:29.615-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:33:29.904-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:33:29.935-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:29.935-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:33:29.965-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:33:29.965-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:33:29.994-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.391 seconds
+[2022-12-20T23:34:00.590-0300] {processor.py:153} INFO - Started process (PID=72580) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:34:00.590-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:34:00.591-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:00.591-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:34:00.879-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:34:00.911-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:00.911-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:34:00.938-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:00.937-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:34:00.968-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.380 seconds
+[2022-12-20T23:34:31.321-0300] {processor.py:153} INFO - Started process (PID=72882) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:34:31.322-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:34:31.323-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:31.323-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:34:31.619-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:34:31.648-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:31.648-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:34:31.673-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:34:31.672-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:34:31.701-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.383 seconds
+[2022-12-20T23:35:02.538-0300] {processor.py:153} INFO - Started process (PID=73201) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:35:02.538-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:35:02.539-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:02.539-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:35:02.773-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:35:02.798-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:02.797-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:35:02.820-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:02.820-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:35:02.843-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.307 seconds
+[2022-12-20T23:35:33.696-0300] {processor.py:153} INFO - Started process (PID=73553) to work on /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:35:33.704-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_iedb.py for tasks to queue
+[2022-12-20T23:35:33.705-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:33.705-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:35:33.926-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_iedb']) retrieved from /home/kallox/airflow/dags/download_iedb.py
+[2022-12-20T23:35:33.952-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:33.952-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T23:35:33.973-0300] {logging_mixin.py:137} INFO - [2022-12-20T23:35:33.973-0300] {dag.py:3427} INFO - Setting next_dagrun for download_iedb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2022-12-20T23:35:33.997-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_iedb.py took 0.304 seconds

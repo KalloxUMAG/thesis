@@ -1,0 +1,911 @@
+[2023-01-02T19:54:27.336-0300] {processor.py:153} INFO - Started process (PID=6200) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:54:27.337-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:54:27.337-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:27.337-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:54:27.483-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_vdjdb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:54:27.672-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:27.672-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:download_vdjdb
+[2023-01-02T19:54:27.680-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:27.680-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:download_vdjdb
+[2023-01-02T19:54:27.687-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:27.687-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:download_vdjdb
+[2023-01-02T19:54:27.687-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:27.687-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:54:27.698-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:27.698-0300] {dag.py:2697} INFO - Creating ORM DAG for download_vdjdb
+[2023-01-02T19:54:27.709-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:27.709-0300] {dag.py:3427} INFO - Setting next_dagrun for download_vdjdb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-02T19:54:27.724-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.391 seconds
+[2023-01-02T19:54:58.099-0300] {processor.py:153} INFO - Started process (PID=6292) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:54:58.108-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:54:58.109-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:58.109-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:54:58.469-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:54:58.580-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:58.580-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:download_hivmidb
+[2023-01-02T19:54:58.590-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:58.590-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:download_hivmidb
+[2023-01-02T19:54:58.600-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:58.600-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:download_hivmidb
+[2023-01-02T19:54:58.600-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:58.600-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:54:58.614-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:58.614-0300] {dag.py:2697} INFO - Creating ORM DAG for download_hivmidb
+[2023-01-02T19:54:58.628-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:54:58.627-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-02T19:54:58.651-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.554 seconds
+[2023-01-02T19:55:29.033-0300] {processor.py:153} INFO - Started process (PID=6375) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:55:29.034-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:55:29.035-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:55:29.035-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:55:29.204-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:55:29.237-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:55:29.237-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:55:29.274-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:55:29.274-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2022-12-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2023-01-02T19:55:29.487-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.457 seconds
+[2023-01-02T19:55:59.688-0300] {processor.py:153} INFO - Started process (PID=6506) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:55:59.689-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:55:59.689-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:55:59.689-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:55:59.855-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:55:59.887-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:55:59.887-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:56:00.108-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:56:00.108-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:56:00.129-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.444 seconds
+[2023-01-02T19:56:30.388-0300] {processor.py:153} INFO - Started process (PID=6624) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:56:30.396-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:56:30.397-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:56:30.397-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:56:30.564-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:56:30.598-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:56:30.598-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:56:30.828-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:56:30.828-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:56:30.850-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.465 seconds
+[2023-01-02T19:57:01.028-0300] {processor.py:153} INFO - Started process (PID=6739) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:57:01.029-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:57:01.030-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:57:01.030-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:57:01.190-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:57:01.424-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:57:01.424-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:57:01.453-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:57:01.453-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:57:01.485-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.460 seconds
+[2023-01-02T19:57:31.786-0300] {processor.py:153} INFO - Started process (PID=6841) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:57:31.795-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:57:31.795-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:57:31.795-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:57:31.952-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:57:32.172-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:57:32.172-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:57:32.198-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:57:32.197-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:57:32.225-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.442 seconds
+[2023-01-02T19:58:02.785-0300] {processor.py:153} INFO - Started process (PID=6948) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:58:02.786-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:58:02.787-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:58:02.786-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:58:03.128-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:58:03.157-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:58:03.157-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:58:03.183-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:58:03.182-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:58:03.212-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.429 seconds
+[2023-01-02T19:58:33.497-0300] {processor.py:153} INFO - Started process (PID=7060) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:58:33.506-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:58:33.507-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:58:33.507-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:58:33.854-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:58:33.885-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:58:33.885-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:58:33.912-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:58:33.912-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:58:33.932-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.437 seconds
+[2023-01-02T19:59:04.157-0300] {processor.py:153} INFO - Started process (PID=7139) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:59:04.158-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:59:04.158-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:59:04.158-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:59:04.329-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:59:04.363-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:59:04.363-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:59:04.579-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:59:04.579-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:59:04.603-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.450 seconds
+[2023-01-02T19:59:35.465-0300] {processor.py:153} INFO - Started process (PID=7222) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:59:35.473-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T19:59:35.474-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:59:35.474-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:59:35.648-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T19:59:35.875-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:59:35.875-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T19:59:35.904-0300] {logging_mixin.py:137} INFO - [2023-01-02T19:59:35.904-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T19:59:35.927-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.466 seconds
+[2023-01-02T20:00:06.327-0300] {processor.py:153} INFO - Started process (PID=7305) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:00:06.335-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:00:06.336-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:00:06.336-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:00:06.500-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:00:06.717-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:00:06.716-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:00:06.744-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:00:06.743-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:00:06.775-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.451 seconds
+[2023-01-02T20:00:37.083-0300] {processor.py:153} INFO - Started process (PID=7396) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:00:37.092-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:00:37.092-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:00:37.092-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:00:37.449-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:00:37.480-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:00:37.479-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:00:37.505-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:00:37.504-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:00:37.535-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.455 seconds
+[2023-01-02T20:01:07.880-0300] {processor.py:153} INFO - Started process (PID=7475) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:01:07.888-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:01:07.889-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:01:07.889-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:01:08.236-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:01:08.266-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:01:08.266-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:01:08.293-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:01:08.292-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:01:08.323-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.446 seconds
+[2023-01-02T20:01:38.719-0300] {processor.py:153} INFO - Started process (PID=7554) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:01:38.728-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:01:38.729-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:01:38.728-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:01:39.085-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:01:39.113-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:01:39.113-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:01:39.140-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:01:39.139-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:01:39.171-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.455 seconds
+[2023-01-02T20:02:09.490-0300] {processor.py:153} INFO - Started process (PID=7636) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:02:09.498-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:02:09.499-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:02:09.499-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:02:09.661-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:02:09.695-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:02:09.695-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:02:09.906-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:02:09.906-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:02:09.936-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:02:40.425-0300] {processor.py:153} INFO - Started process (PID=7726) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:02:40.426-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:02:40.427-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:02:40.427-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:02:40.589-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:02:40.806-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:02:40.806-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:02:40.834-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:02:40.833-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:02:40.864-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.442 seconds
+[2023-01-02T20:03:11.304-0300] {processor.py:153} INFO - Started process (PID=7806) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:03:11.312-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:03:11.313-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:03:11.313-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:03:11.491-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:03:11.677-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:03:11.677-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:03:11.703-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:03:11.703-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:03:11.730-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.429 seconds
+[2023-01-02T20:03:42.327-0300] {processor.py:153} INFO - Started process (PID=7887) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:03:42.328-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:03:42.329-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:03:42.328-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:03:42.675-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:03:42.705-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:03:42.705-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:03:42.732-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:03:42.732-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:03:42.765-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.442 seconds
+[2023-01-02T20:04:13.459-0300] {processor.py:153} INFO - Started process (PID=7982) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:04:13.468-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:04:13.469-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:04:13.469-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:04:13.809-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:04:13.840-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:04:13.839-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:04:13.868-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:04:13.867-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:04:13.897-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.441 seconds
+[2023-01-02T20:04:44.664-0300] {processor.py:153} INFO - Started process (PID=8072) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:04:44.673-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:04:44.676-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:04:44.676-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:04:44.843-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:04:44.877-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:04:44.877-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:04:45.096-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:04:45.095-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:04:45.116-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.455 seconds
+[2023-01-02T20:05:15.391-0300] {processor.py:153} INFO - Started process (PID=8200) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:05:15.399-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:05:15.400-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:05:15.400-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:05:15.569-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:05:15.789-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:05:15.789-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:05:15.816-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:05:15.816-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:05:15.847-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.460 seconds
+[2023-01-02T20:05:46.190-0300] {processor.py:153} INFO - Started process (PID=8275) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:05:46.191-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:05:46.191-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:05:46.191-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:05:46.352-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:05:46.568-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:05:46.568-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:05:46.594-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:05:46.594-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:05:46.616-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.430 seconds
+[2023-01-02T20:06:17.191-0300] {processor.py:153} INFO - Started process (PID=8348) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:06:17.199-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:06:17.200-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:06:17.200-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:06:17.536-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:06:17.566-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:06:17.565-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:06:17.591-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:06:17.591-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:06:17.623-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.435 seconds
+[2023-01-02T20:06:48.306-0300] {processor.py:153} INFO - Started process (PID=8424) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:06:48.315-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:06:48.316-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:06:48.316-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:06:48.668-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:06:48.698-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:06:48.698-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:06:48.724-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:06:48.724-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:06:48.755-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.451 seconds
+[2023-01-02T20:07:03.827-0300] {processor.py:153} INFO - Started process (PID=8663) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:07:03.836-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:07:03.837-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:07:03.836-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:07:03.987-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:07:04.111-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:07:04.110-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:07:04.133-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:07:04.133-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:07:04.158-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.333 seconds
+[2023-01-02T20:07:34.229-0300] {processor.py:153} INFO - Started process (PID=8758) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:07:34.238-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:07:34.239-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:07:34.239-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:07:34.602-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:07:34.633-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:07:34.632-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:07:34.659-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:07:34.659-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:07:34.691-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.465 seconds
+[2023-01-02T20:08:05.215-0300] {processor.py:153} INFO - Started process (PID=8851) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:08:05.224-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:08:05.224-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:08:05.224-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:08:05.412-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:08:05.451-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:08:05.450-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:08:05.485-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:08:05.485-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:08:05.636-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.423 seconds
+[2023-01-02T20:08:36.064-0300] {processor.py:153} INFO - Started process (PID=8919) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:08:36.065-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:08:36.065-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:08:36.065-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:08:36.228-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:08:36.261-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:08:36.260-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:08:36.476-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:08:36.476-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:08:36.498-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.437 seconds
+[2023-01-02T20:09:06.631-0300] {processor.py:153} INFO - Started process (PID=8986) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:09:06.640-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:09:06.640-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:09:06.640-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:09:06.812-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:09:06.846-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:09:06.845-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:09:07.062-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:09:07.062-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:09:07.096-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.468 seconds
+[2023-01-02T20:09:37.315-0300] {processor.py:153} INFO - Started process (PID=9053) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:09:37.324-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:09:37.325-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:09:37.324-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:09:37.486-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:09:37.703-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:09:37.702-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:09:37.732-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:09:37.731-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:09:37.761-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:10:08.391-0300] {processor.py:153} INFO - Started process (PID=9125) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:10:08.392-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:10:08.392-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:10:08.392-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:10:08.554-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:10:08.786-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:10:08.786-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:10:08.812-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:10:08.812-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:10:08.834-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.446 seconds
+[2023-01-02T20:10:39.064-0300] {processor.py:153} INFO - Started process (PID=9194) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:10:39.073-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:10:39.073-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:10:39.073-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:10:39.430-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:10:39.459-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:10:39.459-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:10:39.484-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:10:39.484-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:10:39.509-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.448 seconds
+[2023-01-02T20:11:09.729-0300] {processor.py:153} INFO - Started process (PID=9261) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:11:09.730-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:11:09.731-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:11:09.731-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:11:09.888-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:11:09.920-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:11:09.920-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:11:09.947-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:11:09.947-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:11:10.160-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.433 seconds
+[2023-01-02T20:11:40.734-0300] {processor.py:153} INFO - Started process (PID=9328) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:11:40.743-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:11:40.743-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:11:40.743-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:11:40.898-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:11:40.929-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:11:40.928-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:11:41.138-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:11:41.138-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:11:41.169-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.438 seconds
+[2023-01-02T20:12:11.637-0300] {processor.py:153} INFO - Started process (PID=9396) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:12:11.645-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:12:11.646-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:12:11.646-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:12:11.834-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:12:12.050-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:12:12.049-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:12:12.076-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:12:12.076-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:12:12.105-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.472 seconds
+[2023-01-02T20:12:42.597-0300] {processor.py:153} INFO - Started process (PID=9477) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:12:42.606-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:12:42.606-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:12:42.606-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:12:42.770-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:12:42.985-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:12:42.985-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:12:43.012-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:12:43.012-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:12:43.048-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.453 seconds
+[2023-01-02T20:13:13.627-0300] {processor.py:153} INFO - Started process (PID=9544) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:13:13.635-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:13:13.636-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:13:13.636-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:13:13.992-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:13:14.022-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:13:14.022-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:13:14.047-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:13:14.047-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:13:14.077-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.453 seconds
+[2023-01-02T20:13:44.212-0300] {processor.py:153} INFO - Started process (PID=9619) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:13:44.220-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:13:44.222-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:13:44.222-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:13:44.581-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:13:44.609-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:13:44.609-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:13:44.634-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:13:44.634-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:13:44.667-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.459 seconds
+[2023-01-02T20:14:14.955-0300] {processor.py:153} INFO - Started process (PID=9688) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:14:14.964-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:14:14.964-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:14:14.964-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:14:15.127-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:14:15.160-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:14:15.160-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:14:15.388-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:14:15.387-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:14:15.411-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.459 seconds
+[2023-01-02T20:14:45.898-0300] {processor.py:153} INFO - Started process (PID=9755) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:14:45.906-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:14:45.907-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:14:45.907-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:14:46.082-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:14:46.117-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:14:46.116-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:14:46.334-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:14:46.334-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:14:46.363-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.469 seconds
+[2023-01-02T20:15:16.994-0300] {processor.py:153} INFO - Started process (PID=9826) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:15:17.002-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:15:17.003-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:15:17.003-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:15:17.187-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:15:17.410-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:15:17.410-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:15:17.435-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:15:17.435-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:15:17.455-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.464 seconds
+[2023-01-02T20:15:47.665-0300] {processor.py:153} INFO - Started process (PID=9896) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:15:47.666-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:15:47.666-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:15:47.666-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:15:47.844-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:15:48.063-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:15:48.062-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:15:48.091-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:15:48.091-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:15:48.115-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.453 seconds
+[2023-01-02T20:16:18.712-0300] {processor.py:153} INFO - Started process (PID=9964) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:16:18.721-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:16:18.722-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:16:18.721-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:16:19.089-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:16:19.119-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:16:19.118-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:16:19.144-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:16:19.143-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:16:19.164-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.455 seconds
+[2023-01-02T20:16:49.439-0300] {processor.py:153} INFO - Started process (PID=10033) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:16:49.440-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:16:49.441-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:16:49.441-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:16:49.794-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:16:49.822-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:16:49.822-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:16:49.847-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:16:49.847-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:16:49.870-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.433 seconds
+[2023-01-02T20:17:20.331-0300] {processor.py:153} INFO - Started process (PID=10107) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:17:20.340-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:17:20.340-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:17:20.340-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:17:20.518-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:17:20.549-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:17:20.549-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:17:20.768-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:17:20.768-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:17:20.798-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.469 seconds
+[2023-01-02T20:17:51.291-0300] {processor.py:153} INFO - Started process (PID=10182) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:17:51.300-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:17:51.301-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:17:51.300-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:17:51.466-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:17:51.685-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:17:51.685-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:17:51.713-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:17:51.713-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:17:51.745-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.456 seconds
+[2023-01-02T20:18:22.290-0300] {processor.py:153} INFO - Started process (PID=10249) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:18:22.299-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:18:22.300-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:18:22.299-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:18:22.464-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:18:22.654-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:18:22.653-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:18:22.681-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:18:22.680-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:18:22.712-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.425 seconds
+[2023-01-02T20:18:53.283-0300] {processor.py:153} INFO - Started process (PID=10319) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:18:53.292-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:18:53.293-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:18:53.292-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:18:53.459-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:18:53.673-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:18:53.673-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:18:53.700-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:18:53.699-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:18:53.728-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.448 seconds
+[2023-01-02T20:19:24.220-0300] {processor.py:153} INFO - Started process (PID=10386) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:19:24.228-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:19:24.229-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:19:24.228-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:19:24.581-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:19:24.611-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:19:24.611-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:19:24.637-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:19:24.636-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:19:24.660-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.444 seconds
+[2023-01-02T20:19:54.919-0300] {processor.py:153} INFO - Started process (PID=10456) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:19:54.928-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:19:54.928-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:19:54.928-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:19:55.287-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:19:55.317-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:19:55.317-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:19:55.344-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:19:55.344-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:19:55.385-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.469 seconds
+[2023-01-02T20:20:25.627-0300] {processor.py:153} INFO - Started process (PID=10523) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:20:25.635-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:20:25.636-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:20:25.636-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:20:25.803-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:20:25.837-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:20:25.837-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:20:26.054-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:20:26.054-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:20:26.081-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.457 seconds
+[2023-01-02T20:20:56.666-0300] {processor.py:153} INFO - Started process (PID=10590) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:20:56.668-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:20:56.668-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:20:56.668-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:20:56.838-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:20:57.059-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:20:57.058-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:20:57.086-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:20:57.086-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:20:57.107-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.443 seconds
+[2023-01-02T20:21:27.307-0300] {processor.py:153} INFO - Started process (PID=10659) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:21:27.315-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:21:27.316-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:21:27.316-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:21:27.481-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:21:27.696-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:21:27.696-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:21:27.726-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:21:27.726-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:21:27.756-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds
+[2023-01-02T20:21:57.925-0300] {processor.py:153} INFO - Started process (PID=10727) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:21:57.933-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:21:57.934-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:21:57.934-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:21:58.089-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:21:58.318-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:21:58.317-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:21:58.344-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:21:58.344-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:21:58.374-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.453 seconds
+[2023-01-02T20:22:28.760-0300] {processor.py:153} INFO - Started process (PID=10796) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:22:28.769-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:22:28.770-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:22:28.769-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:22:29.117-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:22:29.148-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:22:29.147-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:22:29.175-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:22:29.175-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:22:29.212-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.455 seconds
+[2023-01-02T20:22:59.410-0300] {processor.py:153} INFO - Started process (PID=10870) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:22:59.419-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:22:59.420-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:22:59.419-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:22:59.791-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:22:59.821-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:22:59.821-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:22:59.848-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:22:59.848-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:22:59.877-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.470 seconds
+[2023-01-02T20:23:30.087-0300] {processor.py:153} INFO - Started process (PID=10937) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:23:30.096-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:23:30.096-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:23:30.096-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:23:30.271-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:23:30.305-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:23:30.304-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:23:30.519-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:23:30.519-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:23:30.549-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.465 seconds
+[2023-01-02T20:24:00.774-0300] {processor.py:153} INFO - Started process (PID=11006) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:24:00.783-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:24:00.784-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:24:00.783-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:24:00.956-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:24:01.176-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:24:01.176-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:24:01.207-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:24:01.207-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:24:01.235-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.463 seconds
+[2023-01-02T20:24:31.438-0300] {processor.py:153} INFO - Started process (PID=11073) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:24:31.447-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:24:31.448-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:24:31.448-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:24:31.603-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:24:31.831-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:24:31.831-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:24:31.856-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:24:31.855-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:24:31.885-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:25:02.115-0300] {processor.py:153} INFO - Started process (PID=11146) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:25:02.123-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:25:02.124-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:25:02.124-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:25:02.477-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:25:02.506-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:25:02.506-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:25:02.531-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:25:02.531-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:25:02.562-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.451 seconds
+[2023-01-02T20:25:32.754-0300] {processor.py:153} INFO - Started process (PID=11215) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:25:32.755-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:25:32.756-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:25:32.756-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:25:33.107-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:25:33.138-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:25:33.137-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:25:33.166-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:25:33.166-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:25:33.191-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.440 seconds
+[2023-01-02T20:26:03.645-0300] {processor.py:153} INFO - Started process (PID=11294) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:26:03.646-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:26:03.647-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:26:03.646-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:26:03.997-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:26:04.025-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:26:04.025-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:26:04.051-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:26:04.051-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:26:04.080-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.438 seconds
+[2023-01-02T20:26:34.311-0300] {processor.py:153} INFO - Started process (PID=11375) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:26:34.318-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:26:34.318-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:26:34.318-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:26:34.474-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:26:34.693-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:26:34.693-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:26:34.724-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:26:34.724-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:26:34.752-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.444 seconds
+[2023-01-02T20:27:06.061-0300] {processor.py:153} INFO - Started process (PID=11445) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:27:06.069-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:27:06.070-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:27:06.070-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:27:06.212-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:27:06.336-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:27:06.336-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:27:06.369-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:27:06.368-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:27:06.387-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.329 seconds
+[2023-01-02T20:27:36.611-0300] {processor.py:153} INFO - Started process (PID=11518) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:27:36.620-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:27:36.621-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:27:36.621-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:27:36.971-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:27:36.999-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:27:36.999-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:27:37.023-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:27:37.023-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:27:37.052-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.444 seconds
+[2023-01-02T20:28:07.666-0300] {processor.py:153} INFO - Started process (PID=11586) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:28:07.674-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:28:07.675-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:28:07.675-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:28:08.033-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:28:08.064-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:28:08.063-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:28:08.091-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:28:08.091-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:28:08.117-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.454 seconds
+[2023-01-02T20:28:38.306-0300] {processor.py:153} INFO - Started process (PID=11653) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:28:38.314-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:28:38.315-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:28:38.315-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:28:38.659-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:28:38.690-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:28:38.689-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:28:38.725-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:28:38.724-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:28:38.754-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds
+[2023-01-02T20:29:09.222-0300] {processor.py:153} INFO - Started process (PID=11720) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:29:09.231-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:29:09.232-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:29:09.232-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:29:09.582-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:29:09.614-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:29:09.614-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:29:09.639-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:29:09.639-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:29:09.670-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds
+[2023-01-02T20:29:40.226-0300] {processor.py:153} INFO - Started process (PID=11791) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:29:40.234-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:29:40.235-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:29:40.235-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:29:40.390-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:29:40.605-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:29:40.605-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:29:40.634-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:29:40.633-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:29:40.663-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.441 seconds
+[2023-01-02T20:30:11.133-0300] {processor.py:153} INFO - Started process (PID=11861) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:30:11.142-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:30:11.142-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:30:11.142-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:30:11.309-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:30:11.529-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:30:11.528-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:30:11.553-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:30:11.553-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:30:11.582-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds
+[2023-01-02T20:30:41.764-0300] {processor.py:153} INFO - Started process (PID=11930) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:30:41.767-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:30:41.767-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:30:41.767-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:30:42.121-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:30:42.151-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:30:42.151-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:30:42.177-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:30:42.176-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:30:42.209-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.447 seconds
+[2023-01-02T20:31:12.340-0300] {processor.py:153} INFO - Started process (PID=11998) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:31:12.348-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:31:12.349-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:31:12.349-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:31:12.694-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:31:12.727-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:31:12.727-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:31:12.754-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:31:12.753-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:31:12.792-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.456 seconds
+[2023-01-02T20:31:42.959-0300] {processor.py:153} INFO - Started process (PID=12067) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:31:42.968-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:31:42.969-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:31:42.968-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:31:43.327-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:31:43.355-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:31:43.355-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:31:43.381-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:31:43.381-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:31:43.409-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.453 seconds
+[2023-01-02T20:32:14.135-0300] {processor.py:153} INFO - Started process (PID=12135) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:32:14.144-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:32:14.144-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:32:14.144-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:32:14.317-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:32:14.509-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:32:14.508-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:32:14.535-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:32:14.535-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:32:14.556-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.424 seconds
+[2023-01-02T20:32:44.765-0300] {processor.py:153} INFO - Started process (PID=12208) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:32:44.773-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:32:44.774-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:32:44.774-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:32:44.953-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:32:45.173-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:32:45.173-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:32:45.210-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:32:45.210-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:32:45.244-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.483 seconds
+[2023-01-02T20:33:15.439-0300] {processor.py:153} INFO - Started process (PID=12275) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:33:15.447-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:33:15.448-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:33:15.448-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:33:15.801-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:33:15.829-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:33:15.829-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:33:15.854-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:33:15.854-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:33:15.885-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:33:46.037-0300] {processor.py:153} INFO - Started process (PID=12342) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:33:46.041-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:33:46.042-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:33:46.042-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:33:46.395-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:33:46.425-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:33:46.425-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:33:46.453-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:33:46.453-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:33:46.483-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:34:16.645-0300] {processor.py:153} INFO - Started process (PID=12413) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:34:16.653-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:34:16.654-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:34:16.654-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:34:17.003-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:34:17.034-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:34:17.033-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:34:17.060-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:34:17.060-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:34:17.088-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.446 seconds
+[2023-01-02T20:34:47.287-0300] {processor.py:153} INFO - Started process (PID=12482) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:34:47.295-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:34:47.296-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:34:47.296-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:34:47.649-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:34:47.680-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:34:47.680-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:34:47.708-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:34:47.708-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:34:47.738-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.454 seconds
+[2023-01-02T20:35:18.195-0300] {processor.py:153} INFO - Started process (PID=12553) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:35:18.205-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:35:18.206-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:35:18.206-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:35:18.551-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:35:18.586-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:35:18.586-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:35:18.615-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:35:18.615-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:35:18.644-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds
+[2023-01-02T20:35:48.805-0300] {processor.py:153} INFO - Started process (PID=12623) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:35:48.814-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:35:48.814-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:35:48.814-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:35:49.154-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:35:49.183-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:35:49.183-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:35:49.213-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:35:49.213-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:35:49.233-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.431 seconds
+[2023-01-02T20:36:19.366-0300] {processor.py:153} INFO - Started process (PID=12690) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:36:19.367-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:36:19.367-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:36:19.367-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:36:19.742-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:36:19.771-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:36:19.771-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:36:19.797-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:36:19.797-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:36:19.820-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.458 seconds
+[2023-01-02T20:36:50.005-0300] {processor.py:153} INFO - Started process (PID=12760) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:36:50.014-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:36:50.015-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:36:50.014-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:36:50.357-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:36:50.386-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:36:50.386-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:36:50.412-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:36:50.412-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:36:50.441-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.439 seconds
+[2023-01-02T20:37:20.794-0300] {processor.py:153} INFO - Started process (PID=12829) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:37:20.795-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:37:20.795-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:37:20.795-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:37:21.132-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:37:21.163-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:37:21.163-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:37:21.190-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:37:21.190-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:37:21.223-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.433 seconds
+[2023-01-02T20:37:51.426-0300] {processor.py:153} INFO - Started process (PID=12909) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:37:51.434-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:37:51.435-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:37:51.435-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:37:51.795-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:37:51.825-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:37:51.825-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:37:51.854-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:37:51.854-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:37:51.880-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.457 seconds
+[2023-01-02T20:38:22.079-0300] {processor.py:153} INFO - Started process (PID=12976) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:38:22.088-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:38:22.089-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:38:22.088-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:38:22.260-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:38:22.478-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:38:22.478-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:38:22.503-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:38:22.502-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:38:22.532-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.456 seconds
+[2023-01-02T20:38:52.718-0300] {processor.py:153} INFO - Started process (PID=13046) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:38:52.727-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:38:52.728-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:38:52.727-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:38:53.081-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:38:53.109-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:38:53.109-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:38:53.134-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:38:53.134-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:38:53.163-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.448 seconds
+[2023-01-02T20:39:23.365-0300] {processor.py:153} INFO - Started process (PID=13114) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:39:23.366-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:39:23.366-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:39:23.366-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:39:23.714-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:39:23.742-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:39:23.742-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:39:23.768-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:39:23.768-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:39:23.797-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.436 seconds
+[2023-01-02T20:39:54.265-0300] {processor.py:153} INFO - Started process (PID=13183) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:39:54.273-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:39:54.274-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:39:54.274-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:39:54.628-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:39:54.657-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:39:54.657-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:39:54.683-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:39:54.683-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:39:54.717-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.455 seconds
+[2023-01-02T20:40:24.914-0300] {processor.py:153} INFO - Started process (PID=13251) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:40:24.922-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:40:24.923-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:40:24.923-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:40:25.297-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:40:25.329-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:40:25.329-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:40:25.355-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:40:25.354-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:40:25.388-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.478 seconds
+[2023-01-02T20:40:55.572-0300] {processor.py:153} INFO - Started process (PID=13318) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:40:55.581-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:40:55.581-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:40:55.581-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:40:55.925-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:40:55.955-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:40:55.955-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:40:55.980-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:40:55.980-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:40:56.004-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.435 seconds
+[2023-01-02T20:41:26.151-0300] {processor.py:153} INFO - Started process (PID=13388) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:41:26.160-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:41:26.161-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:41:26.160-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:41:26.513-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:41:26.543-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:41:26.543-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:41:26.568-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:41:26.568-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:41:26.597-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:41:56.772-0300] {processor.py:153} INFO - Started process (PID=13455) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:41:56.780-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:41:56.781-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:41:56.781-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:41:57.131-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:41:57.161-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:41:57.160-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:41:57.187-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:41:57.187-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:41:57.219-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.450 seconds
+[2023-01-02T20:42:27.861-0300] {processor.py:153} INFO - Started process (PID=13524) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:42:27.869-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:42:27.870-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:42:27.870-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:42:28.226-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:42:28.256-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:42:28.256-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:42:28.285-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:42:28.285-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:42:28.314-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.457 seconds
+[2023-01-02T20:42:58.514-0300] {processor.py:153} INFO - Started process (PID=13598) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:42:58.523-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:42:58.523-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:42:58.523-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:42:58.884-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:42:58.930-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:42:58.929-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:42:58.964-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:42:58.964-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:42:58.988-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.477 seconds
+[2023-01-02T20:43:29.237-0300] {processor.py:153} INFO - Started process (PID=13668) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:43:29.238-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:43:29.238-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:43:29.238-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:43:29.579-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:43:29.609-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:43:29.609-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:43:29.635-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:43:29.635-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:43:29.663-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.429 seconds
+[2023-01-02T20:43:59.813-0300] {processor.py:153} INFO - Started process (PID=13736) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:43:59.814-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:43:59.815-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:43:59.815-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:44:00.173-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:44:00.209-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:44:00.209-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:44:00.239-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:44:00.238-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:44:00.259-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:44:30.461-0300] {processor.py:153} INFO - Started process (PID=13805) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:44:30.462-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:44:30.463-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:44:30.463-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:44:30.817-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:44:30.847-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:44:30.846-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:44:30.872-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:44:30.872-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:44:30.895-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.438 seconds
+[2023-01-02T20:45:01.064-0300] {processor.py:153} INFO - Started process (PID=13872) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:45:01.064-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:45:01.065-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:45:01.065-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:45:01.422-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:45:01.457-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:45:01.456-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:45:01.493-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:45:01.493-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:45:01.520-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.459 seconds
+[2023-01-02T20:45:32.043-0300] {processor.py:153} INFO - Started process (PID=13944) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:45:32.044-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:45:32.045-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:45:32.044-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:45:32.394-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:45:32.426-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:45:32.426-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:45:32.451-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:45:32.451-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:45:32.479-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.439 seconds
+[2023-01-02T20:46:02.642-0300] {processor.py:153} INFO - Started process (PID=14013) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:46:02.643-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:46:02.644-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:46:02.643-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:46:02.995-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:46:03.026-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:46:03.026-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:46:03.051-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:46:03.051-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:46:03.073-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.434 seconds
+[2023-01-02T20:46:33.224-0300] {processor.py:153} INFO - Started process (PID=14081) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:46:33.225-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:46:33.226-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:46:33.225-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:46:33.569-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:46:33.600-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:46:33.600-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:46:33.626-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:46:33.625-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:46:33.655-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.433 seconds
+[2023-01-02T20:47:07.353-0300] {processor.py:153} INFO - Started process (PID=14151) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:47:07.361-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:47:07.362-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:47:07.362-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:47:07.593-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:47:07.618-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:47:07.618-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:47:07.640-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:47:07.639-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:47:07.663-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.313 seconds
+[2023-01-02T20:47:37.867-0300] {processor.py:153} INFO - Started process (PID=14224) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:47:37.875-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:47:37.876-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:47:37.876-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:47:38.226-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:47:38.257-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:47:38.256-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:47:38.283-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:47:38.283-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:47:38.306-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.442 seconds
+[2023-01-02T20:48:08.762-0300] {processor.py:153} INFO - Started process (PID=14291) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:48:08.770-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:48:08.771-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:48:08.771-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:48:09.124-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:48:09.154-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:48:09.153-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:48:09.182-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:48:09.181-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:48:09.209-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.450 seconds
+[2023-01-02T20:48:39.721-0300] {processor.py:153} INFO - Started process (PID=14362) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:48:39.729-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:48:39.730-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:48:39.730-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:48:40.082-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:48:40.113-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:48:40.113-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:48:40.139-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:48:40.138-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:48:40.168-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.455 seconds
+[2023-01-02T20:49:10.323-0300] {processor.py:153} INFO - Started process (PID=14429) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:49:10.331-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:49:10.332-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:49:10.332-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:49:10.683-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:49:10.717-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:49:10.717-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:49:10.745-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:49:10.745-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:49:10.773-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.453 seconds
+[2023-01-02T20:49:40.986-0300] {processor.py:153} INFO - Started process (PID=14498) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:49:40.987-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:49:40.988-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:49:40.988-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:49:41.338-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:49:41.368-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:49:41.368-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:49:41.394-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:49:41.393-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:49:41.420-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.437 seconds
+[2023-01-02T20:50:11.879-0300] {processor.py:153} INFO - Started process (PID=14566) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:50:11.887-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:50:11.888-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:50:11.888-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:50:12.231-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:50:12.261-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:50:12.261-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:50:12.288-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:50:12.287-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:50:12.317-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.442 seconds
+[2023-01-02T20:50:42.486-0300] {processor.py:153} INFO - Started process (PID=14635) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:50:42.494-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:50:42.495-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:50:42.495-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:50:42.849-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:50:42.879-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:50:42.879-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:50:42.906-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:50:42.906-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:50:42.934-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.451 seconds
+[2023-01-02T20:51:13.119-0300] {processor.py:153} INFO - Started process (PID=14704) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:51:13.128-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:51:13.128-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:51:13.128-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:51:13.496-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:51:13.528-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:51:13.527-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:51:13.553-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:51:13.553-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:51:13.574-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.457 seconds
+[2023-01-02T20:51:43.728-0300] {processor.py:153} INFO - Started process (PID=14771) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:51:43.737-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:51:43.738-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:51:43.738-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:51:44.098-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:51:44.129-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:51:44.129-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:51:44.155-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:51:44.154-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:51:44.174-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.451 seconds
+[2023-01-02T20:52:14.633-0300] {processor.py:153} INFO - Started process (PID=14840) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:52:14.642-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:52:14.642-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:52:14.642-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:52:14.999-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:52:15.030-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:52:15.029-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:52:15.055-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:52:15.054-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:52:15.082-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds
+[2023-01-02T20:52:45.274-0300] {processor.py:153} INFO - Started process (PID=14912) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:52:45.283-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:52:45.284-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:52:45.283-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:52:45.630-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:52:45.661-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:52:45.661-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:52:45.689-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:52:45.689-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:52:45.725-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.454 seconds
+[2023-01-02T20:53:16.171-0300] {processor.py:153} INFO - Started process (PID=14980) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:53:16.180-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:53:16.181-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:53:16.181-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:53:16.537-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:53:16.566-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:53:16.565-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:53:16.592-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:53:16.592-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:53:16.620-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds
+[2023-01-02T20:53:46.764-0300] {processor.py:153} INFO - Started process (PID=15051) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:53:46.773-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:53:46.774-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:53:46.774-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:53:47.121-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:53:47.150-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:53:47.150-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:53:47.177-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:53:47.177-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:53:47.215-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.456 seconds
+[2023-01-02T20:54:17.392-0300] {processor.py:153} INFO - Started process (PID=15119) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:54:17.393-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:54:17.394-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:54:17.394-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:54:17.740-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:54:17.772-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:54:17.772-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:54:17.799-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:54:17.799-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:54:17.828-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.440 seconds
+[2023-01-02T20:54:48.326-0300] {processor.py:153} INFO - Started process (PID=15188) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:54:48.335-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:54:48.336-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:54:48.336-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:54:48.682-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:54:48.716-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:54:48.716-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:54:48.740-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:54:48.740-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:54:48.773-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.450 seconds
+[2023-01-02T20:55:18.939-0300] {processor.py:153} INFO - Started process (PID=15259) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:55:18.947-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:55:18.948-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:55:18.948-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:55:19.310-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:55:19.339-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:55:19.338-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:55:19.363-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:55:19.363-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:55:19.384-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.448 seconds
+[2023-01-02T20:55:49.563-0300] {processor.py:153} INFO - Started process (PID=15328) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:55:49.572-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:55:49.573-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:55:49.572-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:55:49.937-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:55:49.967-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:55:49.967-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:55:49.993-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:55:49.993-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:55:50.022-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.462 seconds
+[2023-01-02T20:56:20.225-0300] {processor.py:153} INFO - Started process (PID=15398) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:56:20.227-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:56:20.227-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:56:20.227-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:56:20.565-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:56:20.595-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:56:20.595-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:56:20.622-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:56:20.622-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:56:20.651-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.430 seconds
+[2023-01-02T20:56:50.844-0300] {processor.py:153} INFO - Started process (PID=15465) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:56:50.845-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:56:50.846-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:56:50.846-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:56:51.176-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:56:51.211-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:56:51.211-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:56:51.237-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:56:51.236-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:56:51.264-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.423 seconds
+[2023-01-02T20:57:21.875-0300] {processor.py:153} INFO - Started process (PID=15532) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:57:21.876-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:57:21.877-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:57:21.876-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:57:22.222-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:57:22.252-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:57:22.252-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:57:22.277-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:57:22.277-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:57:22.305-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.434 seconds
+[2023-01-02T20:57:52.550-0300] {processor.py:153} INFO - Started process (PID=15613) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:57:52.558-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:57:52.559-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:57:52.559-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:57:52.905-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:57:52.937-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:57:52.937-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:57:52.964-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:57:52.964-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:57:52.996-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.449 seconds
+[2023-01-02T20:58:23.398-0300] {processor.py:153} INFO - Started process (PID=15681) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:58:23.399-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:58:23.400-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:58:23.400-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:58:23.742-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:58:23.771-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:58:23.771-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:58:23.796-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:58:23.796-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:58:23.823-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.428 seconds
+[2023-01-02T20:58:54.287-0300] {processor.py:153} INFO - Started process (PID=15750) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:58:54.296-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:58:54.296-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:58:54.296-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:58:54.641-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:58:54.671-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:58:54.671-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:58:54.700-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:58:54.700-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:58:54.730-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.446 seconds
+[2023-01-02T20:59:25.179-0300] {processor.py:153} INFO - Started process (PID=15817) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:59:25.180-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:59:25.181-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:59:25.181-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:59:25.545-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:59:25.576-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:59:25.576-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:59:25.602-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:59:25.602-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:59:25.630-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.454 seconds
+[2023-01-02T20:59:56.192-0300] {processor.py:153} INFO - Started process (PID=15886) to work on /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:59:56.202-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_hivmidb.py for tasks to queue
+[2023-01-02T20:59:56.203-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:59:56.203-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:59:56.564-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_hivmidb']) retrieved from /home/kallox/airflow/dags/download_hivmidb.py
+[2023-01-02T20:59:56.595-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:59:56.594-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T20:59:56.619-0300] {logging_mixin.py:137} INFO - [2023-01-02T20:59:56.619-0300] {dag.py:3427} INFO - Setting next_dagrun for download_hivmidb to 2023-01-01T00:00:00+00:00, run_after=2023-02-01T00:00:00+00:00
+[2023-01-02T20:59:56.640-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_hivmidb.py took 0.452 seconds

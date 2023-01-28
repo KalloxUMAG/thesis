@@ -1,0 +1,75 @@
+[2022-12-14T18:39:03.191-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_uniprot.download_files manual__2022-12-14T21:39:01.224859+00:00 [queued]>
+[2022-12-14T18:39:03.205-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: download_uniprot.download_files manual__2022-12-14T21:39:01.224859+00:00 [queued]>
+[2022-12-14T18:39:03.205-0300] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T18:39:03.205-0300] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-14T18:39:03.205-0300] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T18:39:03.219-0300] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): download_files> on 2022-12-14 21:39:01.224859+00:00
+[2022-12-14T18:39:03.224-0300] {standard_task_runner.py:55} INFO - Started process 35301 to run task
+[2022-12-14T18:39:03.226-0300] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'download_uniprot', 'download_files', 'manual__2022-12-14T21:39:01.224859+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/download_uniprot.py', '--cfg-path', '/tmp/tmpr7j0a6nu']
+[2022-12-14T18:39:03.227-0300] {standard_task_runner.py:83} INFO - Job 10: Subtask download_files
+[2022-12-14T18:39:03.302-0300] {task_command.py:389} INFO - Running <TaskInstance: download_uniprot.download_files manual__2022-12-14T21:39:01.224859+00:00 [running]> on host kallo-Ubuntu
+[2022-12-14T18:39:03.383-0300] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Kallox
+AIRFLOW_CTX_DAG_ID=download_uniprot
+AIRFLOW_CTX_TASK_ID=download_files
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-14T21:39:01.224859+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-14T21:39:01.224859+00:00
+[2022-12-14T18:39:03.384-0300] {logging_mixin.py:137} INFO - /home/kallox/***/dags
+[2022-12-14T18:44:11.640-0300] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/urllib3/response.py", line 444, in _error_catcher
+    yield
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/urllib3/response.py", line 831, in read_chunked
+    chunk = self._handle_chunk(amt)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/urllib3/response.py", line 784, in _handle_chunk
+    returned_chunk = self._fp._safe_read(self.chunk_left)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/http/client.py", line 630, in _safe_read
+    raise IncompleteRead(b''.join(s), amt)
+http.client.IncompleteRead: IncompleteRead(1104 bytes read, 1138 more expected)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/urllib3/response.py", line 624, in stream
+    for line in self.read_chunked(amt, decode_content=decode_content):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/urllib3/response.py", line 857, in read_chunked
+    self._original_response.close()
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/urllib3/response.py", line 461, in _error_catcher
+    raise ProtocolError("Connection broken: %r" % e, e)
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(1104 bytes read, 1138 more expected)', IncompleteRead(1104 bytes read, 1138 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kallox/airflow/dags/scripts/uniprot/download.py", line 27, in download
+    get_protein(file['link'], file['filename'], file['extension'])
+  File "/home/kallox/airflow/dags/scripts/uniprot/download.py", line 7, in get_protein
+    response = requests.get(url)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/sessions.py", line 745, in send
+    r.content
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/models.py", line 818, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(1104 bytes read, 1138 more expected)', IncompleteRead(1104 bytes read, 1138 more expected))
+[2022-12-14T18:44:11.662-0300] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=download_uniprot, task_id=download_files, execution_date=20221214T213901, start_date=20221214T213903, end_date=20221214T214411
+[2022-12-14T18:44:11.682-0300] {standard_task_runner.py:105} ERROR - Failed to execute job 10 for task download_files (('Connection broken: IncompleteRead(1104 bytes read, 1138 more expected)', IncompleteRead(1104 bytes read, 1138 more expected)); 35301)
+[2022-12-14T18:44:11.711-0300] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-14T18:44:11.733-0300] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

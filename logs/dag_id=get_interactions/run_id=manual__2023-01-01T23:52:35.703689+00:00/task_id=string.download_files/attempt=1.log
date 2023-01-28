@@ -1,0 +1,26 @@
+[2023-01-01T20:52:41.244-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: get_interactions.string.download_files manual__2023-01-01T23:52:35.703689+00:00 [queued]>
+[2023-01-01T20:52:41.257-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: get_interactions.string.download_files manual__2023-01-01T23:52:35.703689+00:00 [queued]>
+[2023-01-01T20:52:41.257-0300] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-01T20:52:41.257-0300] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-01T20:52:41.257-0300] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-01T20:52:41.282-0300] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): string.download_files> on 2023-01-01 23:52:35.703689+00:00
+[2023-01-01T20:52:41.287-0300] {standard_task_runner.py:55} INFO - Started process 10002 to run task
+[2023-01-01T20:52:41.290-0300] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'get_interactions', 'string.download_files', 'manual__2023-01-01T23:52:35.703689+00:00', '--job-id', '160', '--raw', '--subdir', 'DAGS_FOLDER/get_interactions.py', '--cfg-path', '/tmp/tmpaszvbryq']
+[2023-01-01T20:52:41.291-0300] {standard_task_runner.py:83} INFO - Job 160: Subtask string.download_files
+[2023-01-01T20:52:41.365-0300] {task_command.py:389} INFO - Running <TaskInstance: get_interactions.string.download_files manual__2023-01-01T23:52:35.703689+00:00 [running]> on host kallo-Ubuntu
+[2023-01-01T20:52:41.449-0300] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Kallox
+AIRFLOW_CTX_DAG_ID=get_interactions
+AIRFLOW_CTX_TASK_ID=string.download_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-01T23:52:35.703689+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-01T23:52:35.703689+00:00
+[2023-01-01T20:52:44.024-0300] {logging_mixin.py:137} INFO - 0
+[2023-01-01T20:52:45.105-0300] {logging_mixin.py:137} INFO - 1
+[2023-01-01T20:53:16.890-0300] {local_task_job.py:224} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2023-01-01T20:53:16.899-0300] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 10002. PIDs of all processes in the group: [10002]
+[2023-01-01T20:53:16.899-0300] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 10002
+[2023-01-01T20:53:16.900-0300] {taskinstance.py:1483} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-01-01T20:53:16.952-0300] {process_utils.py:79} INFO - Process psutil.Process(pid=10002, status='terminated', exitcode=0, started='20:52:40') (10002) terminated with exit code 0

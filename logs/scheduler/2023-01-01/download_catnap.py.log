@@ -1,0 +1,392 @@
+[2023-01-01T20:30:46.394-0300] {processor.py:153} INFO - Started process (PID=3605) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:30:46.395-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:30:46.395-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:46.395-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:30:46.539-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:30:46.657-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:46.657-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:30:46.678-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:30:46.678-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:30:46.695-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.303 seconds
+[2023-01-01T20:31:17.549-0300] {processor.py:153} INFO - Started process (PID=4867) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:31:17.550-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:31:17.550-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:17.550-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:31:17.780-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:31:17.815-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:17.815-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:31:17.847-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:17.847-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:31:17.970-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.424 seconds
+[2023-01-01T20:31:48.412-0300] {processor.py:153} INFO - Started process (PID=5250) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:31:48.412-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:31:48.413-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:48.413-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:31:48.557-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:31:48.583-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:48.583-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:31:48.700-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:31:48.700-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:31:48.717-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.308 seconds
+[2023-01-01T20:32:18.920-0300] {processor.py:153} INFO - Started process (PID=5630) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:32:18.920-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:32:18.921-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:18.920-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:32:19.058-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:32:19.179-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:19.178-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:32:19.201-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:19.201-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:32:19.220-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.302 seconds
+[2023-01-01T20:32:50.635-0300] {processor.py:153} INFO - Started process (PID=5957) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:32:50.635-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:32:50.636-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:50.636-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:32:50.864-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:32:50.889-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:50.888-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:32:50.911-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:32:50.911-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:32:50.927-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.294 seconds
+[2023-01-01T20:33:21.397-0300] {processor.py:153} INFO - Started process (PID=6247) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:33:21.397-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:33:21.398-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:21.398-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:33:21.623-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:33:21.648-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:21.648-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:33:21.673-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:33:21.673-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:33:21.688-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.294 seconds
+[2023-01-01T20:34:49.129-0300] {processor.py:153} INFO - Started process (PID=7062) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:34:49.130-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:34:49.131-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:34:49.131-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:34:49.274-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:34:49.392-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:34:49.392-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:34:49.414-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:34:49.414-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:34:49.431-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.304 seconds
+[2023-01-01T20:35:20.711-0300] {processor.py:153} INFO - Started process (PID=7152) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:35:20.712-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:35:20.712-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:20.712-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:35:20.954-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:35:20.981-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:20.981-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:35:21.010-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:21.010-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:35:21.042-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.333 seconds
+[2023-01-01T20:35:51.220-0300] {processor.py:153} INFO - Started process (PID=7231) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:35:51.221-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:35:51.221-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:51.221-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:35:51.457-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:35:51.480-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:51.480-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:35:51.502-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:35:51.502-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:35:51.517-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.299 seconds
+[2023-01-01T20:36:21.823-0300] {processor.py:153} INFO - Started process (PID=7306) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:36:21.823-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:36:21.824-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:21.824-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:36:22.070-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:36:22.097-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:22.097-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:36:22.126-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:22.126-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:36:22.142-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.322 seconds
+[2023-01-01T20:36:52.420-0300] {processor.py:153} INFO - Started process (PID=7388) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:36:52.420-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:36:52.421-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:52.421-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:36:52.663-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:36:52.690-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:52.690-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:36:52.713-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:36:52.712-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:36:52.728-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.311 seconds
+[2023-01-01T20:37:23.207-0300] {processor.py:153} INFO - Started process (PID=7473) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:37:23.208-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:37:23.209-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:23.209-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:37:23.401-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:37:23.604-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:23.604-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:37:23.633-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:23.632-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:37:23.654-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.451 seconds
+[2023-01-01T20:37:53.975-0300] {processor.py:153} INFO - Started process (PID=7548) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:37:53.977-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:37:53.977-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:53.977-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:37:54.319-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:37:54.351-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:54.351-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:37:54.378-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:37:54.378-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:37:54.403-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.431 seconds
+[2023-01-01T20:38:24.700-0300] {processor.py:153} INFO - Started process (PID=7628) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:38:24.701-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:38:24.702-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:24.702-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:38:24.955-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:38:24.980-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:24.980-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:38:25.002-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:25.002-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:38:25.020-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.322 seconds
+[2023-01-01T20:38:55.354-0300] {processor.py:153} INFO - Started process (PID=7714) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:38:55.355-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:38:55.356-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:55.356-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:38:55.591-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:38:55.616-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:55.616-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:38:55.641-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:38:55.641-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:38:55.657-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.304 seconds
+[2023-01-01T20:39:25.985-0300] {processor.py:153} INFO - Started process (PID=7791) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:39:25.986-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:39:25.986-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:25.986-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:39:26.224-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:39:26.250-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:26.250-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:39:26.274-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:26.274-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:39:26.296-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.314 seconds
+[2023-01-01T20:39:56.757-0300] {processor.py:153} INFO - Started process (PID=7866) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:39:56.758-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:39:56.759-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:56.759-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:39:56.991-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:39:57.016-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:57.016-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:39:57.039-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:39:57.038-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:39:57.055-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.301 seconds
+[2023-01-01T20:40:27.334-0300] {processor.py:153} INFO - Started process (PID=7946) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:40:27.334-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:40:27.335-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:27.335-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:40:27.479-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:40:27.596-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:27.596-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:40:27.618-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:27.618-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:40:27.635-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.303 seconds
+[2023-01-01T20:40:57.866-0300] {processor.py:153} INFO - Started process (PID=8027) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:40:57.867-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:40:57.867-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:57.867-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:40:58.103-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:40:58.137-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:58.137-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:40:58.167-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:40:58.167-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:40:58.186-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.322 seconds
+[2023-01-01T20:41:28.561-0300] {processor.py:153} INFO - Started process (PID=8100) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:41:28.562-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:41:28.563-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:28.562-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:41:28.827-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:41:28.853-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:28.853-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:41:28.877-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:28.877-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:41:28.893-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.335 seconds
+[2023-01-01T20:41:59.247-0300] {processor.py:153} INFO - Started process (PID=8189) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:41:59.248-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:41:59.248-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:59.248-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:41:59.483-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:41:59.508-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:59.508-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:41:59.531-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:41:59.531-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:41:59.557-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.312 seconds
+[2023-01-01T20:42:29.704-0300] {processor.py:153} INFO - Started process (PID=8295) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:42:29.704-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:42:29.705-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:29.705-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:42:29.932-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:42:29.958-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:29.958-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:42:29.980-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:42:29.980-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:42:29.995-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.293 seconds
+[2023-01-01T20:43:00.396-0300] {processor.py:153} INFO - Started process (PID=8371) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:43:00.396-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:43:00.397-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:00.397-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:43:00.628-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:43:00.654-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:00.654-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:43:00.677-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:00.677-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:43:00.694-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.301 seconds
+[2023-01-01T20:43:31.002-0300] {processor.py:153} INFO - Started process (PID=8445) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:43:31.003-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:43:31.004-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:31.004-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:43:31.235-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:43:31.260-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:31.260-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:43:31.282-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:43:31.282-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:43:31.300-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.300 seconds
+[2023-01-01T20:44:01.546-0300] {processor.py:153} INFO - Started process (PID=8531) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:44:01.547-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:44:01.547-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:01.547-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:44:01.779-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:44:01.804-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:01.804-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:44:01.826-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:01.825-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:44:01.842-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.298 seconds
+[2023-01-01T20:44:32.208-0300] {processor.py:153} INFO - Started process (PID=8633) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:44:32.209-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:44:32.210-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:32.210-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:44:32.437-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:44:32.462-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:32.461-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:44:32.484-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:44:32.484-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:44:32.499-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.293 seconds
+[2023-01-01T20:45:03.098-0300] {processor.py:153} INFO - Started process (PID=8723) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:45:03.099-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:45:03.099-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:03.099-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:45:03.318-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:45:03.344-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:03.344-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:45:03.366-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:03.366-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:45:03.389-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.293 seconds
+[2023-01-01T20:45:34.441-0300] {processor.py:153} INFO - Started process (PID=8814) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:45:34.442-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:45:34.442-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:34.442-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:45:34.674-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:45:34.699-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:34.699-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:45:34.721-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:45:34.721-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:45:34.745-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.306 seconds
+[2023-01-01T20:46:05.913-0300] {processor.py:153} INFO - Started process (PID=8903) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:46:05.913-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:46:05.914-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:05.914-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:46:06.217-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:46:06.248-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:06.247-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:46:06.276-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:06.276-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:46:06.300-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.389 seconds
+[2023-01-01T20:46:37.643-0300] {processor.py:153} INFO - Started process (PID=8994) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:46:37.644-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:46:37.644-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:37.644-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:46:37.873-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:46:37.899-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:37.899-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:46:37.921-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:46:37.921-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:46:37.947-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.307 seconds
+[2023-01-01T20:47:08.858-0300] {processor.py:153} INFO - Started process (PID=9069) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:47:08.859-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:47:08.860-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:08.860-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:47:09.113-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:47:09.133-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:09.133-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:47:09.154-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:09.154-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:47:09.177-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.322 seconds
+[2023-01-01T20:47:39.470-0300] {processor.py:153} INFO - Started process (PID=9149) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:47:39.472-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:47:39.473-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:39.473-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:47:39.879-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:47:39.913-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:39.912-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:47:39.941-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:47:39.941-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:47:39.973-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.508 seconds
+[2023-01-01T20:48:10.110-0300] {processor.py:153} INFO - Started process (PID=9226) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:48:10.110-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:48:10.111-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:10.111-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:48:10.313-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:48:10.335-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:10.335-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:48:10.354-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:10.354-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:48:10.368-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.260 seconds
+[2023-01-01T20:48:40.563-0300] {processor.py:153} INFO - Started process (PID=9314) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:48:40.563-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:48:40.564-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:40.564-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:48:40.869-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:48:40.902-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:40.902-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:48:40.928-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:48:40.928-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:48:40.947-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.387 seconds
+[2023-01-01T20:49:11.665-0300] {processor.py:153} INFO - Started process (PID=9394) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:49:11.673-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:49:11.674-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:11.674-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:49:12.032-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:49:12.060-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:12.060-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:49:12.084-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:12.084-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:49:12.107-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.445 seconds
+[2023-01-01T20:49:42.642-0300] {processor.py:153} INFO - Started process (PID=9471) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:49:42.651-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:49:42.651-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:42.651-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:49:42.977-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:49:43.009-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:43.009-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:49:43.037-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:49:43.037-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:49:43.070-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.431 seconds
+[2023-01-01T20:50:13.395-0300] {processor.py:153} INFO - Started process (PID=9550) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:50:13.396-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:50:13.396-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:13.396-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:50:13.751-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:50:13.778-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:13.778-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:50:13.802-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:13.802-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:50:13.818-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.426 seconds
+[2023-01-01T20:50:44.017-0300] {processor.py:153} INFO - Started process (PID=9626) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:50:44.025-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:50:44.026-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:44.026-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:50:44.403-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:50:44.434-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:44.434-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:50:44.471-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:50:44.471-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:50:44.498-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.484 seconds
+[2023-01-01T20:51:14.723-0300] {processor.py:153} INFO - Started process (PID=9708) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:51:14.728-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:51:14.728-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:14.728-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:51:15.092-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:51:15.125-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:15.124-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:51:15.153-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:15.153-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:51:15.183-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.464 seconds
+[2023-01-01T20:51:45.344-0300] {processor.py:153} INFO - Started process (PID=9800) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:51:45.353-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:51:45.354-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:45.354-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:51:45.733-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:51:45.760-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:45.760-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:51:45.782-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:51:45.781-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:51:45.812-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.472 seconds
+[2023-01-01T20:52:15.841-0300] {processor.py:153} INFO - Started process (PID=9878) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:52:15.845-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:52:15.847-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:15.847-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:52:16.180-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:52:16.206-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:16.206-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:52:16.228-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:16.228-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:52:16.245-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.407 seconds
+[2023-01-01T20:52:46.703-0300] {processor.py:153} INFO - Started process (PID=10094) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:52:46.704-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:52:46.705-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:46.705-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:52:47.054-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:52:47.085-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:47.085-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:52:47.114-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:52:47.114-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:52:47.136-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.436 seconds
+[2023-01-01T20:53:17.346-0300] {processor.py:153} INFO - Started process (PID=10241) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:53:17.348-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:53:17.349-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:17.348-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:53:17.709-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:53:17.741-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:17.740-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:53:17.767-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:17.767-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:53:17.788-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.445 seconds
+[2023-01-01T20:53:48.152-0300] {processor.py:153} INFO - Started process (PID=10396) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:53:48.152-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:53:48.153-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:48.153-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:53:48.501-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:53:48.535-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:48.534-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:53:48.562-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:53:48.562-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:53:48.583-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.434 seconds
+[2023-01-01T20:54:18.691-0300] {processor.py:153} INFO - Started process (PID=10527) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:54:18.696-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:54:18.696-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:18.696-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:54:19.059-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:54:19.089-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:19.089-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:54:19.115-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:19.115-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:54:19.143-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.454 seconds
+[2023-01-01T20:54:50.345-0300] {processor.py:153} INFO - Started process (PID=10638) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:54:50.346-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:54:50.346-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:50.346-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:54:50.584-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:54:50.610-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:50.610-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:54:50.632-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:54:50.632-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:54:50.648-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.305 seconds
+[2023-01-01T20:55:21.878-0300] {processor.py:153} INFO - Started process (PID=10762) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:55:21.879-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:55:21.879-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:21.879-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:55:22.214-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:55:22.243-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:22.243-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:55:22.270-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:22.270-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:55:22.301-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.427 seconds
+[2023-01-01T20:55:52.442-0300] {processor.py:153} INFO - Started process (PID=10889) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:55:52.442-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:55:52.443-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:52.443-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:55:52.670-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:55:52.696-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:52.696-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:55:52.718-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:55:52.718-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:55:52.743-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.304 seconds
+[2023-01-01T20:56:24.004-0300] {processor.py:153} INFO - Started process (PID=10965) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:56:24.006-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:56:24.007-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:24.007-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:56:24.366-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:56:24.396-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:24.395-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:56:24.423-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:24.423-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:56:24.442-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.442 seconds
+[2023-01-01T20:56:54.644-0300] {processor.py:153} INFO - Started process (PID=11039) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:56:54.645-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:56:54.646-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:54.646-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:56:54.879-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:56:54.906-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:54.906-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:56:54.927-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:56:54.927-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:56:54.948-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.306 seconds
+[2023-01-01T20:57:25.267-0300] {processor.py:153} INFO - Started process (PID=11114) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:57:25.268-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:57:25.268-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:25.268-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:57:25.498-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:57:25.524-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:25.524-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:57:25.546-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:25.546-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:57:25.561-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.296 seconds
+[2023-01-01T20:57:55.841-0300] {processor.py:153} INFO - Started process (PID=11190) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:57:55.842-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:57:55.842-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:55.842-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:57:56.077-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:57:56.103-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:56.102-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:57:56.125-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:57:56.125-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:57:56.149-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.310 seconds
+[2023-01-01T20:58:26.434-0300] {processor.py:153} INFO - Started process (PID=11263) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:58:26.434-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:58:26.435-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:26.435-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:58:26.667-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:58:26.693-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:26.692-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:58:26.715-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:26.715-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:58:26.741-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.311 seconds
+[2023-01-01T20:58:57.128-0300] {processor.py:153} INFO - Started process (PID=11339) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:58:57.129-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:58:57.130-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:57.129-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:58:57.366-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:58:57.393-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:57.392-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:58:57.417-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:58:57.416-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:58:57.440-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.316 seconds
+[2023-01-01T20:59:27.782-0300] {processor.py:153} INFO - Started process (PID=11418) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:59:27.782-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:59:27.783-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:27.783-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:59:28.011-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:59:28.038-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:28.037-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:59:28.059-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:28.059-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:59:28.076-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.296 seconds
+[2023-01-01T20:59:58.725-0300] {processor.py:153} INFO - Started process (PID=11503) to work on /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:59:58.725-0300] {processor.py:743} INFO - Processing file /home/kallox/airflow/dags/download_catnap.py for tasks to queue
+[2023-01-01T20:59:58.727-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:58.727-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:59:59.055-0300] {processor.py:753} INFO - DAG(s) dict_keys(['download_catnap']) retrieved from /home/kallox/airflow/dags/download_catnap.py
+[2023-01-01T20:59:59.091-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:59.090-0300] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-01T20:59:59.117-0300] {logging_mixin.py:137} INFO - [2023-01-01T20:59:59.117-0300] {dag.py:3427} INFO - Setting next_dagrun for download_catnap to 2023-01-01T00:00:00+00:00, run_after=2023-01-02T00:00:00+00:00
+[2023-01-01T20:59:59.135-0300] {processor.py:175} INFO - Processing /home/kallox/airflow/dags/download_catnap.py took 0.416 seconds

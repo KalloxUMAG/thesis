@@ -1,0 +1,37 @@
+[2023-01-03T22:34:30.944-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: get_epitopes.hiv_midb manual__2023-01-04T01:34:28.365599+00:00 [queued]>
+[2023-01-03T22:34:30.959-0300] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: get_epitopes.hiv_midb manual__2023-01-04T01:34:28.365599+00:00 [queued]>
+[2023-01-03T22:34:30.960-0300] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-03T22:34:30.960-0300] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2023-01-03T22:34:30.960-0300] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-03T22:34:30.985-0300] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): hiv_midb> on 2023-01-04 01:34:28.365599+00:00
+[2023-01-03T22:34:30.991-0300] {standard_task_runner.py:55} INFO - Started process 21787 to run task
+[2023-01-03T22:34:30.994-0300] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'get_epitopes', 'hiv_midb', 'manual__2023-01-04T01:34:28.365599+00:00', '--job-id', '230', '--raw', '--subdir', 'DAGS_FOLDER/get_epitopes.py', '--cfg-path', '/tmp/tmpsp7ineau']
+[2023-01-03T22:34:30.995-0300] {standard_task_runner.py:83} INFO - Job 230: Subtask hiv_midb
+[2023-01-03T22:34:31.083-0300] {task_command.py:389} INFO - Running <TaskInstance: get_epitopes.hiv_midb manual__2023-01-04T01:34:28.365599+00:00 [running]> on host kallo-Ubuntu
+[2023-01-03T22:34:31.185-0300] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Kallox
+AIRFLOW_CTX_DAG_ID=get_epitopes
+AIRFLOW_CTX_TASK_ID=hiv_midb
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-04T01:34:28.365599+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-01-04T01:34:28.365599+00:00
+[2023-01-03T22:34:31.203-0300] {logging_mixin.py:137} INFO -                    Epitope Protein               Subprotein
+1          GELDRWEKIRLRPGG     Gag               p17(11-25)
+2        ELDRWEKI + ALDKIE     Gag  p17(12-19)+p17(100-105)
+3       ELDKWEKIRLRPGGKTLY     Gag               p17(12-29)
+4      ELDKWEKIRLRPGGKTLY?     Gag               p17(12-29)
+5                   EKIRLR     Gag               p17(17-22)
+..                     ...     ...                      ...
+402   HGMDDPEREVLEWRFDSRLA     Nef                      NaN
+403  DSRLAFHHVARELHPEYFKNC     Nef                      NaN
+404        HHVARELHPEYFKNC     Nef                      NaN
+405          VARELHPEYFKNC     Nef                      NaN
+406          MARELHPEYYKDC     Nef                      NaN
+
+[406 rows x 3 columns]
+[2023-01-03T22:34:31.203-0300] {python.py:177} INFO - Done. Returned value was: None
+[2023-01-03T22:34:31.218-0300] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=get_epitopes, task_id=hiv_midb, execution_date=20230104T013428, start_date=20230104T013430, end_date=20230104T013431
+[2023-01-03T22:34:31.246-0300] {local_task_job.py:159} INFO - Task exited with return code 0
+[2023-01-03T22:34:31.308-0300] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check
