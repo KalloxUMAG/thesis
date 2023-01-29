@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, Float
 from sqlalchemy.schema import ForeignKey
 from sqlalchemy.orm import relationship
 from database import Base
@@ -10,7 +10,8 @@ class Aa_interaction(Base):
     __tablename__ = 'aa_interaction'
 
     id = Column(Integer, primary_key = True, autoincrement = True)
-    score = Column(Integer)
+    name = Column(String)
+    score = Column(Float)
     type = Column(String)
 
     antibodies = relationship("Antibody", secondary="antibody_has_aa_interaction", back_populates="aa_interactions")
@@ -247,4 +248,4 @@ class Interaction(Base):
 
     antibody_id = Column(Integer, ForeignKey("antibody.id"), primary_key = True)
     antigen_id = Column(Integer, ForeignKey("antigen.id"), primary_key = True)
-    score = Column(Integer)
+    score = Column(Float)

@@ -59,7 +59,7 @@ def load_interactions(df):
         close_db(db)
         create_antigen_database_relation(row)
 
+if __name__ == '__main__':
+    df = pd.read_csv("./datasets/antigens.csv")
 
-df = pd.read_csv("./datasets/antigens.csv")
-
-load_interactions(df)
+    load_interactions(df)

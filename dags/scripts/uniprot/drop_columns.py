@@ -8,7 +8,7 @@ def drop_columns_antigen():
         'intact', 'naturalVariants']
 
     antigen = pd.read_csv(antigen_path)
-    antigen['name'] = antigen['uniProtkbId'] + " || " + antigen['primaryAccession']
+    antigen['name'] = antigen['proteinName'] + " || " + antigen['uniProtkbId'] + " || " + antigen['primaryAccession']
     antigen = antigen.drop(columns=columns_to_drop)
 
     #antigen.columns = ['name', 'sequence']
