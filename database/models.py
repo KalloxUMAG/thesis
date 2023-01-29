@@ -14,6 +14,9 @@ class Aa_interaction(Base):
     score = Column(Float)
     type = Column(String)
 
+    database_id = Column(Integer, ForeignKey("database.id", ondelete="SET NULL"))
+
+
     antibodies = relationship("Antibody", secondary="antibody_has_aa_interaction", back_populates="aa_interactions")
 
     def __str__(self):
@@ -79,6 +82,9 @@ class Database(Base):
     antibodies = relationship("Antibody", secondary="antibody_has_database", back_populates="databases")
     antigens = relationship("Antigen", secondary="antigen_has_database", back_populates="databases")
     epitopes = relationship("Epitope", secondary="epitope_has_database", back_populates="databases")
+
+    interaction = relationship("Interaction", backref="database")
+    aa_interaction = relationship("Aa_interaction", backref="database")
 
     def __str__(self):
         return self.name
@@ -249,3 +255,4 @@ class Interaction(Base):
     antibody_id = Column(Integer, ForeignKey("antibody.id"), primary_key = True)
     antigen_id = Column(Integer, ForeignKey("antigen.id"), primary_key = True)
     score = Column(Float)
+    database_id = Column(Integer, ForeignKey("database.id", ondelete="SET NULL"))

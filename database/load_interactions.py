@@ -8,7 +8,7 @@ from time import time
 import pandas as pd
 
 from extract_antigens import extract_json_uniprot, extract_fasta
-from load_antigens import create_antigen_database_relation
+from load_antigens import create_antigen_database_relation, get_database_id
 
 def request_with_retry(request, MAX_RETRIES):
     for i in range(MAX_RETRIES):
@@ -100,10 +100,13 @@ def interaction_exist(antibody_id, antigen_id):
         return -1
     return data[0]
 
-def create_interaction(antibody_id, antigen_id, score):
+def create_interaction(antibody_id, antigen_id, score, database):
     if interaction_exist(antibody_id, antigen_id) != -1:
         return
-    interaction = Interaction(antibody_id = antibody_id, antigen_id = antigen_id, score=score)
+    database_id = get_database_id(database)
+    if database_id == -1:
+        return
+    interaction = Interaction(antibody_id = antibody_id, antigen_id = antigen_id, score=score, database_id=database_id)
     db = get_db()
     db.add(interaction)
     db.commit()
@@ -121,7 +124,7 @@ def ab_interaction_exist(antibody1_id, antibody2_id):
         return -1
     return data[0]
 
-def create_ab_interaction(antibody1_id, antibody2_id, score):
+def create_ab_interaction(antibody1_id, antibody2_id, score, database):
     if ab_interaction_exist(antibody1_id, antibody2_id) != -1:
         return
     if antibody1_id < antibody2_id:
@@ -132,8 +135,11 @@ def create_ab_interaction(antibody1_id, antibody2_id, score):
         interaction_type = "Self"
     else:
         interaction_type = "Anti-Idiotype"
+    database_id = get_database_id(database)
+    if database_id == -1:
+        return
     db = get_db()
-    aa_interaction = Aa_interaction(name=name, score=score, type=interaction_type)
+    aa_interaction = Aa_interaction(name=name, score=score, type=interaction_type, database_id=database_id)
     db.add(aa_interaction)
     db.commit()
     close_db(db)
@@ -160,6 +166,7 @@ def load_interactions(df):
         interactora = interaction['interactorA']
         interactorb = interaction['interactorB']
         score = interaction['score']
+        database = interaction['interactionDB']
 
         #Busca a ambos interactores en la tabla de anticuerpos
         interactora_id = get_antibody_id(interactora)
@@ -173,7 +180,7 @@ def load_interactions(df):
         if interactora_id != -1 and interactorb_id != -1:
             #Crear relacion ab - ab
 
-            create_ab_interaction(interactora_id, interactorb_id, score)
+            create_ab_interaction(interactora_id, interactorb_id, score, database)
             continue
 
         #Revisa si el interactor A es el antigeno
@@ -199,7 +206,7 @@ def load_interactions(df):
                     antigen_id = get_antigen_id(interactorb)
                 else: 
                     continue
-        create_interaction(antibody_id, antigen_id, score)
+        create_interaction(antibody_id, antigen_id, score, database)
 
 if __name__ == '__main__':
     df = pd.read_csv("./datasets/interactions.csv")
