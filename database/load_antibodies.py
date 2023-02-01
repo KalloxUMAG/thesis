@@ -45,8 +45,10 @@ def exist_antibody_database_relation(antibody):
     db = get_db()
     data = (
         db.query(Antibody_has_database)
-        .filter(Antibody_has_database.antibody_id == antibody_id)
-        .filter(Antibody_has_database.database_id == database_id)
+        .filter(
+            Antibody_has_database.antibody_id == antibody_id,
+            Antibody_has_database.database_id == database_id,
+        )
         .first()
     )
     close_db(db)

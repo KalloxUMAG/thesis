@@ -87,8 +87,9 @@ def interaction_exist(antibody_id, antigen_id):
     db = get_db()
     data = (
         db.query(Interaction.antigen_id, Interaction.antibody_id)
-        .filter(Interaction.antibody_id == antibody_id)
-        .filter(Interaction.antigen_id == antigen_id)
+        .filter(
+            Interaction.antibody_id == antibody_id, Interaction.antigen_id == antigen_id
+        )
         .first()
     )
     close_db(db)
