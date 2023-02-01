@@ -9,15 +9,17 @@ database = "alchemy"
 ip = "localhost"
 port = 5432
 
-DATABASE_URL = f'postgresql://{username}:{password}@{ip}:{port}/{database}'
+DATABASE_URL = f"postgresql://{username}:{password}@{ip}:{port}/{database}"
 engine = create_engine(DATABASE_URL, pool_size=20, max_overflow=0)
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
 Base = declarative_base()
 
+# Abrir enlace con la base de datos
 def get_db():
-    #Obtener sesion a la base de datos y cerrarla
     db = SessionLocal()
     return db
 
+
+# Cerrar enlace con la base de datos
 def close_db(db):
     db.close()

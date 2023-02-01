@@ -6,60 +6,80 @@ from models import Antigen, Database, Antigen_has_database
 
 import pandas as pd
 
-def get_database_id(name):
-    db = get_db()
-    data = get_db().query(Database.id).filter(Database.name == name).first()
-    close_db(db)
-    if data == None:
-        return -1
-    return data[0]
+from load_databases import get_database_id
+
 
 def get_antigen_id(name):
+    search = f"%{name}%"
     db = get_db()
-    data = db.query(Antigen.id).filter(Antigen.name == name).first()
+    data = db.query(Antigen).filter(Antigen.name.like(search)).all()
     close_db(db)
+
     if data == None:
         return -1
-    return data[0]
+    for result in data:
+        ids = result.name
+        ids = ids.replace(" ", "")
+        ids = ids.split("||")
+        for id in ids:
+            if name == id:
+                return result.id
+    return -1
+
 
 def create_antigen_database_relation(antigen):
-    relations = []
-
-    name = antigen['name']
-    database = antigen['database']
+    name = antigen["name"]
+    database = antigen["database"]
     antigen_id = get_antigen_id(name)
     database_id = get_database_id(database)
     if database_id == -1 or antigen_id == -1:
         return
     relation = Antigen_has_database(antigen_id=antigen_id, database_id=database_id)
-    relations.append(relation)
     db = get_db()
-    db.add_all(relations)
+    db.add(relation)
     db.commit()
     close_db(db)
 
-def load_interactions(df):
-    
-    for index, row in df.iterrows():
-        if index < 619676:
-            continue
-        if index%1000 == 0:
-            print(index)
-        '''
-        exists = get_antigen_id(row['name'])
-        if exists != -1:
-            continue
-        else:
-            break
-        '''
-        antigen = Antigen(name=row['name'], sequence=row['sequence'])
-        db = get_db()
-        db.add(antigen)
-        db.commit()
-        close_db(db)
-        create_antigen_database_relation(row)
 
-if __name__ == '__main__':
+def exist_antigen_database_relation(antigen):
+    name = antigen["name"]
+    database = antigen["database"]
+    antigen_id = get_antigen_id(name)
+    database_id = get_database_id(database)
+    if database_id == -1 or antigen_id == -1:
+        return 0
+    db = get_db()
+    data = (
+        db.query(Antigen_has_database)
+        .filter(Antigen_has_database.antigen_id == antigen_id)
+        .filter(Antigen_has_database.database_id == database_id)
+        .first()
+    )
+    close_db(db)
+    if data == None:
+        return False
+    return True
+
+
+def load_antigen(antigen):
+
+    exists = get_antigen_id(antigen)
+    if exists != -1:
+        return
+
+    antigen_db = Antigen(name=antigen["name"], sequence=antigen["sequence"])
+    db = get_db()
+    db.add(antigen_db)
+    db.commit()
+    close_db(db)
+    create_antigen_database_relation(antigen)
+
+
+if __name__ == "__main__":
     df = pd.read_csv("./datasets/antigens.csv")
 
-    load_interactions(df)
+    for index, row in df.iterrows():
+        if index % 1000 == 0:
+            print(index)
+
+        load_antigen(row)

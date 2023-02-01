@@ -13,11 +13,14 @@ def join_interactions():
     string_interactions.columns = ['interactorA', 'interactorB', 'score', 'interactorADB',
        'interactorBDB']
     string_interactions['interactionDB'] = 'String'
-    
 
     interactions = pd.concat([intact_interactions, string_interactions], axis=0)
 
     interactions = interactions.drop_duplicates()
+
+    interactions['interactorADB'] = interactions['interactorADB'].replace(["uniprotkb", "BLAST_UniProt_ID", "BLAST_KEGG_KEGGID"],["UniProt", "UniProt", "KEGG"])
+    interactions['interactorBDB'] = interactions['interactorBDB'].replace(["uniprotkb", "BLAST_UniProt_ID", "BLAST_KEGG_KEGGID"],["UniProt", "UniProt", "KEGG"])
+
 
     interactions.to_csv('./dags/files/interactions/joined_interactions.csv', index=False, index_label=False)    
 
