@@ -1,7 +1,7 @@
 import pandas as pd
 
 def join_files():
-    epitopes_files_path = {"hivmidb":"./dags/files/hivmidb/epitopes.csv", "eidb":"./dags/files/iedb/epitope.csv", "vdjdb":"./dags/files/vdjdb/epitopes.csv"}
+    epitopes_files_path = {"hivmidb":"./dags/files/hivmidb/epitopes.csv", "iedb":"./dags/files/iedb/epitope.csv", "vdjdb":"./dags/files/vdjdb/epitopes.csv"}
     keys = [i for i in epitopes_files_path]
     epitopes = pd.DataFrame()
 

@@ -7,11 +7,11 @@ import pandas as pd
 from load_databases import get_database_id
 
 # Obtener Id del Antibody o -1 si no existe
-def get_antibody_id(name):
+def get_antibody_id(name, db):
     search = f"%{name}%"
-    db = get_db()
+    #db = get_db()
     data = db.query(Antibody).filter(Antibody.name.like(search)).all()
-    close_db(db)
+    #close_db(db)
     if data == None:
         return -1
     for result in data:
@@ -25,24 +25,24 @@ def get_antibody_id(name):
 
 
 # Obtener Id del Antibody_chain_type o -1 si no existe
-def get_chain_type_id(name):
-    db = get_db()
-    data = get_db().query(Chain_type.id).filter(Chain_type.name == name).first()
-    close_db(db)
+def get_chain_type_id(name, db):
+    #db = get_db()
+    data = db.query(Chain_type.id).filter(Chain_type.name == name).first()
+    #close_db(db)
     if data == None:
         return -1
     return data[0]
 
 
 # Obtener True o False segun existe la relacion con la base de datos
-def exist_antibody_database_relation(antibody):
+def exist_antibody_database_relation(antibody, db):
     name = antibody["name"]
     database = antibody["database"]
-    antibody_id = get_antibody_id(name)
-    database_id = get_database_id(database)
+    antibody_id = get_antibody_id(name, db)
+    database_id = get_database_id(database, db)
     if database_id == -1 or antibody_id == -1:
         return 0
-    db = get_db()
+    #db = get_db()
     data = (
         db.query(Antibody_has_database)
         .filter(
@@ -51,39 +51,39 @@ def exist_antibody_database_relation(antibody):
         )
         .first()
     )
-    close_db(db)
+    #close_db(db)
     if data == None:
         return False
     return True
 
 
 # Crear relacion con la base de datos
-def create_antibody_database_relation(antibody):
+def create_antibody_database_relation(antibody, db):
 
     name = antibody["name"]
     database = antibody["database"]
-    antibody_id = get_antibody_id(name)
-    database_id = get_database_id(database)
+    antibody_id = get_antibody_id(name, db)
+    database_id = get_database_id(database, db)
     if database_id == -1 or antibody_id == -1:
         return
     relation = Antibody_has_database(antibody_id=antibody_id, database_id=database_id)
-    db = get_db()
+    #db = get_db()
     db.add(relation)
     db.commit()
-    close_db(db)
+    #close_db(db)
 
 
 # Enlazar Antibody con sus cadenas
-def create_antibody_chain(antibody):
+def create_antibody_chain(antibody, db):
 
     antibody_chains = []
 
     antibody_name = antibody["name"]
-    antibody_id = get_antibody_id(antibody["name"])
+    antibody_id = get_antibody_id(antibody["name"], db)
 
     if antibody["sequence"] != "-":
         sequence = antibody["sequence"]
-        chain_type_id = get_chain_type_id("Canonical")
+        chain_type_id = get_chain_type_id("Canonical", db)
         antibody_chain = Antibody_chain(
             name=f"{antibody_name} | Canonical",
             sequence=sequence,
@@ -95,7 +95,7 @@ def create_antibody_chain(antibody):
 
     if antibody["light_sequence"] != "-":
         sequence = antibody["light_sequence"]
-        chain_type_id = get_chain_type_id("Light")
+        chain_type_id = get_chain_type_id("Light", db)
         antibody_chain = Antibody_chain(
             name=f"{antibody_name} | Light",
             sequence=sequence,
@@ -107,7 +107,7 @@ def create_antibody_chain(antibody):
 
     if antibody["heavy_sequence"] != "-":
         sequence = antibody["heavy_sequence"]
-        chain_type_id = get_chain_type_id("Heavy")
+        chain_type_id = get_chain_type_id("Heavy", db)
         antibody_chain = Antibody_chain(
             name=f"{antibody_name} | Heavy",
             sequence=sequence,
@@ -119,7 +119,7 @@ def create_antibody_chain(antibody):
 
     if antibody["cdrh3"] != "-":
         sequence = antibody["cdrh3"]
-        chain_type_id = get_chain_type_id("CDR3 Heavy")
+        chain_type_id = get_chain_type_id("CDR3 Heavy", db)
         antibody_chain = Antibody_chain(
             name=f"{antibody_name} | CDR3 Heavy",
             sequence=sequence,
@@ -131,7 +131,7 @@ def create_antibody_chain(antibody):
 
     if antibody["cdrl3"] != "-":
         sequence = antibody["cdrl3"]
-        chain_type_id = get_chain_type_id("CDR3 Light")
+        chain_type_id = get_chain_type_id("CDR3 Light", db)
         antibody_chain = Antibody_chain(
             name=f"{antibody_name} | CDR3 Light",
             sequence=sequence,
@@ -143,7 +143,7 @@ def create_antibody_chain(antibody):
 
     if antibody["cdr3"] != "-":
         sequence = antibody["cdr3"]
-        chain_type_id = get_chain_type_id("CDR3")
+        chain_type_id = get_chain_type_id("CDR3", db)
         antibody_chain = Antibody_chain(
             name=f"{antibody_name} | CDR3",
             sequence=sequence,
@@ -153,30 +153,32 @@ def create_antibody_chain(antibody):
         )
         antibody_chains.append(antibody_chain)
 
-    db = get_db()
+    #db = get_db()
     db.add_all(antibody_chains)
     db.commit()
-    close_db(db)
+    #close_db(db)
 
 
-def load_antibody(antibody):
+def load_antibody(antibody, db):
 
     antibody = Antibody(name=antibody["name"])
 
-    db = get_db()
+    #db = get_db()
     db.add(antibody)
     db.commit()
-    close_db(db)
-    create_antibody_chain(antibody)
-    create_antibody_database_relation(antibody)
+    #close_db(db)
+    create_antibody_chain(antibody, db)
+    create_antibody_database_relation(antibody, db)
 
 
 if __name__ == "__main__":
     df = pd.read_csv("./datasets/antibodies.csv")
-
+    session = get_db()
     for index, row in df.iterrows():
 
         if index % 1000 == 0:
             print(index)
 
-        load_antibody(row)
+        load_antibody(row, session)
+    
+    close_db(session)

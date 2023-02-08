@@ -83,8 +83,8 @@ def download_antigen(antigen, database):
     return -1
 
 
-def interaction_exist(antibody_id, antigen_id):
-    db = get_db()
+def interaction_exist(antibody_id, antigen_id, db):
+    #db = get_db()
     data = (
         db.query(Interaction.antigen_id, Interaction.antibody_id)
         .filter(
@@ -92,16 +92,16 @@ def interaction_exist(antibody_id, antigen_id):
         )
         .first()
     )
-    close_db(db)
+    #close_db(db)
     if data == None:
         return -1
     return data[0]
 
 
-def create_interaction(antibody_id, antigen_id, score, database):
-    if interaction_exist(antibody_id, antigen_id) != -1:
+def create_interaction(antibody_id, antigen_id, score, database, db):
+    if interaction_exist(antibody_id, antigen_id, db) != -1:
         return
-    database_id = get_database_id(database)
+    database_id = get_database_id(database, db)
     if database_id == -1:
         return
     if antibody_id == -1 or antigen_id == -1:
@@ -113,27 +113,27 @@ def create_interaction(antibody_id, antigen_id, score, database):
         score=score,
         database_id=database_id,
     )
-    db = get_db()
+    #db = get_db()
     db.add(interaction)
     db.commit()
-    close_db(db)
+    #close_db(db)
 
 
-def ab_interaction_exist(antibody1_id, antibody2_id):
+def ab_interaction_exist(antibody1_id, antibody2_id, db):
     if antibody1_id < antibody2_id:
         name = f"{antibody1_id}-{antibody2_id}"
     else:
         name = f"{antibody2_id}-{antibody1_id}"
-    db = get_db()
+    #db = get_db()
     data = db.query(Aa_interaction.id).filter(Aa_interaction.name == name).first()
-    close_db(db)
+    #close_db(db)
     if data == None:
         return -1
     return data[0]
 
 
-def create_ab_interaction(antibody1_id, antibody2_id, score, database):
-    if ab_interaction_exist(antibody1_id, antibody2_id) != -1:
+def create_ab_interaction(antibody1_id, antibody2_id, score, database, db):
+    if ab_interaction_exist(antibody1_id, antibody2_id, db) != -1:
         return
     if antibody1_id < antibody2_id:
         name = f"{antibody1_id}-{antibody2_id}"
@@ -143,39 +143,40 @@ def create_ab_interaction(antibody1_id, antibody2_id, score, database):
         interaction_type = "Self"
     else:
         interaction_type = "Anti-Idiotype"
-    database_id = get_database_id(database)
+    database_id = get_database_id(database, db)
     if database_id == -1:
         return
     aa_interaction = Aa_interaction(
         name=name, score=score, type=interaction_type, database_id=database_id
     )
-    db = get_db()
+    #db = get_db()
     db.add(aa_interaction)
     db.commit()
-    close_db(db)
+    #close_db(db)
     aa_interaction_id = ab_interaction_exist(
-        antibody1_id=antibody1_id, antibody2_id=antibody2_id
+        antibody1_id=antibody1_id, antibody2_id=antibody2_id, db=db
     )
     antibody_has_aa_interaction = Antibody_has_aa_interaction(
         antibody_id=antibody1_id, aa_interaction_id=aa_interaction_id
     )
-    db = get_db()
+    #db = get_db()
     db.add(antibody_has_aa_interaction)
     db.commit()
-    close_db(db)
+    #close_db(db)
     if interaction_type == "Self":
         return
     antibody_has_aa_interaction = Antibody_has_aa_interaction(
         antibody_id=antibody2_id, aa_interaction_id=aa_interaction_id
     )
-    db = get_db()
+    #db = get_db()
     db.add(antibody_has_aa_interaction)
     db.commit()
-    close_db(db)
+    #close_db(db)
 
 
 def load_interactions(df):
 
+    session = get_db()
     for index, interaction in df.iterrows():
         if index % 1000 == 0:
             print(index)
@@ -186,8 +187,8 @@ def load_interactions(df):
         database = interaction["interactionDB"]
 
         # Busca a ambos interactores en la tabla de anticuerpos
-        interactora_id = get_antibody_id(interactora)
-        interactorb_id = get_antibody_id(interactorb)
+        interactora_id = get_antibody_id(interactora, session)
+        interactorb_id = get_antibody_id(interactorb, session)
 
         # Si ninguno de los dos es un anticuerpo se omite la interaccion
         if interactora_id == -1 and interactorb_id == -1:
@@ -197,35 +198,35 @@ def load_interactions(df):
         if interactora_id != -1 and interactorb_id != -1:
             # Crear relacion ab - ab
 
-            create_ab_interaction(interactora_id, interactorb_id, score, database)
+            create_ab_interaction(interactora_id, interactorb_id, score, database, session)
             continue
 
         # Revisa si el interactor A es el antigeno
         if interactora_id == -1:
             antibody_id = interactorb_id
-            antigen_id = get_antigen_id(interactora)
+            antigen_id = get_antigen_id(interactora, session)
             if antigen_id == -1:
                 antigen = download_antigen(interactora, interaction["interactorADB"])
                 if antigen != -1:
-                    load_antigen(antigen)
-                    if exist_antigen_database_relation(antigen) == False:
-                        create_antigen_database_relation(antigen)
-                    antigen_id = get_antigen_id(interactora)
+                    load_antigen(antigen, session)
+                    if exist_antigen_database_relation(antigen, session) == False:
+                        create_antigen_database_relation(antigen, session)
+                    antigen_id = get_antigen_id(interactora, session)
                 else:
                     continue
         else:
             antibody_id = interactora_id
-            antigen_id = get_antigen_id(interactorb)
+            antigen_id = get_antigen_id(interactorb, session)
             if antigen_id == -1:
                 antigen = download_antigen(interactorb, interaction["interactorBDB"])
                 if antigen != -1:
-                    load_antigen(antigen)
-                    if exist_antigen_database_relation(antigen) == False:
-                        create_antigen_database_relation(antigen)
-                    antigen_id = get_antigen_id(interactorb)
+                    load_antigen(antigen, session)
+                    if exist_antigen_database_relation(antigen, session) == False:
+                        create_antigen_database_relation(antigen, session)
+                    antigen_id = get_antigen_id(interactorb, session)
                 else:
                     continue
-        create_interaction(antibody_id, antigen_id, score, database)
+        create_interaction(antibody_id, antigen_id, score, database, session)
 
 
 if __name__ == "__main__":

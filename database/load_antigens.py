@@ -9,11 +9,11 @@ import pandas as pd
 from load_databases import get_database_id
 
 
-def get_antigen_id(name):
+def get_antigen_id(name, db):
     search = f"%{name}%"
-    db = get_db()
+    #db = get_db()
     data = db.query(Antigen).filter(Antigen.name.like(search)).all()
-    close_db(db)
+    #close_db(db)
 
     if data == None:
         return -1
@@ -27,28 +27,28 @@ def get_antigen_id(name):
     return -1
 
 
-def create_antigen_database_relation(antigen):
+def create_antigen_database_relation(antigen, db):
     name = antigen["name"]
     database = antigen["database"]
-    antigen_id = get_antigen_id(name)
-    database_id = get_database_id(database)
+    antigen_id = get_antigen_id(name, db)
+    database_id = get_database_id(database, db)
     if database_id == -1 or antigen_id == -1:
         return
     relation = Antigen_has_database(antigen_id=antigen_id, database_id=database_id)
-    db = get_db()
+    #db = get_db()
     db.add(relation)
     db.commit()
-    close_db(db)
+    #close_db(db)
 
 
-def exist_antigen_database_relation(antigen):
+def exist_antigen_database_relation(antigen, db):
     name = antigen["name"]
     database = antigen["database"]
     antigen_id = get_antigen_id(name)
     database_id = get_database_id(database)
     if database_id == -1 or antigen_id == -1:
         return 0
-    db = get_db()
+    #db = get_db()
     data = (
         db.query(Antigen_has_database)
         .filter(
@@ -57,24 +57,24 @@ def exist_antigen_database_relation(antigen):
         )
         .first()
     )
-    close_db(db)
+    #close_db(db)
     if data == None:
         return False
     return True
 
 
-def load_antigen(antigen):
-
+def load_antigen(antigen, db):
+    
     exists = get_antigen_id(antigen)
     if exists != -1:
         return
 
     antigen_db = Antigen(name=antigen["name"], sequence=antigen["sequence"])
-    db = get_db()
+    #db = get_db()
     db.add(antigen_db)
     db.commit()
-    close_db(db)
-    create_antigen_database_relation(antigen)
+    #close_db(db)
+    create_antigen_database_relation(antigen, db)
 
 
 if __name__ == "__main__":
