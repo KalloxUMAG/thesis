@@ -1,0 +1,7 @@
+filename,extension,link
+antibody,json,https://rest.uniprot.org/uniprotkb/stream?format=json&query=%28%28keyword%3AKW-1064%29%29
+abcd,json,https://rest.uniprot.org/uniprotkb/stream?format=json&query=%28%28database%3AABCD%29%29
+imgtgene,json,https://rest.uniprot.org/uniprotkb/stream?format=json&query=%28%28database%3AIMGT_GENE-DB%29%29
+antibodypedia,json,https://rest.uniprot.org/uniprotkb/stream?format=json&query=%28%28database%3AAntibodypedia%29%29
+cptc,json,https://rest.uniprot.org/uniprotkb/stream?format=json&query=%28%28database%3ACPTC%29%29
+antigens,tsv,https://rest.uniprot.org/uniprotkb/stream?fields=accession%2Cid%2Cprotein_name%2Csequence&format=tsv&query=%28antigen%29

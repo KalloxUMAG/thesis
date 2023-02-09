@@ -4,8 +4,7 @@ from airflow.models import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.covabdab.download import download
-from scripts.covabdab.extract import extract
+from scripts.covabdab import download, extract
 
 default_args = {
     'owner': 'Kallox',

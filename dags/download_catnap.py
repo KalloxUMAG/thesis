@@ -6,8 +6,7 @@ from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 from airflow.models import Variable
 
-from scripts.catnap.download import download
-from scripts.catnap.extract import extract
+from scripts.catnap import download, extract
 
 default_args = {
     'owner': 'admin',

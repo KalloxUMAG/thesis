@@ -16,8 +16,9 @@ def download():
         url = file['link']
         response = request_with_retry(url, 5)
         if not (response):
-                print(f'Could not download the file {name}.{extension} from {url}.')
-        save_file(name, response.content, extension, "./dags/files/uniprot/downloads/")
+            print(f'Could not download the file {name}.{extension} from {url}.')
+        else:
+            save_file(name, response.content, extension, "./dags/files/uniprot/downloads/")
 
 def extract_file(filename):
 

@@ -1,4 +1,19 @@
 import pandas as pd
+from helpers.requests import request_with_retry
+from helpers.save_file import save_file
+
+def download():
+    files = pd.read_csv('./dags/files/hivmidb/urls.csv')
+
+    for index, file in files.iterrows():
+        name = file['filename']
+        extension = file['extension']
+        url = file['link']
+        response = request_with_retry(url, 5)
+        if not (response):
+            print(f'Could not download the file {name}.{extension} from {url}.')
+        else:
+            save_file(name, response.content, extension, "./dags/files/hivmidb/downloads/")
 
 def extract_epitopes():
     file_path = "./dags/files/hivmidb/downloads/epitopes.csv"
@@ -14,6 +29,6 @@ def extract_epitopes():
 
     epitopes.to_csv('./dags/files/hivmidb/epitopes.csv', index=False, index_label=False)
 
-
 if __name__ == '__main__':
+    download()
     extract_epitopes()

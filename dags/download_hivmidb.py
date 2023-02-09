@@ -4,8 +4,7 @@ from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.hivmidb.download import download
-from scripts.hivmidb.join_antibodies import join_antibodies
+from scripts.hivmidb import download, extract_epitopes
 
 default_args = {
     'owner': 'Kallox',
@@ -18,8 +17,8 @@ with DAG(dag_id='download_hivmidb', default_args=default_args, schedule='@monthl
 
     download_files = PythonOperator(task_id='download', python_callable=download)
 
-    join_files = PythonOperator(task_id='join_files', python_callable=join_antibodies)
+    epitopes = PythonOperator(task_id='epitopes', python_callable=extract_epitopes)
 
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> join_files >> end
+    start >> download_files >> epitopes >> end
