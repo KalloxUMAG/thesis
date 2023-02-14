@@ -50,7 +50,7 @@ def drop_columns_epitopes():
 
     epitope.to_csv('./dags/files/iedb/epitope.csv', index=False, index_label=False)
 
-def drop_columns_antigens():
+def download_antigens():
     api_preffix = "https://rest.uniprot.org/uniprotkb/"
     api_suffix = ".json"
 

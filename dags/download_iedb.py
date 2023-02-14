@@ -4,7 +4,7 @@ from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.iedb.download import download
+from scripts.iedb import download, drop_columns_epitopes, download_antigens
 
 default_args = {
     'owner': 'Kallox',
@@ -16,6 +16,10 @@ with DAG(dag_id='download_iedb', default_args=default_args, schedule='@monthly')
 
     download_files = PythonOperator(task_id='download_files', python_callable=download)
 
+    drop_epitopes = PythonOperator(task_id='drop_epitopes', python_callable=drop_columns_epitopes)
+
+    download_antigens_uniprot = PythonOperator(task_id='download_antigens_uniprot', python_callable=download_antigens)
+
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> end
+    start >> download_files >> drop_epitopes >> download_antigens_uniprot >> end
