@@ -1,0 +1,1044 @@
+[2023-02-14T21:50:53.843-0300] {processor.py:153} INFO - Started process (PID=4849) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:50:53.844-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:50:53.844-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.844-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:50:53.946-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.945-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:50:53.946-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:50:53.967-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.126 seconds
+[2023-02-14T21:51:24.559-0300] {processor.py:153} INFO - Started process (PID=5018) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:51:24.560-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:51:24.560-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.560-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:51:24.662-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.662-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:24.662-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:51:24.765-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.207 seconds
+[2023-02-14T21:51:55.568-0300] {processor.py:153} INFO - Started process (PID=5119) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:51:55.568-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:51:55.569-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.569-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:51:55.752-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.751-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:55.752-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:51:55.775-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.209 seconds
+[2023-02-14T21:52:26.624-0300] {processor.py:153} INFO - Started process (PID=5242) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:52:26.625-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:52:26.625-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.625-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:52:26.810-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.810-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:26.810-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:52:26.827-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.204 seconds
+[2023-02-14T21:52:57.431-0300] {processor.py:153} INFO - Started process (PID=5348) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:52:57.432-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:52:57.432-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:57.432-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:52:57.629-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:57.628-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:57.629-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:52:57.651-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.221 seconds
+[2023-02-14T21:53:23.709-0300] {processor.py:153} INFO - Started process (PID=5613) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:53:23.709-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:53:23.710-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.710-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:53:23.813-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.812-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:23.813-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:53:23.838-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.131 seconds
+[2023-02-14T21:53:54.034-0300] {processor.py:153} INFO - Started process (PID=5706) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:53:54.035-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:53:54.036-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:54.036-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:53:54.165-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:54.164-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:54.165-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:53:54.193-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.161 seconds
+[2023-02-14T21:54:24.933-0300] {processor.py:153} INFO - Started process (PID=5818) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:54:24.933-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:54:24.934-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:24.934-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:54:25.125-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:25.124-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:54:25.125-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:54:25.148-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.217 seconds
+[2023-02-14T21:54:56.906-0300] {processor.py:153} INFO - Started process (PID=6149) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:54:56.907-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:54:56.907-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.907-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:54:57.007-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:57.006-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:54:57.007-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:54:57.031-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.126 seconds
+[2023-02-14T21:55:27.415-0300] {processor.py:153} INFO - Started process (PID=6256) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:55:27.416-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:55:27.416-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.416-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:55:27.529-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.529-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:55:27.530-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:55:27.546-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.133 seconds
+[2023-02-14T21:55:58.395-0300] {processor.py:153} INFO - Started process (PID=6355) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:55:58.395-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:55:58.396-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:58.396-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:55:58.583-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:58.583-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:55:58.583-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:55:58.606-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.213 seconds
+[2023-02-14T21:56:29.160-0300] {processor.py:153} INFO - Started process (PID=6452) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:56:29.161-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:56:29.161-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:29.161-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:56:29.352-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:29.352-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:56:29.352-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:56:29.372-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.214 seconds
+[2023-02-14T21:57:00.454-0300] {processor.py:153} INFO - Started process (PID=6557) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:57:00.455-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:57:00.455-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:00.455-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:57:00.638-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:00.638-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:57:00.639-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:57:00.662-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.210 seconds
+[2023-02-14T21:57:31.047-0300] {processor.py:153} INFO - Started process (PID=6660) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:57:31.047-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:57:31.048-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:31.048-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:57:31.148-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:31.148-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:57:31.149-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:57:31.165-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.120 seconds
+[2023-02-14T21:58:01.327-0300] {processor.py:153} INFO - Started process (PID=6764) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:58:01.327-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:58:01.327-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.327-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:58:01.433-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.433-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:01.433-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:58:01.451-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.126 seconds
+[2023-02-14T21:58:32.274-0300] {processor.py:153} INFO - Started process (PID=6873) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:58:32.274-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:58:32.275-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.275-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:58:32.377-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.376-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:32.377-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:58:32.480-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.208 seconds
+[2023-02-14T21:59:03.422-0300] {processor.py:153} INFO - Started process (PID=6974) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:59:03.423-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:59:03.423-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:03.423-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:59:03.609-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:03.609-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:03.609-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:59:03.625-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.205 seconds
+[2023-02-14T21:59:34.271-0300] {processor.py:153} INFO - Started process (PID=7089) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:59:34.271-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T21:59:34.271-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:34.271-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:59:34.458-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:34.458-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:34.458-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T21:59:34.474-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.205 seconds
+[2023-02-14T22:01:59.108-0300] {processor.py:153} INFO - Started process (PID=7437) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:01:59.109-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:01:59.109-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:59.109-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:01:59.212-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:59.211-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:01:59.212-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:01:59.228-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.121 seconds
+[2023-02-14T22:02:30.403-0300] {processor.py:153} INFO - Started process (PID=7596) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:02:30.404-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:02:30.404-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:30.404-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:02:30.888-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:30.888-0300] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...
+[2023-02-14T22:02:36.578-0300] {processor.py:153} INFO - Started process (PID=7825) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:02:36.579-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:02:36.579-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.579-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:02:36.684-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.684-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:02:36.684-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:02:36.710-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.133 seconds
+[2023-02-14T22:03:07.954-0300] {processor.py:153} INFO - Started process (PID=7914) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:03:07.955-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:03:07.955-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.955-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:03:08.068-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:08.068-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:03:08.069-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:03:08.086-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.134 seconds
+[2023-02-14T22:03:38.719-0300] {processor.py:153} INFO - Started process (PID=8009) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:03:38.720-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:03:38.720-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.720-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:03:38.909-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.909-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:03:38.910-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:03:38.924-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.207 seconds
+[2023-02-14T22:04:09.763-0300] {processor.py:153} INFO - Started process (PID=8104) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:04:09.763-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:04:09.764-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:09.764-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:04:09.949-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:09.949-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:04:09.949-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:04:09.972-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.211 seconds
+[2023-02-14T22:04:40.855-0300] {processor.py:153} INFO - Started process (PID=8196) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:04:40.856-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:04:40.856-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:40.856-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:04:41.047-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:41.046-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:04:41.047-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:04:41.070-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.216 seconds
+[2023-02-14T22:05:11.343-0300] {processor.py:153} INFO - Started process (PID=8291) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:05:11.344-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:05:11.345-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.344-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:05:11.465-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.465-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:05:11.465-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:05:11.492-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.152 seconds
+[2023-02-14T22:05:41.747-0300] {processor.py:153} INFO - Started process (PID=8382) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:05:41.748-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:05:41.748-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.748-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:05:41.872-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.871-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:05:41.872-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:05:41.892-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.147 seconds
+[2023-02-14T22:06:12.920-0300] {processor.py:153} INFO - Started process (PID=8478) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:06:12.921-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:06:12.921-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:12.921-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:06:13.021-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:13.021-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:06:13.021-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:06:13.133-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.214 seconds
+[2023-02-14T22:06:43.968-0300] {processor.py:153} INFO - Started process (PID=8601) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:06:43.968-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:06:43.969-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:43.969-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:06:44.169-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:44.169-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:06:44.169-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:06:44.185-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.219 seconds
+[2023-02-14T22:07:17.455-0300] {processor.py:153} INFO - Started process (PID=8871) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:07:17.455-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:07:17.456-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.455-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:07:17.559-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.558-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:07:17.559-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:07:17.583-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.130 seconds
+[2023-02-14T22:07:48.819-0300] {processor.py:153} INFO - Started process (PID=8962) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:07:48.820-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:07:48.820-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.820-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:07:48.951-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.950-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:07:48.951-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:07:48.974-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.158 seconds
+[2023-02-14T22:08:19.872-0300] {processor.py:153} INFO - Started process (PID=9059) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:08:19.873-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:08:19.873-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:19.873-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:08:20.054-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:20.054-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:08:20.055-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:08:20.078-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.208 seconds
+[2023-02-14T22:08:50.763-0300] {processor.py:153} INFO - Started process (PID=9149) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:08:50.764-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:08:50.764-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:50.764-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:08:50.956-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:50.956-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:08:50.957-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:08:50.972-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.210 seconds
+[2023-02-14T22:09:21.859-0300] {processor.py:153} INFO - Started process (PID=9244) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:09:21.859-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:09:21.860-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:21.860-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:09:22.044-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:22.043-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:09:22.044-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:09:22.067-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.210 seconds
+[2023-02-14T22:09:52.348-0300] {processor.py:153} INFO - Started process (PID=9333) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:09:52.349-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:09:52.350-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.349-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:09:52.468-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.468-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:09:52.469-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:09:52.485-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.139 seconds
+[2023-02-14T22:10:22.780-0300] {processor.py:153} INFO - Started process (PID=9429) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:10:22.781-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:10:22.782-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.782-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:10:22.913-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.912-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:10:22.913-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:10:22.933-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.155 seconds
+[2023-02-14T22:10:53.443-0300] {processor.py:153} INFO - Started process (PID=9550) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:10:53.444-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:10:53.444-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.444-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:10:53.641-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.640-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:10:53.641-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:10:53.657-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.216 seconds
+[2023-02-14T22:11:24.788-0300] {processor.py:153} INFO - Started process (PID=9653) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:11:24.789-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:11:24.789-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:24.789-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:11:24.982-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:24.982-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:11:24.982-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:11:25.006-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.219 seconds
+[2023-02-14T22:11:55.810-0300] {processor.py:153} INFO - Started process (PID=9762) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:11:55.811-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:11:55.811-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:55.811-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:11:55.998-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:55.998-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:11:55.998-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:11:56.022-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.213 seconds
+[2023-02-14T22:12:26.049-0300] {processor.py:153} INFO - Started process (PID=9867) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:12:26.050-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:12:26.051-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:26.051-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:12:26.155-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:26.155-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:12:26.156-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:12:26.173-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.126 seconds
+[2023-02-14T22:12:56.308-0300] {processor.py:153} INFO - Started process (PID=9965) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:12:56.309-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:12:56.309-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:56.309-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:12:56.412-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:56.411-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:12:56.412-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:12:56.427-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.121 seconds
+[2023-02-14T22:13:27.090-0300] {processor.py:153} INFO - Started process (PID=10294) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:13:27.091-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:13:27.091-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:27.091-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:13:27.292-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:27.292-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:13:27.292-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:13:27.309-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.221 seconds
+[2023-02-14T22:13:58.027-0300] {processor.py:153} INFO - Started process (PID=10395) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:13:58.027-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:13:58.028-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:58.028-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:13:58.213-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:58.213-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:13:58.213-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:13:58.237-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.212 seconds
+[2023-02-14T22:14:28.633-0300] {processor.py:153} INFO - Started process (PID=10486) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:14:28.634-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:14:28.634-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.634-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:14:28.817-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.816-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:14:28.817-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:14:28.841-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.210 seconds
+[2023-02-14T22:14:59.046-0300] {processor.py:153} INFO - Started process (PID=10590) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:14:59.047-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:14:59.047-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:59.047-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:14:59.230-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:59.230-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:14:59.231-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:14:59.255-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.211 seconds
+[2023-02-14T22:15:29.561-0300] {processor.py:153} INFO - Started process (PID=10684) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:15:29.562-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:15:29.562-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.562-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:15:29.670-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.670-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:15:29.671-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:15:29.695-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.136 seconds
+[2023-02-14T22:16:00.121-0300] {processor.py:153} INFO - Started process (PID=10775) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:16:00.121-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:16:00.122-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:00.122-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:16:00.225-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:00.224-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:16:00.225-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:16:00.322-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.202 seconds
+[2023-02-14T22:16:30.975-0300] {processor.py:153} INFO - Started process (PID=10866) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:16:30.975-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:16:30.976-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.976-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:16:31.155-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:31.155-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:16:31.155-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:16:31.170-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.197 seconds
+[2023-02-14T22:17:02.060-0300] {processor.py:153} INFO - Started process (PID=10969) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:17:02.060-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:17:02.061-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:02.060-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:17:02.246-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:02.246-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:17:02.246-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:17:02.261-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.203 seconds
+[2023-02-14T22:17:32.599-0300] {processor.py:153} INFO - Started process (PID=11065) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:17:32.600-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:17:32.600-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.600-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:17:32.782-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.781-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:17:32.782-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:17:32.805-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.208 seconds
+[2023-02-14T22:18:03.695-0300] {processor.py:153} INFO - Started process (PID=11157) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:18:03.696-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:18:03.696-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.696-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:18:03.880-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.880-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:18:03.881-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:18:03.905-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.211 seconds
+[2023-02-14T22:18:34.196-0300] {processor.py:153} INFO - Started process (PID=11249) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:18:34.197-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:18:34.198-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:34.197-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:18:34.315-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:34.314-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:18:34.315-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:18:34.333-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.140 seconds
+[2023-02-14T22:19:04.891-0300] {processor.py:153} INFO - Started process (PID=11328) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:19:04.892-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:19:04.892-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:04.892-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:19:05.080-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:05.080-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:19:05.080-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:19:05.095-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.205 seconds
+[2023-02-14T22:19:35.919-0300] {processor.py:153} INFO - Started process (PID=11422) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:19:35.920-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:19:35.920-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:35.920-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:19:36.110-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:36.109-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:19:36.110-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:19:36.133-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.216 seconds
+[2023-02-14T22:24:17.000-0300] {processor.py:153} INFO - Started process (PID=11792) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:17.001-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:24:17.002-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:17.001-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:17.118-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:17.117-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:17.118-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:17.135-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.138 seconds
+[2023-02-14T22:24:47.371-0300] {processor.py:153} INFO - Started process (PID=11951) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:47.372-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:24:47.373-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.373-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:47.532-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.531-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:47.532-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:47.566-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.197 seconds
+[2023-02-14T22:24:58.201-0300] {processor.py:153} INFO - Started process (PID=12206) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:58.202-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:24:58.202-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:58.202-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:58.313-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:58.312-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:58.313-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:24:58.329-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.130 seconds
+[2023-02-14T22:26:11.346-0300] {processor.py:153} INFO - Started process (PID=12521) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:26:11.347-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:26:11.347-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.347-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:26:11.448-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.448-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:26:11.448-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:26:11.473-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.129 seconds
+[2023-02-14T22:27:32.102-0300] {processor.py:153} INFO - Started process (PID=12890) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:27:32.102-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:27:32.103-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:32.103-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:27:32.204-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:32.203-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:27:32.204-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:27:32.228-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.128 seconds
+[2023-02-14T22:28:02.699-0300] {processor.py:153} INFO - Started process (PID=12997) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:02.700-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:28:02.700-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.700-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:02.802-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.801-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:02.802-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:02.819-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.122 seconds
+[2023-02-14T22:28:11.419-0300] {processor.py:153} INFO - Started process (PID=13258) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:11.419-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:28:11.420-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.419-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:11.521-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.521-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:11.522-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:11.549-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.132 seconds
+[2023-02-14T22:28:41.831-0300] {processor.py:153} INFO - Started process (PID=13355) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:41.831-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:28:41.832-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.832-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:41.936-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.935-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:41.936-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:28:41.953-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.124 seconds
+[2023-02-14T22:29:12.756-0300] {processor.py:153} INFO - Started process (PID=13454) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:29:12.756-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:29:12.757-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:12.757-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:29:12.939-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:12.939-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:12.939-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:29:12.962-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.208 seconds
+[2023-02-14T22:29:44.304-0300] {processor.py:153} INFO - Started process (PID=13570) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:29:44.305-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:29:44.306-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:44.306-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:29:44.653-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:44.652-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:44.653-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:29:44.673-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.373 seconds
+[2023-02-14T22:30:07.663-0300] {processor.py:153} INFO - Started process (PID=13835) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:30:07.664-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:30:07.664-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.664-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:30:07.768-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.768-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:07.768-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:30:07.786-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.125 seconds
+[2023-02-14T22:30:38.136-0300] {processor.py:153} INFO - Started process (PID=13936) to work on /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:30:38.137-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_epitopes.py for tasks to queue
+[2023-02-14T22:30:38.137-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:38.137-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:30:38.266-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:38.265-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_epitopes.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_epitopes.py", line 7, in <module>
+    from scripts.hivmidb.extract_epitopes import extract_epitopes
+  File "/home/kallox/respaldo/thesis/dags/scripts/hivmidb.py", line 2, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:38.266-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_epitopes.py
+[2023-02-14T22:30:38.283-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_epitopes.py took 0.149 seconds

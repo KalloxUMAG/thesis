@@ -1,0 +1,330 @@
+[2023-02-14T21:50:53.230-0300] {processor.py:153} INFO - Started process (PID=4797) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:50:53.231-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:50:53.231-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.231-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:50:53.232-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:50:53.244-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.015 seconds
+[2023-02-14T21:51:23.624-0300] {processor.py:153} INFO - Started process (PID=4969) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:51:23.624-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:51:23.625-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:23.625-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:51:23.625-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:51:23.637-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.015 seconds
+[2023-02-14T21:51:54.424-0300] {processor.py:153} INFO - Started process (PID=5069) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:51:54.424-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:51:54.425-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:54.425-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:51:54.426-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:51:54.444-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T21:52:25.408-0300] {processor.py:153} INFO - Started process (PID=5192) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:52:25.409-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:52:25.409-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:25.409-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:52:25.410-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:52:25.426-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T21:52:56.462-0300] {processor.py:153} INFO - Started process (PID=5298) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:52:56.463-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:52:56.463-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:56.463-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:52:56.463-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:52:56.475-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.015 seconds
+[2023-02-14T21:53:22.964-0300] {processor.py:153} INFO - Started process (PID=5562) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:53:22.965-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:53:22.965-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:22.965-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:53:22.965-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:53:22.980-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.018 seconds
+[2023-02-14T21:53:53.278-0300] {processor.py:153} INFO - Started process (PID=5656) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:53:53.279-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:53:53.279-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.279-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:53:53.280-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:53:53.296-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T21:54:23.826-0300] {processor.py:153} INFO - Started process (PID=5768) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:54:23.826-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:54:23.827-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:23.827-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:54:23.827-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:54:23.844-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T21:54:56.264-0300] {processor.py:153} INFO - Started process (PID=6098) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:54:56.265-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:54:56.265-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.265-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:54:56.266-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:54:56.278-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.015 seconds
+[2023-02-14T21:55:26.362-0300] {processor.py:153} INFO - Started process (PID=6195) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:55:26.363-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:55:26.363-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:26.363-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:55:26.364-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:55:26.379-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.019 seconds
+[2023-02-14T21:55:56.824-0300] {processor.py:153} INFO - Started process (PID=6298) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:55:56.825-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:55:56.825-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:56.825-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:55:56.826-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:55:56.846-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2023-02-14T21:56:26.878-0300] {processor.py:153} INFO - Started process (PID=6391) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:56:26.878-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:56:26.879-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:26.879-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:56:26.879-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:56:26.895-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T21:56:57.819-0300] {processor.py:153} INFO - Started process (PID=6489) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:56:57.820-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:56:57.821-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:57.821-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:56:57.821-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:56:57.837-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T21:57:27.933-0300] {processor.py:153} INFO - Started process (PID=6593) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:57:27.934-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:57:27.935-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:27.935-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:57:27.935-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:57:27.952-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T21:57:58.395-0300] {processor.py:153} INFO - Started process (PID=6700) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:57:58.396-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:57:58.397-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:58.397-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:57:58.397-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:57:58.414-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T21:58:28.704-0300] {processor.py:153} INFO - Started process (PID=6806) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:58:28.704-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:58:28.705-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:28.704-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:58:28.705-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:58:28.721-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T21:58:58.867-0300] {processor.py:153} INFO - Started process (PID=6907) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:58:58.868-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:58:58.869-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:58.869-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:58:58.869-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:58:58.886-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T21:59:29.812-0300] {processor.py:153} INFO - Started process (PID=7012) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:59:29.812-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T21:59:29.813-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:29.813-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:59:29.813-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T21:59:29.830-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:01:58.531-0300] {processor.py:153} INFO - Started process (PID=7389) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:01:58.534-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:01:58.535-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:58.535-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:01:58.536-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:01:58.549-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:02:29.735-0300] {processor.py:153} INFO - Started process (PID=7565) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:02:29.736-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:02:29.737-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:29.737-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:02:29.737-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:02:29.754-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:02:35.992-0300] {processor.py:153} INFO - Started process (PID=7774) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:02:35.992-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:02:35.993-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:35.993-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:02:35.993-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:02:36.005-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.015 seconds
+[2023-02-14T22:03:07.197-0300] {processor.py:153} INFO - Started process (PID=7866) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:03:07.198-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:03:07.199-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.199-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:03:07.199-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:03:07.215-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:03:37.377-0300] {processor.py:153} INFO - Started process (PID=7952) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:03:37.378-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:03:37.378-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:37.378-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:03:37.379-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:03:37.396-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:04:08.607-0300] {processor.py:153} INFO - Started process (PID=8054) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:04:08.607-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:04:08.608-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:08.608-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:04:08.608-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:04:08.626-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:04:39.641-0300] {processor.py:153} INFO - Started process (PID=8146) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:04:39.642-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:04:39.642-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:39.642-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:04:39.643-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:04:39.661-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:05:10.564-0300] {processor.py:153} INFO - Started process (PID=8242) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:05:10.565-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:05:10.565-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:10.565-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:05:10.566-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:05:10.584-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2023-02-14T22:05:40.997-0300] {processor.py:153} INFO - Started process (PID=8334) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:05:40.998-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:05:40.999-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:40.999-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:05:40.999-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:05:41.015-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:06:11.566-0300] {processor.py:153} INFO - Started process (PID=8428) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:06:11.567-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:06:11.567-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:11.567-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:06:11.568-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:06:11.585-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:06:42.780-0300] {processor.py:153} INFO - Started process (PID=8553) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:06:42.781-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:06:42.781-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:42.781-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:06:42.782-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:06:42.801-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2023-02-14T22:07:16.868-0300] {processor.py:153} INFO - Started process (PID=8821) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:07:16.868-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:07:16.869-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:16.869-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:07:16.869-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:07:16.882-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.016 seconds
+[2023-02-14T22:07:48.077-0300] {processor.py:153} INFO - Started process (PID=8914) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:07:48.078-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:07:48.079-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.079-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:07:48.079-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:07:48.095-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:08:18.673-0300] {processor.py:153} INFO - Started process (PID=9009) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:08:18.674-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:08:18.675-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:18.675-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:08:18.675-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:08:18.693-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:08:49.756-0300] {processor.py:153} INFO - Started process (PID=9100) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:08:49.757-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:08:49.757-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:49.757-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:08:49.758-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:08:49.774-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:09:20.619-0300] {processor.py:153} INFO - Started process (PID=9195) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:09:20.620-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:09:20.620-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:20.620-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:09:20.621-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:09:20.638-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:09:51.587-0300] {processor.py:153} INFO - Started process (PID=9285) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:09:51.588-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:09:51.588-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:51.588-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:09:51.589-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:09:51.605-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:10:22.008-0300] {processor.py:153} INFO - Started process (PID=9381) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:10:22.009-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:10:22.010-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.010-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:10:22.010-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:10:22.026-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:10:52.595-0300] {processor.py:153} INFO - Started process (PID=9505) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:10:52.596-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:10:52.596-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:52.596-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:10:52.597-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:10:52.614-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2023-02-14T22:11:23.338-0300] {processor.py:153} INFO - Started process (PID=9602) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:11:23.339-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:11:23.340-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:23.340-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:11:23.340-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:11:23.358-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:11:54.641-0300] {processor.py:153} INFO - Started process (PID=9712) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:11:54.642-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:11:54.642-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:54.642-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:11:54.643-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:11:54.662-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2023-02-14T22:12:25.295-0300] {processor.py:153} INFO - Started process (PID=9820) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:12:25.296-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:12:25.296-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:25.296-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:12:25.297-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:12:25.314-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:12:55.657-0300] {processor.py:153} INFO - Started process (PID=9917) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:12:55.658-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:12:55.659-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:55.659-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:12:55.660-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:12:55.681-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.031 seconds
+[2023-02-14T22:13:25.712-0300] {processor.py:153} INFO - Started process (PID=10224) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:13:25.713-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:13:25.713-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:25.713-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:13:25.713-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:13:25.728-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.018 seconds
+[2023-02-14T22:13:56.786-0300] {processor.py:153} INFO - Started process (PID=10345) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:13:56.787-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:13:56.787-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:56.787-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:13:56.788-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:13:56.804-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:14:27.203-0300] {processor.py:153} INFO - Started process (PID=10435) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:14:27.204-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:14:27.204-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:27.204-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:14:27.205-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:14:27.226-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.026 seconds
+[2023-02-14T22:14:57.597-0300] {processor.py:153} INFO - Started process (PID=10527) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:14:57.598-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:14:57.599-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:57.598-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:14:57.599-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:14:57.615-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:15:28.699-0300] {processor.py:153} INFO - Started process (PID=10621) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:15:28.700-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:15:28.700-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:28.700-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:15:28.701-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:15:28.717-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:15:59.123-0300] {processor.py:153} INFO - Started process (PID=10714) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:15:59.123-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:15:59.124-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:59.124-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:15:59.124-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:15:59.141-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:16:29.910-0300] {processor.py:153} INFO - Started process (PID=10809) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:16:29.911-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:16:29.911-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:29.911-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:16:29.912-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:16:29.928-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:17:00.785-0300] {processor.py:153} INFO - Started process (PID=10903) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:17:00.786-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:17:00.786-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:00.786-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:17:00.787-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:17:00.805-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.023 seconds
+[2023-02-14T22:17:31.408-0300] {processor.py:153} INFO - Started process (PID=11005) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:17:31.409-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:17:31.410-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:31.410-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:17:31.410-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:17:31.427-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:18:02.406-0300] {processor.py:153} INFO - Started process (PID=11097) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:18:02.407-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:18:02.408-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:02.407-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:18:02.408-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:18:02.424-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:18:33.344-0300] {processor.py:153} INFO - Started process (PID=11187) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:18:33.345-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:18:33.346-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:33.346-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:18:33.346-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:18:33.362-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.020 seconds
+[2023-02-14T22:19:03.928-0300] {processor.py:153} INFO - Started process (PID=11281) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:19:03.929-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:19:03.929-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:03.929-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:19:03.930-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:19:03.946-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:19:34.723-0300] {processor.py:153} INFO - Started process (PID=11373) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:19:34.724-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:19:34.725-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:34.724-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:19:34.725-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:19:34.742-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:24:16.178-0300] {processor.py:153} INFO - Started process (PID=11743) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:16.178-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:24:16.179-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.178-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:16.179-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:16.193-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.017 seconds
+[2023-02-14T22:24:46.540-0300] {processor.py:153} INFO - Started process (PID=11900) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:46.541-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:24:46.542-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:46.541-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:46.542-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:46.557-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:24:57.446-0300] {processor.py:153} INFO - Started process (PID=12155) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:57.447-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:24:57.447-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:57.447-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:57.447-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:24:57.460-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.016 seconds
+[2023-02-14T22:26:10.749-0300] {processor.py:153} INFO - Started process (PID=12470) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:26:10.750-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:26:10.750-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:10.750-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:26:10.751-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:26:10.764-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.016 seconds
+[2023-02-14T22:27:31.332-0300] {processor.py:153} INFO - Started process (PID=12839) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:27:31.332-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:27:31.333-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.333-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:27:31.333-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:27:31.348-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.018 seconds
+[2023-02-14T22:28:01.847-0300] {processor.py:153} INFO - Started process (PID=12945) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:01.849-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:28:01.850-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:01.850-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:01.850-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:01.868-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.024 seconds
+[2023-02-14T22:28:10.649-0300] {processor.py:153} INFO - Started process (PID=13207) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:10.650-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:28:10.650-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:10.650-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:10.651-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:10.665-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.017 seconds
+[2023-02-14T22:28:41.045-0300] {processor.py:153} INFO - Started process (PID=13307) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:41.046-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:28:41.047-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.047-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:41.047-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:28:41.064-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds
+[2023-02-14T22:29:11.621-0300] {processor.py:153} INFO - Started process (PID=13403) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:29:11.622-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:29:11.622-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:11.622-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:29:11.623-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:29:11.640-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.022 seconds
+[2023-02-14T22:29:42.619-0300] {processor.py:153} INFO - Started process (PID=13516) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:29:42.620-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:29:42.620-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:42.620-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:29:42.620-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:29:42.632-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.015 seconds
+[2023-02-14T22:30:06.954-0300] {processor.py:153} INFO - Started process (PID=13787) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:30:06.954-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:30:06.955-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:06.955-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:30:06.955-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:30:06.969-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.017 seconds
+[2023-02-14T22:30:37.380-0300] {processor.py:153} INFO - Started process (PID=13888) to work on /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:30:37.381-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip for tasks to queue
+[2023-02-14T22:30:37.381-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:37.381-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:30:37.382-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip
+[2023-02-14T22:30:37.399-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/files/iedb/downloads/antigen.zip took 0.021 seconds

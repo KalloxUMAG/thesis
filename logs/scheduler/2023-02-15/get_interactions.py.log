@@ -1,0 +1,924 @@
+[2023-02-14T21:50:53.840-0300] {processor.py:153} INFO - Started process (PID=4846) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:50:53.840-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:50:53.841-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.841-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:50:53.942-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.941-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:50:53.942-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:50:53.966-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.128 seconds
+[2023-02-14T21:51:24.333-0300] {processor.py:153} INFO - Started process (PID=5009) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:51:24.334-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:51:24.334-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.334-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:51:24.437-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.436-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:51:24.437-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:51:24.540-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.209 seconds
+[2023-02-14T21:51:55.337-0300] {processor.py:153} INFO - Started process (PID=5110) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:51:55.337-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:51:55.338-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.338-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:51:55.528-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.528-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:51:55.529-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:51:55.553-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.218 seconds
+[2023-02-14T21:52:26.392-0300] {processor.py:153} INFO - Started process (PID=5233) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:52:26.392-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:52:26.393-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.393-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:52:26.580-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.579-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:52:26.580-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:52:26.604-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.214 seconds
+[2023-02-14T21:52:57.196-0300] {processor.py:153} INFO - Started process (PID=5342) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:52:57.196-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:52:57.197-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:57.197-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:52:57.390-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:57.390-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:52:57.390-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:52:57.410-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.216 seconds
+[2023-02-14T21:53:23.563-0300] {processor.py:153} INFO - Started process (PID=5607) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:53:23.564-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:53:23.564-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.564-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:53:23.666-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.665-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:53:23.666-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:53:23.690-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.129 seconds
+[2023-02-14T21:53:53.890-0300] {processor.py:153} INFO - Started process (PID=5699) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:53:53.891-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:53:53.891-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.891-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:53:54.019-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:54.019-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:53:54.020-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:53:54.042-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.154 seconds
+[2023-02-14T21:54:24.704-0300] {processor.py:153} INFO - Started process (PID=5812) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:54:24.705-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:54:24.705-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:24.705-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:54:24.887-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:24.887-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:54:24.887-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:54:24.911-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.208 seconds
+[2023-02-14T21:54:56.751-0300] {processor.py:153} INFO - Started process (PID=6140) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:54:56.752-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:54:56.752-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.752-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:54:56.869-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.868-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:54:56.869-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:54:56.885-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.135 seconds
+[2023-02-14T21:55:27.260-0300] {processor.py:153} INFO - Started process (PID=6250) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:55:27.261-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:55:27.261-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.261-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:55:27.367-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.367-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:55:27.367-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:55:27.392-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.134 seconds
+[2023-02-14T21:55:58.160-0300] {processor.py:153} INFO - Started process (PID=6349) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:55:58.161-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:55:58.161-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:58.161-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:55:58.348-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:58.348-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:55:58.349-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:55:58.373-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.214 seconds
+[2023-02-14T21:56:29.149-0300] {processor.py:153} INFO - Started process (PID=6449) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:56:29.149-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:56:29.150-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:29.150-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:56:29.344-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:29.343-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:56:29.344-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:56:29.367-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.219 seconds
+[2023-02-14T21:57:00.220-0300] {processor.py:153} INFO - Started process (PID=6551) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:57:00.220-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:57:00.221-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:00.221-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:57:00.406-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:00.405-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:57:00.406-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:57:00.429-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.211 seconds
+[2023-02-14T21:57:30.897-0300] {processor.py:153} INFO - Started process (PID=6654) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:57:30.898-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:57:30.898-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:30.898-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:57:31.001-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:31.001-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:57:31.001-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:57:31.026-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.131 seconds
+[2023-02-14T21:58:01.268-0300] {processor.py:153} INFO - Started process (PID=6758) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:58:01.269-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:58:01.269-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.269-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:58:01.376-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.376-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:58:01.377-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:58:01.393-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.127 seconds
+[2023-02-14T21:58:32.045-0300] {processor.py:153} INFO - Started process (PID=6864) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:58:32.046-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:58:32.046-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.046-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:58:32.147-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.146-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:58:32.147-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:58:32.250-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.207 seconds
+[2023-02-14T21:59:03.191-0300] {processor.py:153} INFO - Started process (PID=6968) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:59:03.191-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:59:03.192-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:03.192-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:59:03.375-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:03.374-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:59:03.375-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:59:03.399-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.210 seconds
+[2023-02-14T21:59:34.178-0300] {processor.py:153} INFO - Started process (PID=7074) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:59:34.178-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T21:59:34.179-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:34.179-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:59:34.375-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:34.375-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T21:59:34.376-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T21:59:34.399-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.224 seconds
+[2023-02-14T22:01:59.006-0300] {processor.py:153} INFO - Started process (PID=7431) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:01:59.006-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:01:59.006-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:59.006-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:01:59.110-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:59.109-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:01:59.110-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:01:59.126-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.122 seconds
+[2023-02-14T22:02:30.291-0300] {processor.py:153} INFO - Started process (PID=7593) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:02:30.292-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:02:30.292-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:30.292-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:02:30.395-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:30.394-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:02:30.395-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:02:30.412-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.122 seconds
+[2023-02-14T22:02:36.444-0300] {processor.py:153} INFO - Started process (PID=7816) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:02:36.445-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:02:36.445-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.445-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:02:36.548-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.547-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:02:36.548-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:02:36.565-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.123 seconds
+[2023-02-14T22:03:07.876-0300] {processor.py:153} INFO - Started process (PID=7908) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:03:07.877-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:03:07.878-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.877-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:03:08.003-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:08.002-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:03:08.003-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:03:08.022-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.148 seconds
+[2023-02-14T22:03:38.607-0300] {processor.py:153} INFO - Started process (PID=8003) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:03:38.608-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:03:38.608-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.608-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:03:38.795-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.795-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:03:38.795-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:03:38.812-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.206 seconds
+[2023-02-14T22:04:09.531-0300] {processor.py:153} INFO - Started process (PID=8098) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:04:09.532-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:04:09.532-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:09.532-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:04:09.714-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:09.714-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:04:09.715-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:04:09.737-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.208 seconds
+[2023-02-14T22:04:40.623-0300] {processor.py:153} INFO - Started process (PID=8187) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:04:40.623-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:04:40.623-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:40.623-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:04:40.813-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:40.813-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:04:40.813-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:04:40.844-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.223 seconds
+[2023-02-14T22:05:11.198-0300] {processor.py:153} INFO - Started process (PID=8284) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:05:11.199-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:05:11.199-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.199-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:05:11.328-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.328-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:05:11.329-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:05:11.350-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.155 seconds
+[2023-02-14T22:05:41.696-0300] {processor.py:153} INFO - Started process (PID=8376) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:05:41.697-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:05:41.697-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.697-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:05:41.822-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.821-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:05:41.822-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:05:41.842-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.148 seconds
+[2023-02-14T22:06:12.698-0300] {processor.py:153} INFO - Started process (PID=8472) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:06:12.698-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:06:12.698-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:12.698-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:06:12.798-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:12.798-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:06:12.799-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:06:12.898-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.203 seconds
+[2023-02-14T22:06:43.729-0300] {processor.py:153} INFO - Started process (PID=8592) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:06:43.729-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:06:43.730-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:43.730-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:06:43.921-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:43.920-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:06:43.921-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:06:43.953-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.226 seconds
+[2023-02-14T22:07:17.334-0300] {processor.py:153} INFO - Started process (PID=8863) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:07:17.334-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:07:17.334-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.334-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:07:17.432-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.432-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:07:17.432-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:07:17.449-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.117 seconds
+[2023-02-14T22:07:48.751-0300] {processor.py:153} INFO - Started process (PID=8956) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:07:48.752-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:07:48.753-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.753-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:07:48.884-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.884-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:07:48.885-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:07:48.907-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.158 seconds
+[2023-02-14T22:08:19.640-0300] {processor.py:153} INFO - Started process (PID=9050) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:08:19.640-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:08:19.641-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:19.641-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:08:19.829-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:19.828-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:08:19.829-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:08:19.850-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.212 seconds
+[2023-02-14T22:08:50.752-0300] {processor.py:153} INFO - Started process (PID=9146) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:08:50.752-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:08:50.753-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:50.753-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:08:50.950-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:50.950-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:08:50.951-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:08:50.966-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.216 seconds
+[2023-02-14T22:09:21.629-0300] {processor.py:153} INFO - Started process (PID=9235) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:09:21.630-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:09:21.630-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:21.630-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:09:21.819-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:21.818-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:09:21.819-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:09:21.837-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.209 seconds
+[2023-02-14T22:09:52.273-0300] {processor.py:153} INFO - Started process (PID=9327) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:09:52.274-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:09:52.275-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.275-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:09:52.400-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.399-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:09:52.400-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:09:52.421-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.150 seconds
+[2023-02-14T22:10:22.689-0300] {processor.py:153} INFO - Started process (PID=9423) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:10:22.690-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:10:22.690-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.690-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:10:22.812-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.811-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:10:22.812-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:10:22.834-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.148 seconds
+[2023-02-14T22:10:53.434-0300] {processor.py:153} INFO - Started process (PID=9547) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:10:53.435-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:10:53.435-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.435-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:10:53.540-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.539-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:10:53.540-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:10:53.647-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.214 seconds
+[2023-02-14T22:11:24.559-0300] {processor.py:153} INFO - Started process (PID=9647) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:11:24.560-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:11:24.560-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:24.560-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:11:24.745-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:24.744-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:11:24.745-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:11:24.767-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.210 seconds
+[2023-02-14T22:11:55.578-0300] {processor.py:153} INFO - Started process (PID=9753) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:11:55.578-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:11:55.579-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:55.579-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:11:55.765-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:55.765-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:11:55.766-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:11:55.787-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.211 seconds
+[2023-02-14T22:12:25.888-0300] {processor.py:153} INFO - Started process (PID=9859) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:12:25.889-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:12:25.890-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:25.890-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:12:26.019-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:26.018-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:12:26.019-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:12:26.041-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.155 seconds
+[2023-02-14T22:12:56.201-0300] {processor.py:153} INFO - Started process (PID=9959) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:12:56.201-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:12:56.202-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:56.202-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:12:56.304-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:56.303-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:12:56.304-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:12:56.323-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.124 seconds
+[2023-02-14T22:13:27.073-0300] {processor.py:153} INFO - Started process (PID=10291) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:13:27.074-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:13:27.074-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:27.074-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:13:27.281-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:27.281-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:13:27.282-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:13:27.305-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.234 seconds
+[2023-02-14T22:13:57.789-0300] {processor.py:153} INFO - Started process (PID=10386) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:13:57.789-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:13:57.790-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:57.789-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:13:57.981-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:57.981-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:13:57.981-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:13:58.004-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.217 seconds
+[2023-02-14T22:14:28.401-0300] {processor.py:153} INFO - Started process (PID=10480) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:14:28.402-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:14:28.402-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.402-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:14:28.585-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.585-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:14:28.585-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:14:28.610-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.211 seconds
+[2023-02-14T22:14:58.776-0300] {processor.py:153} INFO - Started process (PID=10572) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:14:58.777-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:14:58.777-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:58.777-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:14:58.962-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:58.961-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:14:58.962-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:14:58.985-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.211 seconds
+[2023-02-14T22:15:29.392-0300] {processor.py:153} INFO - Started process (PID=10663) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:15:29.393-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:15:29.394-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.393-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:15:29.520-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.519-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:15:29.520-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:15:29.542-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.152 seconds
+[2023-02-14T22:15:59.993-0300] {processor.py:153} INFO - Started process (PID=10760) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:15:59.994-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:15:59.994-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:59.994-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:16:00.125-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:00.125-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:16:00.125-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:16:00.233-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.242 seconds
+[2023-02-14T22:16:30.888-0300] {processor.py:153} INFO - Started process (PID=10851) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:16:30.888-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:16:30.889-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.889-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:16:31.079-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:31.078-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:16:31.079-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:16:31.103-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.217 seconds
+[2023-02-14T22:17:01.975-0300] {processor.py:153} INFO - Started process (PID=10954) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:17:01.976-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:17:01.976-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:01.976-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:17:02.159-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:02.159-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:17:02.160-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:17:02.185-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.212 seconds
+[2023-02-14T22:17:32.282-0300] {processor.py:153} INFO - Started process (PID=11044) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:17:32.283-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:17:32.283-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.283-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:17:32.476-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.476-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:17:32.477-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:17:32.495-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.214 seconds
+[2023-02-14T22:18:03.380-0300] {processor.py:153} INFO - Started process (PID=11136) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:18:03.381-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:18:03.381-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.381-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:18:03.579-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.579-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:18:03.580-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:18:03.595-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.216 seconds
+[2023-02-14T22:18:34.039-0300] {processor.py:153} INFO - Started process (PID=11230) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:18:34.041-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:18:34.041-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:34.041-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:18:34.177-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:34.177-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:18:34.178-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:18:34.199-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.163 seconds
+[2023-02-14T22:19:04.868-0300] {processor.py:153} INFO - Started process (PID=11323) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:19:04.869-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:19:04.869-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:04.869-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:19:05.065-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:05.065-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:19:05.065-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:19:05.081-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.215 seconds
+[2023-02-14T22:19:35.915-0300] {processor.py:153} INFO - Started process (PID=11419) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:19:35.915-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:19:35.916-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:35.916-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:19:36.110-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:36.109-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:19:36.110-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:19:36.134-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.221 seconds
+[2023-02-14T22:24:16.842-0300] {processor.py:153} INFO - Started process (PID=11785) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:16.843-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:24:16.844-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.844-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:16.984-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.983-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:24:16.985-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:17.008-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.168 seconds
+[2023-02-14T22:24:47.183-0300] {processor.py:153} INFO - Started process (PID=11942) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:47.183-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:24:47.184-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.184-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:47.339-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.338-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:24:47.339-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:47.362-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.184 seconds
+[2023-02-14T22:24:58.054-0300] {processor.py:153} INFO - Started process (PID=12200) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:58.054-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:24:58.054-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:58.054-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:58.156-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:58.155-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:24:58.156-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:24:58.180-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.128 seconds
+[2023-02-14T22:26:11.209-0300] {processor.py:153} INFO - Started process (PID=12512) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:26:11.209-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:26:11.210-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.210-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:26:11.309-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.309-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:26:11.310-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:26:11.327-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.120 seconds
+[2023-02-14T22:27:31.958-0300] {processor.py:153} INFO - Started process (PID=12884) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:27:31.959-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:27:31.959-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.959-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:27:32.065-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:32.065-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:27:32.065-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:27:32.082-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.125 seconds
+[2023-02-14T22:28:02.688-0300] {processor.py:153} INFO - Started process (PID=12994) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:02.689-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:28:02.689-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.689-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:02.791-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.791-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:28:02.791-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:02.808-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.121 seconds
+[2023-02-14T22:28:11.277-0300] {processor.py:153} INFO - Started process (PID=13252) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:11.278-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:28:11.278-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.278-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:11.379-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.379-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:28:11.380-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:11.398-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.122 seconds
+[2023-02-14T22:28:41.749-0300] {processor.py:153} INFO - Started process (PID=13349) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:41.750-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:28:41.750-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.750-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:41.865-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.864-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:28:41.865-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:28:41.881-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.135 seconds
+[2023-02-14T22:29:12.516-0300] {processor.py:153} INFO - Started process (PID=13445) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:29:12.517-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:29:12.517-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:12.517-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:29:12.709-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:12.708-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:29:12.709-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:29:12.732-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.218 seconds
+[2023-02-14T22:29:44.036-0300] {processor.py:153} INFO - Started process (PID=13564) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:29:44.036-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:29:44.037-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:44.037-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:29:44.243-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:44.242-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:29:44.243-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:29:44.266-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.232 seconds
+[2023-02-14T22:30:07.656-0300] {processor.py:153} INFO - Started process (PID=13832) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:30:07.656-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:30:07.657-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.656-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:30:07.759-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.758-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:30:07.759-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:30:07.784-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.130 seconds
+[2023-02-14T22:30:38.073-0300] {processor.py:153} INFO - Started process (PID=13930) to work on /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:30:38.074-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_interactions.py for tasks to queue
+[2023-02-14T22:30:38.074-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:38.074-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:30:38.201-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:38.201-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_interactions.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_interactions.py", line 8, in <module>
+    from scripts.intact.download import download as intact_download
+ModuleNotFoundError: No module named 'scripts.intact.download'; 'scripts.intact' is not a package
+[2023-02-14T22:30:38.202-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_interactions.py
+[2023-02-14T22:30:38.222-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_interactions.py took 0.152 seconds

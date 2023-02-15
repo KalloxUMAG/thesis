@@ -1,0 +1,1060 @@
+[2023-02-14T21:50:53.063-0300] {processor.py:153} INFO - Started process (PID=4785) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:50:53.063-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:50:53.064-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.064-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:50:53.167-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.166-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:50:53.167-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:50:53.184-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.122 seconds
+[2023-02-14T21:51:23.323-0300] {processor.py:153} INFO - Started process (PID=4950) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:51:23.323-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:51:23.324-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:23.324-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:51:23.449-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:23.449-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:23.449-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:51:23.574-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.253 seconds
+[2023-02-14T21:51:54.038-0300] {processor.py:153} INFO - Started process (PID=5056) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:51:54.038-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:51:54.039-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:54.039-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:51:54.351-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:54.351-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:54.352-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:51:54.379-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.343 seconds
+[2023-02-14T21:52:25.036-0300] {processor.py:153} INFO - Started process (PID=5179) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:52:25.037-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:52:25.038-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:25.038-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:52:25.340-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:25.339-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:25.340-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:52:25.359-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.326 seconds
+[2023-02-14T21:52:56.104-0300] {processor.py:153} INFO - Started process (PID=5285) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:52:56.105-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:52:56.106-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:56.106-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:52:56.401-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:56.400-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:56.401-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:52:56.424-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.322 seconds
+[2023-02-14T21:53:22.779-0300] {processor.py:153} INFO - Started process (PID=5550) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:53:22.781-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:53:22.781-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:22.781-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:53:22.882-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:22.881-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:22.882-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:53:22.910-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.132 seconds
+[2023-02-14T21:53:53.054-0300] {processor.py:153} INFO - Started process (PID=5643) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:53:53.055-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:53:53.055-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.055-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:53:53.176-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.175-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:53.176-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:53:53.207-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.155 seconds
+[2023-02-14T21:54:23.439-0300] {processor.py:153} INFO - Started process (PID=5755) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:54:23.440-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:54:23.441-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:23.440-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:54:23.760-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:23.759-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:54:23.760-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:54:23.786-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.349 seconds
+[2023-02-14T21:54:56.084-0300] {processor.py:153} INFO - Started process (PID=6086) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:54:56.085-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:54:56.085-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.085-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:54:56.188-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.187-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T21:54:56.188-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:54:56.212-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.129 seconds
+[2023-02-14T21:55:26.311-0300] {processor.py:153} INFO - Started process (PID=6186) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:55:26.320-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:55:26.321-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:26.321-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:55:26.461-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:26.461-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T21:55:26.462-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:55:26.483-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.174 seconds
+[2023-02-14T21:55:56.770-0300] {processor.py:153} INFO - Started process (PID=6289) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:55:56.779-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:55:56.779-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:56.779-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:55:57.095-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:57.094-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:55:57.095-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:55:57.124-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.356 seconds
+[2023-02-14T21:56:27.899-0300] {processor.py:153} INFO - Started process (PID=6401) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:56:27.901-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:56:27.901-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:27.901-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:56:28.229-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:28.229-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:56:28.230-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:56:28.257-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.360 seconds
+[2023-02-14T21:56:58.852-0300] {processor.py:153} INFO - Started process (PID=6501) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:56:58.853-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:56:58.854-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:58.854-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:56:59.180-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:59.179-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:56:59.181-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:56:59.206-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.356 seconds
+[2023-02-14T21:57:29.968-0300] {processor.py:153} INFO - Started process (PID=6609) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:57:29.972-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:57:29.973-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:29.973-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:57:30.114-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:30.113-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:57:30.114-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:57:30.144-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.178 seconds
+[2023-02-14T21:58:00.455-0300] {processor.py:153} INFO - Started process (PID=6716) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:58:00.456-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:58:00.456-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:00.456-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:58:00.597-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:00.597-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:00.598-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:58:00.628-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.176 seconds
+[2023-02-14T21:58:30.748-0300] {processor.py:153} INFO - Started process (PID=6819) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:58:30.748-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:58:30.749-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:30.748-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:58:30.870-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:30.870-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:30.871-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:58:31.035-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.290 seconds
+[2023-02-14T21:59:01.896-0300] {processor.py:153} INFO - Started process (PID=6923) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:59:01.897-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:59:01.898-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:01.898-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:59:02.190-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:02.189-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:02.190-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:59:02.217-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.323 seconds
+[2023-02-14T21:59:32.875-0300] {processor.py:153} INFO - Started process (PID=7028) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:59:32.875-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T21:59:32.876-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:32.875-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:59:33.176-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:33.175-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:33.176-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T21:59:33.203-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.331 seconds
+[2023-02-14T22:01:58.351-0300] {processor.py:153} INFO - Started process (PID=7377) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:01:58.351-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:01:58.352-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:58.351-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:01:58.455-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:58.454-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'intact'
+[2023-02-14T22:01:58.455-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:01:58.481-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.132 seconds
+[2023-02-14T22:02:29.473-0300] {processor.py:153} INFO - Started process (PID=7552) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:02:29.482-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:02:29.482-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:29.482-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:02:29.628-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:29.626-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:02:29.629-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:02:29.663-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.192 seconds
+[2023-02-14T22:02:35.810-0300] {processor.py:153} INFO - Started process (PID=7762) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:02:35.810-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:02:35.811-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:35.811-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:02:35.913-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:35.912-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:02:35.913-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:02:35.936-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.128 seconds
+[2023-02-14T22:03:06.954-0300] {processor.py:153} INFO - Started process (PID=7854) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:03:06.957-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:03:06.957-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:06.957-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:03:07.082-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.081-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:03:07.082-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:03:07.114-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.161 seconds
+[2023-02-14T22:03:37.326-0300] {processor.py:153} INFO - Started process (PID=7943) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:03:37.334-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:03:37.335-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:37.335-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:03:37.636-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:37.636-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:03:37.637-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:03:37.657-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.333 seconds
+[2023-02-14T22:04:08.215-0300] {processor.py:153} INFO - Started process (PID=8041) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:04:08.216-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:04:08.217-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:08.216-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:04:08.531-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:08.530-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:04:08.531-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:04:08.557-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.344 seconds
+[2023-02-14T22:04:39.256-0300] {processor.py:153} INFO - Started process (PID=8133) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:04:39.257-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:04:39.258-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:39.257-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:04:39.560-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:39.559-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:04:39.560-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:04:39.587-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.333 seconds
+[2023-02-14T22:05:10.315-0300] {processor.py:153} INFO - Started process (PID=8228) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:05:10.316-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:05:10.317-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:10.317-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:05:10.454-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:10.453-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:05:10.454-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:05:10.483-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.170 seconds
+[2023-02-14T22:05:40.759-0300] {processor.py:153} INFO - Started process (PID=8322) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:05:40.760-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:05:40.760-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:40.760-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:05:40.896-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:40.896-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:05:40.897-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:05:40.920-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.163 seconds
+[2023-02-14T22:06:11.177-0300] {processor.py:153} INFO - Started process (PID=8415) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:06:11.178-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:06:11.178-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:11.178-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:06:11.313-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:11.312-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:06:11.314-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:06:11.515-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.340 seconds
+[2023-02-14T22:06:42.379-0300] {processor.py:153} INFO - Started process (PID=8538) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:06:42.380-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:06:42.380-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:42.380-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:06:42.676-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:42.676-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'intact'
+[2023-02-14T22:06:42.676-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:06:42.703-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.326 seconds
+[2023-02-14T22:07:16.686-0300] {processor.py:153} INFO - Started process (PID=8809) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:07:16.687-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:07:16.687-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:16.687-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:07:16.794-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:16.793-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:07:16.794-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:07:16.811-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.127 seconds
+[2023-02-14T22:07:47.831-0300] {processor.py:153} INFO - Started process (PID=8902) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:07:47.832-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:07:47.832-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:47.832-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:07:47.967-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:47.967-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:07:47.968-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:07:48.000-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.171 seconds
+[2023-02-14T22:08:18.298-0300] {processor.py:153} INFO - Started process (PID=8996) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:08:18.299-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:08:18.300-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:18.300-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:08:18.603-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:18.603-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:08:18.604-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:08:18.622-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.328 seconds
+[2023-02-14T22:08:49.365-0300] {processor.py:153} INFO - Started process (PID=9087) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:08:49.367-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:08:49.368-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:49.367-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:08:49.681-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:49.680-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:08:49.681-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:08:49.709-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.346 seconds
+[2023-02-14T22:09:20.238-0300] {processor.py:153} INFO - Started process (PID=9181) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:09:20.240-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:09:20.240-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:20.240-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:09:20.540-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:20.540-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:09:20.540-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:09:20.559-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.324 seconds
+[2023-02-14T22:09:51.357-0300] {processor.py:153} INFO - Started process (PID=9273) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:09:51.358-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:09:51.358-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:51.358-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:09:51.485-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:51.484-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:09:51.485-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:09:51.515-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.160 seconds
+[2023-02-14T22:10:21.767-0300] {processor.py:153} INFO - Started process (PID=9369) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:10:21.769-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:10:21.770-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:21.770-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:10:21.902-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:21.901-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'scripts.intact.get_uniprot_ids'; 'scripts.intact' is not a package
+[2023-02-14T22:10:21.902-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:10:21.933-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.168 seconds
+[2023-02-14T22:10:52.195-0300] {processor.py:153} INFO - Started process (PID=9490) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:10:52.196-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:10:52.197-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:52.197-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:10:52.325-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:52.324-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:10:52.325-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:10:52.530-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.337 seconds
+[2023-02-14T22:11:22.937-0300] {processor.py:153} INFO - Started process (PID=9590) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:11:22.938-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:11:22.938-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:22.938-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:11:23.277-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:23.276-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:11:23.277-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:11:23.302-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.368 seconds
+[2023-02-14T22:11:54.241-0300] {processor.py:153} INFO - Started process (PID=9699) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:11:54.248-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:11:54.249-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:54.248-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:11:54.571-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:54.571-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:11:54.572-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:11:54.598-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.360 seconds
+[2023-02-14T22:12:24.887-0300] {processor.py:153} INFO - Started process (PID=9805) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:12:24.888-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:12:24.888-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:24.888-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:12:25.191-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:25.190-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:12:25.191-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:12:25.219-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.334 seconds
+[2023-02-14T22:12:55.350-0300] {processor.py:153} INFO - Started process (PID=9905) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:12:55.351-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:12:55.352-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:55.352-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:12:55.500-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:55.499-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:12:55.500-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:12:55.534-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.187 seconds
+[2023-02-14T22:13:25.627-0300] {processor.py:153} INFO - Started process (PID=10215) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:13:25.627-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:13:25.628-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:25.628-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:13:25.749-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:25.749-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:13:25.749-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:13:25.853-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.229 seconds
+[2023-02-14T22:13:56.410-0300] {processor.py:153} INFO - Started process (PID=10332) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:13:56.411-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:13:56.411-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:56.411-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:13:56.711-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:56.710-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:13:56.711-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:13:56.738-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.331 seconds
+[2023-02-14T22:14:26.777-0300] {processor.py:153} INFO - Started process (PID=10420) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:14:26.786-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:14:26.786-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:26.786-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:14:27.095-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:27.094-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:14:27.095-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:14:27.122-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.347 seconds
+[2023-02-14T22:14:57.183-0300] {processor.py:153} INFO - Started process (PID=10512) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:14:57.192-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:14:57.193-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:57.192-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:14:57.493-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:57.493-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:14:57.494-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:14:57.514-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.334 seconds
+[2023-02-14T22:15:28.465-0300] {processor.py:153} INFO - Started process (PID=10609) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:15:28.465-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:15:28.466-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:28.466-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:15:28.590-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:28.589-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:15:28.590-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:15:28.622-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.160 seconds
+[2023-02-14T22:15:58.900-0300] {processor.py:153} INFO - Started process (PID=10702) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:15:58.901-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:15:58.901-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:58.901-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:15:59.028-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:59.027-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:15:59.028-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:15:59.052-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.154 seconds
+[2023-02-14T22:16:29.530-0300] {processor.py:153} INFO - Started process (PID=10794) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:16:29.530-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:16:29.531-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:29.531-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:16:29.821-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:29.821-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:16:29.822-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:16:29.849-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.322 seconds
+[2023-02-14T22:17:00.375-0300] {processor.py:153} INFO - Started process (PID=10886) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:17:00.376-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:17:00.376-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:00.376-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:17:00.680-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:00.679-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:17:00.680-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:17:00.708-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.335 seconds
+[2023-02-14T22:17:30.969-0300] {processor.py:153} INFO - Started process (PID=10989) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:17:30.971-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:17:30.971-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:30.971-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:17:31.296-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:31.295-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:17:31.296-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:17:31.323-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.357 seconds
+[2023-02-14T22:18:02.012-0300] {processor.py:153} INFO - Started process (PID=11082) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:18:02.013-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:18:02.014-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:02.014-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:18:02.328-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:02.328-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:18:02.329-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:18:02.347-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.339 seconds
+[2023-02-14T22:18:33.118-0300] {processor.py:153} INFO - Started process (PID=11175) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:18:33.119-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:18:33.119-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:33.119-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:18:33.241-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:33.240-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:18:33.241-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:18:33.272-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.156 seconds
+[2023-02-14T22:19:03.532-0300] {processor.py:153} INFO - Started process (PID=11268) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:19:03.533-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:19:03.534-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:03.534-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:19:03.845-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:03.845-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:19:03.846-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:19:03.873-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.343 seconds
+[2023-02-14T22:19:34.344-0300] {processor.py:153} INFO - Started process (PID=11360) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:19:34.345-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:19:34.345-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:34.345-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:19:34.648-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:34.647-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:19:34.648-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:19:34.681-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.339 seconds
+[2023-02-14T22:24:15.939-0300] {processor.py:153} INFO - Started process (PID=11731) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:15.940-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:24:15.941-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:15.940-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:16.095-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.094-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 4, in <module>
+    from dags.scripts.intact.get_uniprot_ids import get_uniprot_ids
+ModuleNotFoundError: No module named 'dags'
+[2023-02-14T22:24:16.095-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:16.124-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.186 seconds
+[2023-02-14T22:24:46.335-0300] {processor.py:153} INFO - Started process (PID=11888) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:46.335-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:24:46.336-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:46.336-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:46.447-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:46.446-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 5, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:46.447-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:46.472-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.140 seconds
+[2023-02-14T22:24:57.263-0300] {processor.py:153} INFO - Started process (PID=12143) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:57.264-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:24:57.265-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:57.264-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:57.365-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:57.364-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 5, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:57.365-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:24:57.389-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.128 seconds
+[2023-02-14T22:26:10.518-0300] {processor.py:153} INFO - Started process (PID=12458) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:26:10.519-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:26:10.520-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:10.519-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:26:10.656-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:10.655-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 5, in <module>
+    from requests import request_with_retry
+ImportError: cannot import name 'request_with_retry' from 'requests' (/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/requests/__init__.py)
+[2023-02-14T22:26:10.656-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:26:10.685-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.170 seconds
+[2023-02-14T22:27:31.126-0300] {processor.py:153} INFO - Started process (PID=12827) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:27:31.127-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:27:31.128-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.128-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:27:31.258-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.258-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 5, in <module>
+    from requestsmine import request_with_retry
+ModuleNotFoundError: No module named 'requestsmine'
+[2023-02-14T22:27:31.259-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:27:31.277-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.153 seconds
+[2023-02-14T22:28:01.480-0300] {processor.py:153} INFO - Started process (PID=12933) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:01.481-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:28:01.482-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:01.482-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:01.730-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:01.729-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 6, in <module>
+    from helpers.save_file import save_file
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:01.731-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:01.766-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.291 seconds
+[2023-02-14T22:28:10.463-0300] {processor.py:153} INFO - Started process (PID=13195) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:10.467-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:28:10.468-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:10.468-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:10.576-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:10.575-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 6, in <module>
+    from helpers.save_file import save_file
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:10.576-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:10.595-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.133 seconds
+[2023-02-14T22:28:40.792-0300] {processor.py:153} INFO - Started process (PID=13295) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:40.794-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:28:40.794-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:40.794-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:40.934-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:40.934-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 6, in <module>
+    from helpers.save_file import save_file
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:40.935-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:28:40.966-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.175 seconds
+[2023-02-14T22:29:11.216-0300] {processor.py:153} INFO - Started process (PID=13390) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:29:11.218-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:29:11.219-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:11.219-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:29:11.542-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:11.541-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 6, in <module>
+    from helpers.save_file import save_file
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:11.542-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:29:11.571-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.357 seconds
+[2023-02-14T22:29:42.273-0300] {processor.py:153} INFO - Started process (PID=13499) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:29:42.275-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:29:42.276-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:42.276-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:29:42.557-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:42.556-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 6, in <module>
+    from helpers.save_file import save_file
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:42.557-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:29:42.581-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.314 seconds
+[2023-02-14T22:30:06.770-0300] {processor.py:153} INFO - Started process (PID=13775) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:30:06.771-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:30:06.771-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:06.771-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:30:06.874-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:06.873-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 7, in <module>
+    from helpers.drop_first_line import drop_first_line
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:06.874-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:30:06.897-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.129 seconds
+[2023-02-14T22:30:37.154-0300] {processor.py:153} INFO - Started process (PID=13876) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:30:37.155-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:30:37.155-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:37.155-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:30:37.275-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:37.274-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_iedb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_iedb.py", line 7, in <module>
+    from scripts.iedb import download, drop_columns_epitopes, download_antigens
+  File "/home/kallox/respaldo/thesis/dags/scripts/iedb.py", line 7, in <module>
+    from helpers.drop_first_line import drop_first_line
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:37.275-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:30:37.306-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_iedb.py took 0.155 seconds
+[2023-02-14T22:31:07.561-0300] {processor.py:153} INFO - Started process (PID=13983) to work on /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:31:07.562-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_iedb.py for tasks to queue
+[2023-02-14T22:31:07.562-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:31:07.562-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_iedb.py
+[2023-02-14T22:31:08.527-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:31:08.527-0300] {process_utils.py:256} INFO - Waiting up to 5 seconds for processes to exit...

@@ -22,7 +22,7 @@ def check_release():
         f.close()
 
         if old_release == current_release:
-            print("La version ya se encuentra descargada")
+            print("Version already downloaded")
             return False
         else:
             f = open('./dags/files/imgt/current_release.txt', 'w')
@@ -45,11 +45,13 @@ def download():
     f.close()
 
     subprocess.Popen('rm ./dags/files/imgt/downloads/imgt.fasta', shell=True).wait()
-    print("Elimnado")
+    print("Old fasta deleted")
     subprocess.Popen('uncompress ./dags/files/imgt/downloads/imgt.fasta.Z', shell=True).wait()
-    print("Extraido")
+    print("New fasta extracted")
 
     df = pd.DataFrame(columns=['name', 'sequence'])
+
+    print("Converting fasta to csv")
     
     df = extract_fasta_file('./dags/files/imgt/downloads/imgt.fasta', df, '|', 0)
 
@@ -60,18 +62,21 @@ def download():
     df.to_csv('./dags/files/imgt/antibodies.csv', index=False, index_label=False)
 
 def nucleotic_to_protein(df):
-    print("Convirtiendo nucleotidos a proteina")
+    print("Converting nucleotids to protein")
     for index, antibody in df.iterrows():
         sequence = antibody['sequence']
         nucleotic_seq = Seq(sequence)
         if len(sequence)%3 == 1:
             nucleotic_seq = nucleotic_seq + Seq('N')
-            print('Agregando N')
+            print('N added')
         if len(sequence)%3 == 1:
             nucleotic_seq = nucleotic_seq + Seq('N')
-            print('Agregando N')
+            print('N added')
         protein_seq = nucleotic_seq.translate(stop_symbol='')
         protein_seq = str(protein_seq)
         df.loc[index] = [antibody['name'], protein_seq]
     
     return df
+
+if __name__ == '__main__':
+    download()

@@ -1,0 +1,1056 @@
+[2023-02-14T21:50:53.695-0300] {processor.py:153} INFO - Started process (PID=4837) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:50:53.695-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:50:53.695-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.695-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:50:53.798-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.797-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:50:53.798-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:50:53.821-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.129 seconds
+[2023-02-14T21:51:24.326-0300] {processor.py:153} INFO - Started process (PID=5006) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:51:24.326-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:51:24.327-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.327-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:51:24.426-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.426-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:24.426-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:51:24.539-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.215 seconds
+[2023-02-14T21:51:55.334-0300] {processor.py:153} INFO - Started process (PID=5107) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:51:55.334-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:51:55.335-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.335-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:51:55.527-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.527-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:55.527-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:51:55.549-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.217 seconds
+[2023-02-14T21:52:26.389-0300] {processor.py:153} INFO - Started process (PID=5230) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:52:26.390-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:52:26.390-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.390-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:52:26.580-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.579-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:26.580-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:52:26.603-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.216 seconds
+[2023-02-14T21:52:56.971-0300] {processor.py:153} INFO - Started process (PID=5333) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:52:56.972-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:52:56.972-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:56.972-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:52:57.159-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:57.158-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:57.159-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:52:57.176-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.207 seconds
+[2023-02-14T21:53:23.420-0300] {processor.py:153} INFO - Started process (PID=5598) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:53:23.421-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:53:23.421-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.421-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:53:23.520-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.519-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:23.520-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:53:23.544-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.125 seconds
+[2023-02-14T21:53:53.849-0300] {processor.py:153} INFO - Started process (PID=5693) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:53:53.850-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:53:53.851-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.850-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:53:53.976-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.975-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:53.976-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:53:54.001-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.154 seconds
+[2023-02-14T21:54:24.474-0300] {processor.py:153} INFO - Started process (PID=5803) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:54:24.474-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:54:24.475-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:24.475-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:54:24.663-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:24.662-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:54:24.663-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:54:24.682-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.211 seconds
+[2023-02-14T21:54:56.738-0300] {processor.py:153} INFO - Started process (PID=6137) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:54:56.739-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:54:56.739-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.739-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:54:56.860-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.860-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:54:56.861-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:54:56.884-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.148 seconds
+[2023-02-14T21:55:27.114-0300] {processor.py:153} INFO - Started process (PID=6244) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:55:27.115-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:55:27.115-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.115-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:55:27.220-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.219-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:55:27.220-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:55:27.238-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.126 seconds
+[2023-02-14T21:55:57.926-0300] {processor.py:153} INFO - Started process (PID=6340) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:55:57.926-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:55:57.927-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:57.927-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:55:58.120-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:58.120-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:55:58.120-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:55:58.138-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.214 seconds
+[2023-02-14T21:56:28.930-0300] {processor.py:153} INFO - Started process (PID=6440) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:56:28.931-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:56:28.931-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:28.931-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:56:29.122-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:29.121-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:56:29.122-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:56:29.137-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.209 seconds
+[2023-02-14T21:56:59.987-0300] {processor.py:153} INFO - Started process (PID=6542) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:56:59.988-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:56:59.988-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:59.988-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:57:00.179-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:00.178-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:57:00.179-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:57:00.200-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.215 seconds
+[2023-02-14T21:57:30.758-0300] {processor.py:153} INFO - Started process (PID=6645) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:57:30.758-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:57:30.758-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:30.758-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:57:30.867-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:30.866-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:57:30.867-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:57:30.883-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.127 seconds
+[2023-02-14T21:58:01.185-0300] {processor.py:153} INFO - Started process (PID=6752) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:58:01.186-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:58:01.186-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.186-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:58:01.288-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.287-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:01.288-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:58:01.305-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.122 seconds
+[2023-02-14T21:58:32.035-0300] {processor.py:153} INFO - Started process (PID=6861) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:58:32.035-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:58:32.036-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.036-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:58:32.138-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.137-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:32.138-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:58:32.250-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.217 seconds
+[2023-02-14T21:59:02.965-0300] {processor.py:153} INFO - Started process (PID=6959) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:59:02.966-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:59:02.966-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:02.966-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:59:03.156-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:03.155-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:03.156-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:59:03.171-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.207 seconds
+[2023-02-14T21:59:33.961-0300] {processor.py:153} INFO - Started process (PID=7065) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:59:33.962-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T21:59:33.962-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:33.962-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:59:34.147-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:34.147-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:34.148-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T21:59:34.164-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.205 seconds
+[2023-02-14T22:01:58.966-0300] {processor.py:153} INFO - Started process (PID=7425) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:01:58.967-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:01:58.967-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:58.967-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:01:59.073-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:59.072-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:01:59.073-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:01:59.088-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.124 seconds
+[2023-02-14T22:02:30.258-0300] {processor.py:153} INFO - Started process (PID=7591) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:02:30.258-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:02:30.259-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:30.259-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:02:30.364-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:30.364-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:02:30.365-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:02:30.382-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.126 seconds
+[2023-02-14T22:02:36.426-0300] {processor.py:153} INFO - Started process (PID=7811) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:02:36.426-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:02:36.426-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.426-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:02:36.530-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.530-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:02:36.531-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:02:36.558-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.134 seconds
+[2023-02-14T22:03:07.783-0300] {processor.py:153} INFO - Started process (PID=7902) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:03:07.784-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:03:07.784-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.784-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:03:07.906-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.905-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:03:07.906-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:03:07.926-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.145 seconds
+[2023-02-14T22:03:38.485-0300] {processor.py:153} INFO - Started process (PID=7995) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:03:38.485-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:03:38.486-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.486-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:03:38.679-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.679-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:03:38.679-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:03:38.694-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.211 seconds
+[2023-02-14T22:04:09.304-0300] {processor.py:153} INFO - Started process (PID=8089) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:04:09.305-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:04:09.305-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:09.305-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:04:09.494-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:09.493-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:04:09.494-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:04:09.509-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.207 seconds
+[2023-02-14T22:04:40.617-0300] {processor.py:153} INFO - Started process (PID=8184) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:04:40.622-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:04:40.623-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:40.623-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:04:40.810-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:40.809-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:04:40.810-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:04:40.833-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.217 seconds
+[2023-02-14T22:05:11.143-0300] {processor.py:153} INFO - Started process (PID=8278) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:05:11.144-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:05:11.144-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.144-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:05:11.281-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.280-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:05:11.282-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:05:11.313-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.172 seconds
+[2023-02-14T22:05:41.572-0300] {processor.py:153} INFO - Started process (PID=8370) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:05:41.573-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:05:41.573-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.573-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:05:41.694-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.693-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:05:41.694-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:05:41.716-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.146 seconds
+[2023-02-14T22:06:12.472-0300] {processor.py:153} INFO - Started process (PID=8463) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:06:12.472-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:06:12.473-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:12.473-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:06:12.574-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:12.574-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:06:12.575-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:06:12.680-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.210 seconds
+[2023-02-14T22:06:43.726-0300] {processor.py:153} INFO - Started process (PID=8589) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:06:43.727-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:06:43.727-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:43.727-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:06:43.919-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:43.919-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:06:43.919-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:06:43.943-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.218 seconds
+[2023-02-14T22:07:17.313-0300] {processor.py:153} INFO - Started process (PID=8858) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:07:17.314-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:07:17.314-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.314-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:07:17.420-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.420-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:07:17.420-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:07:17.436-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.124 seconds
+[2023-02-14T22:07:48.642-0300] {processor.py:153} INFO - Started process (PID=8950) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:07:48.643-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:07:48.643-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.643-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:07:48.768-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.768-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:07:48.769-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:07:48.790-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.150 seconds
+[2023-02-14T22:08:19.637-0300] {processor.py:153} INFO - Started process (PID=9047) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:08:19.637-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:08:19.638-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:19.638-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:08:19.829-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:19.828-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:08:19.829-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:08:19.851-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.216 seconds
+[2023-02-14T22:08:50.518-0300] {processor.py:153} INFO - Started process (PID=9135) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:08:50.518-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:08:50.519-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:50.519-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:08:50.726-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:50.725-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:08:50.726-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:08:50.741-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.226 seconds
+[2023-02-14T22:09:21.618-0300] {processor.py:153} INFO - Started process (PID=9232) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:09:21.619-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:09:21.619-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:21.619-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:09:21.808-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:21.808-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:09:21.809-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:09:21.836-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.220 seconds
+[2023-02-14T22:09:52.176-0300] {processor.py:153} INFO - Started process (PID=9321) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:09:52.177-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:09:52.177-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.177-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:09:52.297-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.297-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:09:52.298-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:09:52.319-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.146 seconds
+[2023-02-14T22:10:22.609-0300] {processor.py:153} INFO - Started process (PID=9417) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:10:22.610-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:10:22.610-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.610-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:10:22.731-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.731-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:10:22.731-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:10:22.752-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.145 seconds
+[2023-02-14T22:10:53.208-0300] {processor.py:153} INFO - Started process (PID=9538) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:10:53.208-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:10:53.209-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.209-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:10:53.311-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.310-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:10:53.311-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:10:53.420-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.214 seconds
+[2023-02-14T22:11:24.323-0300] {processor.py:153} INFO - Started process (PID=9638) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:11:24.323-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:11:24.324-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:24.324-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:11:24.519-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:24.518-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:11:24.519-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:11:24.537-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.216 seconds
+[2023-02-14T22:11:55.573-0300] {processor.py:153} INFO - Started process (PID=9750) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:11:55.574-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:11:55.574-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:55.574-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:11:55.764-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:55.764-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:11:55.765-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:11:55.786-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.215 seconds
+[2023-02-14T22:12:25.866-0300] {processor.py:153} INFO - Started process (PID=9856) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:12:25.867-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:12:25.867-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:25.867-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:12:25.995-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:25.994-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:12:25.995-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:12:26.017-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.154 seconds
+[2023-02-14T22:12:56.167-0300] {processor.py:153} INFO - Started process (PID=9953) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:12:56.168-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:12:56.168-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:56.168-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:12:56.269-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:56.268-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:12:56.269-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:12:56.287-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.121 seconds
+[2023-02-14T22:13:26.792-0300] {processor.py:153} INFO - Started process (PID=10282) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:13:26.793-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:13:26.793-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:26.793-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:13:27.037-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:27.037-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:13:27.038-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:13:27.053-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.263 seconds
+[2023-02-14T22:13:57.784-0300] {processor.py:153} INFO - Started process (PID=10383) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:13:57.785-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:13:57.785-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:57.785-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:13:57.979-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:57.979-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:13:57.979-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:13:58.002-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.220 seconds
+[2023-02-14T22:14:28.173-0300] {processor.py:153} INFO - Started process (PID=10471) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:14:28.174-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:14:28.174-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.174-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:14:28.363-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.363-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:14:28.363-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:14:28.378-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.207 seconds
+[2023-02-14T22:14:58.551-0300] {processor.py:153} INFO - Started process (PID=10563) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:14:58.552-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:14:58.552-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:58.552-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:14:58.739-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:58.738-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:14:58.739-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:14:58.753-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.204 seconds
+[2023-02-14T22:15:29.276-0300] {processor.py:153} INFO - Started process (PID=10657) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:15:29.276-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:15:29.277-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.277-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:15:29.403-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.402-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:15:29.403-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:15:29.424-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.151 seconds
+[2023-02-14T22:15:59.660-0300] {processor.py:153} INFO - Started process (PID=10751) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:15:59.661-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:15:59.662-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:59.662-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:15:59.779-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:59.778-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:15:59.779-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:15:59.971-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.313 seconds
+[2023-02-14T22:16:30.667-0300] {processor.py:153} INFO - Started process (PID=10842) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:16:30.668-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:16:30.668-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.668-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:16:30.858-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.857-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:16:30.858-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:16:30.873-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.208 seconds
+[2023-02-14T22:17:01.746-0300] {processor.py:153} INFO - Started process (PID=10948) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:17:01.747-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:17:01.747-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:01.747-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:17:01.929-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:01.929-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:17:01.929-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:17:01.952-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.208 seconds
+[2023-02-14T22:17:32.280-0300] {processor.py:153} INFO - Started process (PID=11041) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:17:32.280-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:17:32.281-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.281-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:17:32.472-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.472-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:17:32.472-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:17:32.495-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.217 seconds
+[2023-02-14T22:18:03.377-0300] {processor.py:153} INFO - Started process (PID=11133) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:18:03.377-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:18:03.378-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.378-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:18:03.578-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.578-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:18:03.578-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:18:03.593-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.218 seconds
+[2023-02-14T22:18:33.905-0300] {processor.py:153} INFO - Started process (PID=11223) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:18:33.906-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:18:33.907-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:33.907-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:18:34.030-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:34.029-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:18:34.030-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:18:34.053-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.150 seconds
+[2023-02-14T22:19:04.660-0300] {processor.py:153} INFO - Started process (PID=11316) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:19:04.661-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:19:04.661-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:04.661-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:19:04.853-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:04.852-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:19:04.853-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:19:04.868-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.210 seconds
+[2023-02-14T22:19:35.688-0300] {processor.py:153} INFO - Started process (PID=11413) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:19:35.689-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:19:35.689-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:35.689-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:19:35.869-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:35.869-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:19:35.869-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:19:35.893-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.207 seconds
+[2023-02-14T22:24:16.806-0300] {processor.py:153} INFO - Started process (PID=11780) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:16.806-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:24:16.807-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.807-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:16.950-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.950-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:16.950-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:16.970-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.166 seconds
+[2023-02-14T22:24:47.148-0300] {processor.py:153} INFO - Started process (PID=11937) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:47.148-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:24:47.149-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.149-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:47.319-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.318-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:47.319-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:47.343-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.197 seconds
+[2023-02-14T22:24:57.908-0300] {processor.py:153} INFO - Started process (PID=12191) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:57.908-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:24:57.909-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:57.909-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:58.007-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:58.007-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:58.007-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:24:58.031-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.124 seconds
+[2023-02-14T22:26:11.200-0300] {processor.py:153} INFO - Started process (PID=12509) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:26:11.201-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:26:11.201-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.201-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:26:11.301-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.300-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:26:11.301-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:26:11.325-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.126 seconds
+[2023-02-14T22:27:31.812-0300] {processor.py:153} INFO - Started process (PID=12875) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:27:31.812-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:27:31.813-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.813-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:27:31.923-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.922-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:27:31.923-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:27:31.939-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.130 seconds
+[2023-02-14T22:28:02.518-0300] {processor.py:153} INFO - Started process (PID=12985) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:02.519-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:28:02.519-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.519-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:02.657-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.657-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:02.657-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:02.677-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.161 seconds
+[2023-02-14T22:28:11.120-0300] {processor.py:153} INFO - Started process (PID=13243) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:11.121-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:28:11.122-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.122-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:11.243-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.243-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:11.244-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:11.259-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.141 seconds
+[2023-02-14T22:28:41.647-0300] {processor.py:153} INFO - Started process (PID=13343) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:41.647-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:28:41.648-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.648-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:41.785-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.784-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:41.785-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:28:41.807-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.163 seconds
+[2023-02-14T22:29:12.513-0300] {processor.py:153} INFO - Started process (PID=13442) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:29:12.514-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:29:12.514-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:12.514-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:29:12.709-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:12.708-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:12.709-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:29:12.733-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.221 seconds
+[2023-02-14T22:29:43.746-0300] {processor.py:153} INFO - Started process (PID=13557) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:29:43.747-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:29:43.747-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:43.747-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:29:43.989-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:43.988-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:43.989-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:29:44.012-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.269 seconds
+[2023-02-14T22:30:07.512-0300] {processor.py:153} INFO - Started process (PID=13823) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:30:07.512-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:30:07.513-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.512-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:30:07.615-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.614-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:07.615-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:30:07.642-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.132 seconds
+[2023-02-14T22:30:37.960-0300] {processor.py:153} INFO - Started process (PID=13924) to work on /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:30:37.961-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/get_antibodies.py for tasks to queue
+[2023-02-14T22:30:37.961-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:37.961-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:30:38.083-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:38.082-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/get_antibodies.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/get_antibodies.py", line 8, in <module>
+    from scripts.catnap.extract import extract as extract_catnap
+  File "/home/kallox/respaldo/thesis/dags/scripts/catnap.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:38.083-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/get_antibodies.py
+[2023-02-14T22:30:38.104-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/get_antibodies.py took 0.146 seconds

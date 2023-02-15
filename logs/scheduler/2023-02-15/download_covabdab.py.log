@@ -1,0 +1,1056 @@
+[2023-02-14T21:50:53.307-0300] {processor.py:153} INFO - Started process (PID=4809) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:50:53.308-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:50:53.308-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.308-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:50:53.504-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:53.503-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:50:53.504-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:50:53.524-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.218 seconds
+[2023-02-14T21:51:23.657-0300] {processor.py:153} INFO - Started process (PID=4979) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:51:23.657-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:51:23.658-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:23.657-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:51:23.855-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:23.854-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:23.855-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:51:23.870-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.215 seconds
+[2023-02-14T21:51:54.467-0300] {processor.py:153} INFO - Started process (PID=5080) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:51:54.468-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:51:54.468-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:54.468-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:51:54.770-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:54.769-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:51:54.770-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:51:54.790-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.325 seconds
+[2023-02-14T21:52:25.451-0300] {processor.py:153} INFO - Started process (PID=5203) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:52:25.452-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:52:25.452-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:25.452-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:52:25.754-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:25.753-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:25.755-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:52:25.774-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.325 seconds
+[2023-02-14T21:52:56.493-0300] {processor.py:153} INFO - Started process (PID=5309) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:52:56.494-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:52:56.494-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:56.494-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:52:56.704-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:56.703-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:52:56.704-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:52:56.723-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.231 seconds
+[2023-02-14T21:53:23.030-0300] {processor.py:153} INFO - Started process (PID=5574) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:53:23.031-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:53:23.031-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.031-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:53:23.223-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.223-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:23.224-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:53:23.245-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.217 seconds
+[2023-02-14T21:53:53.387-0300] {processor.py:153} INFO - Started process (PID=5668) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:53:53.388-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:53:53.388-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.388-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:53:53.667-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:53.666-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:53:53.667-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:53:53.686-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.301 seconds
+[2023-02-14T21:54:23.872-0300] {processor.py:153} INFO - Started process (PID=5779) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:54:23.873-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:54:23.873-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:23.873-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:54:24.188-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:24.187-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:54:24.188-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:54:24.207-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.337 seconds
+[2023-02-14T21:54:56.327-0300] {processor.py:153} INFO - Started process (PID=6110) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:54:56.328-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:54:56.328-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.328-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:54:56.518-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:56.518-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:54:56.518-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:54:56.533-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.207 seconds
+[2023-02-14T21:55:26.696-0300] {processor.py:153} INFO - Started process (PID=6213) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:55:26.697-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:55:26.697-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:26.697-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:55:26.929-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:26.929-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:55:26.930-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:55:26.947-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.254 seconds
+[2023-02-14T21:55:57.228-0300] {processor.py:153} INFO - Started process (PID=6316) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:55:57.229-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:55:57.229-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:57.229-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:55:57.600-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:57.599-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:55:57.600-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:55:57.620-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.394 seconds
+[2023-02-14T21:56:28.310-0300] {processor.py:153} INFO - Started process (PID=6416) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:56:28.311-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:56:28.312-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:28.312-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:56:28.623-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:28.622-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:56:28.624-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:56:28.643-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.335 seconds
+[2023-02-14T21:56:59.267-0300] {processor.py:153} INFO - Started process (PID=6517) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:56:59.268-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:56:59.268-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:59.268-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:56:59.581-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:59.580-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:56:59.581-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:56:59.600-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.336 seconds
+[2023-02-14T21:57:30.353-0300] {processor.py:153} INFO - Started process (PID=6624) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:57:30.353-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:57:30.354-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:30.354-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:57:30.547-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:30.546-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:57:30.547-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:57:30.570-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.218 seconds
+[2023-02-14T21:58:00.829-0300] {processor.py:153} INFO - Started process (PID=6731) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:58:00.830-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:58:00.831-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:00.831-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:58:01.088-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.088-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:01.088-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:58:01.105-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.279 seconds
+[2023-02-14T21:58:31.451-0300] {processor.py:153} INFO - Started process (PID=6840) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:58:31.451-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:58:31.452-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:31.452-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:58:31.754-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:31.753-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:58:31.755-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:58:31.774-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.326 seconds
+[2023-02-14T21:59:02.270-0300] {processor.py:153} INFO - Started process (PID=6935) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:59:02.271-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:59:02.272-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:02.272-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:59:02.588-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:02.587-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:02.589-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:59:02.609-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.341 seconds
+[2023-02-14T21:59:33.247-0300] {processor.py:153} INFO - Started process (PID=7040) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:59:33.247-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T21:59:33.248-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:33.248-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:59:33.557-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:33.556-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T21:59:33.557-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T21:59:33.576-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.331 seconds
+[2023-02-14T22:01:58.595-0300] {processor.py:153} INFO - Started process (PID=7401) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:01:58.596-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:01:58.596-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:58.596-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:01:58.787-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:58.786-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:01:58.787-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:01:58.802-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.208 seconds
+[2023-02-14T22:02:29.886-0300] {processor.py:153} INFO - Started process (PID=7577) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:02:29.887-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:02:29.888-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:29.887-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:02:30.110-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:30.110-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:02:30.111-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:02:30.131-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.247 seconds
+[2023-02-14T22:02:36.056-0300] {processor.py:153} INFO - Started process (PID=7786) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:02:36.056-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:02:36.057-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.057-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:02:36.246-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.245-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:02:36.246-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:02:36.262-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.207 seconds
+[2023-02-14T22:03:07.340-0300] {processor.py:153} INFO - Started process (PID=7878) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:03:07.341-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:03:07.342-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.342-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:03:07.647-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:07.646-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:03:07.648-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:03:07.669-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.331 seconds
+[2023-02-14T22:03:37.797-0300] {processor.py:153} INFO - Started process (PID=7971) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:03:37.798-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:03:37.798-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:37.798-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:03:38.109-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.108-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:03:38.109-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:03:38.134-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.340 seconds
+[2023-02-14T22:04:08.657-0300] {processor.py:153} INFO - Started process (PID=8065) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:04:08.658-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:04:08.658-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:08.658-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:04:08.937-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:08.936-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:04:08.937-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:04:08.956-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.301 seconds
+[2023-02-14T22:04:39.690-0300] {processor.py:153} INFO - Started process (PID=8157) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:04:39.691-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:04:39.691-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:39.691-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:04:39.991-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:39.990-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:04:39.991-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:04:40.012-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.325 seconds
+[2023-02-14T22:05:10.680-0300] {processor.py:153} INFO - Started process (PID=8254) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:05:10.680-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:05:10.681-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:10.681-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:05:10.966-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:10.965-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:05:10.967-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:05:10.986-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.308 seconds
+[2023-02-14T22:05:41.153-0300] {processor.py:153} INFO - Started process (PID=8346) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:05:41.154-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:05:41.154-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.154-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:05:41.472-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.471-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:05:41.472-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:05:41.492-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.342 seconds
+[2023-02-14T22:06:11.614-0300] {processor.py:153} INFO - Started process (PID=8439) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:06:11.615-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:06:11.616-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:11.616-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:06:11.920-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:11.919-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:06:11.920-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:06:11.939-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.327 seconds
+[2023-02-14T22:06:42.836-0300] {processor.py:153} INFO - Started process (PID=8562) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:06:42.837-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:06:42.837-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:42.837-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:06:43.173-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:43.172-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:06:43.174-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:06:43.195-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.361 seconds
+[2023-02-14T22:07:16.933-0300] {processor.py:153} INFO - Started process (PID=8833) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:07:16.933-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:07:16.934-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:16.933-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:07:17.123-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.123-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:07:17.123-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:07:17.139-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.208 seconds
+[2023-02-14T22:07:48.224-0300] {processor.py:153} INFO - Started process (PID=8926) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:07:48.225-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:07:48.226-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.225-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:07:48.523-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:48.522-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:07:48.523-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:07:48.543-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.321 seconds
+[2023-02-14T22:08:18.722-0300] {processor.py:153} INFO - Started process (PID=9020) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:08:18.723-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:08:18.723-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:18.723-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:08:19.026-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:19.025-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:08:19.027-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:08:19.046-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.327 seconds
+[2023-02-14T22:08:49.804-0300] {processor.py:153} INFO - Started process (PID=9111) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:08:49.804-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:08:49.805-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:49.805-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:08:50.115-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:50.114-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:08:50.115-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:08:50.136-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.335 seconds
+[2023-02-14T22:09:20.667-0300] {processor.py:153} INFO - Started process (PID=9205) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:09:20.668-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:09:20.668-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:20.668-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:09:20.943-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:20.942-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:09:20.943-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:09:20.969-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.304 seconds
+[2023-02-14T22:09:51.731-0300] {processor.py:153} INFO - Started process (PID=9297) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:09:51.732-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:09:51.732-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:51.732-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:09:52.045-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.044-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:09:52.045-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:09:52.064-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.336 seconds
+[2023-02-14T22:10:22.244-0300] {processor.py:153} INFO - Started process (PID=9399) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:10:22.245-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:10:22.246-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.245-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:10:22.560-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.559-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:10:22.560-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:10:22.579-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.337 seconds
+[2023-02-14T22:10:52.646-0300] {processor.py:153} INFO - Started process (PID=9514) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:10:52.647-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:10:52.647-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:52.647-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:10:52.933-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:52.932-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:10:52.933-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:10:52.950-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.307 seconds
+[2023-02-14T22:11:23.764-0300] {processor.py:153} INFO - Started process (PID=9617) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:11:23.765-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:11:23.766-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:23.766-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:11:24.054-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:24.054-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:11:24.054-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:11:24.070-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.308 seconds
+[2023-02-14T22:11:54.692-0300] {processor.py:153} INFO - Started process (PID=9723) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:11:54.693-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:11:54.695-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:54.695-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:11:55.016-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:55.015-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:11:55.016-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:11:55.036-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.346 seconds
+[2023-02-14T22:12:25.347-0300] {processor.py:153} INFO - Started process (PID=9829) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:12:25.348-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:12:25.349-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:25.348-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:12:25.630-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:25.629-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:12:25.630-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:12:25.656-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.311 seconds
+[2023-02-14T22:12:55.813-0300] {processor.py:153} INFO - Started process (PID=9929) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:12:55.814-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:12:55.815-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:55.815-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:12:56.019-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:56.018-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:12:56.019-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:12:56.035-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.225 seconds
+[2023-02-14T22:13:26.194-0300] {processor.py:153} INFO - Started process (PID=10245) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:13:26.195-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:13:26.196-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:26.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:13:26.449-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:26.448-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:13:26.449-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:13:26.475-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.283 seconds
+[2023-02-14T22:13:56.832-0300] {processor.py:153} INFO - Started process (PID=10356) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:13:56.833-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:13:56.834-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:56.833-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:13:57.142-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:57.141-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:13:57.143-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:13:57.163-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.334 seconds
+[2023-02-14T22:14:27.546-0300] {processor.py:153} INFO - Started process (PID=10450) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:14:27.547-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:14:27.548-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:27.547-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:14:27.860-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:27.859-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:14:27.861-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:14:27.889-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.345 seconds
+[2023-02-14T22:14:57.939-0300] {processor.py:153} INFO - Started process (PID=10539) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:14:57.940-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:14:57.940-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:57.940-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:14:58.233-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:58.232-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:14:58.233-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:14:58.261-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.325 seconds
+[2023-02-14T22:15:28.858-0300] {processor.py:153} INFO - Started process (PID=10633) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:15:28.859-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:15:28.859-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:28.859-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:15:29.167-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.166-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:15:29.168-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:15:29.187-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.331 seconds
+[2023-02-14T22:15:59.338-0300] {processor.py:153} INFO - Started process (PID=10732) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:15:59.338-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:15:59.339-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:59.339-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:15:59.605-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:59.604-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:15:59.605-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:15:59.628-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.292 seconds
+[2023-02-14T22:16:30.289-0300] {processor.py:153} INFO - Started process (PID=10825) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:16:30.290-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:16:30.291-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.291-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:16:30.594-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.593-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:16:30.594-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:16:30.621-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.334 seconds
+[2023-02-14T22:17:01.153-0300] {processor.py:153} INFO - Started process (PID=10924) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:17:01.154-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:17:01.154-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:01.154-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:17:01.414-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:01.413-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:17:01.415-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:17:01.443-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.292 seconds
+[2023-02-14T22:17:31.816-0300] {processor.py:153} INFO - Started process (PID=11023) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:17:31.816-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:17:31.817-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:31.817-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:17:32.023-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.022-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:17:32.023-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:17:32.039-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.226 seconds
+[2023-02-14T22:18:02.783-0300] {processor.py:153} INFO - Started process (PID=11115) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:18:02.784-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:18:02.784-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:02.784-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:18:03.097-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.096-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:18:03.097-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:18:03.117-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.336 seconds
+[2023-02-14T22:18:33.571-0300] {processor.py:153} INFO - Started process (PID=11205) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:18:33.572-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:18:33.572-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:33.572-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:18:33.852-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:33.850-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:18:33.852-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:18:33.874-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.305 seconds
+[2023-02-14T22:19:03.976-0300] {processor.py:153} INFO - Started process (PID=11292) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:19:03.977-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:19:03.978-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:03.978-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:19:04.257-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:04.255-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:19:04.257-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:19:04.277-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.304 seconds
+[2023-02-14T22:19:34.770-0300] {processor.py:153} INFO - Started process (PID=11384) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:19:34.771-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:19:34.771-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:34.771-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:19:35.073-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:35.072-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:19:35.074-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:19:35.096-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.329 seconds
+[2023-02-14T22:24:16.263-0300] {processor.py:153} INFO - Started process (PID=11755) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:16.263-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:24:16.264-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.264-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:16.551-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:16.551-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:16.552-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:16.578-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.318 seconds
+[2023-02-14T22:24:46.637-0300] {processor.py:153} INFO - Started process (PID=11912) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:46.638-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:24:46.639-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:46.639-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:46.900-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:46.899-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:46.901-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:46.929-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.295 seconds
+[2023-02-14T22:24:57.509-0300] {processor.py:153} INFO - Started process (PID=12167) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:57.510-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:24:57.510-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:57.510-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:57.704-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:57.703-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:24:57.704-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:24:57.730-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.222 seconds
+[2023-02-14T22:26:10.812-0300] {processor.py:153} INFO - Started process (PID=12482) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:26:10.813-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:26:10.813-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:10.813-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:26:11.005-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.005-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:26:11.006-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:26:11.022-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.211 seconds
+[2023-02-14T22:27:31.407-0300] {processor.py:153} INFO - Started process (PID=12851) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:27:31.408-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:27:31.408-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.408-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:27:31.598-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:31.597-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:27:31.598-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:27:31.618-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.213 seconds
+[2023-02-14T22:28:01.950-0300] {processor.py:153} INFO - Started process (PID=12957) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:01.951-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:28:01.952-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:01.952-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:02.288-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.287-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:02.288-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:02.308-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.359 seconds
+[2023-02-14T22:28:10.723-0300] {processor.py:153} INFO - Started process (PID=13219) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:10.724-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:28:10.724-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:10.724-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:10.918-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:10.917-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:10.918-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:10.941-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.220 seconds
+[2023-02-14T22:28:41.189-0300] {processor.py:153} INFO - Started process (PID=13319) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:41.190-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:28:41.190-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.190-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:41.513-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:41.512-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:28:41.513-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:28:41.531-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.344 seconds
+[2023-02-14T22:29:11.671-0300] {processor.py:153} INFO - Started process (PID=13414) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:29:11.672-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:29:11.673-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:11.673-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:29:11.987-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:11.986-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:11.987-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:29:12.006-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.337 seconds
+[2023-02-14T22:29:42.654-0300] {processor.py:153} INFO - Started process (PID=13527) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:29:42.655-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:29:42.655-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:42.655-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:29:42.929-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:42.928-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:29:42.930-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:29:42.954-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.303 seconds
+[2023-02-14T22:30:07.021-0300] {processor.py:153} INFO - Started process (PID=13799) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:30:07.022-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:30:07.022-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.022-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:30:07.286-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.286-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:07.287-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:30:07.309-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.289 seconds
+[2023-02-14T22:30:37.526-0300] {processor.py:153} INFO - Started process (PID=13900) to work on /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:30:37.527-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_covabdab.py for tasks to queue
+[2023-02-14T22:30:37.527-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:37.527-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:30:37.839-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:37.838-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_covabdab.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_covabdab.py", line 7, in <module>
+    from scripts.covabdab import download, extract
+  File "/home/kallox/respaldo/thesis/dags/scripts/covabdab.py", line 4, in <module>
+    from helpers.requests import request_with_retry
+ModuleNotFoundError: No module named 'helpers'
+[2023-02-14T22:30:37.840-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_covabdab.py
+[2023-02-14T22:30:37.858-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_covabdab.py took 0.335 seconds

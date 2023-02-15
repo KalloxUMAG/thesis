@@ -1,0 +1,910 @@
+[2023-02-14T21:50:54.126-0300] {processor.py:153} INFO - Started process (PID=4867) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:50:54.127-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:50:54.127-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:54.127-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:50:54.133-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:50:54.132-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:50:54.133-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:50:54.148-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.023 seconds
+[2023-02-14T21:51:24.822-0300] {processor.py:153} INFO - Started process (PID=5033) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:51:24.823-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:51:24.823-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.823-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:51:24.828-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:24.828-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:51:24.828-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:51:24.846-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:51:55.835-0300] {processor.py:153} INFO - Started process (PID=5134) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:51:55.835-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:51:55.836-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.835-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:51:55.841-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:51:55.840-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:51:55.841-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:51:55.856-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T21:52:26.886-0300] {processor.py:153} INFO - Started process (PID=5257) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:52:26.887-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:52:26.887-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.887-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:52:26.893-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:26.892-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:52:26.893-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:52:26.911-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T21:52:57.705-0300] {processor.py:153} INFO - Started process (PID=5366) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:52:57.706-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:52:57.706-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:57.706-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:52:57.711-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:52:57.711-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:52:57.712-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:52:57.728-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:53:23.863-0300] {processor.py:153} INFO - Started process (PID=5628) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:53:23.864-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:53:23.865-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.865-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:53:23.870-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:23.869-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:53:23.870-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:53:23.887-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:53:54.244-0300] {processor.py:153} INFO - Started process (PID=5724) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:53:54.245-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:53:54.245-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:54.245-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:53:54.251-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:53:54.250-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:53:54.251-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:53:54.267-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T21:54:25.209-0300] {processor.py:153} INFO - Started process (PID=5836) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:54:25.210-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:54:25.210-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:25.210-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:54:25.215-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:25.215-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:54:25.215-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:54:25.233-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:54:57.100-0300] {processor.py:153} INFO - Started process (PID=6164) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:54:57.101-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:54:57.101-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:57.101-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:54:57.106-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:54:57.106-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:54:57.106-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:54:57.122-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T21:55:27.603-0300] {processor.py:153} INFO - Started process (PID=6277) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:55:27.604-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:55:27.604-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.604-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:55:27.610-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:27.609-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:55:27.610-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:55:27.626-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:55:58.666-0300] {processor.py:153} INFO - Started process (PID=6373) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:55:58.667-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:55:58.667-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:58.667-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:55:58.673-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:55:58.672-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:55:58.673-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:55:58.690-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:56:29.617-0300] {processor.py:153} INFO - Started process (PID=6470) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:56:29.618-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:56:29.618-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:29.618-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:56:29.623-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:56:29.623-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:56:29.623-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:56:29.639-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T21:57:00.729-0300] {processor.py:153} INFO - Started process (PID=6572) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:57:00.730-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:57:00.730-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:00.730-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:57:00.736-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:00.735-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:57:00.736-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:57:00.753-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T21:57:31.195-0300] {processor.py:153} INFO - Started process (PID=6676) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:57:31.196-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:57:31.196-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:31.196-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:57:31.201-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:57:31.201-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:57:31.201-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:57:31.218-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:58:01.515-0300] {processor.py:153} INFO - Started process (PID=6782) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:58:01.516-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:58:01.517-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.517-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:58:01.523-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:01.522-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:58:01.523-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:58:01.542-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.029 seconds
+[2023-02-14T21:58:32.544-0300] {processor.py:153} INFO - Started process (PID=6888) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:58:32.544-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:58:32.545-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.545-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:58:32.550-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:58:32.549-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:58:32.550-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:58:32.567-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T21:59:03.463-0300] {processor.py:153} INFO - Started process (PID=6983) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:59:03.464-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:59:03.464-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:03.464-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:59:03.469-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:03.469-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:59:03.469-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:59:03.487-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T21:59:34.227-0300] {processor.py:153} INFO - Started process (PID=7083) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:59:34.228-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T21:59:34.228-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:34.228-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:59:34.234-0300] {logging_mixin.py:137} INFO - [2023-02-14T21:59:34.233-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T21:59:34.234-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T21:59:34.251-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T22:01:59.281-0300] {processor.py:153} INFO - Started process (PID=7458) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:01:59.282-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:01:59.282-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:59.282-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:01:59.287-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:01:59.287-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:01:59.287-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:01:59.303-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:02:36.769-0300] {processor.py:153} INFO - Started process (PID=7844) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:02:36.770-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:02:36.770-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.770-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:02:36.775-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:02:36.775-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:02:36.775-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:02:36.791-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:03:08.145-0300] {processor.py:153} INFO - Started process (PID=7932) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:03:08.146-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:03:08.146-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:08.146-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:03:08.151-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:08.151-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:03:08.151-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:03:08.168-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:03:38.984-0300] {processor.py:153} INFO - Started process (PID=8027) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:03:38.984-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:03:38.985-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.984-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:03:38.990-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:03:38.989-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:03:38.990-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:03:39.009-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.027 seconds
+[2023-02-14T22:04:10.035-0300] {processor.py:153} INFO - Started process (PID=8119) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:04:10.035-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:04:10.035-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:10.035-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:04:10.040-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:10.040-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:04:10.041-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:04:10.057-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:04:41.131-0300] {processor.py:153} INFO - Started process (PID=8214) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:04:41.132-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:04:41.132-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:41.132-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:04:41.137-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:04:41.137-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:04:41.138-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:04:41.156-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.027 seconds
+[2023-02-14T22:05:11.555-0300] {processor.py:153} INFO - Started process (PID=8309) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:05:11.556-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:05:11.556-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.556-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:05:11.563-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:11.562-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:05:11.563-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:05:11.583-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.031 seconds
+[2023-02-14T22:05:41.951-0300] {processor.py:153} INFO - Started process (PID=8400) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:05:41.952-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:05:41.952-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.952-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:05:41.957-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:05:41.957-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:05:41.958-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:05:41.974-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:06:13.195-0300] {processor.py:153} INFO - Started process (PID=8496) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:06:13.196-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:06:13.196-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:13.196-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:06:13.201-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:13.201-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:06:13.202-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:06:13.218-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:06:44.246-0300] {processor.py:153} INFO - Started process (PID=8619) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:06:44.246-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:06:44.247-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:44.247-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:06:44.252-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:06:44.251-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:06:44.252-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:06:44.269-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:07:17.614-0300] {processor.py:153} INFO - Started process (PID=8888) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:07:17.615-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:07:17.615-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.615-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:07:17.620-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:17.620-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:07:17.621-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:07:17.636-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:07:49.059-0300] {processor.py:153} INFO - Started process (PID=8980) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:07:49.060-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:07:49.060-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:49.060-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:07:49.066-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:07:49.066-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:07:49.067-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:07:49.088-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.032 seconds
+[2023-02-14T22:08:20.141-0300] {processor.py:153} INFO - Started process (PID=9074) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:08:20.142-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:08:20.142-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:20.142-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:08:20.147-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:20.147-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:08:20.147-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:08:20.165-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:08:51.033-0300] {processor.py:153} INFO - Started process (PID=9167) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:08:51.034-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:08:51.034-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:51.034-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:08:51.039-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:08:51.039-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:08:51.039-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:08:51.057-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T22:09:22.135-0300] {processor.py:153} INFO - Started process (PID=9259) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:09:22.135-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:09:22.135-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:22.135-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:09:22.141-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:22.140-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:09:22.141-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:09:22.157-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:09:52.543-0300] {processor.py:153} INFO - Started process (PID=9351) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:09:52.544-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:09:52.544-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.544-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:09:52.549-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:09:52.549-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:09:52.549-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:09:52.566-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:10:22.989-0300] {processor.py:153} INFO - Started process (PID=9448) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:10:22.990-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:10:22.990-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.990-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:10:22.995-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:22.995-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:10:22.995-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:10:23.011-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:10:53.721-0300] {processor.py:153} INFO - Started process (PID=9568) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:10:53.721-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:10:53.722-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.722-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:10:53.727-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:10:53.726-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:10:53.727-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:10:53.743-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:11:25.068-0300] {processor.py:153} INFO - Started process (PID=9671) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:11:25.068-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:11:25.069-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:25.068-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:11:25.073-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:25.073-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:11:25.074-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:11:25.091-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:11:56.281-0300] {processor.py:153} INFO - Started process (PID=9777) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:11:56.282-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:11:56.282-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:56.282-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:11:56.288-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:11:56.287-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:11:56.288-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:11:56.307-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.028 seconds
+[2023-02-14T22:12:27.141-0300] {processor.py:153} INFO - Started process (PID=9883) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:12:27.141-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:12:27.142-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:27.142-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:12:27.148-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:27.147-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:12:27.148-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:12:27.169-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.031 seconds
+[2023-02-14T22:12:57.418-0300] {processor.py:153} INFO - Started process (PID=9983) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:12:57.419-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:12:57.419-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:57.419-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:12:57.426-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:12:57.425-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:12:57.426-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:12:57.448-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.032 seconds
+[2023-02-14T22:13:28.166-0300] {processor.py:153} INFO - Started process (PID=10314) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:13:28.167-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:13:28.168-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:28.168-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:13:28.177-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:28.176-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:13:28.177-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:13:28.202-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.039 seconds
+[2023-02-14T22:13:58.263-0300] {processor.py:153} INFO - Started process (PID=10404) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:13:58.264-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:13:58.264-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:58.264-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:13:58.269-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:13:58.269-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:13:58.269-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:13:58.286-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:14:28.675-0300] {processor.py:153} INFO - Started process (PID=10495) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:14:28.676-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:14:28.676-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.676-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:14:28.681-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:28.680-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:14:28.681-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:14:28.699-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T22:14:59.011-0300] {processor.py:153} INFO - Started process (PID=10581) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:14:59.011-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:14:59.012-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:59.012-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:14:59.017-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:14:59.016-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:14:59.017-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:14:59.033-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:15:29.505-0300] {processor.py:153} INFO - Started process (PID=10675) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:15:29.506-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:15:29.506-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.506-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:15:29.513-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:15:29.512-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:15:29.513-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:15:29.536-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.033 seconds
+[2023-02-14T22:16:00.067-0300] {processor.py:153} INFO - Started process (PID=10769) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:16:00.067-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:16:00.068-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:00.068-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:16:00.075-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:00.074-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:16:00.075-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:16:00.096-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.032 seconds
+[2023-02-14T22:16:30.933-0300] {processor.py:153} INFO - Started process (PID=10860) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:16:30.934-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:16:30.934-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.934-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:16:30.939-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:16:30.939-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:16:30.939-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:16:30.956-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:17:02.016-0300] {processor.py:153} INFO - Started process (PID=10963) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:17:02.017-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:17:02.017-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:02.017-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:17:02.022-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:02.022-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:17:02.023-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:17:02.040-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T22:17:32.556-0300] {processor.py:153} INFO - Started process (PID=11059) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:17:32.557-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:17:32.557-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.557-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:17:32.562-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:17:32.561-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:17:32.562-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:17:32.580-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T22:18:03.653-0300] {processor.py:153} INFO - Started process (PID=11151) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:18:03.654-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:18:03.654-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.654-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:18:03.659-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:03.659-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:18:03.659-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:18:03.676-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:18:34.137-0300] {processor.py:153} INFO - Started process (PID=11242) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:18:34.138-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:18:34.139-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:34.138-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:18:34.145-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:18:34.144-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:18:34.145-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:18:34.169-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.034 seconds
+[2023-02-14T22:19:05.118-0300] {processor.py:153} INFO - Started process (PID=11341) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:19:05.119-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:19:05.119-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:05.119-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:19:05.125-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:05.124-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:19:05.125-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:19:05.140-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:19:36.160-0300] {processor.py:153} INFO - Started process (PID=11434) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:19:36.161-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:19:36.161-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:36.161-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:19:36.166-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:19:36.166-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:19:36.166-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:19:36.185-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T22:24:17.174-0300] {processor.py:153} INFO - Started process (PID=11810) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:17.174-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:24:17.175-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:17.175-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:17.180-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:17.180-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:24:17.180-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:17.197-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:24:47.645-0300] {processor.py:153} INFO - Started process (PID=11969) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:47.646-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:24:47.647-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.647-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:47.654-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:47.653-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:24:47.654-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:47.676-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.033 seconds
+[2023-02-14T22:24:58.384-0300] {processor.py:153} INFO - Started process (PID=12224) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:58.385-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:24:58.385-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:58.385-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:58.390-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:24:58.390-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:24:58.390-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:24:58.408-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:26:11.535-0300] {processor.py:153} INFO - Started process (PID=12536) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:26:11.536-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:26:11.536-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.536-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:26:11.541-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:26:11.541-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:26:11.541-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:26:11.557-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.023 seconds
+[2023-02-14T22:27:32.261-0300] {processor.py:153} INFO - Started process (PID=12906) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:27:32.261-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:27:32.262-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:32.261-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:27:32.267-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:27:32.266-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:27:32.267-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:27:32.285-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.026 seconds
+[2023-02-14T22:28:02.888-0300] {processor.py:153} INFO - Started process (PID=13015) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:02.888-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:28:02.889-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.889-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:02.896-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:02.895-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:28:02.896-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:02.919-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.034 seconds
+[2023-02-14T22:28:11.581-0300] {processor.py:153} INFO - Started process (PID=13274) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:11.582-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:28:11.582-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.582-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:11.588-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:11.587-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:28:11.588-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:11.605-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:28:42.010-0300] {processor.py:153} INFO - Started process (PID=13373) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:42.010-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:28:42.011-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:42.011-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:42.016-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:28:42.015-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:28:42.016-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:28:42.032-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:29:13.027-0300] {processor.py:153} INFO - Started process (PID=13469) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:29:13.027-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:29:13.027-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:13.027-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:29:13.032-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:13.032-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:29:13.033-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:29:13.050-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
+[2023-02-14T22:29:44.751-0300] {processor.py:153} INFO - Started process (PID=13588) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:29:44.752-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:29:44.753-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:44.753-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:29:44.761-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:29:44.760-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:29:44.761-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:29:44.784-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.035 seconds
+[2023-02-14T22:30:07.949-0300] {processor.py:153} INFO - Started process (PID=13854) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:30:07.950-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:30:07.950-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.950-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:30:07.955-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:07.955-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:30:07.956-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:30:07.972-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.024 seconds
+[2023-02-14T22:30:38.341-0300] {processor.py:153} INFO - Started process (PID=13954) to work on /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:30:38.341-0300] {processor.py:743} INFO - Processing file /home/kallox/respaldo/thesis/dags/download_vdjdb.py for tasks to queue
+[2023-02-14T22:30:38.342-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:38.342-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:30:38.347-0300] {logging_mixin.py:137} INFO - [2023-02-14T22:30:38.346-0300] {dagbag.py:343} ERROR - Failed to import: /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+Traceback (most recent call last):
+  File "/home/kallox/anaconda3/envs/airflow/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/kallox/respaldo/thesis/dags/download_vdjdb.py", line 15, in <module>
+    download_files = PythonOperator(task_id='download_files', python_callable=download)
+NameError: name 'download' is not defined
+[2023-02-14T22:30:38.347-0300] {processor.py:755} WARNING - No viable dags retrieved from /home/kallox/respaldo/thesis/dags/download_vdjdb.py
+[2023-02-14T22:30:38.364-0300] {processor.py:175} INFO - Processing /home/kallox/respaldo/thesis/dags/download_vdjdb.py took 0.025 seconds
