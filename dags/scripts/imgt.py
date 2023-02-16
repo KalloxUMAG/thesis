@@ -3,8 +3,8 @@ import requests
 import subprocess
 from Bio.Seq import Seq
 
-from helpers.requests import request_with_retry
-from helpers.fasta_to_csv import extract_fasta_file
+from scripts.helpers.requests import request_with_retry
+from scripts.helpers.fasta_to_csv import extract_fasta_file
 
 def check_release():
     url = "https://www.imgt.org/download/LIGM-DB/currentRelease"

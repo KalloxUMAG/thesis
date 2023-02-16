@@ -2,8 +2,8 @@ import pandas as pd
 import json
 import warnings
 
-from helpers.requests import request_with_retry
-from helpers.save_file import save_file
+from scripts.helpers.requests import request_with_retry
+from scripts.helpers.save_file import save_file
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 

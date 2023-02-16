@@ -2,10 +2,10 @@ import pandas as pd
 import zipfile
 
 
-from scripts.requestsmine import request_with_retry
+from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
-from helpers.drop_first_line import drop_first_line
-from helpers.extract_json_uniprot import extract_json_uniprot
+from scripts.helpers.drop_first_line import drop_first_line
+from scripts.helpers.extract_json_uniprot import extract_json_uniprot
 
 def unzip_file(name):
     with zipfile.ZipFile('./dags/files/iedb/downloads/'+name+'.zip', 'r') as zip_ref:
