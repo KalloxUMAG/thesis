@@ -8,7 +8,7 @@ from scripts.intact import download, get_uniprot_ids, join_interactions
 
 default_args = {
     'owner': 'Kallox',
-    'start_date': datetime(2022, 11, 3, 21, 0, 0)
+    'start_date': datetime(2023, 1, 3, 21, 0, 0)
 }
 
 with DAG(dag_id='download_intact', default_args=default_args, schedule='@monthly') as dag:
@@ -18,7 +18,7 @@ with DAG(dag_id='download_intact', default_args=default_args, schedule='@monthly
 
     download_files = PythonOperator(task_id='download_files', python_callable=download)
 
-    join_files = PythonOperator(task_id='download_files', python_callable=join_interactions)
+    join_files = PythonOperator(task_id='join_files', python_callable=join_interactions)
 
     end = EmptyOperator(task_id='end')
 

@@ -117,4 +117,4 @@ def join_interactions():
     interactions.to_csv("./dags/files/intact/interactions.csv", index=False, index_label=False)                       
 
 if __name__ == '__main__':
-    join_interactions()
+    get_uniprot_ids()
