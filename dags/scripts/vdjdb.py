@@ -3,8 +3,8 @@ import pandas as pd
 import zipfile
 import os
 
-from scripts.helpers.requests import request_with_retry
-from scripts.helpers.save_file import save_file
+from helpers.requests import request_with_retry
+from helpers.save_file import save_file
 
 def unzip_file(name):
     with zipfile.ZipFile('./dags/files/vdjdb/downloads/'+name+'.zip', 'r') as zip_ref:
@@ -44,13 +44,13 @@ def swap_columns(df, col1, col2):
 def extract_antibodies():
     file_path = "./dags/files/vdjdb/downloads/vdjdb.tsv"
     epitopes = pd.read_csv(file_path, sep='\t')
+    epitopes = epitopes.drop(columns=['complex.id', 'gene', 'v.segm', 'j.segm', 'species', 'mhc.a',
+       'mhc.b', 'mhc.class', 'antigen.epitope', 'antigen.gene',
+       'antigen.species', 'reference.id', 'method', 'meta', 'cdr3fix',
+       'vdjdb.score', 'web.method', 'web.method.seq', 'web.cdr3fix.nc',
+       'web.cdr3fix.unmp'])
 
-    epitopes = epitopes.drop(columns=['complex.id', 'Gene', 'V', 'J', 'Species', 'MHC A',
-        'MHC B', 'MHC class', 'Reference', 'Method', 'Epitope',
-        'Meta', 'CDR3fix', 'Score', 'Epitope gene', 'Epitope species'])
-
-    epitopes.insert(0, 'name', epitopes['CDR3'])
-    epitopes.columns = ['name', 'cdr3']
+    epitopes.insert(0, 'name', epitopes['cdr3'])
     epitopes.to_csv("./dags/files/vdjdb/antibodies.csv", index=False, index_label=False)
 
 
@@ -58,15 +58,16 @@ def extract_epitopes():
     file_path = "./dags/files/vdjdb/downloads/vdjdb.tsv"
     epitopes = pd.read_csv(file_path, sep='\t')
 
-    epitopes = epitopes.drop(columns=['complex.id', 'Gene', 'V', 'J', 'CDR3', 'Species', 'MHC A',
-        'MHC B', 'MHC class', 'Reference', 'Method',
-        'Meta', 'CDR3fix', 'Score'])
-
-    epitopes.insert(2, 'protein', epitopes['Epitope species'] + ' ' + epitopes['Epitope gene'])
-    epitopes.insert(0, 'name', epitopes['Epitope'])
-    epitopes = epitopes.drop(columns=['Epitope gene', 'Epitope species'])
+    epitopes = epitopes.drop(columns=['complex.id', 'gene', 'v.segm', 'j.segm', 'cdr3', 'species', 'mhc.a',
+       'mhc.b', 'mhc.class', 'reference.id', 'method', 'meta', 'cdr3fix',
+       'vdjdb.score', 'web.method', 'web.method.seq', 'web.cdr3fix.nc',
+       'web.cdr3fix.unmp'])
+    
+    epitopes.insert(2, 'protein', epitopes['antigen.species'] + ' ' + epitopes['antigen.gene'])
+    epitopes.insert(0, 'name', epitopes['antigen.epitope'])
+    epitopes = epitopes.drop(columns=['antigen.gene', 'antigen.species'])
     epitopes.columns = ['name', 'sequence', 'protein']
     epitopes.to_csv("./dags/files/vdjdb/epitopes.csv", index=False, index_label=False)
 
 if __name__ == '__main__':
-    download()
+    extract_epitopes()
