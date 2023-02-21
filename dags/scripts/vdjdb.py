@@ -3,8 +3,8 @@ import pandas as pd
 import zipfile
 import os
 
-from helpers.requests import request_with_retry
-from helpers.save_file import save_file
+from scripts.helpers.requests import request_with_retry
+from scripts.helpers.save_file import save_file
 
 def unzip_file(name):
     with zipfile.ZipFile('./dags/files/vdjdb/downloads/'+name+'.zip', 'r') as zip_ref:
