@@ -5,6 +5,7 @@ import os
 
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
+from scripts.helpers.remove_exist import remove_existing_antibodies
 
 def unzip_file(name):
     with zipfile.ZipFile('./dags/files/vdjdb/downloads/'+name+'.zip', 'r') as zip_ref:
@@ -51,6 +52,7 @@ def extract_antibodies():
        'web.cdr3fix.unmp'])
 
     epitopes.insert(0, 'name', epitopes['cdr3'])
+    epitopes['database'] = "VDJdb"
     epitopes.to_csv("./dags/files/vdjdb/antibodies.csv", index=False, index_label=False)
 
 
@@ -67,7 +69,13 @@ def extract_epitopes():
     epitopes.insert(0, 'name', epitopes['antigen.epitope'])
     epitopes = epitopes.drop(columns=['antigen.gene', 'antigen.species'])
     epitopes.columns = ['name', 'sequence', 'protein']
+    epitopes['database'] = "VDJdb"
     epitopes.to_csv("./dags/files/vdjdb/epitopes.csv", index=False, index_label=False)
+
+def remove_antibodies():
+    df = pd.read_csv('./dags/files/vdjdb/antibodies.csv')
+    df2 = remove_existing_antibodies(df)
+    df2.to_csv("./dags/files/vdjdb/antibodies.csv", index=False, index_label=False)
 
 if __name__ == '__main__':
     extract_epitopes()

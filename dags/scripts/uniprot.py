@@ -4,6 +4,7 @@ import warnings
 
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
+from scripts.helpers.remove_exist import remove_existing_antibodies, remove_existing_antigens
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -146,6 +147,12 @@ def join_antibodies():
     
     df.to_csv("./dags/files/uniprot/antibodies.csv", index=False, index_label=False)
 
+def antigen_tsv_to_csv():
+    antigen = pd.read_csv("./dags/files/uniprot/downloads/antigen.tsv", sep='\t')
+    antigen['name'] = antigen['Protein names'] + " || " + antigen['Entry Name'] + " || " + antigen['Entry']
+    antigen['database'] = "UniProt"
+    antigen.to_csv("./dags/files/uniprot/antigen.csv", index=False, index_label=False)
+
 def drop_columns_antigen():
     antigen_path = "./dags/files/uniprot/antigen.csv"
 
@@ -172,4 +179,15 @@ def drop_columns_antibody():
     antibodies = antibodies.drop(columns=columns_to_drop)
 
     antibodies = antibodies.reindex(columns=['name', 'sequence'])
+    antibodies['database'] = "UniProt"
     antibodies.to_csv("./dags/files/uniprot/antibodies_table.csv", index=False, index_label=False)
+
+def remove_antibodies():
+    df = pd.read_csv('./dags/files/uniprot/antibodies_table.csv')
+    df2 = remove_existing_antibodies(df)
+    df2.to_csv("./dags/files/uniprot/antibodies.csv", index=False, index_label=False)
+
+def remove_antigens():
+    df = pd.read_csv('./dags/files/uniprot/antigens.csv')
+    df2 = remove_existing_antigens(df)
+    df2.to_csv("./dags/files/uniprot/antigens.csv", index=False, index_label=False)

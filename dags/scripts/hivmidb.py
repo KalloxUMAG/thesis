@@ -26,7 +26,7 @@ def extract_epitopes():
         'Subtype', 'Species'])
     epitopes.columns = ['sequence', 'protein', 'subprotein']
     epitopes.insert(0, 'name', epitopes['protein']+" "+epitopes['subprotein'])
-
+    epitopes['database'] = "HIV MIDB"
     epitopes.to_csv('./dags/files/hivmidb/epitopes.csv', index=False, index_label=False)
 
 if __name__ == '__main__':

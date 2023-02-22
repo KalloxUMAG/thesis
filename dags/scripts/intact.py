@@ -114,6 +114,7 @@ def join_interactions():
         interactions = pd.concat([interactions, df]).drop_duplicates(subset=['InteractorA', 'InteractorB'], keep='last').reset_index(drop=True)
         os.remove(folder+interactions_file)
 
+    interactions['database'] = "IntAct"
     interactions.to_csv("./dags/files/intact/interactions.csv", index=False, index_label=False)                       
 
 if __name__ == '__main__':

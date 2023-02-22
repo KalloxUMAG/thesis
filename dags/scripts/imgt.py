@@ -5,6 +5,7 @@ from Bio.Seq import Seq
 
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.fasta_to_csv import extract_fasta_file
+from scripts.helpers.remove_exist import remove_existing_antibodies
 
 def check_release():
     url = "https://www.imgt.org/download/LIGM-DB/currentRelease"
@@ -58,7 +59,7 @@ def download():
     print('Nucleotids to Protein sequence')
 
     df = nucleotic_to_protein(df)
-
+    df['database'] = "IMGT"
     df.to_csv('./dags/files/imgt/antibodies.csv', index=False, index_label=False)
 
 def nucleotic_to_protein(df):
@@ -77,6 +78,11 @@ def nucleotic_to_protein(df):
         df.loc[index] = [antibody['name'], protein_seq]
     
     return df
+
+def remove_antibodies():
+    df = pd.read_csv('./dags/files/imgt/antibodies.csv')
+    df2 = remove_existing_antibodies(df)
+    df2.to_csv("./dags/files/imgt/antibodies.csv", index=False, index_label=False)
 
 if __name__ == '__main__':
     download()

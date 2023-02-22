@@ -6,6 +6,7 @@ from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
 from scripts.helpers.drop_first_line import drop_first_line
 from scripts.helpers.extract_json_uniprot import extract_json_uniprot
+from scripts.helpers.remove_exist import remove_existing_antigens
 
 def unzip_file(name):
     with zipfile.ZipFile('./dags/files/iedb/downloads/'+name+'.zip', 'r') as zip_ref:
@@ -48,7 +49,7 @@ def drop_columns_epitopes():
     epitope.columns = ['name', 'type', 'sequence', 'protein']
 
     epitope = epitope.reindex(columns=['name', 'sequence', 'protein', 'type'])
-
+    epitope['database'] = "IEDB"
     epitope.to_csv('./dags/files/iedb/epitope.csv', index=False, index_label=False)
 
 def download_antigens():
@@ -78,6 +79,10 @@ def download_antigens():
                 antigens = antigens.append(antigen, ignore_index=True)
     antigens.to_csv("./dags/files/iedb/antigens.csv", index=False, index_label=False)
 
+def remove_antigens():
+    df = pd.read_csv('./dags/files/iedb/antigens.csv')
+    df2 = remove_existing_antigens(df)
+    df2.to_csv("./dags/files/iedb/antigens.csv", index=False, index_label=False)
 
 if __name__ == '__main__':
     drop_columns_epitopes()

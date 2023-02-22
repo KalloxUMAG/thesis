@@ -1,10 +1,10 @@
 #Catnap tiene un periodo de actualizacion de 1 mes. Debe ser descargado solo el 1 de cada mes.abs(
 import pandas as pd
 
-from scripts.helpers.requests import request_with_retry
-from scripts.helpers.save_file import save_file
-from scripts.helpers.fasta_to_csv import extract_fasta_file
-
+from helpers.requests import request_with_retry
+from helpers.save_file import save_file
+from helpers.fasta_to_csv import extract_fasta_file
+from helpers.remove_exist import remove_existing_antibodies, remove_existing_antigens
 
 def download():
     files = pd.read_csv('./dags/files/catnap/urls.csv')
@@ -32,6 +32,7 @@ def extract():
     df = pd.merge(light_dataframe, heavy_dataframe, on='name', how='left')
 
     df = df.drop_duplicates(subset=['name'])
+    df['database'] = "Catnap"
     df.to_csv('./dags/files/catnap/seqs_aa.csv', index=False, index_label=False)
 
     viruses = './dags/files/catnap/downloads/Virus_aa_alignment.fasta'
@@ -39,9 +40,18 @@ def extract():
     virus_dataframe = pd.DataFrame(columns=['name', 'sequence'])
 
     virus_dataframe = extract_fasta_file(viruses, virus_dataframe, '.', 3)
-
+    virus_dataframe['database'] = "Catnap"
     virus_dataframe.to_csv('./dags/files/catnap/antigen.csv', index=False, index_label=False)
 
+def remove_antibodies():
+    df = pd.read_csv('./dags/files/catnap/seqs_aa.csv')
+    df2 = remove_existing_antibodies(df)
+    df2.to_csv("./dags/files/catnap/antibodies.csv", index=False, index_label=False)
+
+def remove_antigens():
+    df = pd.read_csv('./dags/files/catnap/antigen.csv')
+    df2 = remove_existing_antigens(df)
+    df2.to_csv("./dags/files/catnap/antigens.csv", index=False, index_label=False)
+
 if __name__ == '__main__':
-    download()
-    extract()
+    remove_antigens()

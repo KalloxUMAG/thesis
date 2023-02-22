@@ -155,6 +155,7 @@ def string_to_db():
 
     dataset['interactorADB'] = dataset['interactorADB'].replace(["uniprotkb", "BLAST_UniProt_ID", "BLAST_KEGG_KEGGID"],["UniProt", "UniProt", "KEGG"])
     dataset['interactorBDB'] = dataset['interactorBDB'].replace(["uniprotkb", "BLAST_UniProt_ID", "BLAST_KEGG_KEGGID"],["UniProt", "UniProt", "KEGG"])
+    dataset['database'] = "String"
     dataset.to_csv("./dags/files/string/interactions.csv", index=False, index_label=False)
 
 if __name__ == '__main__':
