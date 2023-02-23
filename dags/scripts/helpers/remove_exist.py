@@ -10,6 +10,7 @@ def remove_existing_antibodies(df):
         exist = get_antibody_id(antibody['name'], db)
         if exist != -1:
             df = df.drop(index)
+        print(index)
     close_db(db)
     return df
 
@@ -19,6 +20,7 @@ def remove_existing_antigens(df):
         exist = get_antigen_id(antigen['name'], db)
         if exist != -1:
             df = df.drop(index)
+        print(index)
     close_db(db)
     return df
 
@@ -28,6 +30,7 @@ def remove_existing_epitopes(df):
         exist = get_epitope_id(epitope['name'], db)
         if exist != -1:
             df = df.drop(index)
+        print(index)
     close_db(db)
     return df
 
