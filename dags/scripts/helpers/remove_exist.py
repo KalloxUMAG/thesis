@@ -1,8 +1,8 @@
 import pandas as pd
-from db_conn.database import get_db, close_db
-from db_conn.antibodies import get_antibody_id
-from db_conn.antigens import get_antigen_id
-from db_conn.epitopes import get_epitope_id
+from scripts.db_conn.database import get_db, close_db
+from scripts.db_conn.antibodies import get_antibody_id
+from scripts.db_conn.antigens import get_antigen_id
+from scripts.db_conn.epitopes import get_epitope_id
 
 def remove_existing_antibodies(df):
     db = get_db()

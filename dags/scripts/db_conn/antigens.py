@@ -1,4 +1,4 @@
-from db_conn.models import Antigen
+from scripts.db_conn.models import Antigen
 
 def get_antigen_id(name, db):
     search = f"%{name}%"

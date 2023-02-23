@@ -1,4 +1,4 @@
-from db_conn.models import Epitope
+from scripts.db_conn.models import Epitope
 
 def get_epitope_id(name, db):
     #db = get_db()

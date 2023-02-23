@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float
 from sqlalchemy.schema import ForeignKey
 from sqlalchemy.orm import relationship
-from db_conn.database import Base
+from scripts.db_conn.database import Base
 from datetime import datetime
 
 # Tablas independientes

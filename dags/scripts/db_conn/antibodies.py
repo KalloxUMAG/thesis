@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from db_conn.models import Antibody
+from scripts.db_conn.models import Antibody
 
 
 # Obtener Id del Antibody o -1 si no existe
