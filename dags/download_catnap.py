@@ -6,7 +6,7 @@ from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 from airflow.models import Variable
 
-from scripts.catnap import download, extract
+from scripts.catnap import download, extract, remove_antibodies, remove_antigens
 
 default_args = {
     'owner': 'admin',
@@ -20,7 +20,10 @@ with DAG(dag_id='download_catnap', default_args=default_args, schedule='@daily')
 
     extract_files = PythonOperator(task_id='extract_files', python_callable=extract)
 
+    remove_existing_antibodies = PythonOperator(task_id='remove_existing_antibodies', python_callable=remove_antibodies)
+
+    remove_existing_antigens = PythonOperator(task_id='remove_existing_antigens', python_callable=remove_antigens)
+
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> extract_files >> end
-
+    start >> download_files >> extract_files >> remove_existing_antibodies >> remove_existing_antigens >> end

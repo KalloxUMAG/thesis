@@ -4,7 +4,7 @@ from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.hivmidb import download, extract_epitopes
+from scripts.hivmidb import download, extract_epitopes, remove_epitopes
 
 default_args = {
     'owner': 'Kallox',
@@ -19,6 +19,8 @@ with DAG(dag_id='download_hivmidb', default_args=default_args, schedule='@monthl
 
     epitopes = PythonOperator(task_id='epitopes', python_callable=extract_epitopes)
 
+    remove_existing_epitopes = PythonOperator(task_id='remove_existing_epitopes', python_callable=remove_epitopes)
+
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> epitopes >> end
+    start >> download_files >> epitopes >> remove_existing_epitopes >> end

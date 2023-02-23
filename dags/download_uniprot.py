@@ -4,7 +4,7 @@ from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.uniprot import download, extract_jsons, join_antibodies, drop_columns_antibody, antigen_tsv_to_csv
+from scripts.uniprot import download, extract_jsons, join_antibodies, drop_columns_antibody, antigen_tsv_to_csv, remove_antibodies, remove_antigens
 
 default_args = {
     'owner': 'Kallox',
@@ -24,6 +24,10 @@ with DAG(dag_id='download_uniprot', default_args=default_args, schedule='@monthl
     
     drop_antigen_columns = PythonOperator(task_id='drop_gen_columns', python_callable=antigen_tsv_to_csv)
 
+    remove_existing_antibodies = PythonOperator(task_id='remove_existing_antibodies', python_callable=remove_antibodies)
+
+    remove_existing_antigens = PythonOperator(task_id='remove_existing_antigens', python_callable=remove_antigens)
+
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> extract_files >> join_antibodies_files >> [drop_antibody_columns, drop_antigen_columns] >> end
+    start >> download_files >> extract_files >> join_antibodies_files >> [drop_antibody_columns, drop_antigen_columns] >> remove_existing_antibodies >> remove_existing_antigens >> end
