@@ -2,6 +2,7 @@ import pandas as pd
 from db_conn.database import get_db, close_db
 from db_conn.antibodies import get_antibody_id
 from db_conn.antigens import get_antigen_id
+from db_conn.epitopes import get_epitope_id
 
 def remove_existing_antibodies(df):
     db = get_db()
@@ -21,8 +22,14 @@ def remove_existing_antigens(df):
     close_db(db)
     return df
 
-def remove_existing_epitope(df):
-    return
+def remove_existing_epitopes(df):
+    db = get_db()
+    for index, epitope in df.iterrows():
+        exist = get_epitope_id(epitope['name'], db)
+        if exist != -1:
+            df = df.drop(index)
+    close_db(db)
+    return df
 
 def remove_existing_interaction(df):
     return

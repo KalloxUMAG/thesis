@@ -1,10 +1,10 @@
 #Catnap tiene un periodo de actualizacion de 1 mes. Debe ser descargado solo el 1 de cada mes.abs(
 import pandas as pd
 
-from helpers.requests import request_with_retry
-from helpers.save_file import save_file
-from helpers.fasta_to_csv import extract_fasta_file
-from helpers.remove_exist import remove_existing_antibodies, remove_existing_antigens
+from scripts.helpers.requests import request_with_retry
+from scripts.helpers.save_file import save_file
+from scripts.helpers.fasta_to_csv import extract_fasta_file
+from scripts.helpers.remove_exist import remove_existing_antibodies, remove_existing_antigens
 
 def download():
     files = pd.read_csv('./dags/files/catnap/urls.csv')
