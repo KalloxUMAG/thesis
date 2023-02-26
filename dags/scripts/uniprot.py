@@ -150,6 +150,7 @@ def join_antibodies():
 def antigen_tsv_to_csv():
     antigen = pd.read_csv("./dags/files/uniprot/downloads/antigen.tsv", sep='\t')
     antigen['name'] = antigen['Protein names'] + " || " + antigen['Entry Name'] + " || " + antigen['Entry']
+    antigen=antigen.dropna(subset=['name'])
     antigen['database'] = "UniProt"
     antigen.to_csv("./dags/files/uniprot/antigen.csv", index=False, index_label=False)
 
@@ -177,7 +178,7 @@ def drop_columns_antibody():
     antibodies = pd.read_csv(antibodies_path)
     antibodies['name'] = antibodies['proteinName'] + "||" + antibodies['uniProtkbId'] + " || " + antibodies['primaryAccession']
     antibodies = antibodies.drop(columns=columns_to_drop)
-
+    antibodies=antibodies.dropna(subset=['name'])
     antibodies = antibodies.reindex(columns=['name', 'sequence'])
     antibodies['database'] = "UniProt"
     antibodies.to_csv("./dags/files/uniprot/antibodies_table.csv", index=False, index_label=False)

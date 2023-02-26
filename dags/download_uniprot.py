@@ -6,6 +6,7 @@ from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 
 from scripts.uniprot import download, extract_jsons, join_antibodies, drop_columns_antibody, antigen_tsv_to_csv, remove_antibodies, remove_antigens
+from scripts.characterization.gene_ontology import prepare_gene_ontology
 
 default_args = {
     'owner': 'Kallox',
@@ -30,6 +31,8 @@ with DAG(dag_id='download_uniprot', default_args=default_args, schedule='@monthl
     remove_existing_antigens = PythonOperator(task_id='remove_existing_antigens', python_callable=remove_antigens)
 
     structural_prediction = BashOperator(task_id='structural_prediction', bash_command="/home/kallox/respaldo/thesis/dags/scripts/characterization/execute.sh uniprot/antibodies_table.csv uniprot ")
+
+    #gene_ontology = PythonOperator(task_id='gene_ontology', python_callable=prepare_gene_ontology, op_kwargs={'csv_path': './dags/files/uniprot/temporal.csv', 'database': 'uniprot'})
 
     end = EmptyOperator(task_id='end')
 
