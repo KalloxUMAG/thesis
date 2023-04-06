@@ -2,6 +2,7 @@ import pandas as pd
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
 from scripts.helpers.remove_exist import remove_existing_epitopes
+from scripts.helpers.load import load_epitopes_db
 
 def download():
     files = pd.read_csv('./dags/files/hivmidb/urls.csv')
@@ -34,6 +35,10 @@ def remove_epitopes():
     df = pd.read_csv('./dags/files/hivmidb/epitopes.csv')
     df2 = remove_existing_epitopes(df)
     df2.to_csv("./dags/files/hivmidb/epitopes.csv", index=False, index_label=False)
+
+def load_epitopes_to_db():
+    df = pd.read_csv("./dags/files/hivmidb/epitopes.csv")
+    load_epitopes_db(df)
 
 if __name__ == '__main__':
     download()

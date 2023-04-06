@@ -4,7 +4,7 @@ from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.imgt import download, remove_antibodies
+from scripts.imgt import download, remove_antibodies, load_antibodies_to_db
 
 default_args = {
     'owner': 'Kallox',
@@ -18,6 +18,9 @@ with DAG(dag_id='download_imgt', default_args=default_args, schedule='@monthly')
 
     remove_existing_antibodies = PythonOperator(task_id='remove_existing_antibodies', python_callable=remove_antibodies)
 
+    load_antibodies = PythonOperator(task_id='load_antibodies', python_callable=load_antibodies_to_db)
+
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> remove_existing_antibodies >> end
+    start >> download_files >> remove_existing_antibodies >> load_antibodies >> end
+    

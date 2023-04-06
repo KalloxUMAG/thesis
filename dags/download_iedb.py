@@ -4,7 +4,7 @@ from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.iedb import download, drop_columns_epitopes, download_antigens, remove_epitopes, remove_antigens
+from scripts.iedb import download, drop_columns_epitopes, download_antigens, remove_epitopes, remove_antigens, load_antigens_to_db, load_epitopes_to_db
 
 default_args = {
     'owner': 'Kallox',
@@ -24,6 +24,10 @@ with DAG(dag_id='download_iedb', default_args=default_args, schedule='@monthly')
 
     remove_existing_antigens = PythonOperator(task_id='remove_existing_antigens', python_callable=remove_antigens)
 
+    load_antigens = PythonOperator(task_id='load_antigens', python_callable=load_antigens_to_db)
+
+    load_epitopes = PythonOperator(task_id='load_epitopes', python_callable=load_epitopes_to_db)
+
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> drop_epitopes >> download_antigens_uniprot >> remove_existing_antigens >> remove_existing_epitopes >> end
+    start >> download_files >> drop_epitopes >> download_antigens_uniprot >> remove_existing_antigens >> remove_existing_epitopes >> load_antigens >> load_epitopes >> end

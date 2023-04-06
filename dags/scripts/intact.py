@@ -5,6 +5,8 @@ import time
 import warnings
 import requests
 
+from scripts.helpers.load import load_interactions_db
+
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 def get_uniprot_ids():
@@ -116,6 +118,10 @@ def join_interactions():
 
     interactions['database'] = "IntAct"
     interactions.to_csv("./dags/files/intact/interactions.csv", index=False, index_label=False)                       
+
+def load_interactions_to_db():
+    df = pd.read_csv("./dags/files/intact/interactions.csv")
+    load_interactions_db(df)
 
 if __name__ == '__main__':
     get_uniprot_ids()

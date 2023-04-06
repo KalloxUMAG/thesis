@@ -5,6 +5,7 @@ import warnings
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
 from scripts.helpers.remove_exist import remove_existing_antibodies, remove_existing_antigens
+from scripts.helpers.load import load_antigens_db, load_go_db, load_antibodies_db
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -192,3 +193,11 @@ def remove_antigens():
     df = pd.read_csv('./dags/files/uniprot/antigens.csv')
     df2 = remove_existing_antigens(df)
     df2.to_csv("./dags/files/uniprot/antigens.csv", index=False, index_label=False)
+
+def load_antigens_to_db():
+    df = pd.read_csv('./dags/files/uniprot/antigens.csv')
+    load_antigens_db(df)
+
+def load_antibodies_to_db():
+    df = pd.read_csv("./dags/files/uniprot/antibodies.csv")
+    load_antibodies_db(df)

@@ -5,7 +5,7 @@ from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 
-from scripts.uniprot import download, extract_jsons, join_antibodies, drop_columns_antibody, antigen_tsv_to_csv, remove_antibodies, remove_antigens, load_antibodies_to_db, load_antigens_to_db
+from scripts.uniprot import download, extract_jsons, join_antibodies, drop_columns_antibody, antigen_tsv_to_csv, remove_antibodies, remove_antigens
 from scripts.characterization.gene_ontology import prepare_gene_ontology
 
 default_args = {
@@ -30,16 +30,10 @@ with DAG(dag_id='download_uniprot', default_args=default_args, schedule='@monthl
 
     remove_existing_antigens = PythonOperator(task_id='remove_existing_antigens', python_callable=remove_antigens)
 
-    structural_prediction_antibodies = BashOperator(task_id='structural_prediction_antibodies', bash_command="/home/kallox/respaldo/thesis/dags/scripts/characterization/execute.sh uniprot/antibodies_table.csv uniprot ")
+    structural_prediction = BashOperator(task_id='structural_prediction', bash_command="/home/kallox/respaldo/thesis/dags/scripts/characterization/execute.sh uniprot/antibodies_table.csv uniprot ")
 
-    structural_prediction_antigens = BashOperator(task_id='structural_prediction_antigens', bash_command="/home/kallox/respaldo/thesis/dags/scripts/characterization/execute.sh uniprot/antigen_table.csv uniprot ")
-
-    #gene_ontology = PythonOperator(task_id='gene_ontology', python_callable=prepare_gene_ontology, op_kwargs={'csv_path': './dags/files/uniprot/antigen_table.csv', 'database': 'uniprot'})
-
-    load_antibodies = PythonOperator(task_id='load_antibodies', python_callable=load_antibodies_to_db)
-
-    load_antigens = PythonOperator(task_id='load_antigens', python_callable=load_antigens_to_db)
+    #gene_ontology = PythonOperator(task_id='gene_ontology', python_callable=prepare_gene_ontology, op_kwargs={'csv_path': './dags/files/uniprot/atigen_table.csv', 'database': 'uniprot'})
 
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> extract_files >> join_antibodies_files >> [drop_antibody_columns, drop_antigen_columns] >> remove_existing_antibodies >> remove_existing_antigens >> structural_prediction_antibodies >> structural_prediction_antigens >> load_antibodies >> load_antigens >> end
+    start >> download_files >> extract_files >> join_antibodies_files >> [drop_antibody_columns, drop_antigen_columns] >> remove_existing_antibodies >> remove_existing_antigens >> structural_prediction >> end

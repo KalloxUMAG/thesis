@@ -4,6 +4,7 @@ import os
 import warnings
 
 from scripts.helpers.requests import post_request_with_retry
+from scripts.helpers.load import load_interactions_db
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -157,6 +158,10 @@ def string_to_db():
     dataset['interactorBDB'] = dataset['interactorBDB'].replace(["uniprotkb", "BLAST_UniProt_ID", "BLAST_KEGG_KEGGID"],["UniProt", "UniProt", "KEGG"])
     dataset['database'] = "String"
     dataset.to_csv("./dags/files/string/interactions.csv", index=False, index_label=False)
+
+def load_interactions_to_db():
+    df = pd.read_csv("./dags/files/string/interactions.csv")
+    load_interactions_db(df)
 
 if __name__ == '__main__':
     remove_not_found()

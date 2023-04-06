@@ -4,7 +4,7 @@ from airflow.models import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.covabdab import download, extract, remove_antibodies
+from scripts.covabdab import download, extract, remove_antibodies, load_antibodies_to_db
 
 default_args = {
     'owner': 'Kallox',
@@ -20,6 +20,8 @@ with DAG(dag_id='download_covabdab', default_args=default_args, schedule='@month
 
     remove_existing_antibodies = PythonOperator(task_id="remove_existing_antibodies", python_callable=remove_antibodies)
 
+    load_antibodies = PythonOperator(task_id='load_antibodies', python_callable=load_antibodies_to_db)
+
     end = EmptyOperator(task_id='end')
 
-    start >> download_files >> extract_files >> remove_existing_antibodies >> end
+    start >> download_files >> extract_files >> remove_existing_antibodies >> load_antibodies >> end

@@ -6,6 +6,7 @@ from Bio.Seq import Seq
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.fasta_to_csv import extract_fasta_file
 from scripts.helpers.remove_exist import remove_existing_antibodies
+from scripts.helpers.load import load_antibodies_db
 
 def check_release():
     url = "https://www.imgt.org/download/LIGM-DB/currentRelease"
@@ -83,6 +84,10 @@ def remove_antibodies():
     df = pd.read_csv('./dags/files/imgt/antibodies.csv')
     df2 = remove_existing_antibodies(df)
     df2.to_csv("./dags/files/imgt/antibodies.csv", index=False, index_label=False)
+
+def load_antibodies_to_db():
+    df = pd.read_csv("./dags/files/imgt/antibodies.csv")
+    load_antibodies_db(df)
 
 if __name__ == '__main__':
     download()

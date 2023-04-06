@@ -4,6 +4,7 @@ import pandas as pd
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
 from scripts.helpers.remove_exist import remove_existing_antibodies
+from scripts.helpers.load import load_antibodies_db
 
 def download():
     
@@ -46,6 +47,10 @@ def remove_antibodies():
     df = pd.read_csv('./dags/files/covabdab/covabdab-antibodies.csv')
     df2 = remove_existing_antibodies(df)
     df2.to_csv("./dags/files/covabdab/antibodies.csv", index=False, index_label=False)
+
+def load_antibodies_to_db():
+    df = pd.read_csv("./dags/files/covabdab/antibodies.csv")
+    load_antibodies_db(df)
 
 if __name__ == '__main__':
     download()

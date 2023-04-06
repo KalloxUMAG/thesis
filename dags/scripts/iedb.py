@@ -7,6 +7,7 @@ from scripts.helpers.save_file import save_file
 from scripts.helpers.drop_first_line import drop_first_line
 from scripts.helpers.extract_json_uniprot import extract_json_uniprot
 from scripts.helpers.remove_exist import remove_existing_antigens, remove_existing_epitopes
+from scripts.helpers.load import load_antigens_db, load_epitopes_db
 
 def unzip_file(name):
     with zipfile.ZipFile('./dags/files/iedb/downloads/'+name+'.zip', 'r') as zip_ref:
@@ -49,6 +50,15 @@ def drop_columns_epitopes():
     epitope.columns = ['name', 'type', 'sequence', 'protein']
 
     epitope = epitope.reindex(columns=['name', 'sequence', 'protein', 'type'])
+    epitope = epitope.dropna(subset=['protein'])
+    epitope = epitope.drop_duplicates(subset=['name'])
+    to_drop = []
+    for index, row in epitope.iterrows():
+        protein = str(row['protein'])
+        protein = protein.split(".")[1]
+        if protein != "uniprot":
+            to_drop.append(index)
+    epitope = epitope.drop(to_drop)
     epitope['database'] = "IEDB"
     epitope.to_csv('./dags/files/iedb/epitope.csv', index=False, index_label=False)
 
@@ -88,6 +98,14 @@ def remove_epitopes():
     df = pd.read_csv('./dags/files/iedb/epitope.csv')
     df2 = remove_existing_epitopes(df)
     df2.to_csv("./dags/files/iedb/epitopes.csv", index=False, index_label=False)
+
+def load_antigens_to_db():
+    df = pd.read_csv("./dags/files/iedb/antigens.csv")
+    load_antigens_db(df)
+
+def load_epitopes_to_db():
+    df = pd.read_csv("./dags/files/iedb/epitope.csv")
+    load_epitopes_db(df)
 
 if __name__ == '__main__':
     drop_columns_epitopes()

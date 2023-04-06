@@ -4,7 +4,7 @@ from airflow.models.dag import DAG
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import PythonOperator
 
-from scripts.intact import download, get_uniprot_ids, join_interactions
+from scripts.intact import download, get_uniprot_ids, join_interactions, load_interactions_to_db
 
 default_args = {
     'owner': 'Kallox',
@@ -20,6 +20,8 @@ with DAG(dag_id='download_intact', default_args=default_args, schedule='@monthly
 
     join_files = PythonOperator(task_id='join_files', python_callable=join_interactions)
 
+    load_interactions = PythonOperator(task_id='load_interactions', python_callable=load_interactions_to_db)
+
     end = EmptyOperator(task_id='end')
 
-    start >> get_antibodies_ids >> download_files >> join_files >> end
+    start >> get_antibodies_ids >> download_files >> join_files >> load_interactions >> end

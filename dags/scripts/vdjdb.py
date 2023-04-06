@@ -6,6 +6,7 @@ import os
 from scripts.helpers.requests import request_with_retry
 from scripts.helpers.save_file import save_file
 from scripts.helpers.remove_exist import remove_existing_antibodies, remove_existing_epitopes
+from scripts.helpers.load import load_antibodies_db, load_epitopes_db
 
 def unzip_file(name):
     with zipfile.ZipFile('./dags/files/vdjdb/downloads/'+name+'.zip', 'r') as zip_ref:
@@ -81,6 +82,14 @@ def remove_epitopes():
     df = pd.read_csv('./dags/files/vdjdb/epitopes.csv')
     df2 = remove_existing_epitopes(df)
     df2.to_csv("./dags/files/vdjdb/epitopes.csv", index=False, index_label=False)
+
+def load_antibodies_to_db():
+    df = pd.read_csv("./dags/files/vdjdb/antibodies.csv")
+    load_antibodies_db(df)
+
+def load_epitopes_to_db():
+    df = pd.read_csv("./dags/files/vdjdb/epitopes.csv")
+    load_epitopes_db(df)
 
 if __name__ == '__main__':
     extract_epitopes()
