@@ -2,12 +2,16 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
+from dotenv import load_dotenv
+import os
 
-username = "kallox"
-password = "Claudioxx124"
-database = "alchemy"
-ip = "localhost"
-port = 5432
+load_dotenv()
+
+username = os.getenv('USERNAME')
+password = os.getenv('PASSWORD')
+database = os.getenv('DATABASE')
+ip = os.getenv('IP')
+port = os.getenv('PORT')
 
 DATABASE_URL = f"postgresql://{username}:{password}@{ip}:{port}/{database}"
 engine = create_engine(DATABASE_URL, pool_size=20, max_overflow=0)
