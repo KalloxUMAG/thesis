@@ -9,3 +9,5 @@ Dentro de la carpeta DAGS se puede encontrar la carpeta files, su finalidad es a
 Es necesario crear un archivo .env que contenga las credenciales para entablar una conexion con la base de datos. Los campos necesarios pueden ser reemplazados directamente en el archivo database.py de la carpeta db_conn.
 
 Para obtener las interacciones de STRING es necesario descargar el archivo protein.aliases de la pagina oficial de STRING y colocarlo en su carpeta dentro de files.
+
+Debido a las herramientas de caracterizacion utilizadas se debe utilizar un sistema operativo linux basado en DEBIAN con el gestor de paquetes APT para poder instalar metastudent y predict_property.
